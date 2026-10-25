@@ -1,0 +1,27 @@
+{
+  "componentSet": "mesa-26.2.5",
+  "runtimeBytesIdenticalTo": "mesa-26.2.5-test1",
+  "developerAcceptance": {
+    "reported": "2026-10-25",
+    "by": "HezeAI",
+    "result": "Developer reports the Mesa update works after private test1 checks.",
+    "limits": "No claim of every GPU, driver or fresh-device GUI installation."
+  },
+  "automatedChecks": {
+    "nativeGpu": "Adreno 830; Vulkan/GLX pixels, VSync 1\u21920\u21921 and occlusion passed for bridge, glibc and musl container runtimes; bridge resize/front-buffer passed.",
+    "guestLoaders": "Turnip and Gallium dependency checks passed for all seven target loaders; installed rootfs libraries read only.",
+    "privateTestApk": {
+      "jvmTests": 338,
+      "pythonTests": 114,
+      "localizationChecks": 584,
+      "lintErrors": 0,
+      "lintWarnings": 210
+    },
+    "bridgeCore": "All six non-Mesa files byte-identical to graphics-20261025.",
+    "publication": "SHA-256 and exact archive sizes verified before publication; public verification recorded separately."
+  },
+  "unverified": [
+    "Fresh-device installation and full Android GUI across every target/GPU/driver combination",
+    "Certified performance or improved stability versus previous Mesa builds"
+  ]
+}

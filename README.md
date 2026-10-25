@@ -1,50 +1,44 @@
 # Termux Job’s Components
 
-Pinned optional graphics runtimes for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**.
-This repository distributes components separately from application updates. It does not contain an APK or an `update.json` for the app updater.
+Pinned optional graphics runtimes for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no application APK or `update.json`.
 
-## Download and integrity
+## Current Mesa 26.2.5 release
 
-The [graphics-20261025 release](https://github.com/HezeAI/termux-jobs-components/releases/tag/graphics-20261025) is the immutable component set used by Termux Job’s v2.0.6.
-See [components.json](components.json) for exact filenames, architecture, sizes, SHA-256, original sources and supported targets. Archives preserve their original bytes. App builds pin their own hashes and URLs; they do not follow a moving latest-component release or silently update drivers.
-
-Choose a renderer and, when applicable, import/select a trusted Bionic driver ZIP before starting the desktop. On first use the app prepares missing components in that environment’s private cache. Bionic for glibc downloads approximately 6.1 MB once per target when needed. A valid existing runtime works offline. Cancellation or verification failure does not activate a partial runtime or change the selected driver. No global hosts, installed guest Mesa or agent environment is replaced.
-
-## Components and upstream authors
+[Mesa 26.2.5](https://github.com/HezeAI/termux-jobs-components/releases/tag/mesa-26.2.5) publishes the exact runtime bytes accepted by the developer in private test1. [components.json](components.json) records exact versions, SHA-256, sizes, sources, targets and immutable download URLs. [Validation](validation.json) separates developer-reported acceptance from automated checks and remaining limitations.
 
 | Component | Version / source | Targets |
 | --- | --- | --- |
-| Turnip + Zink container bundles | lfdevs/mesa-for-android-container, 26.3.0-devel-20260824 | Ubuntu, Debian, Alpine, Fedora, openSUSE, Void, Arch |
-| Termux Turnip | Termux Mesa package, 26.2.5 | Termux |
-| Generic Vulkan Loader | Khronos / Termux package, 1.4.366 | Termux Turnip and Termux Wrapper |
-| Bionic Vulkan Wrapper | Lee Gao v0.0.5r5; Termux packaging by sabamdarif; AdrenoTools/linkernsbypass by Billy Laws and contributors | Termux |
-| Bionic for glibc | pinned libhybris (taowen/TAWC/ARLinux work), Arm/xMeM Vulkan WSI, Mesa 26.1.6; Jobs ICD and integration patches | Ubuntu, Debian, Fedora, Arch, openSUSE, Void |
-| libsensors compatibility package | Debian lm-sensors 3.6.2-2 | private openSUSE runtime only |
+| Turnip + Zink container bundles | Official Mesa 26.2.5 with the existing lfdevs Android/KGSL/X11 adaptations, built for Termux Job’s | Ubuntu, Debian, Alpine, Fedora, openSUSE, Void, Arch |
+| Bionic for glibc | Private Mesa 26.2.5 Zink/GLX/EGL frontend; pinned libhybris, Arm/xMeM WSI and Jobs ICD | Ubuntu, Debian, Fedora, Arch, openSUSE, Void |
+| Termux Turnip, unchanged | Termux Mesa package 26.2.5, retained in graphics-20261025 | Termux |
+| Generic Vulkan Loader, unchanged | Khronos / Termux package 1.4.366, retained in graphics-20261025 | Termux Turnip and Wrapper |
+| Bionic Vulkan Wrapper, unchanged | Lee Gao v0.0.5r5; sabamdarif packaging; AdrenoTools/linkernsbypass by Billy Laws and contributors | Termux |
+| libsensors compatibility, unchanged | Debian lm-sensors 3.6.2-2, retained in graphics-20261025 | private openSUSE runtime |
 
-The existing container Mesa bundles remain development builds; mirroring them does not turn them into stable upstream Mesa releases or extend device compatibility. Bionic for glibc does not support Alpine/musl. Imported vendor drivers are executable native code running with the app’s permissions, not sandboxed plugins. No vendor driver ZIP is included in this component set.
+This release adds four Mesa container archives and one refreshed bridge ZIP. Three glibc layouts serve Ubuntu/Debian/openSUSE, Fedora, and Void/Arch; Alpine has its own musl/non-GLVND archive. Bionic for glibc does not support Alpine/musl. The bridge replaces only three Mesa frontend libraries: its six non-Mesa files (libhybris, linker, WSI, ICD and manifests) remain byte-for-byte identical to the previous release. Native Termux components, imported drivers, VirGL, CPU rendering and desktop settings are unchanged.
 
-XFCE, Python, native GL/Vulkan dependencies, VirGL/ANGLE packages and ordinary applications still use the selected system’s package manager. This is a graphics-archive mirror, not a replacement Linux package repository.
+## Previous releases and application compatibility
 
-## Licenses, source and changes
+The complete [graphics-20261025 release](https://github.com/HezeAI/termux-jobs-components/releases/tag/graphics-20261025), its tag, assets and original download URLs are preserved. It remains the component set used by public Termux Job’s v2.0.6 and contains the retained Termux packages. The [mesa-26.2.5-test1 prerelease](https://github.com/HezeAI/termux-jobs-components/releases/tag/mesa-26.2.5-test1) is also preserved so the existing private test APK continues working. No release, archive or checksum is overwritten.
 
-[licenses/](licenses/) retains component-specific notices and license texts; upstream copyright and license terms remain in force. There is no blanket relicensing of third-party binaries. Mesa is predominantly MIT with per-file exceptions; Vulkan Loader is predominantly Apache-2.0; AdrenoTools/linkernsbypass are BSD-2-Clause; libhybris includes LGPL-2.1 and permissive components; the Vulkan WSI layer is MIT; libsensors is LGPL-2.1-or-later.
+Applications pin component URLs and hashes; they do not follow this repository’s moving latest release or catalogue. Publishing these new components does not update an installed older APK or change its downloads. The application repository and its in-app updater remain separate. A future application build must explicitly select the new immutable pins. Current catalogue entries for unchanged Termux/loader/Wrapper/libsensors retain their original graphics-20261025 URLs.
 
-Release assets include `component-licenses.tar.gz`, corresponding `bionic-glibc-sources.tar.gz`, exact bridge Mesa 26.1.6 source, and Debian lm-sensors upstream source, packaging patches and DSC. The bridge source archive contains original pinned libhybris, WSI and Android headers, local patches, our ICD, manifests and the build recipe. [The application source](https://github.com/HezeAI/termux-jobs/tree/v2.0.6/third-party/bionic-glibc) includes provenance and further validation limits. No driver performance claim or universal compatibility guarantee follows from a successful download.
+Choose a renderer and, when applicable, import/select a trusted Bionic driver ZIP before starting the desktop. Missing components are prepared in application-owned caches; valid caches work offline. Download size is approximately 8.2 MB for Alpine, 10.3 MB for a glibc container, and 6.1 MB for the bridge frontend/core bundle. Cancellation or verification failure does not activate partial runtime bytes or change the selected driver. No global hosts, installed guest Mesa or agent environment is replaced. Imported vendor drivers execute with the app’s permissions; format/hash validation is not a sandbox or universal compatibility guarantee. No vendor driver ZIP is bundled here.
 
-## Mesa 26.2.5 test1 (prerelease)
+XFCE, Python, native GL/Vulkan dependencies, VirGL/ANGLE and ordinary applications continue using the selected system’s package manager. This repository is not a replacement Linux package repository.
 
-The separate [mesa-26.2.5-test1 candidate](https://github.com/HezeAI/termux-jobs-components/releases/tag/mesa-26.2.5-test1) is for the developer's private test APK. It does not replace the stable component set above or update existing stable installations. [Candidate manifest](test-sets/mesa-26.2.5-test1/components.json) records five runtime archives with exact hashes and sizes.
+## Development, sources and licenses
 
-Seven PRoot Turnip + Zink targets use official Mesa **26.2.5** plus the existing **lfdevs Android/KGSL/X11 adaptations**. Three glibc archive layouts serve Ubuntu/Debian/openSUSE, Fedora, and Void/Arch; Alpine has a separate musl archive. The private Bionic-for-glibc Mesa frontend moves from26.1.6 to26.2.5; its six non-Mesa core files (libhybris, linker, WSI, ICD and manifests) retain the exact stable bytes. Native Termux26.2.5, VirGL, CPU rendering, imported drivers and desktop settings are unchanged.
+Container builds start from the exact official [Mesa 26.2.5 archive](https://archive.mesa3d.org/mesa-26.2.5.tar.xz), SHA-256 `794b3d1729075dae7ebd47c7283b7ca0cdb5dec668f7f11cc0a5d82f6138a0a5`. Existing Android/KGSL/X11 adaptations were ported from [lfdevs/mesa-for-android-container](https://github.com/lfdevs/mesa-for-android-container), commit `98f3d6229d61452cef80f8563af7c56ae599dc14`, relative to upstream parent `4c1c22e9d1a483b27f2502d9becc213257cfa7c5`. The exact 35-file adaptation patch, build/package recipes, compatibility source and provenance are in `mesa-jobs-build-sources.tar.gz`. Container XML configuration and Zstd support remain enabled. The bridge frontend uses unmodified upstream Mesa 26.2.5. Build-only atan2f/asinf/acosf wrappers bind original ARM64 GLIBC_2.17 exports, avoiding newer host-libm requirements without modifying libc or approximating functions.
 
-Native isolated X11 probes on Adreno830 passed verified Vulkan/GLX image pixels, swap interval1→0→1 and occlusion for the bridge, glibc container and musl container paths. The bridge also passed odd-width/resize/front-buffer checks. These are protocol/hardware checks, not fresh-install Android GUI acceptance or performance benchmarks. Other GPUs and complete GUI sessions require testing before promotion.
+Bionic for glibc uses pinned **libhybris**, including **taowen/TAWC/ARLinux** work, the **Arm/xMeM Vulkan WSI layer**, and this fork’s ICD/cache/environment integration and compatibility patches. Its unchanged core’s original sources and patches are in `bionic-glibc-sources.tar.gz`. Headers from Mesa 26.1.6 used for that original core remain historical build inputs; the current frontend is 26.2.5. All original copyright and license terms remain in force.
 
-Sources include the exact official Mesa26.2.5 archive, the lfdevs adaptation patch, current build/package recipes and provenance, plus the unchanged core's corresponding original source archive. The patch was ported from lfdevs commit98f3d6229d61452cef80f8563af7c56ae599dc14 relative to upstream parent4c1c22e9d1a483b27f2502d9becc213257cfa7c5. Container XML configuration and Zstd cache support remain enabled. Build-only atan2f/asinf/acosf wrappers bind original ARM64 GLIBC_2.17 exports, avoiding newer host-libm ABI requirements without altering system libraries. Copyright/license notices and per-file terms remain in force; no universal stability or driver compatibility claim is made.
+[licenses/](licenses/) and release `component-licenses.tar.gz` retain component-specific terms. Mesa is predominantly MIT with per-file exceptions; GLX includes SGI-B; Vulkan Loader is predominantly Apache-2.0; AdrenoTools/linkernsbypass are BSD-2-Clause; libhybris includes LGPL-2.1 and permissive components; the WSI layer is MIT; libsensors is LGPL-2.1-or-later. The old release retains its exact original source/packaging archives. There is no blanket relicensing of third-party binaries.
+
+Native isolated probes on Adreno 830 passed verified Vulkan/GLX pixels, swap interval 1→0→1 and occlusion for the bridge, glibc and musl runtimes. The bridge also passed odd-width/resize/front-buffer checks. The developer subsequently reported the update works in private test1. These results do not certify every GPU/driver, fresh-device GUI installation or performance improvement. The private test APK passed 338 JVM tests, 114 relevant Python tests and 584 localization checks; lint reported zero errors and 210 existing warnings.
 
 ## Maintenance
 
-This README is the main overview: update its component table, usage, compatibility and source/license information when components are added or revised. Release descriptions stay brief, with the set identifier and a link here; exact versions and integrity data remain in `components.json`.
-
-Keep published component tags and binary bytes immutable. Add a new tagged set and update application pins for future revisions. Verify downloaded artifacts against the manifest before publishing. Application releases remain in the main project and use their own updater metadata.
+Keep published tags and binary assets immutable. Publish a new tagged set and explicitly update application pins for later changes. This README holds the detailed overview, compatibility, authorship, source and license information; release posts remain brief and link here. Verify public asset bytes against SHA-256 before declaring publication complete.
 
 AI development assistance: OpenAI Codex

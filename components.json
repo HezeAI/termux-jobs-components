@@ -1,52 +1,85 @@
 {
   "schemaVersion": 1,
-  "release": "graphics-20261025",
+  "release": "mesa-26.2.5",
   "architecture": "aarch64",
+  "status": "Published component set; developer accepted private test1",
   "components": [
     {
-      "asset": "mesa-for-android-container_26.3.0-devel-20260824_ubuntu_resolute_arm64.tar.gz",
-      "source": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-26.3.0-devel-20260824/mesa-for-android-container_26.3.0-devel-20260824_ubuntu_resolute_arm64.tar.gz",
-      "sha256": "ee762f0855c47f9a245df3ce53a46d40b2240ede9b5c9ddf7606e724362fec77",
-      "bytes": 12069639,
-      "format": "tar",
+      "asset": "mesa-26.2.5-jobs1-glibc-multiarch-aarch64.tar.gz",
+      "bytes": 10348020,
+      "sha256": "a848b94d5950b8573c42d41f89592d3d20f7dd0e6a969e44475da2589751a632",
       "targets": [
-        "ubuntu"
-      ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_ubuntu_resolute_arm64.tar.gz"
-    },
-    {
-      "asset": "mesa-for-android-container_26.3.0-devel-20260824_debian_trixie_arm64.tar.gz",
-      "source": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-26.3.0-devel-20260824/mesa-for-android-container_26.3.0-devel-20260824_debian_trixie_arm64.tar.gz",
-      "sha256": "c014cf66bdbff96417ee30d34f006cf51df64ae04893d599711b0b6b73b52ccf",
-      "bytes": 11648933,
-      "format": "tar",
-      "targets": [
+        "ubuntu",
         "debian",
         "opensuse"
       ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_debian_trixie_arm64.tar.gz"
+      "format": "tar",
+      "mesaVersion": "26.2.5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-glibc-multiarch-aarch64.tar.gz",
+      "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+      "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14",
+      "originSet": "mesa-26.2.5-test1"
     },
     {
-      "asset": "mesa-for-android-container_26.3.0-devel-20260824_alpine_3.24_arm64.tar.gz",
-      "source": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-26.3.0-devel-20260824/mesa-for-android-container_26.3.0-devel-20260824_alpine_3.24_arm64.tar.gz",
-      "sha256": "2f3e14dc57fa4ec75297a67af747872e7c460d3f3fcfff9e758e479874578ea3",
-      "bytes": 12099886,
-      "format": "tar",
-      "targets": [
-        "alpine"
-      ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_alpine_3.24_arm64.tar.gz"
-    },
-    {
-      "asset": "mesa-for-android-container_26.3.0-devel-20260824_fedora_44_arm64.tar.gz",
-      "source": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-26.3.0-devel-20260824/mesa-for-android-container_26.3.0-devel-20260824_fedora_44_arm64.tar.gz",
-      "sha256": "fc5a7f80bdd99720b083ec0d6bf9d349c493858acb03753e9fd99af5e04bde0b",
-      "bytes": 12449267,
-      "format": "tar",
+      "asset": "mesa-26.2.5-jobs1-glibc-lib64-aarch64.tar.gz",
+      "bytes": 10347945,
+      "sha256": "196b9ba40741958adff13e988c76e4d1082fca36dc165c1dcf34e7c9ced6d141",
       "targets": [
         "fedora"
       ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_fedora_44_arm64.tar.gz"
+      "format": "tar",
+      "mesaVersion": "26.2.5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-glibc-lib64-aarch64.tar.gz",
+      "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+      "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14",
+      "originSet": "mesa-26.2.5-test1"
+    },
+    {
+      "asset": "mesa-26.2.5-jobs1-glibc-lib-aarch64.tar.gz",
+      "bytes": 10347926,
+      "sha256": "be26f1d122d2e626d8411c968ff7074d3d7c614f35f59fe8c97164f690c70dcb",
+      "targets": [
+        "void",
+        "archlinux"
+      ],
+      "format": "tar",
+      "mesaVersion": "26.2.5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-glibc-lib-aarch64.tar.gz",
+      "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+      "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14",
+      "originSet": "mesa-26.2.5-test1"
+    },
+    {
+      "asset": "mesa-26.2.5-jobs1-musl-alpine3.24-aarch64.tar.gz",
+      "bytes": 8221445,
+      "sha256": "85cbbb81c7c30cb8eb3675c97babf3fc6f47d0f9021fe4664a40e3a47709f192",
+      "targets": [
+        "alpine"
+      ],
+      "format": "tar",
+      "mesaVersion": "26.2.5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-musl-alpine3.24-aarch64.tar.gz",
+      "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+      "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14",
+      "originSet": "mesa-26.2.5-test1"
+    },
+    {
+      "asset": "x11-bionic-glibc.zip",
+      "bytes": 6103917,
+      "sha256": "e05b6abb19916e007330e19566b8833f10505133505d786bee127a71f1e4aa1d",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/x11-bionic-glibc.zip",
+      "format": "zip",
+      "targets": [
+        "ubuntu",
+        "debian",
+        "fedora",
+        "archlinux",
+        "opensuse",
+        "void"
+      ],
+      "mesaVersion": "26.2.5",
+      "changes": "Only three Mesa frontend files replaced; all six non-Mesa core files identical to graphics-20261025",
+      "originSet": "mesa-26.2.5-test1"
     },
     {
       "asset": "libsensors5_3.6.2-2_arm64.deb",
@@ -58,28 +91,6 @@
         "opensuse"
       ],
       "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/libsensors5_3.6.2-2_arm64.deb"
-    },
-    {
-      "asset": "mesa-for-android-container_26.3.0-devel-20260824_void_arm64.tar.gz",
-      "source": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-26.3.0-devel-20260824/mesa-for-android-container_26.3.0-devel-20260824_void_arm64.tar.gz",
-      "sha256": "9b6051ee45e2891de6c150598305814900f2e48088d5fedc3d75d8d50f644dc7",
-      "bytes": 11533566,
-      "format": "tar",
-      "targets": [
-        "void"
-      ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_void_arm64.tar.gz"
-    },
-    {
-      "asset": "mesa-for-android-container_26.3.0-devel-20260824_archlinux_arm64.tar",
-      "source": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-26.3.0-devel-20260824/mesa-for-android-container_26.3.0-devel-20260824_archlinux_arm64.tar",
-      "sha256": "75b7638829b211c20c26b6110e525ca23ab28980ce58af824ab16c8e7afcfa26",
-      "bytes": 14018560,
-      "format": "arch-bundle",
-      "targets": [
-        "archlinux"
-      ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_archlinux_arm64.tar"
     },
     {
       "asset": "mesa-vulkan-icd-freedreno_26.2.5_aarch64.deb",
@@ -113,26 +124,37 @@
         "termux-wrapper"
       ],
       "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/vulkan-wrapper-android-leegaos-fork-aarch64.zip"
-    },
-    {
-      "asset": "x11-bionic-glibc.zip",
-      "source": "https://github.com/HezeAI/termux-jobs/blob/v2.0.6/third-party/bionic-glibc/ubuntu-arm64-runtime.zip",
-      "sha256": "bfa1acd82b0f69283125174f68e248add7c1d851bb2a90b3fc96218c819f4872",
-      "bytes": 6053026,
-      "format": "zip",
-      "targets": [
-        "ubuntu",
-        "debian",
-        "fedora",
-        "archlinux",
-        "opensuse",
-        "void"
-      ],
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/x11-bionic-glibc.zip"
     }
   ],
-  "repository": "HezeAI/termux-jobs-components",
   "sources": [
+    {
+      "asset": "mesa-26.2.5.tar.xz",
+      "bytes": 68652756,
+      "sha256": "794b3d1729075dae7ebd47c7283b7ca0cdb5dec668f7f11cc0a5d82f6138a0a5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5.tar.xz",
+      "originSet": "mesa-26.2.5-test1"
+    },
+    {
+      "asset": "bionic-glibc-sources.tar.gz",
+      "bytes": 2582177,
+      "sha256": "9e6105d490ce5864e2ba0118045daff3ecf33d781b20ec73851e7ecaeeecf260",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/bionic-glibc-sources.tar.gz",
+      "originSet": "mesa-26.2.5-test1"
+    },
+    {
+      "asset": "mesa-jobs-build-sources.tar.gz",
+      "bytes": 80801,
+      "sha256": "4d41178c55e9d810f3984ad8cd84d9a7745278723ba72ac23da0b2d60e1d4374",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-jobs-build-sources.tar.gz",
+      "originSet": "mesa-26.2.5-test1"
+    },
+    {
+      "asset": "component-licenses.tar.gz",
+      "bytes": 41058,
+      "sha256": "0b79ebfc3c02ec18fe004bbb25c369dc198aff17c096ec3af91bbc2304a4f9bc",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/component-licenses.tar.gz",
+      "originSet": "mesa-26.2.5-test1"
+    },
     {
       "asset": "lm-sensors_3.6.2.orig.tar.gz",
       "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2.orig.tar.gz",
@@ -153,20 +175,14 @@
       "sha256": "a086af761b4918ad23436c9b0e54aedf7be922df3bf339bbaa5bc5072f8b4f31",
       "bytes": 2165,
       "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/lm-sensors_3.6.2-2.dsc"
-    },
-    {
-      "asset": "mesa-26.1.6.tar.xz",
-      "source": "https://archive.mesa3d.org/mesa-26.1.6.tar.xz",
-      "bytes": 77770828,
-      "sha256": "5296b88a0f1e012e2cb9ada150a2bbadf728ca81e5a4fb2ab43c83a4d2158606",
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-26.1.6.tar.xz"
-    },
-    {
-      "asset": "bionic-glibc-sources.tar.gz",
-      "source": "https://github.com/HezeAI/termux-jobs/tree/v2.0.6/third-party/bionic-glibc",
-      "bytes": 2582177,
-      "sha256": "9e6105d490ce5864e2ba0118045daff3ecf33d781b20ec73851e7ecaeeecf260",
-      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/bionic-glibc-sources.tar.gz"
     }
-  ]
+  ],
+  "repository": "HezeAI/termux-jobs-components",
+  "compatibility": {
+    "downloadPolicy": "Applications use explicit pinned URLs and SHA-256, never latest component lookup.",
+    "previousRelease": "graphics-20261025 and mesa-26.2.5-test1 preserved without modification.",
+    "applicationRelease": "No new application APK or update.json is published. Public app v2.0.6 retains its existing component pins.",
+    "privateTest1": "Existing test1 URLs remain valid and serve identical runtime bytes.",
+    "glibc": "ARM64 glibc >= 2.38; Bionic for glibc does not support Alpine/musl."
+  }
 }
