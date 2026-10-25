@@ -31,6 +31,16 @@ XFCE, Python, native GL/Vulkan dependencies, VirGL/ANGLE packages and ordinary a
 
 Release assets include `component-licenses.tar.gz`, corresponding `bionic-glibc-sources.tar.gz`, exact bridge Mesa 26.1.6 source, and Debian lm-sensors upstream source, packaging patches and DSC. The bridge source archive contains original pinned libhybris, WSI and Android headers, local patches, our ICD, manifests and the build recipe. [The application source](https://github.com/HezeAI/termux-jobs/tree/v2.0.6/third-party/bionic-glibc) includes provenance and further validation limits. No driver performance claim or universal compatibility guarantee follows from a successful download.
 
+## Mesa 26.2.5 test1 (prerelease)
+
+The separate [mesa-26.2.5-test1 candidate](https://github.com/HezeAI/termux-jobs-components/releases/tag/mesa-26.2.5-test1) is for the developer's private test APK. It does not replace the stable component set above or update existing stable installations. [Candidate manifest](test-sets/mesa-26.2.5-test1/components.json) records five runtime archives with exact hashes and sizes.
+
+Seven PRoot Turnip + Zink targets use official Mesa **26.2.5** plus the existing **lfdevs Android/KGSL/X11 adaptations**. Three glibc archive layouts serve Ubuntu/Debian/openSUSE, Fedora, and Void/Arch; Alpine has a separate musl archive. The private Bionic-for-glibc Mesa frontend moves from26.1.6 to26.2.5; its six non-Mesa core files (libhybris, linker, WSI, ICD and manifests) retain the exact stable bytes. Native Termux26.2.5, VirGL, CPU rendering, imported drivers and desktop settings are unchanged.
+
+Native isolated X11 probes on Adreno830 passed verified Vulkan/GLX image pixels, swap interval1→0→1 and occlusion for the bridge, glibc container and musl container paths. The bridge also passed odd-width/resize/front-buffer checks. These are protocol/hardware checks, not fresh-install Android GUI acceptance or performance benchmarks. Other GPUs and complete GUI sessions require testing before promotion.
+
+Sources include the exact official Mesa26.2.5 archive, the lfdevs adaptation patch, current build/package recipes and provenance, plus the unchanged core's corresponding original source archive. The patch was ported from lfdevs commit98f3d6229d61452cef80f8563af7c56ae599dc14 relative to upstream parent4c1c22e9d1a483b27f2502d9becc213257cfa7c5. Container XML configuration and Zstd cache support remain enabled. Build-only atan2f/asinf/acosf wrappers bind original ARM64 GLIBC_2.17 exports, avoiding newer host-libm ABI requirements without altering system libraries. Copyright/license notices and per-file terms remain in force; no universal stability or driver compatibility claim is made.
+
 ## Maintenance
 
 This README is the main overview: update its component table, usage, compatibility and source/license information when components are added or revised. Release descriptions stay brief, with the set identifier and a link here; exact versions and integrity data remain in `components.json`.
