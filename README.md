@@ -39,6 +39,14 @@ Native isolated probes on Adreno 830 passed verified Vulkan/GLX pixels, swap int
 
 ## Maintenance
 
-Keep published tags and binary assets immutable. Publish a new tagged set and explicitly update application pins for later changes. This README holds the detailed overview, compatibility, authorship, source and license information; release posts remain brief and link here. Verify public asset bytes against SHA-256 before declaring publication complete.
+Keep published tags and binary assets immutable. Publish a new tagged set and explicitly update application pins for later changes. This README holds the detailed overview, compatibility, authorship, source and license information. Release descriptions contain only the following two entries, without a summary or change list:
+
+```text
+Component information, compatibility, sources and licenses: https://github.com/HezeAI/termux-jobs-components#readme
+
+AI development assistance: OpenAI Codex
+```
+
+Verify public asset bytes against SHA-256 before declaring publication complete.
 
 AI development assistance: OpenAI Codex
