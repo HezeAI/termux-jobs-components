@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "release": "mesa-26.2.5",
+  "release": "x11-extras-20261025",
   "architecture": "aarch64",
-  "status": "Published component set; developer accepted private test1",
+  "status": "Private test2 optional-component set; previous runtime sets retained",
   "components": [
     {
       "asset": "mesa-26.2.5-jobs1-glibc-multiarch-aarch64.tar.gz",
@@ -124,6 +124,144 @@
         "termux-wrapper"
       ],
       "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/vulkan-wrapper-android-leegaos-fork-aarch64.zip"
+    },
+    {
+      "asset": "x11-style.zip",
+      "bytes": 1830990,
+      "sha256": "6bc19721d09cb5d16b5ee5df6f2758da9653a88e0211dd81ef5fcb408386aec0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-style.zip",
+      "targets": [
+        "termux",
+        "ubuntu",
+        "debian",
+        "alpine",
+        "fedora",
+        "opensuse",
+        "void",
+        "archlinux"
+      ],
+      "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "x11-virgl-alpine.zip",
+      "bytes": 4616451,
+      "sha256": "d226941f42b135c4e5cd58218b50758beb132e5a46d37f4aec8972a481c33739",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-virgl-alpine.zip",
+      "targets": [
+        "alpine"
+      ],
+      "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "Turnip-a6xx-a7xx-a8xx.zip",
+      "bytes": 3507242,
+      "sha256": "ce35642c5d93ecdfa08b730f80fd738ad71b473cdd7aa3dc58c37d2e6b1e984f",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/Turnip-a6xx-a7xx-a8xx.zip",
+      "targets": [
+        "termux",
+        "ubuntu",
+        "debian",
+        "fedora",
+        "opensuse",
+        "void",
+        "archlinux"
+      ],
+      "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "x11-style.zip",
+      "bytes": 1830990,
+      "sha256": "6bc19721d09cb5d16b5ee5df6f2758da9653a88e0211dd81ef5fcb408386aec0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-style.zip",
+      "targets": [
+        "termux",
+        "ubuntu",
+        "debian",
+        "alpine",
+        "fedora",
+        "opensuse",
+        "void",
+        "archlinux"
+      ],
+      "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "x11-virgl-alpine.zip",
+      "bytes": 4616451,
+      "sha256": "d226941f42b135c4e5cd58218b50758beb132e5a46d37f4aec8972a481c33739",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-virgl-alpine.zip",
+      "targets": [
+        "alpine"
+      ],
+      "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "Turnip-a6xx-a7xx-a8xx.zip",
+      "bytes": 3507242,
+      "sha256": "ce35642c5d93ecdfa08b730f80fd738ad71b473cdd7aa3dc58c37d2e6b1e984f",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/Turnip-a6xx-a7xx-a8xx.zip",
+      "targets": [
+        "termux",
+        "ubuntu",
+        "debian",
+        "fedora",
+        "opensuse",
+        "void",
+        "archlinux"
+      ],
+      "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "x11-style.zip",
+      "bytes": 1830990,
+      "sha256": "6bc19721d09cb5d16b5ee5df6f2758da9653a88e0211dd81ef5fcb408386aec0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-style.zip",
+      "targets": [
+        "termux",
+        "ubuntu",
+        "debian",
+        "alpine",
+        "fedora",
+        "opensuse",
+        "void",
+        "archlinux"
+      ],
+      "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "x11-virgl-alpine.zip",
+      "bytes": 4616451,
+      "sha256": "d226941f42b135c4e5cd58218b50758beb132e5a46d37f4aec8972a481c33739",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-virgl-alpine.zip",
+      "targets": [
+        "alpine"
+      ],
+      "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
+    },
+    {
+      "asset": "Turnip-a6xx-a7xx-a8xx.zip",
+      "bytes": 3507242,
+      "sha256": "ce35642c5d93ecdfa08b730f80fd738ad71b473cdd7aa3dc58c37d2e6b1e984f",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/Turnip-a6xx-a7xx-a8xx.zip",
+      "targets": [
+        "termux",
+        "ubuntu",
+        "debian",
+        "fedora",
+        "opensuse",
+        "void",
+        "archlinux"
+      ],
+      "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub",
+      "downloadPolicy": "Explicit pinned URL and SHA-256; application-owned cache"
     }
   ],
   "sources": [
@@ -183,6 +321,8 @@
     "previousRelease": "graphics-20261025 and mesa-26.2.5-test1 preserved without modification.",
     "applicationRelease": "No new application APK or update.json is published. Public app v2.0.6 retains its existing component pins.",
     "privateTest1": "Existing test1 URLs remain valid and serve identical runtime bytes.",
-    "glibc": "ARM64 glibc >= 2.38; Bionic for glibc does not support Alpine/musl."
+    "glibc": "ARM64 glibc >= 2.38; Bionic for glibc does not support Alpine/musl.",
+    "privateTest2": "Uses stable mesa-26.2.5 runtime URLs and x11-extras-20261025 optional archives. No public APK update.",
+    "defaultDriver": "Bionic driver Mesa 26.3.0-devel-b00479181d; name-only metadata change. Independent of the Mesa 26.2.5 frontend. Compatibility depends on GPU and Android."
   }
 }

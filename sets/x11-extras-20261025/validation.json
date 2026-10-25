@@ -1,0 +1,11 @@
+{
+  "componentSet": "x11-extras-20261025",
+  "scope": "Optional archive delivery only; theme and VirGL payloads byte-identical to test1 APK",
+  "nativeProbe": {
+    "device": "Adreno 830",
+    "bridge": "Actual Vulkan/GLX pixel rendering and VSync 1/0/1 passed with the supplied driver",
+    "limits": "Not certification of a6xx/a7xx/a8xx, fresh-device GUI, or every vendor driver"
+  },
+  "application": "Private test2 verification is recorded in the application repository; no APK/update.json in this release.",
+  "safety": "SHA-256 and size pins; atomic writes; no symlink/hardlink following; per-environment runtime and driver selection; shared verified archive cache only."
+}
