@@ -318,9 +318,9 @@
   "repository": "HezeAI/termux-jobs-components",
   "compatibility": {
     "downloadPolicy": "Applications use explicit pinned URLs and SHA-256, never latest component lookup.",
-    "previousRelease": "graphics-20261025 and mesa-26.2.5-test1 preserved without modification.",
+    "previousRelease": "Stable graphics-20261025 and mesa-26.2.5 preserved without asset changes. Redundant experimental test1 release removed by explicit developer request after private test2 migrated to stable URLs.",
     "applicationRelease": "No new application APK or update.json is published. Public app v2.0.6 retains its existing component pins.",
-    "privateTest1": "Existing test1 URLs remain valid and serve identical runtime bytes.",
+    "privateTest1": "Experimental release withdrawn; use private test2 for uncached downloads. The Git tag remains; accepted runtime bytes are available in stable mesa-26.2.5.",
     "glibc": "ARM64 glibc >= 2.38; Bionic for glibc does not support Alpine/musl.",
     "privateTest2": "Uses stable mesa-26.2.5 runtime URLs and x11-extras-20261025 optional archives. No public APK update.",
     "defaultDriver": "Bionic driver Mesa 26.3.0-devel-b00479181d; name-only metadata change. Independent of the Mesa 26.2.5 frontend. Compatibility depends on GPU and Android."
