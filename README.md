@@ -33,6 +33,8 @@ Release assets include `component-licenses.tar.gz`, corresponding `bionic-glibc-
 
 ## Maintenance
 
+This README is the main overview: update its component table, usage, compatibility and source/license information when components are added or revised. Release descriptions stay brief, with the set identifier and a link here; exact versions and integrity data remain in `components.json`.
+
 Keep published component tags and binary bytes immutable. Add a new tagged set and update application pins for future revisions. Verify downloaded artifacts against the manifest before publishing. Application releases remain in the main project and use their own updater metadata.
 
 AI development assistance: OpenAI Codex
