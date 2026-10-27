@@ -98,3 +98,20 @@ AI development assistance: OpenAI Codex
 Verify public asset bytes against SHA-256 before declaring publication complete.
 
 AI development assistance: OpenAI Codex
+
+## Optional Local AI model weights
+
+[Local AI models v1](https://github.com/HezeAI/termux-jobs-components/releases/tag/local-ai-models-v1) mirrors four pinned GGUF files for the private Local AI preview of Termux Job’s. Existing graphics releases and their download URLs are unchanged. These are optional model downloads, not an app update, and are not included in the APK.
+
+| Model | Quantization | GGUF bytes | Publisher |
+| --- | --- | ---: | --- |
+| Qwen3.5-9B | Q6_K | 7,458,301,152 | [unsloth/Qwen3.5-9B-GGUF](https://huggingface.co/unsloth/Qwen3.5-9B-GGUF) |
+| Qwen2.5-Coder-7B-Instruct | Q5_K_M | 5,444,831,232 | [Qwen/Qwen2.5-Coder-7B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) |
+| Qwen2.5-Coder-14B-Instruct | Q4_K_M | 8,988,110,272 | [Qwen/Qwen2.5-Coder-14B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF) |
+| Qwen3-14B | Q4_K_M | 9,001,752,960 | [Qwen/Qwen3-14B-GGUF](https://huggingface.co/Qwen/Qwen3-14B-GGUF) |
+
+Original models: **Qwen**. The Qwen3.5 GGUF quantization is published by **Unsloth**; the other selected GGUF files are published by Qwen. Each upstream repository identifies its model license as **Apache-2.0**. Exact upstream revisions, original filenames and complete-GGUF SHA-256 values are recorded in [the catalogue](local-ai-models-v1/catalogue.json). The model manifest and license notices are also included as release assets. No model weights are stored in Git history.
+
+Each release asset must be smaller than GitHub’s 2 GiB limit, so a GGUF is distributed as numbered raw binary parts of at most 1,900,000,000 bytes. These are **byte segments, not GGUF shards or ZIP archives**. The app resumes them into one GGUF, validates the complete file against the pinned upstream SHA-256, and only then makes it available for inference. The final manifest lists each segment’s byte count, SHA-256 and asset URL. Do not select a single `.partNN` file as a model.
+
+The preview uses an Android ARM64 CPU inference engine; these files do not imply GPU/NPU acceleration or guaranteed coding performance. Model weights, KV cache and runtime buffers all require RAM. In particular, 14B models may not fit with a large context on devices with about 10 GB available RAM. Only the selected model is downloaded, and one model is active at a time.
