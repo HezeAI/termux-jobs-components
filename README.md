@@ -1,6 +1,6 @@
 # Termux Job’s Components
 
-Pinned optional graphics runtimes for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no application APK or `update.json`.
+Pinned optional graphics runtimes and local-model assets for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no application APK or `update.json`.
 
 ## Optional X11 components for private test2
 
