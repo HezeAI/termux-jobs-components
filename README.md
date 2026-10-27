@@ -1,6 +1,18 @@
 # Termux Job’s Components
 
-Pinned optional graphics runtimes and local-model assets for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no application APK or `update.json`.
+Pinned optional graphics runtimes and local-model assets for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no Termux Job’s installation APK or `update.json`. An upstream APK below is a pinned build input, not a Termux Job’s app release.
+
+## Pinned Termux:X11 build input
+
+The [x11-core-fa3a8b430e28 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/x11-core-fa3a8b430e28) mirrors the **unchanged** upstream Termux:X11 APK from commit `fa3a8b430e2896a19f44c99a9cb056254615ae06`. This prevents a mutable upstream nightly URL from breaking reproducible application builds. The fork extracts its ARM64 `libXlorie.so` into the application APK at build time; end-user desktop startup does not download this build input. Installing XFCE still uses the selected environment’s distribution packages. Existing APKs, renderer choices and published component assets are unchanged.
+
+- Build input: `termux-x11-universal-debug-fa3a8b430e28.apk`,14,693,944bytes, SHA-256 `64995746d1887a0e70bc8977d4a9c5ea56e3e00eadd4a6eeab32ae6048ba733a`.
+- Extracted ARM64 core SHA-256: `8ad76408710c21b9a61d3db07900e5bb4e3f88efb1670ac0ff3a2166f403567d`, byte-identical to the previous app runtime. This mirror does not update or rebuild that core.
+- [Upstream sources](https://github.com/termux/termux-x11/tree/fa3a8b430e2896a19f44c99a9cb056254615ae06), GPL-3.0. Credit: the Termux:X11 project and its contributors. Bundled native dependencies retain their own licenses.
+- `termux-x11-fa3a8b430e28-sources.tar.gz` contains the unmodified exact upstream Git tree and all16 pinned native submodule trees, with their licenses/build scripts. It exports Git objects, excluding local changes, Git databases, build products and private device files. The upstream public test signing fixture is omitted; generate an independent debug key and configure `signingConfigs.debug` before rebuilding.
+- [Manifest and hashes](sets/x11-core-fa3a8b430e28/components.json), [source revisions](sets/x11-core-fa3a8b430e28/source-manifest.json), [GPL license](licenses/Termux-X11-GPL-3.0.txt).
+
+The upstream APK is preserved as an original build artifact, including its original signature. It is not the Termux Job’s application update. Only the download location changes; the reviewed byte length, SHA-256 and embedded source commit remain mandatory checks.
 
 ## Optional X11 components for private test2
 

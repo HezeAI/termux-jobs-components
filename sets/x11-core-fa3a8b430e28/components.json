@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "release": "x11-core-fa3a8b430e28",
+  "role": "Build-time inputs only; no end-user runtime X11 update",
+  "upstreamCommit": "fa3a8b430e2896a19f44c99a9cb056254615ae06",
+  "components": [
+    {
+      "asset": "Termux-X11-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/Termux-X11-GPL-3.0.txt"
+    },
+    {
+      "asset": "source-manifest.json",
+      "bytes": 3559,
+      "sha256": "920c0f486b6db6d3759fd3945bc921e8d009f92f177a65490e37eb11bb5484d0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/source-manifest.json"
+    },
+    {
+      "asset": "termux-x11-fa3a8b430e28-sources.tar.gz",
+      "bytes": 12273105,
+      "sha256": "0ab22dc16eb8de1117225c0fdd4cc6710c97b917ff671a8e3191b054c326fb79",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/termux-x11-fa3a8b430e28-sources.tar.gz"
+    },
+    {
+      "asset": "termux-x11-universal-debug-fa3a8b430e28.apk",
+      "bytes": 14693944,
+      "sha256": "64995746d1887a0e70bc8977d4a9c5ea56e3e00eadd4a6eeab32ae6048ba733a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/termux-x11-universal-debug-fa3a8b430e28.apk"
+    }
+  ]
+}
