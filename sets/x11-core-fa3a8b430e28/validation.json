@@ -1,0 +1,46 @@
+{
+  "componentSet": "x11-core-fa3a8b430e28",
+  "scope": "Immutable build input mirror only; runtime native bytes unchanged",
+  "sourceCommit": "fa3a8b430e2896a19f44c99a9cb056254615ae06",
+  "nativeSha256": "8ad76408710c21b9a61d3db07900e5bb4e3f88efb1670ac0ff3a2166f403567d",
+  "sourceTrees": "Exact upstream Git objects plus16 pinned native submodule trees; public upstream test signing fixture omitted",
+  "publicDownloads": [
+    {
+      "asset": "components.json",
+      "bytes": 1440,
+      "sha256": "f2b342a417c20941d7410d3276f6c438bf4b7fa9dfa3960e8c018dc0d7638db7",
+      "anonymousHttpsVerified": true
+    },
+    {
+      "asset": "SHA256SUMS",
+      "bytes": 391,
+      "sha256": "433825ece50bca2cd8843bdadfe81173da12662208404425838363ad25627bf5",
+      "anonymousHttpsVerified": true
+    },
+    {
+      "asset": "source-manifest.json",
+      "bytes": 3559,
+      "sha256": "920c0f486b6db6d3759fd3945bc921e8d009f92f177a65490e37eb11bb5484d0",
+      "anonymousHttpsVerified": true
+    },
+    {
+      "asset": "termux-x11-fa3a8b430e28-sources.tar.gz",
+      "bytes": 12273105,
+      "sha256": "0ab22dc16eb8de1117225c0fdd4cc6710c97b917ff671a8e3191b054c326fb79",
+      "anonymousHttpsVerified": true
+    },
+    {
+      "asset": "Termux-X11-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "anonymousHttpsVerified": true
+    },
+    {
+      "asset": "termux-x11-universal-debug-fa3a8b430e28.apk",
+      "bytes": 14693944,
+      "sha256": "64995746d1887a0e70bc8977d4a9c5ea56e3e00eadd4a6eeab32ae6048ba733a",
+      "anonymousHttpsVerified": true
+    }
+  ],
+  "runtime": "No new native build or GUI performance claim. Original binary matches previous Termux Jobs app. End-user startup embeds the core; this APK asset is for building the application."
+}
