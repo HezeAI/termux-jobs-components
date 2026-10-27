@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "tag": "local-ai-models-v1",
+  "models": [
+    {
+      "id": "qwen25-coder-7b-q4-0",
+      "name": "Qwen2.5-Coder-7B-Instruct",
+      "quant": "Q4_0",
+      "repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "file": "qwen2.5-coder-7b-instruct-q4_0.gguf",
+      "bytes": 4431390720,
+      "sha256": "8561411b4705cbf2d105cf8e2084c6d6f1bcaba415249ce65fc5f21230d4961b",
+      "parts": [
+        {
+          "name": "qwen25-coder-7b-q4-0.gguf.part01",
+          "start": 0,
+          "bytes": 1900000000,
+          "sha256": "5f3e86503b42dcf35cb24515090a6dea40d7edf7188eb9eb1de76b4bb29ec008",
+          "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q4-0.gguf.part01",
+          "asset_id": 680579944
+        },
+        {
+          "name": "qwen25-coder-7b-q4-0.gguf.part02",
+          "start": 1900000000,
+          "bytes": 1900000000,
+          "sha256": "92f59c207f56e91cb158de3ae40b437e905328c1fd7dc844d0be1b133a8ecf78",
+          "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q4-0.gguf.part02",
+          "asset_id": 680584266
+        },
+        {
+          "name": "qwen25-coder-7b-q4-0.gguf.part03",
+          "start": 3800000000,
+          "bytes": 631390720,
+          "sha256": "ee964adbaaffce95db2ca00251f9aec535108704937f7eb12c492ae2224de9bf",
+          "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q4-0.gguf.part03",
+          "asset_id": 680587928
+        }
+      ],
+      "license": "Apache-2.0"
+    }
+  ]
+}

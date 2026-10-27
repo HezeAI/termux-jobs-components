@@ -135,5 +135,32 @@
         "bytes": 1401752960
       }
     ]
+  },
+  {
+    "id": "qwen25-coder-7b-q4-0",
+    "name": "Qwen2.5-Coder-7B-Instruct",
+    "quant": "Q4_0",
+    "repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+    "revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "file": "qwen2.5-coder-7b-instruct-q4_0.gguf",
+    "bytes": 4431390720,
+    "sha256": "8561411b4705cbf2d105cf8e2084c6d6f1bcaba415249ce65fc5f21230d4961b",
+    "parts": [
+      {
+        "name": "qwen25-coder-7b-q4-0.gguf.part01",
+        "start": 0,
+        "bytes": 1900000000
+      },
+      {
+        "name": "qwen25-coder-7b-q4-0.gguf.part02",
+        "start": 1900000000,
+        "bytes": 1900000000
+      },
+      {
+        "name": "qwen25-coder-7b-q4-0.gguf.part03",
+        "start": 3800000000,
+        "bytes": 631390720
+      }
+    ]
   }
 ]
