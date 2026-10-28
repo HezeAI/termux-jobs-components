@@ -51,9 +51,9 @@
     },
     {
       "target": "alpine",
-      "archiveSha256": "4b9a2ed83006c388e05304d925fb67da179652ef771ae4194ea74a50ef5a7f36",
-      "files": 377,
-      "packages": 377,
+      "archiveSha256": "4478b788018fced9dca8799bdb6f59d340d8982d55b71ffe2a528adcf240e370",
+      "files": 378,
+      "packages": 378,
       "manifestVerified": true,
       "perFileHashesVerified": true,
       "architectures": [

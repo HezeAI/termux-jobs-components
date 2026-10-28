@@ -1803,6 +1803,13 @@
       "version": "26.1.6-r0",
       "arch": "aarch64"
     },
+    "mesa-dri-gallium-26.1.6-r0.apk": {
+      "size": 22166,
+      "sha256": "62cfd817a66b7bf3991e3c5b11c381f6e452e0261b757de9a91e3470d47dc65f",
+      "name": "mesa-dri-gallium",
+      "version": "26.1.6-r0",
+      "arch": "aarch64"
+    },
     "mesa-egl-26.1.6-r0.apk": {
       "size": 129255,
       "sha256": "6b49e6f263427218289aa19b83aae533d79bda984a430964e2ed21592b4b65eb",

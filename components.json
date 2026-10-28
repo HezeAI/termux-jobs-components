@@ -515,12 +515,12 @@
       },
       "alpine": {
         "filename": "xfce-alpine-arm64.tar",
-        "size": 315484160,
-        "sha256": "4b9a2ed83006c388e05304d925fb67da179652ef771ae4194ea74a50ef5a7f36",
-        "manifestSha256": "cc181e3d5e70ba803c8c2e57d4f577c70d611975471e429aa5d4114eb8102647",
-        "packages": 377,
+        "size": 315504640,
+        "sha256": "4478b788018fced9dca8799bdb6f59d340d8982d55b71ffe2a528adcf240e370",
+        "manifestSha256": "6c5922e91efebcd4f912f99f9547396831807f4f76c3e1a75df770878a5a7dca",
+        "packages": 378,
+        "files": 378,
         "manager": "apk",
-        "files": 377,
         "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-alpine-arm64.tar"
       },
       "host-audio": {

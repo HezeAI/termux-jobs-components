@@ -10,7 +10,7 @@ The small `host-audio` and `host-virgl` archives provide Android/Termux-side pre
 
 | Target | Packages | Archive bytes | SHA-256 |
 |---|---:|---:|---|
-| alpine | 377 | 315484160 | `4b9a2ed83006c388e05304d925fb67da179652ef771ae4194ea74a50ef5a7f36` |
+| alpine | 378 | 315504640 | `4478b788018fced9dca8799bdb6f59d340d8982d55b71ffe2a528adcf240e370` |
 | archlinux | 339 | 346624000 | `60ae6e83ed71935f7ab10585a86f6e2f922d3ae0b8a3f81d65d5ba2d99f366b9` |
 | debian | 329 | 153579520 | `a5872a8df747b73e18efa8e270925a3a9d1ad605af42007d3ed221974a8cdb53` |
 | fedora | 300 | 231495680 | `15982be3b9efca85bbc4d033e5aec20257f5e3c1aa96218b377b4e9a63371a1e` |

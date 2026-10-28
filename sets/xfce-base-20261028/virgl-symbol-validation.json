@@ -1,0 +1,77 @@
+{
+  "targets": [
+    {
+      "target": "termux",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa_26.2.5_aarch64.deb"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "ubuntu",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-libgallium_26.0.8-1ubuntu0.3_arm64.deb"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "debian",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-libgallium_25.0.7-2+deb13u1_arm64.deb"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "kali",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-libgallium_26.1.6-1_arm64.deb"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "fedora",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-dri-drivers-26.2.5-1.fc44.aarch64.rpm"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "opensuse",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "Mesa-dri-24.3.3-160000.3.1.aarch64.rpm"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "void",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-libgallium-26.2.5_2.aarch64.xbps"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "archlinux",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-1:26.2.5-1-aarch64.pkg.tar.xz"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    },
+    {
+      "target": "manjaro",
+      "virpipeSymbolPresent": true,
+      "packages": [
+        "mesa-24.0.2-1-aarch64.pkg.tar.zst"
+      ],
+      "kind": "static binary-symbol presence, not a GPU/GUI test"
+    }
+  ],
+  "alpine": "Uses the separately pinned mandatory private VirGL client and Mesa/EGL runtime; readiness checks the actual imported client capability."
+}
