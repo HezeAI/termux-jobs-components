@@ -2,6 +2,27 @@
 
 Pinned optional graphics runtimes and local-model assets for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no Termux Job’s installation APK or `update.json`. An upstream APK below is a pinned build input, not a Termux Job’s app release.
 
+## Pinned ARM64 distribution bases
+
+The [rootfs-arm64-20261028 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/rootfs-arm64-20261028) preserves exact upstream base images for upcoming Termux Jobs installations. **These archives do not include a preinstalled XFCE desktop or frozen font/library package set.** Existing Mesa, wrapper, theme and VirGL component releases remain unchanged. Ubuntu AI intentionally keeps its existing upstream agent-environment installation policy.
+
+| Environment | Upstream tag / base | Download bytes |
+| --- | --- | --- |
+| ubuntu | 26.04 | 41144320 |
+| debian | 13 | 49786880 |
+| alpine | 3.24 | 4198400 |
+| fedora | 44 | 65832960 |
+| opensuse | 16.0 | 41441280 |
+| void | latest | 73768960 |
+| kali | latest | 52357120 |
+| archlinux | dated archive | 163892644 |
+| manjaro | dated archive | 211549268 |
+
+Ubuntu, Debian, Alpine, Fedora, openSUSE, Void and Kali are single-architecture OCI layouts containing original digest-verified upstream blobs. Arch Linux ARM and Manjaro retain the exact original tar archive bytes. `rootfs-manifest.json` records provenance, versions/digests, sizes and SHA-256; `rootfs-validation.json` distinguishes archive/library checks from pending device installation/GUI tests. `rootfs-build-sources.tar.gz` contains the packaging recipe and pinned OCI metadata. [Distribution licenses and source locations](licenses/pinned-rootfs.md).
+
+Applications must verify the archive hash before calling native proot-distro. Cached complete archives may be reused offline; incomplete downloads must never be extracted. Existing environments are preserved and are not automatically rebased to these images. Updating guest packages remains distinct from downloading a new base image. Manjaro ARM currently has an older glibc base and is initially intended for CPU/VirGL desktop testing, not the current glibc >=2.38 Turnip or Bionic-for-glibc runtime.
+
+
 ## Pinned Termux:X11 build input
 
 The [x11-core-fa3a8b430e28 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/x11-core-fa3a8b430e28) mirrors the **unchanged** upstream Termux:X11 APK from commit `fa3a8b430e2896a19f44c99a9cb056254615ae06`. This prevents a mutable upstream nightly URL from breaking reproducible application builds. The fork extracts its ARM64 `libXlorie.so` into the application APK at build time; end-user desktop startup does not download this build input. Installing XFCE still uses the selected environment’s distribution packages. Existing APKs, renderer choices and published component assets are unchanged.

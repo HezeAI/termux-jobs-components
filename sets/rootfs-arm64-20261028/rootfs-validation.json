@@ -1,0 +1,20 @@
+{
+  "componentSet": "rootfs-arm64-20261028",
+  "scope": "Clean upstream base images only; XFCE/fonts/application packages are not included. Ubuntu AI keeps its upstream installation policy.",
+  "archiveVerification": "All archives match fixed SHA-256 and byte sizes. OCI manifest/config/layer blob digests verified before packaging. Original Arch and Manjaro archive bytes are retained.",
+  "extraction": "All nine archives extracted with proot-distro 5.9.0 native install_from_local_file in isolated repository-owned fixtures; expected guest shell present.",
+  "fullNativeCLI": "Not tested inside this Ubuntu: proot-distro explicitly rejects nested sessions. Library extraction is not a full CLI/device installation check.",
+  "deviceGUI": "New Kali/Manjaro desktop GUI installation and renderer checks are pending developer testing. No fresh-device desktop result claimed.",
+  "existingInstallations": "Consumers must not replace existing roots; Ubuntu AI remains on its previous upstream policy.",
+  "sources": {
+    "ubuntu": "https://hub.docker.com/_/ubuntu",
+    "debian": "https://hub.docker.com/_/debian",
+    "alpine": "https://hub.docker.com/_/alpine",
+    "fedora": "https://hub.docker.com/_/fedora",
+    "opensuse": "https://hub.docker.com/r/opensuse/leap",
+    "void": "https://github.com/void-linux/void-containers",
+    "kali": "https://www.kali.org/docs/containers/official-kalilinux-docker-images/",
+    "archlinux": "https://github.com/termux/proot-distro/releases/tag/v4.34.2",
+    "manjaro": "https://github.com/manjaro-arm/rootfs/releases/tag/20261012"
+  }
+}
