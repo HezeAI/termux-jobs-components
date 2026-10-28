@@ -1,0 +1,2634 @@
+{
+  "version": "xfce-base-20261028",
+  "target": "opensuse",
+  "manager": "zypper",
+  "baseImageSha256": "3516dab69a3868fdd1d7a2eee8fee21f2087829f8b2a112d2f8e3b713c78e1b8",
+  "files": {
+    "Mesa-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 264607,
+      "sha256": "dc585e46ccb3a4eb5562d4fa37a32db3bd162df26be6516cffb68c633e83859f",
+      "name": "Mesa",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "Mesa-dri-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 11481502,
+      "sha256": "290725ef96e028d6491c75fa1f22e594a34bead5b462e33088192a7a2cbb6dcb",
+      "name": "Mesa-dri",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "Mesa-gallium-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 15670223,
+      "sha256": "50bd3ce6816d2913445693ef32fad7a2bc45c062e295ab1f8c9d313e5da29be7",
+      "name": "Mesa-gallium",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "Mesa-libEGL1-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 388379,
+      "sha256": "a95ffb0d150de24f407f2778e927c72bc742408f0e6604c7cdfcfd4c920fec78",
+      "name": "Mesa-libEGL1",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "Mesa-libGL1-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 415175,
+      "sha256": "578cc335c8ab834af6e2d90a9ddc97b054f788d5e35c7849d3fcd5289cccde05",
+      "name": "Mesa-libGL1",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "Mesa-libglapi0-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 298848,
+      "sha256": "7258e228609ded310d38e19c78f9bdfbff62bf1e41d6d415bd8d2c6782d0d390",
+      "name": "Mesa-libglapi0",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "accountsservice-23.13.9-160000.2.2.aarch64.rpm": {
+      "size": 111017,
+      "sha256": "1b90258af14a13d0f3f7fdc9c435f03c08125e7d4a475a28461df09ad4db2470",
+      "name": "accountsservice",
+      "version": "23.13.9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "adwaita-icon-theme-48.1-160000.1.1.noarch.rpm": {
+      "size": 697788,
+      "sha256": "c691e96d218eeeef781df596b04092bcc384f30c154ccf2e56482a9c2275c899",
+      "name": "adwaita-icon-theme",
+      "version": "48.1-160000.1.1",
+      "arch": "noarch"
+    },
+    "adwaita-xfce-icon-theme-0.0.4+git0.b33d65a-bp160.1.10.noarch.rpm": {
+      "size": 71966,
+      "sha256": "f3285d5583ce86523233d52730704bf49ff74ddf841f6f4443ae7d54f23ca3a9",
+      "name": "adwaita-xfce-icon-theme",
+      "version": "0.0.4+git0.b33d65a-bp160.1.10",
+      "arch": "noarch"
+    },
+    "alts-1.2+30.a5431e9-160000.2.2.aarch64.rpm": {
+      "size": 22540,
+      "sha256": "a9d6dd50c52bfd7e5a02769b671cd3f1d466fd547acb82606247a12b6c344537",
+      "name": "alts",
+      "version": "1.2+30.a5431e9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "cantarell-fonts-0.303.1-160000.2.2.noarch.rpm": {
+      "size": 148297,
+      "sha256": "82716dc2db72f3fd16ec0cff5e2393bca86d4f703490974d3e5dea6cb21b16c6",
+      "name": "cantarell-fonts",
+      "version": "0.303.1-160000.2.2",
+      "arch": "noarch"
+    },
+    "cups-config-2.4.19-160000.2.1.aarch64.rpm": {
+      "size": 457424,
+      "sha256": "d82ee013020d433f050c0e8ed1cc9d0690021f203180c42ee6a3487c6050dbba",
+      "name": "cups-config",
+      "version": "2.4.19-160000.2.1",
+      "arch": "aarch64"
+    },
+    "dbus-1-1.14.10-160000.2.2.aarch64.rpm": {
+      "size": 219195,
+      "sha256": "30e5ad99566022ca1d4da0d9891bbe87b2f7068bb8a5498f9544e7bf4bffa4fd",
+      "name": "dbus-1",
+      "version": "1.14.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "dbus-1-common-1.14.10-160000.2.2.noarch.rpm": {
+      "size": 138987,
+      "sha256": "9fc07c17ce7035a6a6285d1797904684341fe834e2b9684eafe632db9b699aed",
+      "name": "dbus-1-common",
+      "version": "1.14.10-160000.2.2",
+      "arch": "noarch"
+    },
+    "dbus-1-daemon-1.14.10-160000.2.2.aarch64.rpm": {
+      "size": 248480,
+      "sha256": "ad21af8440f7b3a722c3287fe5f167fbef824e1fe966fdd7eca49cf2ee266a88",
+      "name": "dbus-1-daemon",
+      "version": "1.14.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "dbus-1-tools-1.14.10-160000.2.2.aarch64.rpm": {
+      "size": 161291,
+      "sha256": "3a19ec4ad8ddb6338d99c1162faf70ee042ddcf4dee88dc486cf190ebb5dae7b",
+      "name": "dbus-1-tools",
+      "version": "1.14.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "dbus-1-x11-1.14.10-160000.2.2.aarch64.rpm": {
+      "size": 137880,
+      "sha256": "d4ef8dfae604475d9a1a9bc53d3bd6c940ce9ad2d903965d56df037b9b17b7d0",
+      "name": "dbus-1-x11",
+      "version": "1.14.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "dbus-broker-36-160000.3.1.aarch64.rpm": {
+      "size": 162796,
+      "sha256": "f80329342dd9988e6d49444b75013f2187779140cce9d80f0cd54c62eaa11891",
+      "name": "dbus-broker",
+      "version": "36-160000.3.1",
+      "arch": "aarch64"
+    },
+    "dbus-broker-block-restart-36-160000.3.1.noarch.rpm": {
+      "size": 20165,
+      "sha256": "4626543e469db3e468e454dde1099196a2c19c1b1d4b90454abd4dd7b3e24b85",
+      "name": "dbus-broker-block-restart",
+      "version": "36-160000.3.1",
+      "arch": "noarch"
+    },
+    "dejavu-fonts-2.37-160000.3.1.noarch.rpm": {
+      "size": 2830045,
+      "sha256": "6df3a25e81e7b3854c05a31d631218ce65b1a97ed9d6cfaf2bd2f8733e16fc9e",
+      "name": "dejavu-fonts",
+      "version": "2.37-160000.3.1",
+      "arch": "noarch"
+    },
+    "desktop-data-openSUSE-15.2.20200107-lp160.5.1.noarch.rpm": {
+      "size": 32752,
+      "sha256": "7dc7493d6568158ac4993880fd0443bdd7a3d3729afd385d51fefb73aa4a02f3",
+      "name": "desktop-data-openSUSE",
+      "version": "15.2.20200107-lp160.5.1",
+      "arch": "noarch"
+    },
+    "desktop-file-utils-0.28-160000.2.2.aarch64.rpm": {
+      "size": 122821,
+      "sha256": "8ad6ee827effc146f66d0114e8be9c9ecc391e1e733665781a0c2acb8ca77d1d",
+      "name": "desktop-file-utils",
+      "version": "0.28-160000.2.2",
+      "arch": "aarch64"
+    },
+    "diffutils-3.12-160000.2.2.aarch64.rpm": {
+      "size": 198655,
+      "sha256": "e7bad8dda8e1a86b989b2efa13ae56b6c29dc140cb09d907ce4d3dfe5aa5ebc0",
+      "name": "diffutils",
+      "version": "3.12-160000.2.2",
+      "arch": "aarch64"
+    },
+    "enchant-2-backend-hunspell-2.8.2-160000.2.2.aarch64.rpm": {
+      "size": 28052,
+      "sha256": "1e1e6f7117ed5a97770dbdffe21183036094ff3c3bfd357ab1facc0369eac617",
+      "name": "enchant-2-backend-hunspell",
+      "version": "2.8.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "enchant-data-2.8.2-160000.2.2.aarch64.rpm": {
+      "size": 18002,
+      "sha256": "1d9b6b81c63bde674eb606c0601553dbd0cd89a92670ee948160a935a6a88e0e",
+      "name": "enchant-data",
+      "version": "2.8.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "exo-data-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 34850,
+      "sha256": "b72c0e6c9cab26214d6ae034c662267ed5affc3e38387fc0e2167fc8b6b27483",
+      "name": "exo-data",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "exo-tools-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 66236,
+      "sha256": "2184273d92dd1afe71970ba0ad10e71887eb1b1a9b76edf9ed254e084767e5ce",
+      "name": "exo-tools",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "fcitx5-5.1.13-bp160.3.1.aarch64.rpm": {
+      "size": 8207316,
+      "sha256": "f5821b701b2997c601504e58428dc491b13c0f4647ea4f1e6da9959417ca37df",
+      "name": "fcitx5",
+      "version": "5.1.13-bp160.3.1",
+      "arch": "aarch64"
+    },
+    "fcitx5-gtk3-5.1.4-bp160.1.3.aarch64.rpm": {
+      "size": 49537,
+      "sha256": "71abbdae2db150d590fdd52386aeb5570eced241d2c3728af2a3fda22578d6b4",
+      "name": "fcitx5-gtk3",
+      "version": "5.1.4-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "fcitx5-qt-lang-5.1.10-bp160.1.4.noarch.rpm": {
+      "size": 24161,
+      "sha256": "00d1b876b68744d96c9ec50bdf9ae9b9515db12c0265a4714901a72d5099c2a2",
+      "name": "fcitx5-qt-lang",
+      "version": "5.1.10-bp160.1.4",
+      "arch": "noarch"
+    },
+    "fcitx5-qt5-5.1.10-bp160.1.4.aarch64.rpm": {
+      "size": 123832,
+      "sha256": "53728f9f3b2f97679ad53ca2e8d9464d47b325179acc83f903dbf4983667ebc4",
+      "name": "fcitx5-qt5",
+      "version": "5.1.10-bp160.1.4",
+      "arch": "aarch64"
+    },
+    "findutils-4.10.0-160000.2.2.aarch64.rpm": {
+      "size": 320729,
+      "sha256": "8e54b06461d695e2740531229d5370af10a7b888ec293101ede3689ca709dc38",
+      "name": "findutils",
+      "version": "4.10.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "fontconfig-2.16.0-160000.2.2.aarch64.rpm": {
+      "size": 140479,
+      "sha256": "bc9fee3da62f5d9ce35112bd1b209c776f7a37fc04e9d1a8e548d4100c6837ca",
+      "name": "fontconfig",
+      "version": "2.16.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "gdk-pixbuf-loader-rsvg-2.60.3-160000.1.1.aarch64.rpm": {
+      "size": 261556,
+      "sha256": "9e49295008753a7dd4d70264a9a6f4bb3a796baf94a2b6bbffa37a99a32e6230",
+      "name": "gdk-pixbuf-loader-rsvg",
+      "version": "2.60.3-160000.1.1",
+      "arch": "aarch64"
+    },
+    "gdk-pixbuf-query-loaders-2.42.12-160000.4.1.aarch64.rpm": {
+      "size": 50334,
+      "sha256": "e4a30b43c9c4542ce636fc6e2dd99122186aafd3ca4986870e77b5f544ce9fda",
+      "name": "gdk-pixbuf-query-loaders",
+      "version": "2.42.12-160000.4.1",
+      "arch": "aarch64"
+    },
+    "gio-branding-openSUSE-42.1-lp160.3.2.noarch.rpm": {
+      "size": 30277,
+      "sha256": "5092655bbd54130a44412eaa36916e656bbc7d222e403c163b7d6760636e793e",
+      "name": "gio-branding-openSUSE",
+      "version": "42.1-lp160.3.2",
+      "arch": "noarch"
+    },
+    "girepository-1_0-1.84.0-160000.2.2.aarch64.rpm": {
+      "size": 113253,
+      "sha256": "09c965b863b1863302758b9873d25b5ace23ab829dbeefd243bb1b2df586af0e",
+      "name": "girepository-1_0",
+      "version": "1.84.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "glib2-tools-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 433986,
+      "sha256": "1f65d62b0f8528071bcdae4a3bfab9966844d08bb76c6191b8b0d75deac66f14",
+      "name": "glib2-tools",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "google-noto-coloremoji-fonts-20240424-160000.2.2.noarch.rpm": {
+      "size": 9582459,
+      "sha256": "c0fd1e0a3c01fa0d0a120784ff5a4e5463bdae18ad6bcb3057bed87aa8742e0b",
+      "name": "google-noto-coloremoji-fonts",
+      "version": "20240424-160000.2.2",
+      "arch": "noarch"
+    },
+    "google-noto-sans-fonts-20240901-160000.2.2.noarch.rpm": {
+      "size": 11675742,
+      "sha256": "265811bee66040734b0c2f2ee3be07a39117c8e55071e8a2ac07a956239b91b0",
+      "name": "google-noto-sans-fonts",
+      "version": "20240901-160000.2.2",
+      "arch": "noarch"
+    },
+    "gstreamer-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 582720,
+      "sha256": "4ebc689da8625ca5037f84058234da9e370cf5208b1dc38e1bcf729e2cdc985b",
+      "name": "gstreamer",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "gstreamer-plugins-base-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 1101598,
+      "sha256": "bf5bd1ec257f05b4118cafa264862b22c5ebd19752279c68b3dfbd31a5d216b5",
+      "name": "gstreamer-plugins-base",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "gstreamer-plugins-good-1.26.7-160000.2.1.aarch64.rpm": {
+      "size": 2352653,
+      "sha256": "de902c09e2ad508caf942ebbc1e385ecd3175d6960a427f914073b0a359a5f00",
+      "name": "gstreamer-plugins-good",
+      "version": "1.26.7-160000.2.1",
+      "arch": "aarch64"
+    },
+    "gtk3-data-3.24.49+14-160000.2.2.noarch.rpm": {
+      "size": 228275,
+      "sha256": "304e449345ceceb0d7e64bf145f0b9deb0084a1fbb58db4eabaa7f30a154d764",
+      "name": "gtk3-data",
+      "version": "3.24.49+14-160000.2.2",
+      "arch": "noarch"
+    },
+    "gtk3-metatheme-adwaita-3.28-160000.2.2.noarch.rpm": {
+      "size": 37178,
+      "sha256": "ccb439f6f5b9c7562314123bff15c0a6a6d1b12f6be70e08fec0e620a2fe6b52",
+      "name": "gtk3-metatheme-adwaita",
+      "version": "3.28-160000.2.2",
+      "arch": "noarch"
+    },
+    "gtk3-metatheme-greybird-geeko-3.23.4+git0.c1d46c3-bp160.1.2.noarch.rpm": {
+      "size": 91378,
+      "sha256": "e1f74c0f539bc6b29ca2efbe4dabbea33ba11fd6b90bd0fcb35ad4db404da0a8",
+      "name": "gtk3-metatheme-greybird-geeko",
+      "version": "3.23.4+git0.c1d46c3-bp160.1.2",
+      "arch": "noarch"
+    },
+    "gtk3-schema-3.24.49+14-160000.2.2.noarch.rpm": {
+      "size": 227912,
+      "sha256": "851e8dc0be58fdbf4a63a0ef6169586ab8e1a52c457b3c048ba8ebee4ccf19cd",
+      "name": "gtk3-schema",
+      "version": "3.24.49+14-160000.2.2",
+      "arch": "noarch"
+    },
+    "gtk3-tools-3.24.49+14-160000.2.2.aarch64.rpm": {
+      "size": 1657387,
+      "sha256": "bcdd11067087badece1e5c8b80f1e01fd407df520ff9266ed0bdcbdb431ab90d",
+      "name": "gtk3-tools",
+      "version": "3.24.49+14-160000.2.2",
+      "arch": "aarch64"
+    },
+    "gtk4-schema-4.18.6-160000.2.2.noarch.rpm": {
+      "size": 138141,
+      "sha256": "92766be49ba63505c32d7f8c3aa007f92beb09d3b683744dd68e09c26cbe439f",
+      "name": "gtk4-schema",
+      "version": "4.18.6-160000.2.2",
+      "arch": "noarch"
+    },
+    "gtk4-tools-4.18.6-160000.2.2.aarch64.rpm": {
+      "size": 1693406,
+      "sha256": "06fbba1e93ce24a54901e162a50a655858dfbf3bbe1110942e1fdd9e05ec5935",
+      "name": "gtk4-tools",
+      "version": "4.18.6-160000.2.2",
+      "arch": "aarch64"
+    },
+    "hack-fonts-3.003-bp160.1.1.noarch.rpm": {
+      "size": 409642,
+      "sha256": "f6afca55064aad1e3b1aeeab52566199e6dd1b02e4d8837bca8cf70ed86cfabc",
+      "name": "hack-fonts",
+      "version": "3.003-bp160.1.1",
+      "arch": "noarch"
+    },
+    "hicolor-icon-theme-0.18-160000.3.2.noarch.rpm": {
+      "size": 80632,
+      "sha256": "4ca90f5f1450b5b3ded407087f75b2d2ddd060dd970716d0880bc9344d60bc63",
+      "name": "hicolor-icon-theme",
+      "version": "0.18-160000.3.2",
+      "arch": "noarch"
+    },
+    "iceauth-1.0.10-bp160.1.13.aarch64.rpm": {
+      "size": 36470,
+      "sha256": "181eb1c33a545a9bf9c4891238a1c3c628248779e8b5c3a4342f9236d6ffa95f",
+      "name": "iceauth",
+      "version": "1.0.10-bp160.1.13",
+      "arch": "aarch64"
+    },
+    "iso-codes-4.16.0-160000.3.2.noarch.rpm": {
+      "size": 3249623,
+      "sha256": "372289d96284e51bc065fc6f76effa9b89192d681712fba9108bb979df62a9f3",
+      "name": "iso-codes",
+      "version": "4.16.0-160000.3.2",
+      "arch": "noarch"
+    },
+    "kbd-2.7.1-160000.3.1.aarch64.rpm": {
+      "size": 2341153,
+      "sha256": "689d201dc947aff9b2b84a412196c8a4fee20f14927c5e7e278a85c872287de9",
+      "name": "kbd",
+      "version": "2.7.1-160000.3.1",
+      "arch": "aarch64"
+    },
+    "krb5-1.21.3-160000.4.1.aarch64.rpm": {
+      "size": 768322,
+      "sha256": "d898dba1371fc697a3f718f07bb02a1c713e3596c9135d26297deb18fd707031",
+      "name": "krb5",
+      "version": "1.21.3-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libFLAC12-1.4.3-160000.2.2.aarch64.rpm": {
+      "size": 208575,
+      "sha256": "9aa4de79f0b8bb7fa53f23fd1402660b838fa0f57e65d7d5cd84d7baec25508f",
+      "name": "libFLAC12",
+      "version": "1.4.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libFcitx5Config6-5.1.13-bp160.3.1.aarch64.rpm": {
+      "size": 66373,
+      "sha256": "03faf675ac28e2ba1e4aed67614fbc1e9d5c9aca31142c771db8de7828e9a3f8",
+      "name": "libFcitx5Config6",
+      "version": "5.1.13-bp160.3.1",
+      "arch": "aarch64"
+    },
+    "libFcitx5Core7-5.1.13-bp160.3.1.aarch64.rpm": {
+      "size": 311544,
+      "sha256": "ffcf5b1c2ff9dea0a372d0b5dc084e1fb776a6d9a4ce593808341cd70bc3a3df",
+      "name": "libFcitx5Core7",
+      "version": "5.1.13-bp160.3.1",
+      "arch": "aarch64"
+    },
+    "libFcitx5GClient2-5.1.4-bp160.1.3.aarch64.rpm": {
+      "size": 25066,
+      "sha256": "b9ad829ed9635f2d34edf13033a515c3f2ce43c6d733aecb3a07bdfb1e9d926d",
+      "name": "libFcitx5GClient2",
+      "version": "5.1.4-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "libFcitx5Qt5DBusAddons1-5.1.10-bp160.1.4.aarch64.rpm": {
+      "size": 80320,
+      "sha256": "9b4d7c147012c61700da7cb2241ba26fe1c6997fdd37659f67c23dc8e7e63936",
+      "name": "libFcitx5Qt5DBusAddons1",
+      "version": "5.1.10-bp160.1.4",
+      "arch": "aarch64"
+    },
+    "libFcitx5Qt5WidgetsAddons2-5.1.10-bp160.1.4.aarch64.rpm": {
+      "size": 45663,
+      "sha256": "30455801bab48646aae84231532e276702f5638f4d68f7d57b1a371cec3925bd",
+      "name": "libFcitx5Qt5WidgetsAddons2",
+      "version": "5.1.10-bp160.1.4",
+      "arch": "aarch64"
+    },
+    "libFcitx5Utils2-5.1.13-bp160.3.1.aarch64.rpm": {
+      "size": 264719,
+      "sha256": "93c2bcb1a06488a971eb5b6661d04731ccd15ebdf65d5e7b597dd57836b89e90",
+      "name": "libFcitx5Utils2",
+      "version": "5.1.13-bp160.3.1",
+      "arch": "aarch64"
+    },
+    "libICE6-1.1.2-160000.3.2.aarch64.rpm": {
+      "size": 54814,
+      "sha256": "95947fb0542c6b609e1ac2c5f58e5f26f391413a78c94c3a3116b9a0f76dd8b0",
+      "name": "libICE6",
+      "version": "1.1.2-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libLLVM19-19.1.7-160000.2.2.aarch64.rpm": {
+      "size": 27962864,
+      "sha256": "e7a4af5117df3b4ede105e680ab83c075229289e900e1e36127cdf34c870a01b",
+      "name": "libLLVM19",
+      "version": "19.1.7-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libQt5Core5-5.15.17+kde122-160000.2.2.aarch64.rpm": {
+      "size": 2401313,
+      "sha256": "3315073714f1a9e86b18f459aa6abb46ab089f4ae1ed3abd5777b83f96d0df88",
+      "name": "libQt5Core5",
+      "version": "5.15.17+kde122-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libQt5DBus5-5.15.17+kde122-160000.2.2.aarch64.rpm": {
+      "size": 441017,
+      "sha256": "e9d31896dd8259b1065d691e03c1f3890ca7d33e058aed7b79e10e8eb412fc15",
+      "name": "libQt5DBus5",
+      "version": "5.15.17+kde122-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libQt5Gui5-5.15.17+kde122-160000.2.2.aarch64.rpm": {
+      "size": 3840916,
+      "sha256": "bac4eb32ab09c5d6759988d2c996090c2080d8728a8ef493a5a62e62b2efeb77",
+      "name": "libQt5Gui5",
+      "version": "5.15.17+kde122-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libQt5Network5-5.15.17+kde122-160000.2.2.aarch64.rpm": {
+      "size": 955157,
+      "sha256": "0325a738fb78f15696a8594765778bc0533438e421968fc9030204e304b2108d",
+      "name": "libQt5Network5",
+      "version": "5.15.17+kde122-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libQt5Widgets5-5.15.17+kde122-160000.2.2.aarch64.rpm": {
+      "size": 2744734,
+      "sha256": "554f013935d207638d44abc4203372e1a32d2a65647746f2caacb3d2402bdbb1",
+      "name": "libQt5Widgets5",
+      "version": "5.15.17+kde122-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libSM6-1.2.6-160000.3.2.aarch64.rpm": {
+      "size": 26264,
+      "sha256": "18b7389015efba68c1b7b7c403450e93db64e3915e66d24947a609fd2bf7e8f0",
+      "name": "libSM6",
+      "version": "1.2.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libSPIRV-Tools-2025_1_rc1-2025.1~rc1-160000.2.2.aarch64.rpm": {
+      "size": 1505454,
+      "sha256": "c023cbdc696d51efafa252484b654da372d519d134aa494a850ea79c23172b7b",
+      "name": "libSPIRV-Tools-2025_1_rc1",
+      "version": "2025.1~rc1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libX11-6-1.8.10-160000.5.1.aarch64.rpm": {
+      "size": 680729,
+      "sha256": "7236708f93e591e53278db7fc61d2a9249c873ec0e79338080fe46c84f690ce9",
+      "name": "libX11-6",
+      "version": "1.8.10-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libX11-data-1.8.10-160000.5.1.noarch.rpm": {
+      "size": 172325,
+      "sha256": "c5714ddbf3000b1bd7dc650f6013bab4663898ed683c5b8c764f45bc784defee",
+      "name": "libX11-data",
+      "version": "1.8.10-160000.5.1",
+      "arch": "noarch"
+    },
+    "libX11-xcb1-1.8.10-160000.5.1.aarch64.rpm": {
+      "size": 44729,
+      "sha256": "ab82da9b5c3d81a3abb1bc240948ecfc9ed79baf306dd08003a4382f6d29ff97",
+      "name": "libX11-xcb1",
+      "version": "1.8.10-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libXRes1-1.2.2-160000.3.2.aarch64.rpm": {
+      "size": 14386,
+      "sha256": "59a7a173e2e205a931185a66368254882cc10b0d6b710aa23aa4c38db8a39aa7",
+      "name": "libXRes1",
+      "version": "1.2.2-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXau6-1.0.12-160000.2.2.aarch64.rpm": {
+      "size": 17530,
+      "sha256": "3a2271bc1ebd596cf4e271e1e9e565aa7c933ef281f8ba2e115d8d7750d66920",
+      "name": "libXau6",
+      "version": "1.0.12-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libXcomposite1-0.4.6-160000.3.2.aarch64.rpm": {
+      "size": 12668,
+      "sha256": "42e01a9ebf04aab3c333b23cdae6994390789453c494409dd36a6fa18de8af94",
+      "name": "libXcomposite1",
+      "version": "0.4.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXcursor1-1.2.3-160000.3.2.aarch64.rpm": {
+      "size": 30687,
+      "sha256": "35b4a2a1dd67f6eb18d8cf781af50a8beeadadee17af0fe800e123c947357fad",
+      "name": "libXcursor1",
+      "version": "1.2.3-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXdamage1-1.1.6-160000.3.2.aarch64.rpm": {
+      "size": 12535,
+      "sha256": "0b60f9d97eda1ee573dd2cdfb6fa760cd01418e80431f3671dbaddc7b98f3349",
+      "name": "libXdamage1",
+      "version": "1.1.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXext6-1.3.6-160000.3.2.aarch64.rpm": {
+      "size": 38150,
+      "sha256": "8cbee588a3513dc027c4ebdf1615b3d67a2987e3eb0620ccf1c9aeba0bcc75d9",
+      "name": "libXext6",
+      "version": "1.3.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXfixes3-6.0.1-160000.3.2.aarch64.rpm": {
+      "size": 20712,
+      "sha256": "12167f7a7c8117d88098e4aec854f49fff9a13143ed7151be39eb23ff0c8dce3",
+      "name": "libXfixes3",
+      "version": "6.0.1-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXft2-2.3.8-160000.2.2.aarch64.rpm": {
+      "size": 51806,
+      "sha256": "db589250dce8ed4ae379a2da6dba8ed02ee28b8aa34f66a2f2e74ff68b62ab0f",
+      "name": "libXft2",
+      "version": "2.3.8-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libXi6-1.8.2-160000.4.1.aarch64.rpm": {
+      "size": 45236,
+      "sha256": "3ae23dfc1e0aa301e4e7e839430d60443de2c3253b3a28ca36a62adf21b4b79b",
+      "name": "libXi6",
+      "version": "1.8.2-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libXinerama1-1.1.5-160000.3.2.aarch64.rpm": {
+      "size": 11611,
+      "sha256": "b61d450ba391fd6e3f27390753a63127701c1f59362eb990fc626ad88858b34d",
+      "name": "libXinerama1",
+      "version": "1.1.5-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXmuu1-1.2.1-160000.3.2.aarch64.rpm": {
+      "size": 17543,
+      "sha256": "c569c710b3363dacf57492fe78e4be483aeba2806c79c8b64f9b589c2a627e1f",
+      "name": "libXmuu1",
+      "version": "1.2.1-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXpresent1-1.0.1-bp160.1.1.aarch64.rpm": {
+      "size": 13240,
+      "sha256": "769efd827595f5766a6690dab6607789efd523099d0de78b9fbce2a824b01c9b",
+      "name": "libXpresent1",
+      "version": "1.0.1-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libXrandr2-1.5.4-160000.3.2.aarch64.rpm": {
+      "size": 26642,
+      "sha256": "0f76dae3cb346fc1a3147ae9b9e886a051ef394e2c50fc3a8b2d60bc0ad76e8d",
+      "name": "libXrandr2",
+      "version": "1.5.4-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libXrender1-0.9.11-160000.3.1.aarch64.rpm": {
+      "size": 27933,
+      "sha256": "11547ad5fcf16773362b4b4625450a7d51dc1fc2a060968ad150ebfcde89832f",
+      "name": "libXrender1",
+      "version": "0.9.11-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libXtst6-1.2.5-160000.4.1.aarch64.rpm": {
+      "size": 18828,
+      "sha256": "a43a0c8eec9e1aa4bc4ae1d0f2ea08a38312226453050227ea1b88238a778cd4",
+      "name": "libXtst6",
+      "version": "1.2.5-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libXv1-1.0.12-160000.2.2.aarch64.rpm": {
+      "size": 18961,
+      "sha256": "df51e146d50e3a5436aa7651654949c25aeca1a8b9635379af45776465c4cda7",
+      "name": "libXv1",
+      "version": "1.0.12-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libXxf86vm1-1.1.6-160000.3.2.aarch64.rpm": {
+      "size": 17314,
+      "sha256": "606be704c1dd53df3bc9de35b55af597a7cebeb5f6bd5dcce7b71c650b0a3636",
+      "name": "libXxf86vm1",
+      "version": "1.1.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libaccountsservice0-23.13.9-160000.2.2.aarch64.rpm": {
+      "size": 86245,
+      "sha256": "5ce53c8b401de722343d9d1cd31508567f11592bb5c7f9faf82b0730913ebdac",
+      "name": "libaccountsservice0",
+      "version": "23.13.9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libalternatives1-1.2+30.a5431e9-160000.2.2.aarch64.rpm": {
+      "size": 19696,
+      "sha256": "919f353c0e7ab00faf197d76235f07fc1c07b713a7f88bc853f7d389c3f50675",
+      "name": "libalternatives1",
+      "version": "1.2+30.a5431e9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libappindicator3-1-12.10.1~bzr20200706.298-160000.2.2.aarch64.rpm": {
+      "size": 45263,
+      "sha256": "85ecdf38a9de25e2eb346bb3af6d49a560f0928d55a87e885448eaf4167a4a87",
+      "name": "libappindicator3-1",
+      "version": "12.10.1~bzr20200706.298-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libasound2-1.2.14-160000.3.1.aarch64.rpm": {
+      "size": 594183,
+      "sha256": "772a7c2e9c51d417746e80838d392be34d933296d821c82a6eda142a092a0e49",
+      "name": "libasound2",
+      "version": "1.2.14-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libatk-1_0-0-2.56.3-160000.2.2.aarch64.rpm": {
+      "size": 108633,
+      "sha256": "8592864f77a0dc529a069fd6d6632f680c1bdd7f3aa47ec33541acc8d5d92d09",
+      "name": "libatk-1_0-0",
+      "version": "2.56.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libatk-bridge-2_0-0-2.56.3-160000.2.2.aarch64.rpm": {
+      "size": 126771,
+      "sha256": "adacaa1cffc5d22c979f68576b9a8cf1cb6fec623f907872fe361e1f6e52c0cc",
+      "name": "libatk-bridge-2_0-0",
+      "version": "2.56.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libatspi0-2.56.3-160000.2.2.aarch64.rpm": {
+      "size": 140876,
+      "sha256": "04c7d956d53a5684dfdfff875fb93f043321a65166df6135d52037080c028e5e",
+      "name": "libatspi0",
+      "version": "2.56.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libavahi-client3-0.8-160000.6.1.aarch64.rpm": {
+      "size": 76708,
+      "sha256": "030ac9fe1f8672dd965dcabbf19cb201f1172863749962ed4d11a92dc352c2cb",
+      "name": "libavahi-client3",
+      "version": "0.8-160000.6.1",
+      "arch": "aarch64"
+    },
+    "libavahi-common3-0.8-160000.6.1.aarch64.rpm": {
+      "size": 73493,
+      "sha256": "ac122bfb1e9c8a9bbc547e31cbd0d42aef99b188be7654625213c9e079a5e9cf",
+      "name": "libavahi-common3",
+      "version": "0.8-160000.6.1",
+      "arch": "aarch64"
+    },
+    "libavc1394-0-0.5.4-160000.3.2.aarch64.rpm": {
+      "size": 22083,
+      "sha256": "94dca6db67d900c1f187819183a2f7accdb36ac48c2d2debaca8827dca3032a6",
+      "name": "libavc1394-0",
+      "version": "0.5.4-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libbluetooth3-5.79-160000.2.2.aarch64.rpm": {
+      "size": 217603,
+      "sha256": "53395f127eb9727150ecc99b1e013400c635f85e1effb846ddfec25fe38bba2e",
+      "name": "libbluetooth3",
+      "version": "5.79-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libbrotlicommon1-1.1.0-160000.2.2.aarch64.rpm": {
+      "size": 71269,
+      "sha256": "b9d7f24b9946454958d2e7fe0865fed47f1a5fd43dc1986c45eab0a093cd0d51",
+      "name": "libbrotlicommon1",
+      "version": "1.1.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libbrotlidec1-1.1.0-160000.2.2.aarch64.rpm": {
+      "size": 32705,
+      "sha256": "5fc00296ccdffbb58f6bdfdeb99fb35db6f27b2031445c506e41112a1d81d051",
+      "name": "libbrotlidec1",
+      "version": "1.1.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcairo-gobject2-1.18.4-160000.3.1.aarch64.rpm": {
+      "size": 74901,
+      "sha256": "474036913aa1b8fd86f7e33f61d169a7d85579b36ed60ef456ea0946331dabcb",
+      "name": "libcairo-gobject2",
+      "version": "1.18.4-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libcairo-script-interpreter2-1.18.4-160000.3.1.aarch64.rpm": {
+      "size": 117883,
+      "sha256": "1066770a394cea510a8211160c727c54cd336f2b5df4a0281846dab1cbce4b8f",
+      "name": "libcairo-script-interpreter2",
+      "version": "1.18.4-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libcairo2-1.18.4-160000.3.1.aarch64.rpm": {
+      "size": 604309,
+      "sha256": "f3726f65b655409e97d392b4f23b03b822ac0bfdfb8422ecf745453030011f29",
+      "name": "libcairo2",
+      "version": "1.18.4-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libcamera-base0_5-0.5.1-160000.2.2.aarch64.rpm": {
+      "size": 74813,
+      "sha256": "2d972be4de256acbc3b69f7917fcd1ebf68ba45a3dc1e284eb9cf1027f367ab7",
+      "name": "libcamera-base0_5",
+      "version": "0.5.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcamera0_5-0.5.1-160000.2.2.aarch64.rpm": {
+      "size": 541131,
+      "sha256": "092bb9d0dd7e7128ea3cd7190f1fee67b33b0d20d316dea6f8cbf0369bc90942",
+      "name": "libcamera0_5",
+      "version": "0.5.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcanberra0-0.30+2-160000.2.2.aarch64.rpm": {
+      "size": 71988,
+      "sha256": "18db9637d589b854e9a867250fbd008f93000984e7d9a8fa5f022f95e3ca1d62",
+      "name": "libcanberra0",
+      "version": "0.30+2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcdda_interface0-3.10.2-160000.2.2.aarch64.rpm": {
+      "size": 49608,
+      "sha256": "9da1a398fbcb66ead2c31bbb52c7597518b41acb1204bfb7213ff957929c9a25",
+      "name": "libcdda_interface0",
+      "version": "3.10.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcdda_paranoia0-3.10.2-160000.2.2.aarch64.rpm": {
+      "size": 35760,
+      "sha256": "ed338c19f5afa9f30746d82301258b649908f89ebfce9c1de2113558daf287ff",
+      "name": "libcdda_paranoia0",
+      "version": "3.10.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcloudproviders0-0.3.6-160000.3.2.aarch64.rpm": {
+      "size": 40949,
+      "sha256": "ee76e53bfe308231a075f12e35caa6c8b090a3f90647d8a140154aa26ac7f3de",
+      "name": "libcloudproviders0",
+      "version": "0.3.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libcolord2-1.4.8-160000.1.1.aarch64.rpm": {
+      "size": 205430,
+      "sha256": "10a0ddcd38de940ad0128550d3db3e3bb5cae270ee4da8809f658f0814418cf4",
+      "name": "libcolord2",
+      "version": "1.4.8-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libcom_err2-1.47.0-160000.3.2.aarch64.rpm": {
+      "size": 88509,
+      "sha256": "0177a2e5bb2cef4a602a547a80456643806fa9c811bd69e918aeb4ce167e9b00",
+      "name": "libcom_err2",
+      "version": "1.47.0-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libconfig++11-1.7.3-160000.2.2.aarch64.rpm": {
+      "size": 59148,
+      "sha256": "7abe4f5d758e45cd2cef260a6cdf9dd71b1673ce3936c24d6bacac5ea2fcdb98",
+      "name": "libconfig++11",
+      "version": "1.7.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libcups2-2.4.19-160000.2.1.aarch64.rpm": {
+      "size": 469568,
+      "sha256": "bc8d77694ff49dcd3926fecaa72710f669e8ba886cc56efc9663f3347d90afd3",
+      "name": "libcups2",
+      "version": "2.4.19-160000.2.1",
+      "arch": "aarch64"
+    },
+    "libdatrie1-0.2.13-160000.3.2.aarch64.rpm": {
+      "size": 52095,
+      "sha256": "a7c9ab222686c548d817c209003b63b8950e77ca5825fee2613ce88eb3e1c7f6",
+      "name": "libdatrie1",
+      "version": "0.2.13-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libdav1d7-1.5.1-160000.2.2.aarch64.rpm": {
+      "size": 355980,
+      "sha256": "3f7c450d6d2ea78335aaade9bae8950875833e8bc8a56b6e6845a3374f2862d7",
+      "name": "libdav1d7",
+      "version": "1.5.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdbus-1-3-1.14.10-160000.2.2.aarch64.rpm": {
+      "size": 261892,
+      "sha256": "59d3728fdb5d00e400e7eaac43e708a59a85be1b0afcb39198c693dd2a5ae138",
+      "name": "libdbus-1-3",
+      "version": "1.14.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdbusmenu-glib4-16.04.0-160000.2.2.aarch64.rpm": {
+      "size": 69822,
+      "sha256": "fe584539cf99c7f283022b437e5749ccf720b465ef8fd45ef378db08ce8b353c",
+      "name": "libdbusmenu-glib4",
+      "version": "16.04.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdbusmenu-gtk3-4-16.04.0-160000.2.2.aarch64.rpm": {
+      "size": 56124,
+      "sha256": "750bf027b1b41e90becaa89bf44fbd2d7ca5b67551cf02047e1babe2c5d67a73",
+      "name": "libdbusmenu-gtk3-4",
+      "version": "16.04.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdisplay-info2-0.2.0-160000.2.2.aarch64.rpm": {
+      "size": 85250,
+      "sha256": "7785f8187d02c0d1c17b524d4997c75a6a6df786e1dc6b85714e60d319b5119c",
+      "name": "libdisplay-info2",
+      "version": "0.2.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdouble-conversion3-3.3.1-160000.2.2.aarch64.rpm": {
+      "size": 36446,
+      "sha256": "405f3c6d593ba65c428abb3b28794a02666f0b606bf936cfe5f83dd746cfbca5",
+      "name": "libdouble-conversion3",
+      "version": "3.3.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdrm2-2.4.124-160000.3.2.aarch64.rpm": {
+      "size": 111618,
+      "sha256": "30c8a8a1e658326e558d172084ad07a1ddbef7bea2003139e72262b9f2e8e2f1",
+      "name": "libdrm2",
+      "version": "2.4.124-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libdrm_amdgpu1-2.4.124-160000.3.2.aarch64.rpm": {
+      "size": 95702,
+      "sha256": "925a76f83e3906e4617da7bf3e60c4d670a212a0387c4aebeb52b44eb0dce28b",
+      "name": "libdrm_amdgpu1",
+      "version": "2.4.124-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libdrm_radeon1-2.4.124-160000.3.2.aarch64.rpm": {
+      "size": 92635,
+      "sha256": "5aee23541579bc710e51b6950fbbd49212e6d18c77d6e7fe651b295baacdca67",
+      "name": "libdrm_radeon1",
+      "version": "2.4.124-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libduktape207-2.7.0-160000.2.2.aarch64.rpm": {
+      "size": 146437,
+      "sha256": "c6a4db9210422ec635d698e2772176ee7ab758a53d9a2c3259a1a435f6daaa36",
+      "name": "libduktape207",
+      "version": "2.7.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libdw1-0.192-160000.3.1.aarch64.rpm": {
+      "size": 276046,
+      "sha256": "4a7a4d8e3056e68017537976f7a52596ef4ad59f1b9bcdb8ca322701a8e154c5",
+      "name": "libdw1",
+      "version": "0.192-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libebur128-1-1.2.6-160000.3.2.aarch64.rpm": {
+      "size": 22742,
+      "sha256": "20565b0da16a8bd293c221a545a55727aaeaca6efdd145e36fb24447fc6c0d63",
+      "name": "libebur128-1",
+      "version": "1.2.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libedit0-20210910.3.1-160000.2.2.aarch64.rpm": {
+      "size": 109950,
+      "sha256": "fa0559630c49553a52f4cd39ddd070254331506bee9792035f3b478f806f8b89",
+      "name": "libedit0",
+      "version": "20210910.3.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libelf1-0.192-160000.3.1.aarch64.rpm": {
+      "size": 95292,
+      "sha256": "f8099d8ce16b66a0083e9247f3fd1c0cdc2b3c99a77b0db0df6edd95f68f7551",
+      "name": "libelf1",
+      "version": "0.192-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libenchant-2-2-2.8.2-160000.2.2.aarch64.rpm": {
+      "size": 62837,
+      "sha256": "d6e5ad886bf6c30d942fad3f820a1722d53f149d4289b9e3e14259974026e373",
+      "name": "libenchant-2-2",
+      "version": "2.8.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libepoxy0-1.5.10-160000.3.2.aarch64.rpm": {
+      "size": 246568,
+      "sha256": "fce938d720e5588f801e6532a966508f11e9c1461624980d867eeb936af93064",
+      "name": "libepoxy0",
+      "version": "1.5.10-160000.3.2",
+      "arch": "aarch64"
+    },
+    "liberation-fonts-2.1.5-160000.3.2.noarch.rpm": {
+      "size": 1616761,
+      "sha256": "abed148a5d638b6a73c27adaf585ef1611c36dfbbafb9e195072e0e6b32eb288",
+      "name": "liberation-fonts",
+      "version": "2.1.5-160000.3.2",
+      "arch": "noarch"
+    },
+    "libevdev2-1.13.3-160000.2.2.aarch64.rpm": {
+      "size": 45381,
+      "sha256": "d20d1f21ec5b7ac2bdf623b1ce224f30b6de64ffe3dcda70e3893b91fafa171c",
+      "name": "libevdev2",
+      "version": "1.13.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libexif12-0.6.26-160000.1.1.aarch64.rpm": {
+      "size": 520476,
+      "sha256": "104596274877ec514b7a93f6e530d3f271a652a27d62c63939499b246f802db8",
+      "name": "libexif12",
+      "version": "0.6.26-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libexo-2-0-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 140314,
+      "sha256": "251bb47af3eba74339a6c745521a851278da0d95ada903ad5894ba7fa917386d",
+      "name": "libexo-2-0",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "libexpat1-2.8.4-160000.1.1.aarch64.rpm": {
+      "size": 134901,
+      "sha256": "57c68d4bc93c25a161c2f882ab3dac1643df92010d5d7c25a82d1748e145088b",
+      "name": "libexpat1",
+      "version": "2.8.4-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libfdk-aac2-2.0.0-160000.2.2.aarch64.rpm": {
+      "size": 323533,
+      "sha256": "4553c557ee5ee28b736a8a0e7a0fb7f2fc3e503899a003f4d08fb3cdc8410deb",
+      "name": "libfdk-aac2",
+      "version": "2.0.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libffado2-2.4.9-160000.2.2.aarch64.rpm": {
+      "size": 825278,
+      "sha256": "bdb0aee7287f15526b6bfb4885308269394ecae01bba9098c873d99aa545a5cb",
+      "name": "libffado2",
+      "version": "2.4.9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libfftw3-3-3.3.10-160000.2.2.aarch64.rpm": {
+      "size": 1267513,
+      "sha256": "43f0d1484180fb0607fa740d07f7e9579f21382e42bb313e80d3677971209c3a",
+      "name": "libfftw3-3",
+      "version": "3.3.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libfontconfig1-2.16.0-160000.2.2.aarch64.rpm": {
+      "size": 208181,
+      "sha256": "ad4c4482484b625f21f9ee8de272c2cf183adbb1bf1a9bc856202fffa7b8ee69",
+      "name": "libfontconfig1",
+      "version": "2.16.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libfreetype6-2.14.3-160000.1.1.aarch64.rpm": {
+      "size": 612478,
+      "sha256": "682e130bd94e4f166eb66df2353b389f06fb4a12190b215c508a192afea69ccf",
+      "name": "libfreetype6",
+      "version": "2.14.3-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libfribidi0-1.0.15-160000.2.2.aarch64.rpm": {
+      "size": 43591,
+      "sha256": "41c9af4df1f3a995eecf3786f121f3b1cfa27f250d5b6c0596292fd26b97bf14",
+      "name": "libfribidi0",
+      "version": "1.0.15-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libgarcon-1-0-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 81946,
+      "sha256": "f6f09ca049554c36fdfbe1082956c768fd2a259b4001e73e8cb6c1763eb7f7b2",
+      "name": "libgarcon-1-0",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "libgarcon-branding-openSUSE-4.20.0+git1.d2555b3-lp160.5.1.noarch.rpm": {
+      "size": 35630,
+      "sha256": "97afee537b5dacdfc1ebbc62a911306b0dfbca4df242229aa27832377925b05f",
+      "name": "libgarcon-branding-openSUSE",
+      "version": "4.20.0+git1.d2555b3-lp160.5.1",
+      "arch": "noarch"
+    },
+    "libgarcon-data-4.20.0-bp160.1.3.noarch.rpm": {
+      "size": 44727,
+      "sha256": "a02efcf9d7954c036d7855076619c2b4b4d68b74bbf77ed1c065d6929771d663",
+      "name": "libgarcon-data",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "noarch"
+    },
+    "libgbm1-24.3.3-160000.3.1.aarch64.rpm": {
+      "size": 265701,
+      "sha256": "a81fe52af706f89f485ba4dfe71f2591ab4ee39340c3cd6381aa04438c161920",
+      "name": "libgbm1",
+      "version": "24.3.3-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libgdbm6-1.24-160000.2.2.aarch64.rpm": {
+      "size": 61789,
+      "sha256": "cc50926dbe16ea87c3879a6044daf72adbd7e694583dde8fdf54812248f3dcb4",
+      "name": "libgdbm6",
+      "version": "1.24-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libgdbm_compat4-1.24-160000.2.2.aarch64.rpm": {
+      "size": 35089,
+      "sha256": "760939ba6aadbbea581128a8810886576be6dd8ff6851837370e14f2d1d28580",
+      "name": "libgdbm_compat4",
+      "version": "1.24-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libgdk_pixbuf-2_0-0-2.42.12-160000.4.1.aarch64.rpm": {
+      "size": 190809,
+      "sha256": "27aa198d8becd976168909a942e9462b34aaa4eb219c1992005b5bd5a94eedad",
+      "name": "libgdk_pixbuf-2_0-0",
+      "version": "2.42.12-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libgio-2_0-0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 972350,
+      "sha256": "11148f3bae28ea936b395a0657ce04f6137e06274a94dd3363b803497d85a0bd",
+      "name": "libgio-2_0-0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libgirepository-1_0-1-1.84.0-160000.2.2.aarch64.rpm": {
+      "size": 132027,
+      "sha256": "30e926ebfa45be07c4b670b25913123bdc48da0ee3ad2c5786059c910b98d905",
+      "name": "libgirepository-1_0-1",
+      "version": "1.84.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libglibmm-2_4-1-2.66.6-160000.2.2.aarch64.rpm": {
+      "size": 308062,
+      "sha256": "86c706839aa276275c3f95d83dc3997240c6836865e224889f9c0d08bcb28bd6",
+      "name": "libglibmm-2_4-1",
+      "version": "2.66.6-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libglvnd-1.7.0-160000.3.2.aarch64.rpm": {
+      "size": 251933,
+      "sha256": "ea7df256e2a62f8ed90a3ebad8a36a689c10dfc9c32113a621b9b8baaf83cc1e",
+      "name": "libglvnd",
+      "version": "1.7.0-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libgmodule-2_0-0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 326987,
+      "sha256": "cd9cfa2f97dfb7d2b3a384bda9610db6397a79974005f467d3808211ac5b5709",
+      "name": "libgmodule-2_0-0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libgnutls30-3.8.10-160000.5.1.aarch64.rpm": {
+      "size": 1097850,
+      "sha256": "c06bcb18305d38014f1d8b9a51ccfc4aaccf72b062ab2e3a39a458ea94189fa4",
+      "name": "libgnutls30",
+      "version": "3.8.10-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libgobject-2_0-0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 458759,
+      "sha256": "19d71c5a4628a5a8ebf19e5fc059dfc3e53978f05af20c68134d93229819eabc",
+      "name": "libgobject-2_0-0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libgraphene-1_0-0-1.10.8-160000.3.2.aarch64.rpm": {
+      "size": 59703,
+      "sha256": "77d84aca70651d818ec1720eb3394adf5bb15453ed16ef1154fd09b29c038208",
+      "name": "libgraphene-1_0-0",
+      "version": "1.10.8-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libgraphite2-3-1.3.14-160000.3.1.aarch64.rpm": {
+      "size": 71118,
+      "sha256": "f754723249389624662e0f24cf6692034d8b82b700963343334e69b929198e4c",
+      "name": "libgraphite2-3",
+      "version": "1.3.14-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libgstallocators-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 156515,
+      "sha256": "69e164d80f532c483ae0edf4bb4d396004433741c06bf6f79a868d6c03ba3311",
+      "name": "libgstallocators-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstapp-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 173999,
+      "sha256": "3da903b295906bb6bbe809d3e134600240d89cd03493a2fe72828c7b7d4e8d60",
+      "name": "libgstapp-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstaudio-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 326701,
+      "sha256": "b0dda368896be1778aed219712b716b02ea9408066daf8ee48e0c4da06e8647c",
+      "name": "libgstaudio-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstfft-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 158988,
+      "sha256": "996409c2b92b0c964e63273271f48387d77d6bc1be30d9d30f11e67f364be57f",
+      "name": "libgstfft-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstgl-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 351869,
+      "sha256": "39f85af97882fa5e6cac00fab4522b80110d83f1043f37d1b4981cd3e81f4e73",
+      "name": "libgstgl-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstpbutils-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 238800,
+      "sha256": "5a29b944f6bef1e9e0f1dbdfc0397a155e58ddf05190f97e1117edc2e336c5f9",
+      "name": "libgstpbutils-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstplay-1_0-0-1.26.7-160000.4.1.aarch64.rpm": {
+      "size": 224569,
+      "sha256": "46484eb674dcaba5fa9b05b9d0fe08803cdc74db9138e1d679670ca198bafed2",
+      "name": "libgstplay-1_0-0",
+      "version": "1.26.7-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libgstplayer-1_0-0-1.26.7-160000.4.1.aarch64.rpm": {
+      "size": 199167,
+      "sha256": "e73eb1f2e75eef79e3c1ed8e26a75ccc55a7f4d3801c1065f0fb831312ba4387",
+      "name": "libgstplayer-1_0-0",
+      "version": "1.26.7-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libgstreamer-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 959422,
+      "sha256": "62eb6432ea9187a7780e69ebb8619ed2bff9eca7978a8ff8551e9d429885a3be",
+      "name": "libgstreamer-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstriff-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 168515,
+      "sha256": "03ade6a192a6f99437b46b4ce0eb9735179fe6ffa1ea6f5582c40592e6d835ea",
+      "name": "libgstriff-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstrtp-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 207502,
+      "sha256": "7826432965299e66fcbd29f706d3c0041b4ce3eb8427a9f27cecc8eeb79f10e2",
+      "name": "libgstrtp-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstrtsp-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 202237,
+      "sha256": "d30613bf4e2a9e0ffabeebf8d9ffb78fb8896b5ddb9574ef13d12024320b4ad3",
+      "name": "libgstrtsp-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstsdp-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 182731,
+      "sha256": "224a14a20355789fa33480c6a1a02dca1583a6ae0d73c74c315a496ff0dfaa66",
+      "name": "libgstsdp-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgsttag-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 238742,
+      "sha256": "a403a966eefc47d4676816a46fb2d1c0a1ac68a87dc56fd07b041927aa6dc914",
+      "name": "libgsttag-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgstvideo-1_0-0-1.26.7-160000.1.1.aarch64.rpm": {
+      "size": 413441,
+      "sha256": "22b042d8027a1c7cd19434886c997fe3aee87c4f98033721780696c2cac90b5f",
+      "name": "libgstvideo-1_0-0",
+      "version": "1.26.7-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libgtk-3-0-3.24.49+14-160000.2.2.aarch64.rpm": {
+      "size": 3055680,
+      "sha256": "aa150865ca5c40c100a722daaa61428ab9d9fb296985099813bdc2d2b53e24d4",
+      "name": "libgtk-3-0",
+      "version": "3.24.49+14-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libgtk-4-1-4.18.6-160000.2.2.aarch64.rpm": {
+      "size": 3346018,
+      "sha256": "f963300438dc4911b5c777f1454ac66850f5bb48c69d6957ea622fbf36b7c0f4",
+      "name": "libgtk-4-1",
+      "version": "4.18.6-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libgtk-layer-shell0-0.9.2-bp160.1.3.aarch64.rpm": {
+      "size": 69117,
+      "sha256": "4a78657d588f8c0146eead8511adbd56addb0bd1192eedd3695b4bda74757b16",
+      "name": "libgtk-layer-shell0",
+      "version": "0.9.2-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "libgtop-2_0-11-2.41.3+4-160000.3.2.aarch64.rpm": {
+      "size": 68202,
+      "sha256": "54ab013340ab32f4e168654dc4e8cd493f85ed83cce461b5a85ff8701f965457",
+      "name": "libgtop-2_0-11",
+      "version": "2.41.3+4-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libgudev-1_0-0-238-160000.3.2.aarch64.rpm": {
+      "size": 31769,
+      "sha256": "06bb4f62409235d24a2dd5bc4e37cbab3630242d75b0ea383b8efe2a5b8958d7",
+      "name": "libgudev-1_0-0",
+      "version": "238-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libharfbuzz-gobject0-11.4.5-160000.1.1.aarch64.rpm": {
+      "size": 112757,
+      "sha256": "d8857fa41bcddf0f9a612f0fa7b3428e6fbc18c8a2aa9112e2fa700d46804dfd",
+      "name": "libharfbuzz-gobject0",
+      "version": "11.4.5-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libharfbuzz-subset0-11.4.5-160000.1.1.aarch64.rpm": {
+      "size": 557775,
+      "sha256": "83dda6d184b4d454ecbfcf85617c0f6547ff67d4b0c95649f60d4653a248f9dd",
+      "name": "libharfbuzz-subset0",
+      "version": "11.4.5-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libharfbuzz0-11.4.5-160000.1.1.aarch64.rpm": {
+      "size": 606181,
+      "sha256": "d805f19df169e71c350c55be4348157201d6468e08ce1208cf1459f122d119b0",
+      "name": "libharfbuzz0",
+      "version": "11.4.5-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libhogweed6-3.10.1-160000.2.2.aarch64.rpm": {
+      "size": 241244,
+      "sha256": "8516603a852c80707a81d80d750b9a6ddf64440787c9fc486d3f76d2faecceca",
+      "name": "libhogweed6",
+      "version": "3.10.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libhunspell-1_7-0-1.7.2-160000.3.2.aarch64.rpm": {
+      "size": 285421,
+      "sha256": "4fee8e4b7fb89299cebd8a4c6e98623f224cd60ea002568be5ff893ad7b53604",
+      "name": "libhunspell-1_7-0",
+      "version": "1.7.2-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libicu77-77.1-160000.2.2.aarch64.rpm": {
+      "size": 2172484,
+      "sha256": "2b9e540c90dbf9d00ea4e1aae847ffffc2ac71c29863a0c74074ee40283dd762",
+      "name": "libicu77",
+      "version": "77.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libicu77-ledata-77.1-160000.2.2.noarch.rpm": {
+      "size": 8978792,
+      "sha256": "042010f6d5316f280d7b1215a8e3321ffc084621c2b7b2f7922823006ac93cfe",
+      "name": "libicu77-ledata",
+      "version": "77.1-160000.2.2",
+      "arch": "noarch"
+    },
+    "libiec61883-0-1.2.0-160000.2.2.aarch64.rpm": {
+      "size": 39493,
+      "sha256": "8be138ca63ab8f71c3326f76e5e2b4b2bec36fa6177f2c5299991e026dc562a7",
+      "name": "libiec61883-0",
+      "version": "1.2.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libinput10-1.28.1-160000.3.1.aarch64.rpm": {
+      "size": 228875,
+      "sha256": "b8e9c3e748ed7e589ab4c36e6defa363d01717a270d6a01977301e76846e184a",
+      "name": "libinput10",
+      "version": "1.28.1-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libjbig2-2.1-160000.3.2.aarch64.rpm": {
+      "size": 36485,
+      "sha256": "022372b283299d122837a0422dd7c7670f4b5f54ad58a85e50c8940ef8f1a980",
+      "name": "libjbig2",
+      "version": "2.1-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libjpeg8-8.3.2-160000.3.2.aarch64.rpm": {
+      "size": 319629,
+      "sha256": "949d772ff67c2c716640b0c8a4e36a511ba524261a782b20abec337ab9ccf5c5",
+      "name": "libjpeg8",
+      "version": "8.3.2-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libjson-c5-0.17-160000.2.2.aarch64.rpm": {
+      "size": 56564,
+      "sha256": "c1c5624728aeb5f2d93738c18afd85d5d02681adbaea052965acc41c30f32d2b",
+      "name": "libjson-c5",
+      "version": "0.17-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libjson-glib-1_0-0-1.10.6-160000.3.2.aarch64.rpm": {
+      "size": 78613,
+      "sha256": "55ee994ff87d5b3e518a133876afcbe90ac82181be268b8f77698204b74d74a6",
+      "name": "libjson-glib-1_0-0",
+      "version": "1.10.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libkbdfile1-2.7.1-160000.3.1.aarch64.rpm": {
+      "size": 62248,
+      "sha256": "67e2d82f9b99f1d830c07a465693b4f5e518dcba13112a85298e98857f39b5eb",
+      "name": "libkbdfile1",
+      "version": "2.7.1-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libkeybinder-3_0-0-0.3.2-bp160.1.1.aarch64.rpm": {
+      "size": 17612,
+      "sha256": "8274ad42517f619d3f2dab23a319523c83da7924e98d99d3678e8bef40c4ca43",
+      "name": "libkeybinder-3_0-0",
+      "version": "0.3.2-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libkeymap1-2.7.1-160000.3.1.aarch64.rpm": {
+      "size": 107085,
+      "sha256": "bb9aec04c8101fc25d576b48b2da29a1032499dde29e360e3ddc7ee743cffae5",
+      "name": "libkeymap1",
+      "version": "2.7.1-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libkeyutils1-1.6.3-160000.3.2.aarch64.rpm": {
+      "size": 30563,
+      "sha256": "c4b543f302bf4830a3b34dff798e28d4969832a96e95b4b5725318856013e905",
+      "name": "libkeyutils1",
+      "version": "1.6.3-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libkfont0-2.7.1-160000.3.1.aarch64.rpm": {
+      "size": 76478,
+      "sha256": "6f89e674dcd4bf9f55c11658d5fe20b3d05d5f436d51f2eeb4c3dd2857f92b4d",
+      "name": "libkfont0",
+      "version": "2.7.1-160000.3.1",
+      "arch": "aarch64"
+    },
+    "liblc3-1-1.1.1-160000.2.2.aarch64.rpm": {
+      "size": 100279,
+      "sha256": "73521b0afcf94d98727b566e5bae72797ef1137953aaa44920ef02cebe785bf3",
+      "name": "liblc3-1",
+      "version": "1.1.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "liblcms2-2-2.16-160000.5.1.aarch64.rpm": {
+      "size": 177086,
+      "sha256": "5f9fd5b6a8972e66eec43361d7c28fd7d822adc6a7004ddc94a68e8df188485b",
+      "name": "liblcms2-2",
+      "version": "2.16-160000.5.1",
+      "arch": "aarch64"
+    },
+    "libldac2-2.0.2.3-160000.3.2.aarch64.rpm": {
+      "size": 37818,
+      "sha256": "ddd315007af1706b4e18faac0d1d675c06b617991d2b596e1ffcefcaa842e4b5",
+      "name": "libldac2",
+      "version": "2.0.2.3-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libleancrypto1-1.7.2-160000.2.1.aarch64.rpm": {
+      "size": 1217684,
+      "sha256": "28a3b2c4ec3695ee5f5420bd2f6ff7f978be468af9e586f8af1515f7435ee719",
+      "name": "libleancrypto1",
+      "version": "1.7.2-160000.2.1",
+      "arch": "aarch64"
+    },
+    "liblilv-0-0-0.24.24-160000.2.2.aarch64.rpm": {
+      "size": 57721,
+      "sha256": "dc4f455ef25e9056205e93a5cf177c8a14a4f0c2b2beeca3fb0dc1d97af49b91",
+      "name": "liblilv-0-0",
+      "version": "0.24.24-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libltdl7-2.4.7-160000.2.2.aarch64.rpm": {
+      "size": 45087,
+      "sha256": "9187ed664e404f13c46dbcde65980435ade90478df8da6710d88be3e92f2857c",
+      "name": "libltdl7",
+      "version": "2.4.7-160000.2.2",
+      "arch": "aarch64"
+    },
+    "liblz4-1-1.10.0-160000.3.1.aarch64.rpm": {
+      "size": 83120,
+      "sha256": "2925bf3372b9fe6eb80ba176d82ee04faa5be96772ff348ab18e7eca5c854a51",
+      "name": "liblz4-1",
+      "version": "1.10.0-160000.3.1",
+      "arch": "aarch64"
+    },
+    "liblzo2-2-2.10-160000.3.2.aarch64.rpm": {
+      "size": 59947,
+      "sha256": "72389c16453ad8f9c45fc81e91f3cac6a35856a758b88a47c9fd7e38456be037",
+      "name": "liblzo2-2",
+      "version": "2.10-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libmp3lame0-3.100-160000.3.2.aarch64.rpm": {
+      "size": 157996,
+      "sha256": "a02b4d8a42ed192885c2fff39612317fe54be86c830ed8e76858c29c1f4b97e8",
+      "name": "libmp3lame0",
+      "version": "3.100-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libmpdec4-4.0.1-160000.2.2.aarch64.rpm": {
+      "size": 89042,
+      "sha256": "679b5542824f65ca5604029a352304485417f36ed10bfa765ab10934543917c1",
+      "name": "libmpdec4",
+      "version": "4.0.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libmpg123-0-1.32.7-160000.2.2.aarch64.rpm": {
+      "size": 218521,
+      "sha256": "172a6c8c1bc98aeea0ec18a1d7dec0da4858ecd3a84eb74f63656999a6cd4610",
+      "name": "libmpg123-0",
+      "version": "1.32.7-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libmtdev1-1.1.6-160000.3.2.aarch64.rpm": {
+      "size": 18985,
+      "sha256": "714b859fd838f5ddb895eaaae7660dd93fb113c95ae587bbc99da89cd0cb9b5a",
+      "name": "libmtdev1",
+      "version": "1.1.6-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libmysofa1-1.3.2-160000.2.2.aarch64.rpm": {
+      "size": 1162428,
+      "sha256": "bfffec6bbdeaccdf4451202715afd7598a086adc850be9d910f287a4a5272916",
+      "name": "libmysofa1",
+      "version": "1.3.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libnettle8-3.10.1-160000.2.2.aarch64.rpm": {
+      "size": 207897,
+      "sha256": "ab0e1640cd637ece7139b3fbf1134e8d2571a8f3fe78c235a17f16b94e317363",
+      "name": "libnettle8",
+      "version": "3.10.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libnotify4-0.8.4-160000.2.2.aarch64.rpm": {
+      "size": 44960,
+      "sha256": "7cb29e9207f01ef0985640180446cce935788f88423e3c5070df1e4fae32f1c0",
+      "name": "libnotify4",
+      "version": "0.8.4-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libogg0-1.3.5-160000.3.2.aarch64.rpm": {
+      "size": 36250,
+      "sha256": "429551ffd655de75dd28820b6bc171ce2fa013ea02f8932698d3f037cfac5328",
+      "name": "libogg0",
+      "version": "1.3.5-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libopencore-amrnb0-0.1.6-160000.2.2.aarch64.rpm": {
+      "size": 101417,
+      "sha256": "17927f56dd94e7b103f368c33d4ef28e3986fe8fa79e057042ced2ce3bb5de43",
+      "name": "libopencore-amrnb0",
+      "version": "0.1.6-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libopencore-amrwb0-0.1.6-160000.2.2.aarch64.rpm": {
+      "size": 55452,
+      "sha256": "04783d41f8213410be9ec6e7e9a147b1e2c788c6a5e314f468944e10a0b745a7",
+      "name": "libopencore-amrwb0",
+      "version": "0.1.6-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libopus0-1.5.2-160000.2.2.aarch64.rpm": {
+      "size": 226077,
+      "sha256": "d3db95f7a08081dd671bc167ee295537422518b8c3e062ba189075b8a2819846",
+      "name": "libopus0",
+      "version": "1.5.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "liborc-0_4-0-0.4.41-160000.2.2.aarch64.rpm": {
+      "size": 222793,
+      "sha256": "30a0cbb9f29e4d059843c75900d9afb98dc942c11387cbc62d65993df855e255",
+      "name": "liborc-0_4-0",
+      "version": "0.4.41-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpango-1_0-0-1.56.4-160000.2.2.aarch64.rpm": {
+      "size": 360409,
+      "sha256": "ccc5702dda597ffcd1e4a68f2606559d149e221ed76da2b4e263e413e145b3be",
+      "name": "libpango-1_0-0",
+      "version": "1.56.4-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpcre2-16-0-10.45-160000.4.1.aarch64.rpm": {
+      "size": 329001,
+      "sha256": "adbb5f9d40a1e80ae4e45340d07c8ee68527df51a663d1d89440967bf2e63e19",
+      "name": "libpcre2-16-0",
+      "version": "10.45-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libpipewire-0_3-0-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 630032,
+      "sha256": "8834c36d50fd18e7da0af1cf62ecf025b70ab2d91764c277841f6b20e10c5c3a",
+      "name": "libpipewire-0_3-0",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libpixman-1-0-0.43.4-160000.2.2.aarch64.rpm": {
+      "size": 223919,
+      "sha256": "4178a6bca97d1c39b5aa184a34839897a7c38a641b8d79d6e74ce15f640d3ba0",
+      "name": "libpixman-1-0",
+      "version": "0.43.4-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpkgconf5-2.2.0-160000.2.2.aarch64.rpm": {
+      "size": 43147,
+      "sha256": "3d1d7775bd4973b11e3565c81ab8fc9ca897c222abeca2bdcac5565e857d25ed",
+      "name": "libpkgconf5",
+      "version": "2.2.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpng16-16-1.6.59-160000.1.1.aarch64.rpm": {
+      "size": 179760,
+      "sha256": "5faed71c6365b2f6b788c68739e051e8a8938907e6feb728cfab92ac19a01a9d",
+      "name": "libpng16-16",
+      "version": "1.6.59-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libpolkit-agent-1-0-123-160000.3.1.aarch64.rpm": {
+      "size": 48277,
+      "sha256": "e3b1214fccc9cabc10248810a0e45c22c2e4e6a4b4827a66771fca3036f50676",
+      "name": "libpolkit-agent-1-0",
+      "version": "123-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libpolkit-gobject-1-0-123-160000.3.1.aarch64.rpm": {
+      "size": 67738,
+      "sha256": "682892ae02351c802ead6df90cd7e5e00979ac978ae024bbd8048a768c89875f",
+      "name": "libpolkit-gobject-1-0",
+      "version": "123-160000.3.1",
+      "arch": "aarch64"
+    },
+    "libproxy1-0.5.9-160000.2.2.aarch64.rpm": {
+      "size": 39347,
+      "sha256": "6e010c4c9652f380bcc9b25fd622e7875c1f3d61fddd5b739e4cd1ededb91f4a",
+      "name": "libproxy1",
+      "version": "0.5.9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpulse-mainloop-glib0-17.0-160000.2.2.aarch64.rpm": {
+      "size": 77985,
+      "sha256": "7cb0b087641fe0e371c8fc02ad504259f14fe54ef46fd3d96059717fb7cd34bf",
+      "name": "libpulse-mainloop-glib0",
+      "version": "17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpulse0-17.0-160000.2.2.aarch64.rpm": {
+      "size": 334337,
+      "sha256": "e1ce51fcf903689ca61e6211ccb410386a01a2f90c5fb5db87d7b821a53f1659",
+      "name": "libpulse0",
+      "version": "17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpxbackend-1_0-0.5.9-160000.2.2.aarch64.rpm": {
+      "size": 53989,
+      "sha256": "23f311f39f74d7fa413ce30c30a006ddc1b8c8c85310670f42979ddb55224fae",
+      "name": "libpxbackend-1_0",
+      "version": "0.5.9-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libpython3_13-1_0-3.13.14-160000.2.1.aarch64.rpm": {
+      "size": 2162045,
+      "sha256": "66fc4bd8339e8ad34457db3884d58c252ccafc8ce22f28977df980a0f5b87a8d",
+      "name": "libpython3_13-1_0",
+      "version": "3.13.14-160000.2.1",
+      "arch": "aarch64"
+    },
+    "libraw1394-11-2.1.2-160000.2.2.aarch64.rpm": {
+      "size": 34715,
+      "sha256": "9e4fb9f4b0e0f72c2efca4d3dd90b5447339f10b964bbd06a5c066d24d264c94",
+      "name": "libraw1394-11",
+      "version": "2.1.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "librsvg-2-2-2.60.3-160000.1.1.aarch64.rpm": {
+      "size": 1977257,
+      "sha256": "121c95c8a997c6b3e34924c1d7cd2fee9eea7dcc650183556a7da0e9f3d7a961",
+      "name": "librsvg-2-2",
+      "version": "2.60.3-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libsbc1-1.5-160000.2.2.aarch64.rpm": {
+      "size": 34165,
+      "sha256": "b93b6bfc2bfa1b4fa67fc4a5d7a9f607d25ffa15894a16799bd45eadcc78f097",
+      "name": "libsbc1",
+      "version": "1.5-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libseccomp2-2.6.0-160000.2.2.aarch64.rpm": {
+      "size": 76409,
+      "sha256": "a829da2bd34f7f96b72cff06ef656b4431cdd7b7fb732f5e9d940fbda4f73621",
+      "name": "libseccomp2",
+      "version": "2.6.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libserd-0-0-0.32.4-160000.2.2.aarch64.rpm": {
+      "size": 61646,
+      "sha256": "c8b644c12667e515906b2b47ba3d004955eb4e74ce7e19d797b93bb369abfe47",
+      "name": "libserd-0-0",
+      "version": "0.32.4-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libsndfile1-1.2.2-160000.4.1.aarch64.rpm": {
+      "size": 216171,
+      "sha256": "999ece4cf170ae5f1f566b857fff3d16defb0cc574e58a6318f961b48ed02c8f",
+      "name": "libsndfile1",
+      "version": "1.2.2-160000.4.1",
+      "arch": "aarch64"
+    },
+    "libsord-0-0-0.16.18-160000.2.2.aarch64.rpm": {
+      "size": 29230,
+      "sha256": "16de06b23759a96c876ace2e95a057719abe776de752d3949d20ff56193d9ad3",
+      "name": "libsord-0-0",
+      "version": "0.16.18-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libspeex1-1.2.1-160000.2.2.aarch64.rpm": {
+      "size": 62825,
+      "sha256": "cb49ae2cf31f23f648342e6aba03b209167ad80c1b84de688d114afe0e98d3c7",
+      "name": "libspeex1",
+      "version": "1.2.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libsratom-0-0-0.6.14-160000.2.2.aarch64.rpm": {
+      "size": 24583,
+      "sha256": "6cebfb3fcfa0552816fd04a3f642437a5f9fa4b3cb1deb896f753ad3cc181196",
+      "name": "libsratom-0-0",
+      "version": "0.6.14-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libstartup-notification-1-0-0.12-160000.2.2.aarch64.rpm": {
+      "size": 37461,
+      "sha256": "8fa01b01d4caf11ecb24110c5cf25cc3f8a11e5df40b66399504d14cfda2b0e3",
+      "name": "libstartup-notification-1-0",
+      "version": "0.12-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libtag2-2.0.2-160000.2.2.aarch64.rpm": {
+      "size": 391779,
+      "sha256": "517ad4a0fd48ce9fe841a1e637efdf6853985e36b735c6e09392e1c87d6f5b71",
+      "name": "libtag2",
+      "version": "2.0.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libthai-data-0.1.29-160000.3.2.aarch64.rpm": {
+      "size": 162594,
+      "sha256": "c659ff8899822e360f8ab81e1f9143d1fcb14871e4d2aadee8869dc24589de64",
+      "name": "libthai-data",
+      "version": "0.1.29-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libthai0-0.1.29-160000.3.2.aarch64.rpm": {
+      "size": 28064,
+      "sha256": "b6a969b5718087da901f7442d608dc5bc3c33338e3a12411dd979f7999d36a48",
+      "name": "libthai0",
+      "version": "0.1.29-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libtheoradec1-1.1.1-160000.2.2.aarch64.rpm": {
+      "size": 58267,
+      "sha256": "5636fecab6be46e905d215d8613385577a43eff673c241fc61a3133bc87ec0d8",
+      "name": "libtheoradec1",
+      "version": "1.1.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libtheoraenc1-1.1.1-160000.2.2.aarch64.rpm": {
+      "size": 131670,
+      "sha256": "7c5ef17d9ad481928a362b9b2012e3e455fcba74c94a51e00028192285586f90",
+      "name": "libtheoraenc1",
+      "version": "1.1.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libthunarx-3-0-4.20.4-bp160.1.2.aarch64.rpm": {
+      "size": 101269,
+      "sha256": "1df8b52853343a8f82cb82de254d7b43558f6bbd4f381feb5216766a6456499d",
+      "name": "libthunarx-3-0",
+      "version": "4.20.4-bp160.1.2",
+      "arch": "aarch64"
+    },
+    "libtiff6-4.7.2-160000.1.1.aarch64.rpm": {
+      "size": 294069,
+      "sha256": "e15c1f0a73b37a0f6138fc2d7232379c0e4c6fcddb7c68626861f5cfbd96c6ad",
+      "name": "libtiff6",
+      "version": "4.7.2-160000.1.1",
+      "arch": "aarch64"
+    },
+    "libtracker-sparql-3_0-0-3.9.2-160000.2.2.aarch64.rpm": {
+      "size": 305052,
+      "sha256": "fee9edfd3e77e1030e1002b4fcef20b6b252cd483800abc1aca6fc11fabe370c",
+      "name": "libtracker-sparql-3_0-0",
+      "version": "3.9.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libts0-1.22-160000.2.2.aarch64.rpm": {
+      "size": 19273,
+      "sha256": "9f09e8d060fa0f383c8f6a24d322188fc6d2f2ffcd429746ca720c73a7d70f5e",
+      "name": "libts0",
+      "version": "1.22-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libtwolame0-0.4.0-160000.2.2.aarch64.rpm": {
+      "size": 60151,
+      "sha256": "7f726be9eea33fe0efa03742e78c8ce1c7b2ec865dcef64a3d648fdcff20d575",
+      "name": "libtwolame0",
+      "version": "0.4.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libunwind8-1.8.1-160000.2.2.aarch64.rpm": {
+      "size": 79834,
+      "sha256": "a1b1feef70830e9c69138b51cec1b4c653177333cf440fee354d7735d79ea8b9",
+      "name": "libunwind8",
+      "version": "1.8.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libv4l-1.30.1-160000.2.2.aarch64.rpm": {
+      "size": 169186,
+      "sha256": "ec189667f3caf3f2ae377717977f00107cf80df4936eaafb9d27e91ae152b340",
+      "name": "libv4l",
+      "version": "1.30.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libv4l1-0-1.30.1-160000.2.2.aarch64.rpm": {
+      "size": 81544,
+      "sha256": "9be3beb409ddda5acb2f2d66a91a07b235a92a291f84bbc7c72af1f52e0354d4",
+      "name": "libv4l1-0",
+      "version": "1.30.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libv4l2-0-1.30.1-160000.2.2.aarch64.rpm": {
+      "size": 89140,
+      "sha256": "2c7499178dcc953209bf9d87bfd9884a860421f0c407ad84e345f0ec7753031d",
+      "name": "libv4l2-0",
+      "version": "1.30.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libv4lconvert0-1.30.1-160000.2.2.aarch64.rpm": {
+      "size": 137401,
+      "sha256": "81d0ce7cb53558e9b8f0582fdd5eea543d099b4abc638f79664fa2b3bee18b73",
+      "name": "libv4lconvert0",
+      "version": "1.30.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libverto1-0.3.2-160000.2.2.aarch64.rpm": {
+      "size": 19629,
+      "sha256": "446fa6e65709385e38719a13054c17b5837e105f5bdfeace8ec6bd2c2ccb4e45",
+      "name": "libverto1",
+      "version": "0.3.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libvisual-0_4-0-0.4.0-160000.3.2.aarch64.rpm": {
+      "size": 102439,
+      "sha256": "a8b702a77ea32e1d616eb24a0b80eb27821e74358acf81b2a86199941109c493",
+      "name": "libvisual-0_4-0",
+      "version": "0.4.0-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libvorbis0-1.3.7-160000.3.2.aarch64.rpm": {
+      "size": 111011,
+      "sha256": "e6c2ab7e2bf8bc56bdb79642f015258a038d2b6c1166afec1159b4c03ef57ac8",
+      "name": "libvorbis0",
+      "version": "1.3.7-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libvorbisenc2-1.3.7-160000.3.2.aarch64.rpm": {
+      "size": 97456,
+      "sha256": "bf28bc55856bc766fcec68c71e98ebac859fe45c092eacb6a5236addfe0e6acf",
+      "name": "libvorbisenc2",
+      "version": "1.3.7-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libvorbisfile3-1.3.7-160000.3.2.aarch64.rpm": {
+      "size": 35590,
+      "sha256": "1bbe08cf09a5bb68f355368dcf70c68282824f5710ad6130477091126f47b9cf",
+      "name": "libvorbisfile3",
+      "version": "1.3.7-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libvpx9-1.14.1-160000.2.2.aarch64.rpm": {
+      "size": 870670,
+      "sha256": "a07190d1f8f2a39c8507cf9ddaec011e456ae90ddeeddc360fda8581041f60c5",
+      "name": "libvpx9",
+      "version": "1.14.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libvte-2_91-0-0.80.3-160000.2.2.aarch64.rpm": {
+      "size": 550435,
+      "sha256": "0b534e5748d962a56ebb9e29ffab95b7064b467b85ef64a675b83a8bd6ee7096",
+      "name": "libvte-2_91-0",
+      "version": "0.80.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libvulkan1-1.4.309-160000.2.2.aarch64.rpm": {
+      "size": 166759,
+      "sha256": "c31c97383e4eb58f14cc98d748d9c115b880e384396fa77debbf949dee1d731e",
+      "name": "libvulkan1",
+      "version": "1.4.309-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libwacom-data-2.16.1-160000.2.2.aarch64.rpm": {
+      "size": 230728,
+      "sha256": "b855f22f71e324a17d7933533a474048e6560b3fadfc80e47f9805310ec36230",
+      "name": "libwacom-data",
+      "version": "2.16.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libwacom9-2.16.1-160000.2.2.aarch64.rpm": {
+      "size": 61904,
+      "sha256": "270861ec1dc6c6696a80702ee883b81cb0f7e4534f1aacda881f45a7ac99374a",
+      "name": "libwacom9",
+      "version": "2.16.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libwavpack1-5.7.0-160000.2.2.aarch64.rpm": {
+      "size": 94115,
+      "sha256": "2af3e94833449db16e237e567bdc1aaf9a8d32d9d5d3755429c5ea8b1b518350",
+      "name": "libwavpack1",
+      "version": "5.7.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libwayland-client0-1.24.0-160000.1.2.aarch64.rpm": {
+      "size": 48272,
+      "sha256": "de92a82702c3e012a72a84678df894403c84067f0a27a2ce439b6936972b133a",
+      "name": "libwayland-client0",
+      "version": "1.24.0-160000.1.2",
+      "arch": "aarch64"
+    },
+    "libwayland-cursor0-1.24.0-160000.1.2.aarch64.rpm": {
+      "size": 31413,
+      "sha256": "edaa5d6f3995de509a110a4e71aecf759fa207c060f3403ae38327c80e529467",
+      "name": "libwayland-cursor0",
+      "version": "1.24.0-160000.1.2",
+      "arch": "aarch64"
+    },
+    "libwayland-egl1-1.24.0-160000.1.2.aarch64.rpm": {
+      "size": 24790,
+      "sha256": "289009d83d289fa5dc0f9ca2e9401275d0cde7d3328f82b5b54123be64aa7e3a",
+      "name": "libwayland-egl1",
+      "version": "1.24.0-160000.1.2",
+      "arch": "aarch64"
+    },
+    "libwayland-server0-1.24.0-160000.1.2.aarch64.rpm": {
+      "size": 54878,
+      "sha256": "cf6ace31e53f16942f517d4bbcddbfc6b606be201949bcb6a66ea3b168fa0b42",
+      "name": "libwayland-server0",
+      "version": "1.24.0-160000.1.2",
+      "arch": "aarch64"
+    },
+    "libwebrtc-audio-processing-1-3-1.3-160000.2.2.aarch64.rpm": {
+      "size": 397839,
+      "sha256": "cb8de8c38624718155d128c4a423704de86dc034f1be48edcfca131b6f3116fb",
+      "name": "libwebrtc-audio-processing-1-3",
+      "version": "1.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libwireplumber-0_5-0-0.5.10-160000.2.2.aarch64.rpm": {
+      "size": 287577,
+      "sha256": "364fbbed057f8a573f295451f26e599c204dcd4cd730d846ad81295f6ac4ad35",
+      "name": "libwireplumber-0_5-0",
+      "version": "0.5.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libwnck-3-0-43.2-bp160.1.7.aarch64.rpm": {
+      "size": 135011,
+      "sha256": "c5140d76dc799e2eb698b78a01d582f27bf2864918457fc1c1d7cc1365eb8a74",
+      "name": "libwnck-3-0",
+      "version": "43.2-bp160.1.7",
+      "arch": "aarch64"
+    },
+    "libxcb-dri3-0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 26771,
+      "sha256": "c26b92c57ea45001c3752ecfe357c38f631f93696507b3d08ffd952184edd540",
+      "name": "libxcb-dri3-0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-ewmh2-0.4.2-160000.2.2.aarch64.rpm": {
+      "size": 23004,
+      "sha256": "3d4aee1a24b25f69c12e16a690d7dd1df9d07465a3c7f2d7e9cf20e886db53eb",
+      "name": "libxcb-ewmh2",
+      "version": "0.4.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-glx0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 43780,
+      "sha256": "bf75547bec5fa09af7c8ebba579f145d1486c7fabd22857268f8615247e25f00",
+      "name": "libxcb-glx0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-icccm4-0.4.2-160000.2.2.aarch64.rpm": {
+      "size": 14796,
+      "sha256": "a8bcc9f4380f1dd40522805fdd04132be0f61fdb440919c6b44624382d8d5eda",
+      "name": "libxcb-icccm4",
+      "version": "0.4.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-image0-0.4.1-160000.2.2.aarch64.rpm": {
+      "size": 16822,
+      "sha256": "ebaec90775dca544493f960d6d6e6fe0c9bb25974b8a10087ff824bd75d741ed",
+      "name": "libxcb-image0",
+      "version": "0.4.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-imdkit1-1.0.9-bp160.1.14.aarch64.rpm": {
+      "size": 338870,
+      "sha256": "0f2ad0a927e7ccb6c8a900314748b398ff7d64cd3d37be99b0253ff976f5827d",
+      "name": "libxcb-imdkit1",
+      "version": "1.0.9-bp160.1.14",
+      "arch": "aarch64"
+    },
+    "libxcb-keysyms1-0.4.1-160000.2.2.aarch64.rpm": {
+      "size": 12342,
+      "sha256": "f491867f6c6b96499ac0937f12fc1bbacf6b9c87a64911d93bdb2efdf0f53985",
+      "name": "libxcb-keysyms1",
+      "version": "0.4.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-present0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 25511,
+      "sha256": "35c3397a9b4ebfdd48fe4c6cddf5c7ef4a4c6e6784b18b9fe06b317653324bcd",
+      "name": "libxcb-present0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-randr0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 37436,
+      "sha256": "2b59a7c535304ace0c966e54049cf687dc77708c7d2df651560d30838a6be8c7",
+      "name": "libxcb-randr0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-render-util0-0.3.10-160000.2.2.aarch64.rpm": {
+      "size": 14241,
+      "sha256": "424017d1332c40ea9dbbbee769829366591a878e0a689ccad45fe739522bfedc",
+      "name": "libxcb-render-util0",
+      "version": "0.3.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-render0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 35318,
+      "sha256": "a99eb8829be407ad380d94cbaa317d42f7c4261d06188e243956914134b01bca",
+      "name": "libxcb-render0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-shape0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 25542,
+      "sha256": "237e08c4b19511589ad35f565e03c7f5a7c1f6739902079a53e902a9a13c9c35",
+      "name": "libxcb-shape0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-shm0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 25380,
+      "sha256": "72dcbebf193ace92a9ee1ca883c85b719defe73b88e8ce457bbb9fae0b2063ec",
+      "name": "libxcb-shm0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-sync1-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 28865,
+      "sha256": "0ef4d075aa36e935552148961b793f8b4a33d4c426d061ef362e23c2e5974684",
+      "name": "libxcb-sync1",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-util1-0.4.1-160000.2.2.aarch64.rpm": {
+      "size": 16169,
+      "sha256": "a22e4dc1b30fafa7520abb3a6be1868badc1658cab80b4f3364a0a7ad653d27e",
+      "name": "libxcb-util1",
+      "version": "0.4.1-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-xfixes0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 29632,
+      "sha256": "3160c278518baebcdc6cda96729028e900531ce30c85428642742dc6952d80d3",
+      "name": "libxcb-xfixes0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-xinerama0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 25073,
+      "sha256": "139751bbcd63a7208eb8036e05b57bd9619388e3ce5dd842ce331676f98e9865",
+      "name": "libxcb-xinerama0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-xinput0-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 54969,
+      "sha256": "fa8d2dac008f1522921a8143b394cd36edcabae4b39adb0ea9d6d6c55360a440",
+      "name": "libxcb-xinput0",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb-xkb1-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 50787,
+      "sha256": "20bfb73f2eaf99ff77aa6f3d1b19ab1fd9c0a2efc5ec599fc6570a76c26c3df5",
+      "name": "libxcb-xkb1",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxcb1-1.17.0-160000.2.2.aarch64.rpm": {
+      "size": 66535,
+      "sha256": "57a046f8e68ce29e3f700c3b0e6342040de1291139db3fa71ee23a03a58dc485",
+      "name": "libxcb1",
+      "version": "1.17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxfce4kbd-private-3-0-4.20.2-bp160.1.1.aarch64.rpm": {
+      "size": 58257,
+      "sha256": "1fe08d3beb01a68b97f7c494e094f0aacf32e49b1b1a9feab151c7b2c2698da2",
+      "name": "libxfce4kbd-private-3-0",
+      "version": "4.20.2-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libxfce4panel-2_0-4-4.20.5-bp160.1.1.aarch64.rpm": {
+      "size": 98871,
+      "sha256": "50b9920114df12527b722b514dd55df49a1a2b277a19017118e0611131145505",
+      "name": "libxfce4panel-2_0-4",
+      "version": "4.20.5-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libxfce4ui-2-0-4.20.2-bp160.1.1.aarch64.rpm": {
+      "size": 90409,
+      "sha256": "746cc3a14b8bb591d0d73dd879b0bd46b0b4d7a30b07236be0e97a9c986ade77",
+      "name": "libxfce4ui-2-0",
+      "version": "4.20.2-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libxfce4ui-tools-4.20.2-bp160.1.1.aarch64.rpm": {
+      "size": 110362,
+      "sha256": "3f50a789bfbee206bc1619793aa229169783638e3dc2ab2cd1c7bbc4b8cfb61c",
+      "name": "libxfce4ui-tools",
+      "version": "4.20.2-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libxfce4util7-4.20.1-bp160.1.3.aarch64.rpm": {
+      "size": 68387,
+      "sha256": "d8a46e54d59969063d3d417cad00831132340d3bd04ca47bd82b158c51b4c94e",
+      "name": "libxfce4util7",
+      "version": "4.20.1-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "libxfce4windowing-0-0-4.20.4-bp160.1.1.aarch64.rpm": {
+      "size": 100281,
+      "sha256": "92b3d117e8ef390c5a981a48dbe86660794e8876ce691dda5b03b4d76b7b9995",
+      "name": "libxfce4windowing-0-0",
+      "version": "4.20.4-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libxfce4windowingui-0-0-4.20.4-bp160.1.1.aarch64.rpm": {
+      "size": 44177,
+      "sha256": "f7e656cb096bff28c6b0fd05a201a645e8ef71f16c11da1310668f5ab42a9d28",
+      "name": "libxfce4windowingui-0-0",
+      "version": "4.20.4-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "libxfconf-0-3-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 69880,
+      "sha256": "e11267aee64b597f0072a5b4c28f68311e96da9adc0a76475f8bb751f7d0ffac",
+      "name": "libxfconf-0-3",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "libxkbcommon-x11-0-1.8.0-160000.2.2.aarch64.rpm": {
+      "size": 39141,
+      "sha256": "ce5a1cb2a9b7af6793b8ef8f465eaa5ed14e2d97c248f29ae76fd9586dbfc148",
+      "name": "libxkbcommon-x11-0",
+      "version": "1.8.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxkbcommon0-1.8.0-160000.2.2.aarch64.rpm": {
+      "size": 154002,
+      "sha256": "dac45c8b5c25d67ff31ea06918419cdab4cda61c9fa63f9cf88bd033bcfe5804",
+      "name": "libxkbcommon0",
+      "version": "1.8.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxkbfile1-1.1.2-160000.2.2.aarch64.rpm": {
+      "size": 78522,
+      "sha256": "0c844509554a627b6bdacd067104c547aa6834c46dd17b424406f7d6396c1636",
+      "name": "libxkbfile1",
+      "version": "1.1.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxklavier16-5.4-160000.3.2.aarch64.rpm": {
+      "size": 66376,
+      "sha256": "eb8cba7b603eef8fadac9275fecc8bec734cddd56aab83bbd3f4b8e28dab92b2",
+      "name": "libxklavier16",
+      "version": "5.4-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libxml++-3_0-1-3.2.5-160000.2.2.aarch64.rpm": {
+      "size": 115149,
+      "sha256": "78ea973af324c6da0c1c1f30f8b050d87573c48cabaef4a9238deb9c8a557721",
+      "name": "libxml++-3_0-1",
+      "version": "3.2.5-160000.2.2",
+      "arch": "aarch64"
+    },
+    "libxshmfence1-1.3.2-160000.3.2.aarch64.rpm": {
+      "size": 12474,
+      "sha256": "2696887089cbd09849664625a94224cedbf87f1793db825591754f52d51bbc47",
+      "name": "libxshmfence1",
+      "version": "1.3.2-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libyaml-0-2-0.2.5-160000.3.2.aarch64.rpm": {
+      "size": 58552,
+      "sha256": "23eeb1623eb77c8cbf87e407ae61b7d04c5565866f30369f294164a91a326df5",
+      "name": "libyaml-0-2",
+      "version": "0.2.5-160000.3.2",
+      "arch": "aarch64"
+    },
+    "libzix-0-0-0.6.2-160000.2.2.aarch64.rpm": {
+      "size": 32032,
+      "sha256": "e1ec361dd8869fd4b6d2f1fa77b49541067a79048fac7a714c2793f89a59a984",
+      "name": "libzix-0-0",
+      "version": "0.6.2-160000.2.2",
+      "arch": "aarch64"
+    },
+    "metatheme-adwaita-common-3.28-160000.2.2.noarch.rpm": {
+      "size": 55974,
+      "sha256": "6ec330c44d37eeb853f75f6ae7c3b69b231ac78d7e0d91e41d4b1e3b4f6632f1",
+      "name": "metatheme-adwaita-common",
+      "version": "3.28-160000.2.2",
+      "arch": "noarch"
+    },
+    "metatheme-greybird-geeko-common-3.23.4+git0.c1d46c3-bp160.1.2.noarch.rpm": {
+      "size": 190158,
+      "sha256": "36ae17afa898dddcdcef33277b1d447eb6a36d9be076e1d236d1b206ab2833e9",
+      "name": "metatheme-greybird-geeko-common",
+      "version": "3.23.4+git0.c1d46c3-bp160.1.2",
+      "arch": "noarch"
+    },
+    "pam-config-2.13+git.20250715-160000.2.2.aarch64.rpm": {
+      "size": 159190,
+      "sha256": "9556ff85ee50b336cddca4dde4a27e26f8129b180ee8fb6ff4c8fdd3e80fd731",
+      "name": "pam-config",
+      "version": "2.13+git.20250715-160000.2.2",
+      "arch": "aarch64"
+    },
+    "pam-extra-1.7.1-160000.5.1.aarch64.rpm": {
+      "size": 86838,
+      "sha256": "1071b122e8787752b3c3ce3d6c53ea602d088cfe95d068511b2b53d03ee05713",
+      "name": "pam-extra",
+      "version": "1.7.1-160000.5.1",
+      "arch": "aarch64"
+    },
+    "perl-5.42.0-160000.3.1.aarch64.rpm": {
+      "size": 8651501,
+      "sha256": "dec45af1033a7f7c67398035769de6246f7036176af917d40e08bdf1f8a48598",
+      "name": "perl",
+      "version": "5.42.0-160000.3.1",
+      "arch": "aarch64"
+    },
+    "perl-base-5.42.0-160000.3.1.aarch64.rpm": {
+      "size": 1704355,
+      "sha256": "54357f60da83256c05dee5c8ae4ea7d6fba34aad75a8a2b20118cf999e634ba3",
+      "name": "perl-base",
+      "version": "5.42.0-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pipewire-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 416546,
+      "sha256": "39548bc9c4888f7e721a3b173f191c139661bbe389f5a0d51f643f7d11d9c95c",
+      "name": "pipewire",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pipewire-modules-0_3-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 1068342,
+      "sha256": "f3282740cd4b989e9362f8dce273f2b3fe60b55db097702646d10e301ab9f3b0",
+      "name": "pipewire-modules-0_3",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pipewire-pulseaudio-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 537082,
+      "sha256": "0f1e848c5a18ad1cd80415ac655ea25cff82ca47ee9470c031f25ec76789364b",
+      "name": "pipewire-pulseaudio",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pipewire-spa-plugins-0_2-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 1782850,
+      "sha256": "31dd84d14845c057ca6fe53ea1aa565bc88388f2d0b818391bf43f9c569eae56",
+      "name": "pipewire-spa-plugins-0_2",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pipewire-spa-tools-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 737645,
+      "sha256": "c8dd4cc241595e25f15206e6acf59375f2fc9437be6ca8a9c6a05092bcd86419",
+      "name": "pipewire-spa-tools",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pipewire-tools-1.4.6-160000.3.1.aarch64.rpm": {
+      "size": 545038,
+      "sha256": "ac0fbf006174f112769494ecebfb4c845a46bf39ab38fa24fb07093ee97daa42",
+      "name": "pipewire-tools",
+      "version": "1.4.6-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pkgconf-2.2.0-160000.2.2.aarch64.rpm": {
+      "size": 53595,
+      "sha256": "a14405d21522d486da6166dfe0a88750ed6196d5e3ce41149cfc1bb10d01910f",
+      "name": "pkgconf",
+      "version": "2.2.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "pkgconf-m4-2.2.0-160000.2.2.noarch.rpm": {
+      "size": 21435,
+      "sha256": "e4e4eb5dbf88021bb8b89b767b6aedcf950c40df11014eaadd2cd27d160f041d",
+      "name": "pkgconf-m4",
+      "version": "2.2.0-160000.2.2",
+      "arch": "noarch"
+    },
+    "pkgconf-pkg-config-2.2.0-160000.2.2.aarch64.rpm": {
+      "size": 16696,
+      "sha256": "5edeff7327410b26c2952b9d453312943e6601ea72c561017ff983804b441910",
+      "name": "pkgconf-pkg-config",
+      "version": "2.2.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "polkit-123-160000.3.1.aarch64.rpm": {
+      "size": 154691,
+      "sha256": "8b64f293b28330ca1a831aeb07a4be0012af539edd6bbbb2ae18c80139624f9c",
+      "name": "polkit",
+      "version": "123-160000.3.1",
+      "arch": "aarch64"
+    },
+    "pulseaudio-setup-17.0-160000.2.2.aarch64.rpm": {
+      "size": 74964,
+      "sha256": "649ce1745c533c52b9bb79715aac6163418c9b99a4e5360a256a7ba6efa053cf",
+      "name": "pulseaudio-setup",
+      "version": "17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "pulseaudio-utils-17.0-160000.2.2.aarch64.rpm": {
+      "size": 149534,
+      "sha256": "799ecb6f76debe9b609999b809dab2b51371ea0bebaa81d8380829617a1ce187",
+      "name": "pulseaudio-utils",
+      "version": "17.0-160000.2.2",
+      "arch": "aarch64"
+    },
+    "python3-3.13.14-160000.2.1.aarch64.rpm": {
+      "size": 9161,
+      "sha256": "64a028312c9b5dc355d8c4dda459240ce596ab7390eff60fe9c52d394f0ad904",
+      "name": "python3",
+      "version": "3.13.14-160000.2.1",
+      "arch": "aarch64"
+    },
+    "python3-base-3.13.14-160000.2.1.aarch64.rpm": {
+      "size": 12334,
+      "sha256": "9cbc06788872f4a8b8001a2f20c5b9436533e209b3c79f81b553525f9faba8ff",
+      "name": "python3-base",
+      "version": "3.13.14-160000.2.1",
+      "arch": "aarch64"
+    },
+    "python313-3.13.14-160000.2.1.aarch64.rpm": {
+      "size": 593122,
+      "sha256": "fb4bb02c2243f0d9b84d5358d985f605b71fa7bd87880d60b246592d3c8ea2e6",
+      "name": "python313",
+      "version": "3.13.14-160000.2.1",
+      "arch": "aarch64"
+    },
+    "python313-base-3.13.14-160000.2.1.aarch64.rpm": {
+      "size": 9766641,
+      "sha256": "b986d0c7abbc7165145bc2be5da2086b27b9f5698a4f76addf1bee0efe1d9dcd",
+      "name": "python313-base",
+      "version": "3.13.14-160000.2.1",
+      "arch": "aarch64"
+    },
+    "rtkit-0.13-160000.2.2.aarch64.rpm": {
+      "size": 59605,
+      "sha256": "e06a0605ac9e68c52125571c738cd5ec022a9c07acb21feb58e202d72ac88eb1",
+      "name": "rtkit",
+      "version": "0.13-160000.2.2",
+      "arch": "aarch64"
+    },
+    "shared-mime-info-2.4-160000.2.2.aarch64.rpm": {
+      "size": 353650,
+      "sha256": "15314f9046bb2afca5580d0d0abfd915df5b495a4709cb6dee638889c367fd5c",
+      "name": "shared-mime-info",
+      "version": "2.4-160000.2.2",
+      "arch": "aarch64"
+    },
+    "system-user-lp-20170617-160000.2.2.noarch.rpm": {
+      "size": 12940,
+      "sha256": "6421e79684d3b4c416c7e391e7d76769eed67729668281ea5d06a089d1a0c054",
+      "name": "system-user-lp",
+      "version": "20170617-160000.2.2",
+      "arch": "noarch"
+    },
+    "systemd-257.13-160000.4.1.aarch64.rpm": {
+      "size": 4792215,
+      "sha256": "8537c1d90cbea9a25d982d83145de6131c5fd9df7f13751e80986f234476e0c3",
+      "name": "systemd",
+      "version": "257.13-160000.4.1",
+      "arch": "aarch64"
+    },
+    "systemd-default-settings-0.10-160000.2.2.noarch.rpm": {
+      "size": 11778,
+      "sha256": "884c7c22fe1f83b59425a296e04742d963cd8635375bf02308448797dc6397bd",
+      "name": "systemd-default-settings",
+      "version": "0.10-160000.2.2",
+      "arch": "noarch"
+    },
+    "systemd-default-settings-branding-openSUSE-0.10-160000.2.2.noarch.rpm": {
+      "size": 9736,
+      "sha256": "40d941aba54697f48711a5e679e93f9be92f3bddbac27b3f502779e3d10f8cf9",
+      "name": "systemd-default-settings-branding-openSUSE",
+      "version": "0.10-160000.2.2",
+      "arch": "noarch"
+    },
+    "systemd-presets-branding-openSUSE-12.2-lp160.7.1.noarch.rpm": {
+      "size": 19693,
+      "sha256": "41b06eb5c4d9eb69d1d5d1d3e450e2f1ea69b3ffed9259936b219466d23cf4d7",
+      "name": "systemd-presets-branding-openSUSE",
+      "version": "12.2-lp160.7.1",
+      "arch": "noarch"
+    },
+    "systemd-presets-common-SUSE-15-160000.2.2.noarch.rpm": {
+      "size": 26510,
+      "sha256": "7d4c1e8f66ec3612d4197f7c6973c7c467d47bdcde99cd05f6b80c736a03bb2b",
+      "name": "systemd-presets-common-SUSE",
+      "version": "15-160000.2.2",
+      "arch": "noarch"
+    },
+    "thunar-4.20.4-bp160.1.2.aarch64.rpm": {
+      "size": 574117,
+      "sha256": "4733ceb766035aaebf1253b4d048542fe99c197540e79f1a80981b7990224615",
+      "name": "thunar",
+      "version": "4.20.4-bp160.1.2",
+      "arch": "aarch64"
+    },
+    "thunar-volman-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 64486,
+      "sha256": "97fc1cdfe47ac8e178487e3a802b088dd1259196789bb84d3b3888c6992a2f04",
+      "name": "thunar-volman",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-AppIndicator3-0_1-12.10.1~bzr20200706.298-160000.2.2.aarch64.rpm": {
+      "size": 26526,
+      "sha256": "b44066ff0e82839856c35c08cc30775a5953fb6c06a7e0565e678bf42bd16f78",
+      "name": "typelib-1_0-AppIndicator3-0_1",
+      "version": "12.10.1~bzr20200706.298-160000.2.2",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-Atk-1_0-2.56.3-160000.2.2.aarch64.rpm": {
+      "size": 82429,
+      "sha256": "99928548a85f983e7aa15f4b9e719ff3d98c28c20dda1032d33c605d2a552e2d",
+      "name": "typelib-1_0-Atk-1_0",
+      "version": "2.56.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-GLib-2_0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 374289,
+      "sha256": "b4cb5ce61da534b3fb791e770e58c2678759cb8737b6d7e9e81eceb3fb9aa54b",
+      "name": "typelib-1_0-GLib-2_0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-GModule-2_0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 312928,
+      "sha256": "e938de5add6320a9dbc85577c1b7380b078b7c8fb75baa07cd0e826d3e5762ef",
+      "name": "typelib-1_0-GModule-2_0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-GObject-2_0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 328769,
+      "sha256": "888750747d11d4df3f71d12de55758b9a27cba66a16c6c02094c90dfa2d9d8b0",
+      "name": "typelib-1_0-GObject-2_0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-GdkPixbuf-2_0-2.42.12-160000.4.1.aarch64.rpm": {
+      "size": 49861,
+      "sha256": "c3152522e7f310a584ac1d240ae0b452b84fffad1fe0964a2829b1c4f6bad897",
+      "name": "typelib-1_0-GdkPixbuf-2_0",
+      "version": "2.42.12-160000.4.1",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-Gio-2_0-2.84.4-160000.5.1.aarch64.rpm": {
+      "size": 402705,
+      "sha256": "24d903790ea860411c3b994482448d16c322ef0b3e552d5da65e681e7d4a0fe0",
+      "name": "typelib-1_0-Gio-2_0",
+      "version": "2.84.4-160000.5.1",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-Gtk-3_0-3.24.49+14-160000.2.2.aarch64.rpm": {
+      "size": 447140,
+      "sha256": "8ac7a6cf751184c0d90fa8ae0d759bb5197644eaedfb81e8deb9dc2120d78ec5",
+      "name": "typelib-1_0-Gtk-3_0",
+      "version": "3.24.49+14-160000.2.2",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-HarfBuzz-0_0-11.4.5-160000.1.1.aarch64.rpm": {
+      "size": 124056,
+      "sha256": "ab5a283643321c41368f8a5c9ae25faee84f5c7d2a8b69b4ba963ef34bd5ce79",
+      "name": "typelib-1_0-HarfBuzz-0_0",
+      "version": "11.4.5-160000.1.1",
+      "arch": "aarch64"
+    },
+    "typelib-1_0-Pango-1_0-1.56.4-160000.2.2.aarch64.rpm": {
+      "size": 109119,
+      "sha256": "8042d9693acbc9099834d7e61c946368a611601e0da5f54cd3d356fdaecf2de4",
+      "name": "typelib-1_0-Pango-1_0",
+      "version": "1.56.4-160000.2.2",
+      "arch": "aarch64"
+    },
+    "update-alternatives-1.22.21-160000.3.1.aarch64.rpm": {
+      "size": 148032,
+      "sha256": "ec646a027b3571a718043ae6e25a5605442a4c71b7c1b90fda3c1b8b06bbb320",
+      "name": "update-alternatives",
+      "version": "1.22.21-160000.3.1",
+      "arch": "aarch64"
+    },
+    "wallpaper-branding-openSUSE-16.0.20240405-lp160.10.1.noarch.rpm": {
+      "size": 263715,
+      "sha256": "ac31e59e16a7264d7bcf870fc2ee1f21d152b096ac77f868ca08e8ff11aad8e1",
+      "name": "wallpaper-branding-openSUSE",
+      "version": "16.0.20240405-lp160.10.1",
+      "arch": "noarch"
+    },
+    "wireplumber-0.5.10-160000.2.2.aarch64.rpm": {
+      "size": 323942,
+      "sha256": "dd3b38e7932db356da9ded7a108232aace6e5fdfb6ed4aa6618a1792a079afb5",
+      "name": "wireplumber",
+      "version": "0.5.10-160000.2.2",
+      "arch": "aarch64"
+    },
+    "xauth-1.1.3-160000.2.2.aarch64.rpm": {
+      "size": 55295,
+      "sha256": "2168cb0fc83ba6a0c6ae8f792bede436a3863a9e0b9caede86792b5cb73097ab",
+      "name": "xauth",
+      "version": "1.1.3-160000.2.2",
+      "arch": "aarch64"
+    },
+    "xfce4-appfinder-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 110643,
+      "sha256": "b1bd8a517fe80a2c98d2d2ba05c74028fc14963f4855963e840f0e2cba31c024",
+      "name": "xfce4-appfinder",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "xfce4-panel-4.20.5-bp160.1.1.aarch64.rpm": {
+      "size": 622042,
+      "sha256": "d7169175cf3e78ecab5f7e306d1eb6827c0499388e1a6f96049c880e5b31878e",
+      "name": "xfce4-panel",
+      "version": "4.20.5-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "xfce4-panel-branding-openSUSE-4.20.0+git1.d2555b3-lp160.5.1.noarch.rpm": {
+      "size": 57857,
+      "sha256": "f36548b3a70140022f2b563c2477b6c8fc531c04320058868bfdd85d11b4677c",
+      "name": "xfce4-panel-branding-openSUSE",
+      "version": "4.20.0+git1.d2555b3-lp160.5.1",
+      "arch": "noarch"
+    },
+    "xfce4-pulseaudio-plugin-0.5.1-bp160.1.3.aarch64.rpm": {
+      "size": 91646,
+      "sha256": "c288a76a08e96aa5086b56779f8dad50bd365e2eb46e0fb302ce7841b89fdb7b",
+      "name": "xfce4-pulseaudio-plugin",
+      "version": "0.5.1-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "xfce4-session-4.20.3-bp160.1.1.aarch64.rpm": {
+      "size": 279172,
+      "sha256": "d612cd5759d6045006d748cfefcc1d369d6478d4ff597cd53fdf1ebcdfd45f68",
+      "name": "xfce4-session",
+      "version": "4.20.3-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "xfce4-session-branding-openSUSE-4.20.0+git1.d2555b3-lp160.5.1.noarch.rpm": {
+      "size": 39166,
+      "sha256": "fc296fc8ef502b64b5480c3169bc7621a14a2268f9ef5fa2ac4e6d69ff3d3d4c",
+      "name": "xfce4-session-branding-openSUSE",
+      "version": "4.20.0+git1.d2555b3-lp160.5.1",
+      "arch": "noarch"
+    },
+    "xfce4-settings-4.20.2-bp160.1.1.aarch64.rpm": {
+      "size": 564860,
+      "sha256": "7f0048926b649fb4500e9b79d55485fddeabf0d3b5642dc485bc4483772ebdb3",
+      "name": "xfce4-settings",
+      "version": "4.20.2-bp160.1.1",
+      "arch": "aarch64"
+    },
+    "xfce4-settings-branding-openSUSE-4.20.0+git1.d2555b3-lp160.5.1.noarch.rpm": {
+      "size": 36657,
+      "sha256": "44a7be86c2f1e768a31bc4d3fd3ee4d921b27216b8daefb32973f65a600e7009",
+      "name": "xfce4-settings-branding-openSUSE",
+      "version": "4.20.0+git1.d2555b3-lp160.5.1",
+      "arch": "noarch"
+    },
+    "xfce4-terminal-1.1.5-bp160.1.3.aarch64.rpm": {
+      "size": 210467,
+      "sha256": "52198d1156e6be87cf906b53db8095d96da1d59cf4a2b99b72c22c5be3361113",
+      "name": "xfce4-terminal",
+      "version": "1.1.5-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "xfce4-whiskermenu-plugin-2.10.0-bp160.1.4.aarch64.rpm": {
+      "size": 168851,
+      "sha256": "116fda8f707806759b74a83ed5d154076e5cc80736eadd24be8b01122f896c1f",
+      "name": "xfce4-whiskermenu-plugin",
+      "version": "2.10.0-bp160.1.4",
+      "arch": "aarch64"
+    },
+    "xfconf-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 81190,
+      "sha256": "a290a12453391f4b9dd3b106a4ac008004216296e31840d36d81dcd2a60e70d6",
+      "name": "xfconf",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "xfdesktop-4.20.1-bp160.2.1.aarch64.rpm": {
+      "size": 1242074,
+      "sha256": "9a4fa147a44a4c9c79432e636a841c4610a2a8c27259e603d3243da9babc0a2d",
+      "name": "xfdesktop",
+      "version": "4.20.1-bp160.2.1",
+      "arch": "aarch64"
+    },
+    "xfdesktop-branding-openSUSE-4.20.0+git1.d2555b3-lp160.5.1.noarch.rpm": {
+      "size": 35445,
+      "sha256": "6ac82d06ba5da1a52e3035b492dc71e636b6a4cfa1a39b4c73beade6b9a8f004",
+      "name": "xfdesktop-branding-openSUSE",
+      "version": "4.20.0+git1.d2555b3-lp160.5.1",
+      "arch": "noarch"
+    },
+    "xfwm4-4.20.0-bp160.1.3.aarch64.rpm": {
+      "size": 478458,
+      "sha256": "abd99a29421ac64cfd4a16840aef1d671209c40f73587d05eb6b37d6afc5f3f6",
+      "name": "xfwm4",
+      "version": "4.20.0-bp160.1.3",
+      "arch": "aarch64"
+    },
+    "xkeyboard-config-2.44-160000.2.2.noarch.rpm": {
+      "size": 466400,
+      "sha256": "a8a72d8b6136158e69e35aee355878b97cf2f4a4ff94bbaac4f82f4f4c1a0ea6",
+      "name": "xkeyboard-config",
+      "version": "2.44-160000.2.2",
+      "arch": "noarch"
+    },
+    "xprop-1.2.8-160000.2.2.aarch64.rpm": {
+      "size": 50667,
+      "sha256": "4e975f4790d95a9527a5f22b3617ac7e82c97ad9cff11f0d67a21663fef412aa",
+      "name": "xprop",
+      "version": "1.2.8-160000.2.2",
+      "arch": "aarch64"
+    },
+    "xwininfo-1.1.6-bp160.1.12.aarch64.rpm": {
+      "size": 45787,
+      "sha256": "843c0a73847df7048baffa962acc42aa1d6bf2cba44c07cf061bcbf9a6c47977",
+      "name": "xwininfo",
+      "version": "1.1.6-bp160.1.12",
+      "arch": "aarch64"
+    }
+  },
+  "scope": "Mandatory desktop/runtime package closure only; ordinary recommended applications are separate."
+}

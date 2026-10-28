@@ -1,0 +1,83 @@
+{
+  "kind": "native dependency planning/download-only evidence",
+  "targets": [
+    {
+      "target": "termux",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-termux.log"
+    },
+    {
+      "target": "ubuntu",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-ubuntu.log"
+    },
+    {
+      "target": "debian",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-debian.log"
+    },
+    {
+      "target": "kali",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-kali.log"
+    },
+    {
+      "target": "alpine",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-alpine.log"
+    },
+    {
+      "target": "fedora",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-fedora.log"
+    },
+    {
+      "target": "opensuse",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-opensuse.log"
+    },
+    {
+      "target": "void",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-void.log"
+    },
+    {
+      "target": "archlinux",
+      "exit": 0,
+      "kind": "native guest pacman and matching glibc loader; explicit disposable root/db/cache/log, print mode only; package signatures separately verified by gpgv"
+    },
+    {
+      "target": "manjaro",
+      "exit": 0,
+      "kind": "native guest pacman and matching glibc loader; explicit disposable root/db/cache/log, print mode only; package signatures separately verified by gpgv"
+    },
+    {
+      "target": "host-audio",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-host-audio.log"
+    },
+    {
+      "target": "host-virgl",
+      "exit": 0,
+      "kind": "native dependency solver simulation; no package installation",
+      "log": "offline-host-virgl.log"
+    }
+  ],
+  "limitations": [
+    "No package installation or installed phone rootfs modification was performed.",
+    "Pacman uses the native guest ARM64 executable and matching glibc loader with explicit disposable root, DB, cache, log and keyring. The verification-only config removes DownloadUser because host NSS differs; signature enforcement remains enabled. Each package also passed host gpgv verification with official public keyrings.",
+    "Fedora uses local-file download-only mode with external repositories disabled; this is a dependency plan, not execution of package scripts.",
+    "openSUSE dry-run resolved dependencies; its dry-run did not validate installed-file conflict lists for the 375 new packages. Real installation remains a device check.",
+    "Native proot-distro extraction-library checks passed for nine base images. The public CLI could not be exercised inside the existing outer proot; do not equate this with a clean-device installation test.",
+    "Clean-device installation, launch/rendering, keyboard/permissions and simultaneous new Kali/Manjaro sessions remain unverified."
+  ]
+}

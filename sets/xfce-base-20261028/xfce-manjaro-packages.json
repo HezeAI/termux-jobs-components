@@ -1,0 +1,2685 @@
+{
+  "version": "xfce-base-20261028",
+  "target": "manjaro",
+  "manager": "pacman",
+  "baseImageSha256": "1ae540a80e21e1ca55e0576df9618fd2865cf4596b8204d20780f225aca5164a",
+  "files": {
+    "aalib-1.4rc5-17-aarch64.pkg.tar.xz": {
+      "size": 136408,
+      "sha256": "157d0421afd808ee4efe66e540f455b3749c6b5782b311ea7f89aac3320e6659",
+      "name": "aalib",
+      "version": "1.4rc5-17",
+      "arch": "aarch64"
+    },
+    "aalib-1.4rc5-17-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "aabfee8fc57624e0795b29f4aac78de56937c4c5ca394267b3d7e3ef712cfc9c",
+      "kind": "repository-metadata"
+    },
+    "adobe-source-code-pro-fonts-2.042u+1.062i+1.026vf-1-any.pkg.tar.xz": {
+      "size": 877708,
+      "sha256": "7331c742070ce793579f2d07c9b02eb2fce8097af323213cb5dc2b2cd3e4d8b9",
+      "name": "adobe-source-code-pro-fonts",
+      "version": "2.042u+1.062i+1.026vf-1",
+      "arch": "any"
+    },
+    "adobe-source-code-pro-fonts-2.042u+1.062i+1.026vf-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "34f7e15f1e2e59c22cff6bce4752edd5a97eb6ee2649ff53447d108c6b3f37df",
+      "kind": "repository-metadata"
+    },
+    "adwaita-cursors-45.0-1-any.pkg.tar.xz": {
+      "size": 444776,
+      "sha256": "5e62c687f951f7703e62af724a86ee221ed629b02a9cfaba6f078297ecbb928f",
+      "name": "adwaita-cursors",
+      "version": "45.0-1",
+      "arch": "any"
+    },
+    "adwaita-cursors-45.0-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8adde93c98e9951e6abc8041398062e805c18bb73fa340c20d34862483a164ac",
+      "kind": "repository-metadata"
+    },
+    "adwaita-icon-theme-45.0-1-any.pkg.tar.xz": {
+      "size": 219568,
+      "sha256": "718e3af7e6536a99e4c5cc845cfa438088883e2dd151474e2afb474462b2ee5e",
+      "name": "adwaita-icon-theme",
+      "version": "45.0-1",
+      "arch": "any"
+    },
+    "adwaita-icon-theme-45.0-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c2c31c8d9728b2f0434eedc561a0b46cfae4827038e59f7807f087a90f287eab",
+      "kind": "repository-metadata"
+    },
+    "alsa-lib-1.2.11-1-aarch64.pkg.tar.xz": {
+      "size": 450520,
+      "sha256": "5e054319dc60db4c496fd79f1731df6fe62e59c4db4b498e018139c394983862",
+      "name": "alsa-lib",
+      "version": "1.2.11-1",
+      "arch": "aarch64"
+    },
+    "alsa-lib-1.2.11-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "201546c5b47bcb8893ff8bfb5ad79726c9d398c6c48255b37d7bd0d8d978484f",
+      "kind": "repository-metadata"
+    },
+    "alsa-topology-conf-1.2.5.1-3-any.pkg.tar.xz": {
+      "size": 13580,
+      "sha256": "9db2ea5ff036dd6385b05e8be97e934eadf3967d5cd06471c92b657756a45323",
+      "name": "alsa-topology-conf",
+      "version": "1.2.5.1-3",
+      "arch": "any"
+    },
+    "alsa-topology-conf-1.2.5.1-3-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "47b8e08433efd997cecf399d0dc9c7331e6cbd5e0cd20787a7b277d134557416",
+      "kind": "repository-metadata"
+    },
+    "alsa-ucm-conf-1.2.11-1-any.pkg.tar.xz": {
+      "size": 89836,
+      "sha256": "adefc78294a3f475ec9d31fe1f6b199f507de9168b209f9935aae141f20e3ec7",
+      "name": "alsa-ucm-conf",
+      "version": "1.2.11-1",
+      "arch": "any"
+    },
+    "alsa-ucm-conf-1.2.11-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "4ed6e4c6cc8ce075aed5ad0e925d26e546422d14b23d8e7f1b0528f65810a396",
+      "kind": "repository-metadata"
+    },
+    "argon2-20190702-5-aarch64.pkg.tar.xz": {
+      "size": 30560,
+      "sha256": "755eeb69535595310877dd645da9aefd265bea6b6649a9742b74f785cc4918e7",
+      "name": "argon2",
+      "version": "20190702-5",
+      "arch": "aarch64"
+    },
+    "argon2-20190702-5-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "f814736d95a3429b9e3599566616ac96b7db24cab7e333177921272c0e66b96f",
+      "kind": "repository-metadata"
+    },
+    "at-spi2-core-2.50.1-1-aarch64.pkg.tar.xz": {
+      "size": 523196,
+      "sha256": "ff2e73a531a306c40660706a4dc316ade25f28a7fd5d6c3c6baee375f6c0d17c",
+      "name": "at-spi2-core",
+      "version": "2.50.1-1",
+      "arch": "aarch64"
+    },
+    "at-spi2-core-2.50.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bee038eb86bb295c0ee98dd2c6468e0f28ac91d5b2a0a72c0ce7cf2b06a2b273",
+      "kind": "repository-metadata"
+    },
+    "avahi-1:0.8+r194+g3f79789-1-aarch64.pkg.tar.xz": {
+      "size": 400996,
+      "sha256": "7a66c94fd6546dfe9d068a31eb1cb3a8f78ad142672179fe63b789bd56b4cf44",
+      "name": "avahi",
+      "version": "1:0.8+r194+g3f79789-1",
+      "arch": "aarch64"
+    },
+    "avahi-1:0.8+r194+g3f79789-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "89c05877956df1b3e55a2b57cac830be5856a511af0f6d6faa47f17b3b18fb31",
+      "kind": "repository-metadata"
+    },
+    "ca-certificates-20220905-1-any.pkg.tar.xz": {
+      "size": 2068,
+      "sha256": "917ad9591bfe460bd5f800fc0aa1e56a3b378ced883a1e7121f0986977f49c58",
+      "name": "ca-certificates",
+      "version": "20220905-1",
+      "arch": "any"
+    },
+    "ca-certificates-20220905-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "9d0f29ad3394330e6b8b3e680293014a315fb16af012e84b9df3c582fe055580",
+      "kind": "repository-metadata"
+    },
+    "ca-certificates-utils-20220905-1-any.pkg.tar.xz": {
+      "size": 10252,
+      "sha256": "5e19e1f589b857ea382e2edd55c72002ba15f3a46379f39e3721965269cb4fb0",
+      "name": "ca-certificates-utils",
+      "version": "20220905-1",
+      "arch": "any"
+    },
+    "ca-certificates-utils-20220905-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "02e62304e4805be377d7f3998bea6ea328ea2dd0def44e8abf25c64b218288e6",
+      "kind": "repository-metadata"
+    },
+    "cairo-1.18.0-1-aarch64.pkg.tar.xz": {
+      "size": 580692,
+      "sha256": "a31fcfe274a12bda3cc010209175980f0fad111277dab43c099c9a43ef4e3744",
+      "name": "cairo",
+      "version": "1.18.0-1",
+      "arch": "aarch64"
+    },
+    "cairo-1.18.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6b07be01289cf2bf577b7f593deac44e296f1f9cf7548e333c466995543fe654",
+      "kind": "repository-metadata"
+    },
+    "cantarell-fonts-1:0.303.1-1-any.pkg.tar.xz": {
+      "size": 105196,
+      "sha256": "929136c10673c19537e3a567e0fd7700cfda825dfa2a5bc7bcb45f3db22773f1",
+      "name": "cantarell-fonts",
+      "version": "1:0.303.1-1",
+      "arch": "any"
+    },
+    "cantarell-fonts-1:0.303.1-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "079bc99f998970994f68e679c8bc5ae74c65cef6137ef0faf4b870f22dd01fb5",
+      "kind": "repository-metadata"
+    },
+    "colord-1.4.7-2-aarch64.pkg.tar.xz": {
+      "size": 1476800,
+      "sha256": "18f8a3fe2c2d5d7d73d2ceff8ec0a67be0909da04c4a4e95a9381731771cd70b",
+      "name": "colord",
+      "version": "1.4.7-2",
+      "arch": "aarch64"
+    },
+    "colord-1.4.7-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "be7ca51a71cf651a9c265e51c65c8026596676aad8201ac33cf2aab91eabe523",
+      "kind": "repository-metadata"
+    },
+    "cryptsetup-2.7.0-1-aarch64.pkg.tar.xz": {
+      "size": 712296,
+      "sha256": "7c0a48e64f7175e6818eabad9b0b4dbe4f811562c580721a4ce8f71f36e9a0b2",
+      "name": "cryptsetup",
+      "version": "2.7.0-1",
+      "arch": "aarch64"
+    },
+    "cryptsetup-2.7.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "15ae1041227e528399f78db6ff9a55094c8032cd4850204a2c00130f80c213c5",
+      "kind": "repository-metadata"
+    },
+    "dbus-1.14.10-2-aarch64.pkg.tar.xz": {
+      "size": 298556,
+      "sha256": "fa9ce0cfe6427f4664054f3548ab55421ef9032caf22ac146273e2c1cdefbd09",
+      "name": "dbus",
+      "version": "1.14.10-2",
+      "arch": "aarch64"
+    },
+    "dbus-1.14.10-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "56521e6449807113d1f3b051bc537a7a7b2314e4a325d1b25678bf4bd1aa0bd3",
+      "kind": "repository-metadata"
+    },
+    "dbus-broker-35-2-aarch64.pkg.tar.xz": {
+      "size": 134020,
+      "sha256": "0c3af6b13d13c50d4d2de4da16e5fc3cfc0aa58d20183fe3a9980b0e63294aa5",
+      "name": "dbus-broker",
+      "version": "35-2",
+      "arch": "aarch64"
+    },
+    "dbus-broker-35-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e6f0e621a3c007b7cf14eaf65dacf8c85000735455d0ed24a8da6abd51a32360",
+      "kind": "repository-metadata"
+    },
+    "dbus-broker-units-35-2-aarch64.pkg.tar.xz": {
+      "size": 2416,
+      "sha256": "041cc122be394f1a7ced437de0932ac11bc8adefdbfc3ef8bc7fe736d2dcec0b",
+      "name": "dbus-broker-units",
+      "version": "35-2",
+      "arch": "aarch64"
+    },
+    "dbus-broker-units-35-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8c9923e423354aba2cb24d31a18dc2d3b3c4cf855a38aecaad3e064197310794",
+      "kind": "repository-metadata"
+    },
+    "dconf-0.40.0-2-aarch64.pkg.tar.xz": {
+      "size": 100408,
+      "sha256": "7ce0c7b1b706532fa8b7a1ac242304e27a2c7dfbc8af6d1d72cdf658d2278a7c",
+      "name": "dconf",
+      "version": "0.40.0-2",
+      "arch": "aarch64"
+    },
+    "dconf-0.40.0-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "828534a7fdc0fc9674c3a5dd12bd6cd4635885d39f97a6b12ff835212f66c9fb",
+      "kind": "repository-metadata"
+    },
+    "default-cursors-2-1-any.pkg.tar.xz": {
+      "size": 2252,
+      "sha256": "b4931060ef912320df7bce421049e274006d600d7aaa737f8ff150a7bb60b60e",
+      "name": "default-cursors",
+      "version": "2-1",
+      "arch": "any"
+    },
+    "default-cursors-2-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "77e7ab51eab5e4608c0df6756bae2eff67e6dd702295d61e5c4b7f9a68f9e7b8",
+      "kind": "repository-metadata"
+    },
+    "desktop-file-utils-0.27-1-aarch64.pkg.tar.xz": {
+      "size": 43332,
+      "sha256": "82e75a8c2c586b7d165ee5e5eabaabc03a31454d21d63c6a1a7ebcad66199bdf",
+      "name": "desktop-file-utils",
+      "version": "0.27-1",
+      "arch": "aarch64"
+    },
+    "desktop-file-utils-0.27-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6e14bafe39cf155e004ae67a4a7ba1ec94e35db3c905d061bd967f2132eb46f3",
+      "kind": "repository-metadata"
+    },
+    "device-mapper-2.03.23-1-aarch64.pkg.tar.xz": {
+      "size": 258276,
+      "sha256": "392c3a17508d4c6273d071e092deac97774a14e9360bf2486e3ec4124407d5c3",
+      "name": "device-mapper",
+      "version": "2.03.23-1",
+      "arch": "aarch64"
+    },
+    "device-mapper-2.03.23-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "fd60a629098c07316f7e972e6bdf5dd11b4fbb85b166470d574ffdd038e5de23",
+      "kind": "repository-metadata"
+    },
+    "double-conversion-3.3.0-1-aarch64.pkg.tar.xz": {
+      "size": 51024,
+      "sha256": "081660ff90b9cf84fa0dc93f502406ff3f98fa4f634eca60d677c3ea12c7d8d6",
+      "name": "double-conversion",
+      "version": "3.3.0-1",
+      "arch": "aarch64"
+    },
+    "double-conversion-3.3.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "135f9d438345222c26da383f2219441bfb32f26ade971de5134fcefa39c7fb7b",
+      "kind": "repository-metadata"
+    },
+    "duktape-2.7.0-6-aarch64.pkg.tar.xz": {
+      "size": 162508,
+      "sha256": "a01ee7b06079e236ad9369ea5288fed2f3c15a5f8184a91b02dca75ab09461b6",
+      "name": "duktape",
+      "version": "2.7.0-6",
+      "arch": "aarch64"
+    },
+    "duktape-2.7.0-6-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "506d433483e2ce0f98492499b8f5483ad4577a1d1b33518d603d963b8e953347",
+      "kind": "repository-metadata"
+    },
+    "elementary-icon-theme-7.3.1-1-any.pkg.tar.xz": {
+      "size": 2766728,
+      "sha256": "8d647290ab9e5fc4f6920891a26d5b9438745f9a7ec36090fdd7d344abee1922",
+      "name": "elementary-icon-theme",
+      "version": "7.3.1-1",
+      "arch": "any"
+    },
+    "elementary-icon-theme-7.3.1-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "3f5206a7e88d6c55609db52f11772926809fe0f138358f7202673061778abd5f",
+      "kind": "repository-metadata"
+    },
+    "enchant-2.6.5-1-aarch64.pkg.tar.xz": {
+      "size": 54932,
+      "sha256": "0ad372775e2a0f6b36ca4898782012ac152b19c63087cb24cba9325a259fc1d7",
+      "name": "enchant",
+      "version": "2.6.5-1",
+      "arch": "aarch64"
+    },
+    "enchant-2.6.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b1390395022295571ff9b2f5f7db8cf5d396bd809f6d3043338b3f5db20e88ba",
+      "kind": "repository-metadata"
+    },
+    "exo-4.18.0-1-aarch64.pkg.tar.xz": {
+      "size": 295088,
+      "sha256": "786f8844e1d5ea8b24f473aa0d884a055a0e7b4bff7cad0719dbda01acfc1eea",
+      "name": "exo",
+      "version": "4.18.0-1",
+      "arch": "aarch64"
+    },
+    "exo-4.18.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "d1922470a06f21f50ca3f6b694a47822485473a63e6870aeaa5af1caa08e1f81",
+      "kind": "repository-metadata"
+    },
+    "fcitx5-5.1.7-3-aarch64.pkg.tar.xz": {
+      "size": 8375896,
+      "sha256": "a6864c426a156b64b6c0e13387e888c552756669fd6d360fe877ebecf70f143d",
+      "name": "fcitx5",
+      "version": "5.1.7-3",
+      "arch": "aarch64"
+    },
+    "fcitx5-5.1.7-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5745e6bed418142943c9142f728fe4c2bd58d185713998c2f1498b406a8bd3f8",
+      "kind": "repository-metadata"
+    },
+    "fcitx5-gtk-5.1.1-1-aarch64.pkg.tar.xz": {
+      "size": 75060,
+      "sha256": "da3b58d991ff225ec32474f3fb64bc46cda9a7b4ca2b0e2741a2e849e0a4ec5e",
+      "name": "fcitx5-gtk",
+      "version": "5.1.1-1",
+      "arch": "aarch64"
+    },
+    "fcitx5-gtk-5.1.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a1f9a065f3f8bedbf46e50c3382489e97d41ff047cd9de151dc7cbdaf79221c9",
+      "kind": "repository-metadata"
+    },
+    "fcitx5-qt-5.1.4-4-aarch64.pkg.tar.xz": {
+      "size": 388172,
+      "sha256": "c6a55add1ca9fa92469c3b1eaaf3f35905a7c4b3415cd87e06e48e89bced50d4",
+      "name": "fcitx5-qt",
+      "version": "5.1.4-4",
+      "arch": "aarch64"
+    },
+    "fcitx5-qt-5.1.4-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a358351e15fe14dd44ca3e63e4c6ad5fa9f81a9d7df224d1b2c8c00acee57fef",
+      "kind": "repository-metadata"
+    },
+    "file-5.45-1-aarch64.pkg.tar.xz": {
+      "size": 389516,
+      "sha256": "eab88fc5b39da6da9bd13ade5d73627149fa9aad7b030e9b66838875204e971e",
+      "name": "file",
+      "version": "5.45-1",
+      "arch": "aarch64"
+    },
+    "file-5.45-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c0e97d243b314e34282a733e409d99f2d75471a50e4ee5b670c7cff0581d76cf",
+      "kind": "repository-metadata"
+    },
+    "flac-1.4.3-1-aarch64.pkg.tar.xz": {
+      "size": 282244,
+      "sha256": "24561bfceac6f02e960afec20ee46f4a00c72f38a93d79a0dacac56a9fc51dcc",
+      "name": "flac",
+      "version": "1.4.3-1",
+      "arch": "aarch64"
+    },
+    "flac-1.4.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "726e6258a768860a9a06d3cd49f8fa044fed00f60b3adb8b1c11833c3982e3c7",
+      "kind": "repository-metadata"
+    },
+    "fontconfig-2:2.15.0-2-aarch64.pkg.tar.xz": {
+      "size": 357484,
+      "sha256": "a7110fbba331b2a6a8aa5010b2dde0e08bed3d49ba2f068b274e8212ada6e42b",
+      "name": "fontconfig",
+      "version": "2:2.15.0-2",
+      "arch": "aarch64"
+    },
+    "fontconfig-2:2.15.0-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5746c84272f85dc161986d479cc5e5ccd0c5e89509f7d7645f0d70b2a3778e9e",
+      "kind": "repository-metadata"
+    },
+    "freeglut-3.4.0-1-aarch64.pkg.tar.xz": {
+      "size": 95292,
+      "sha256": "241936a506c7e2ce036d9909062170f0270cc77396b5e77881079cbe58c19055",
+      "name": "freeglut",
+      "version": "3.4.0-1",
+      "arch": "aarch64"
+    },
+    "freeglut-3.4.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "66608d39d9b42886922492261c9d116ffe817c533b004d8eff37b3ea57c9f10a",
+      "kind": "repository-metadata"
+    },
+    "freetype2-2.13.2-1-aarch64.pkg.tar.xz": {
+      "size": 478332,
+      "sha256": "60323f5c92700cd545cd0d6a39c9140e0f85a55a16fef9fe42dd964dc8b6aa15",
+      "name": "freetype2",
+      "version": "2.13.2-1",
+      "arch": "aarch64"
+    },
+    "freetype2-2.13.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "70644aee55edc5a087e9e11159c555efb369b5ccbfc9cf8f137c9a6a84007c54",
+      "kind": "repository-metadata"
+    },
+    "fribidi-1.0.13-2-aarch64.pkg.tar.xz": {
+      "size": 70208,
+      "sha256": "e236f81387692126a37e20d80059e57507773f16dfc26dac5b26e2ee50f933f9",
+      "name": "fribidi",
+      "version": "1.0.13-2",
+      "arch": "aarch64"
+    },
+    "fribidi-1.0.13-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "0d9c0f56e9f010dc14014805dbeff27e92e0398012e9036492ec9ad53be8fbc5",
+      "kind": "repository-metadata"
+    },
+    "garcon-4.18.2-1-aarch64.pkg.tar.xz": {
+      "size": 159848,
+      "sha256": "bb67207ceca87841f9418a8fb3c6b361cddf3228ace28678121e26e095136112",
+      "name": "garcon",
+      "version": "4.18.2-1",
+      "arch": "aarch64"
+    },
+    "garcon-4.18.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "4fba1f368c17e12ca707174ec7d40cffc518869368da5596680013ca02c9525f",
+      "kind": "repository-metadata"
+    },
+    "gdk-pixbuf2-2.42.10-2-aarch64.pkg.tar.xz": {
+      "size": 467740,
+      "sha256": "09927d01658205c69ae935fec8e58634b48b3ce1c754e7185f337c6d03384366",
+      "name": "gdk-pixbuf2",
+      "version": "2.42.10-2",
+      "arch": "aarch64"
+    },
+    "gdk-pixbuf2-2.42.10-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8965239da02293ab8b016081f744e53bdfd0d75137c633e1a4508fddcb76acaa",
+      "kind": "repository-metadata"
+    },
+    "giflib-5.2.2-1-aarch64.pkg.tar.xz": {
+      "size": 60604,
+      "sha256": "ec7c7f81fd0fed96fb615bb12429bb1db25d6f60a7a49b06779b305ff83d2084",
+      "name": "giflib",
+      "version": "5.2.2-1",
+      "arch": "aarch64"
+    },
+    "giflib-5.2.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c9a85acaa03bac2b2ee8e8d27ffe271658831a75a678582d1226e8ee8170f954",
+      "kind": "repository-metadata"
+    },
+    "glib-networking-1:2.78.0-1-aarch64.pkg.tar.xz": {
+      "size": 129216,
+      "sha256": "b6fb21d6b738d88fed0ec5ee5e1ec31ca7cb77e3fabdbf6457b1ec8930dde10e",
+      "name": "glib-networking",
+      "version": "1:2.78.0-1",
+      "arch": "aarch64"
+    },
+    "glib-networking-1:2.78.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e69588f40189afc186b09e4c5721519e7c7967d5d0faa0e93f3f344041fcf54b",
+      "kind": "repository-metadata"
+    },
+    "glu-9.0.3-1-aarch64.pkg.tar.xz": {
+      "size": 160704,
+      "sha256": "35cbf0ef988a86aed3cfb4e320f47eaed58fc1262dd0e2fefbb60136bd5e368a",
+      "name": "glu",
+      "version": "9.0.3-1",
+      "arch": "aarch64"
+    },
+    "glu-9.0.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "533e5831f84cf3d1afab5b3afdba55109461bd8d8ee30b536b53b6bb694aa36a",
+      "kind": "repository-metadata"
+    },
+    "gnome-themes-extra-3.28+r6+g45b1d457-1-aarch64.pkg.tar.xz": {
+      "size": 2635528,
+      "sha256": "6ffa0d27dfab7cfd946406ac8d49b82d4a1d6a749fd52439e8daabee7c1d1182",
+      "name": "gnome-themes-extra",
+      "version": "3.28+r6+g45b1d457-1",
+      "arch": "aarch64"
+    },
+    "gnome-themes-extra-3.28+r6+g45b1d457-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e0c1a58138c8d6c10a2dc1e08b17a0e4eb0c2fbaddb1a9f7b03d90c5506a31f4",
+      "kind": "repository-metadata"
+    },
+    "gpm-1.20.7.r38.ge82d1a6-5-aarch64.pkg.tar.xz": {
+      "size": 134360,
+      "sha256": "b7046201e20b46e6e3d14781417674c47c2a453d33c35d900f75848121c92c58",
+      "name": "gpm",
+      "version": "1.20.7.r38.ge82d1a6-5",
+      "arch": "aarch64"
+    },
+    "gpm-1.20.7.r38.ge82d1a6-5-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "52ff0fd42a91a00d5a54a8fe50c6973b4c789202cebbcef3f89d36d1a79425fb",
+      "kind": "repository-metadata"
+    },
+    "graphite-1:1.3.14-3-aarch64.pkg.tar.xz": {
+      "size": 80244,
+      "sha256": "2e23cb5709b5f00df8c311fdaa1a665f5d4fd23d964b48a40126c1ecd72d6603",
+      "name": "graphite",
+      "version": "1:1.3.14-3",
+      "arch": "aarch64"
+    },
+    "graphite-1:1.3.14-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "20ba408cb5700e545e411a67e6be28ca9ecabfe911881b4ec0a080b2f4359f56",
+      "kind": "repository-metadata"
+    },
+    "gsettings-desktop-schemas-45.0-1-any.pkg.tar.xz": {
+      "size": 647108,
+      "sha256": "c9fa6b4db433d17d58492f975d377743412d1850dad1774deb812384d9dfe8c4",
+      "name": "gsettings-desktop-schemas",
+      "version": "45.0-1",
+      "arch": "any"
+    },
+    "gsettings-desktop-schemas-45.0-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "243a1832eaf2ccf8822bef8ce3bdd886a9b12fccaf631e7475646364f5c29ab4",
+      "kind": "repository-metadata"
+    },
+    "gst-plugins-base-libs-1.22.10-1-aarch64.pkg.tar.xz": {
+      "size": 2000976,
+      "sha256": "b821e6912d76d139d7b106f0ac5e78b5c258fc9a1f142cb24ba96f9a9d074449",
+      "name": "gst-plugins-base-libs",
+      "version": "1.22.10-1",
+      "arch": "aarch64"
+    },
+    "gst-plugins-base-libs-1.22.10-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "225a588729946fc288bf474e74c93c814a77ebbb2c796ce868593174955d33f1",
+      "kind": "repository-metadata"
+    },
+    "gst-plugins-good-1.22.10-1-aarch64.pkg.tar.xz": {
+      "size": 1912328,
+      "sha256": "102c868efab6c40baa7cd5171d60810d663ac760a3900fcfc5293ccc19de15ec",
+      "name": "gst-plugins-good",
+      "version": "1.22.10-1",
+      "arch": "aarch64"
+    },
+    "gst-plugins-good-1.22.10-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "20d4ce7cf8680cdd3e0ec2f94c8f920dbbe5680b6fcf985c5c7b0ad958d73ac2",
+      "kind": "repository-metadata"
+    },
+    "gstreamer-1.22.10-1-aarch64.pkg.tar.xz": {
+      "size": 1694384,
+      "sha256": "398639f7f22e0560b9bdc0171e688eb805c7c121ac55de27f8e94c0c00c0c737",
+      "name": "gstreamer",
+      "version": "1.22.10-1",
+      "arch": "aarch64"
+    },
+    "gstreamer-1.22.10-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "9eedfb3818231ea06bdbf449f4605bb8157d6c08eee688ae71f89e6935559f42",
+      "kind": "repository-metadata"
+    },
+    "gtk-layer-shell-0.8.2-1-aarch64.pkg.tar.xz": {
+      "size": 58628,
+      "sha256": "727997649b2242892ac4e002785c609975d50c74909e8f1f64cc68865f756dc5",
+      "name": "gtk-layer-shell",
+      "version": "0.8.2-1",
+      "arch": "aarch64"
+    },
+    "gtk-layer-shell-0.8.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "499f6e0e70844fe5b06a8a4f806ad537ca9007c3baaaf24b21d42a184b99c4f4",
+      "kind": "repository-metadata"
+    },
+    "gtk-update-icon-cache-1:4.12.5-1-aarch64.pkg.tar.xz": {
+      "size": 16400,
+      "sha256": "576687837753537b33d8af4d5f7a69bbcd575ad0c67d33f9ae84f088bc4d2ce8",
+      "name": "gtk-update-icon-cache",
+      "version": "1:4.12.5-1",
+      "arch": "aarch64"
+    },
+    "gtk-update-icon-cache-1:4.12.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "43a46bd2a239a0f38dea3a61593747daaf7796123e90a6b16296c6d2bb6260cd",
+      "kind": "repository-metadata"
+    },
+    "gtk3-1:3.24.41-1-aarch64.pkg.tar.xz": {
+      "size": 8233488,
+      "sha256": "1f347ebee6acbc2cfa3b392d9e54ddd7a52e2b00a8885a2924a2dd4e565edaf9",
+      "name": "gtk3",
+      "version": "1:3.24.41-1",
+      "arch": "aarch64"
+    },
+    "gtk3-1:3.24.41-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8639ce42edfb65fdfb1e13a4ad82f3064f28fff7bab6dfa348092e888c467cb4",
+      "kind": "repository-metadata"
+    },
+    "harfbuzz-8.3.0-2-aarch64.pkg.tar.xz": {
+      "size": 947476,
+      "sha256": "6ec6d732aa9ada253309eef5cc52ca2cc55d006811ed8b25a2a4f78f0b7a17d7",
+      "name": "harfbuzz",
+      "version": "8.3.0-2",
+      "arch": "aarch64"
+    },
+    "harfbuzz-8.3.0-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bc079a1275af3a28a3ef16cc806bf52050ab03b1639f1c1fde61644e6675165d",
+      "kind": "repository-metadata"
+    },
+    "hicolor-icon-theme-0.17-3-any.pkg.tar.xz": {
+      "size": 9156,
+      "sha256": "28f139d2a5a6c896e510912ef8fa4304aeee6791da9076fd08faeb330efce086",
+      "name": "hicolor-icon-theme",
+      "version": "0.17-3",
+      "arch": "any"
+    },
+    "hicolor-icon-theme-0.17-3-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "0faa980dd908ff1aaa34d3ea0dbe1b6fbc209c39346d9d75ad118e73a00c15a6",
+      "kind": "repository-metadata"
+    },
+    "hwdata-0.379-1-any.pkg.tar.xz": {
+      "size": 1577000,
+      "sha256": "a6ce8e1afd9314faae343df4ed3475aad9588e2e3424118c090d496ba82fc0b8",
+      "name": "hwdata",
+      "version": "0.379-1",
+      "arch": "any"
+    },
+    "hwdata-0.379-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e8981e2488cf39ccb10e375276f77ab971fbca958594ce634e6e13bac6eb0075",
+      "kind": "repository-metadata"
+    },
+    "imlib2-1.12.2-2-aarch64.pkg.tar.xz": {
+      "size": 544424,
+      "sha256": "f6b3452277cb16f9fa7fcb043f89348dff9af459daeefc2cf5a26701baf59b55",
+      "name": "imlib2",
+      "version": "1.12.2-2",
+      "arch": "aarch64"
+    },
+    "imlib2-1.12.2-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "f2e56a3668538ad1afa341455f4f2f50c19b9c30bc6ed893c86d76a0ed82d531",
+      "kind": "repository-metadata"
+    },
+    "iso-codes-4.16.0-1-any.pkg.tar.xz": {
+      "size": 2940312,
+      "sha256": "a545e9e8756175e87af43e84699aa2ba77b5d1ce5ebb0379e07bafd9b847cb02",
+      "name": "iso-codes",
+      "version": "4.16.0-1",
+      "arch": "any"
+    },
+    "iso-codes-4.16.0-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "695c200d0ba54506115523d59252b2f109ef64100bb15e28fc4fd2d3c615a4aa",
+      "kind": "repository-metadata"
+    },
+    "jack2-1.9.22-1-aarch64.pkg.tar.xz": {
+      "size": 424808,
+      "sha256": "3c77d66121a20f4aedb8661394e98d0d02d807da24fa56d2e55aa5e3aafdb13f",
+      "name": "jack2",
+      "version": "1.9.22-1",
+      "arch": "aarch64"
+    },
+    "jack2-1.9.22-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bdd238db7198efd5472751195b353fe3ccf3aa953105620f875fdcaacaf349d7",
+      "kind": "repository-metadata"
+    },
+    "jbigkit-2.1-7-aarch64.pkg.tar.xz": {
+      "size": 48924,
+      "sha256": "e0332927697732eab6b8544edf47da2dc5b88b46751ecc325b091fa50290f082",
+      "name": "jbigkit",
+      "version": "2.1-7",
+      "arch": "aarch64"
+    },
+    "jbigkit-2.1-7-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "d260c55cb1b8cb6a9b23aee0c88432d2e65244097f0beb6018ed306de1411c66",
+      "kind": "repository-metadata"
+    },
+    "json-glib-1.8.0-1-aarch64.pkg.tar.xz": {
+      "size": 158028,
+      "sha256": "b45fb1a2332024daa4d2acb954713c05be1d10d2b4ffbaadfdf7e2d6a416dda5",
+      "name": "json-glib",
+      "version": "1.8.0-1",
+      "arch": "aarch64"
+    },
+    "json-glib-1.8.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "7ffbd3e7fad39d701bd16b5ee517b0d96eeec3c209aa56b03c33511fa71a7054",
+      "kind": "repository-metadata"
+    },
+    "kbd-2.6.4-1-aarch64.pkg.tar.xz": {
+      "size": 1270196,
+      "sha256": "299f2d451e1e9c3d29e1c6a0eb77d1fcf3b6e6a51e2c4904936d7f6f49f997b9",
+      "name": "kbd",
+      "version": "2.6.4-1",
+      "arch": "aarch64"
+    },
+    "kbd-2.6.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "2b880b15ecad055cc21ef57d8bfe59fb65f7e67c4c8e00be11bdb04e9a0b96d5",
+      "kind": "repository-metadata"
+    },
+    "kmod-31-1-aarch64.pkg.tar.xz": {
+      "size": 105952,
+      "sha256": "48f3c09e2dc81f714f76086272c99990c42e668d0ccb63e9a8d1d2362eb6b524",
+      "name": "kmod",
+      "version": "31-1",
+      "arch": "aarch64"
+    },
+    "kmod-31-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ca3b895ea4daa9db6743c81f3a9b60981daad9b5e2ff6fc605f9b4d2d5da0250",
+      "kind": "repository-metadata"
+    },
+    "lame-3.100-4-aarch64.pkg.tar.xz": {
+      "size": 271488,
+      "sha256": "fc36e2f42f286227a3f743eb1f6e764acb10132162ef037967dcef5563fbdcd8",
+      "name": "lame",
+      "version": "3.100-4",
+      "arch": "aarch64"
+    },
+    "lame-3.100-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "37d007b4b68859bde705c9eaa314a48fa014c4e4cf4332d3ad5619d5e5b2216e",
+      "kind": "repository-metadata"
+    },
+    "lcms2-2.16-1-aarch64.pkg.tar.xz": {
+      "size": 201564,
+      "sha256": "ebfe2411b1f37a6e03e37b923df18376f88e7c021d63a846016fa0078af55183",
+      "name": "lcms2",
+      "version": "2.16-1",
+      "arch": "aarch64"
+    },
+    "lcms2-2.16-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "405b54ef4f8e6f1fe0f142f4edded4ac0ff69a1ce3f4ab6234055d68c5210973",
+      "kind": "repository-metadata"
+    },
+    "libasyncns-1:0.8+r3+g68cd5af-2-aarch64.pkg.tar.xz": {
+      "size": 15984,
+      "sha256": "2335748a1c75225c324e22379a4a711ead6456d4fd47b21667824b93cfd7a601",
+      "name": "libasyncns",
+      "version": "1:0.8+r3+g68cd5af-2",
+      "arch": "aarch64"
+    },
+    "libasyncns-1:0.8+r3+g68cd5af-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "35044828186e84a9d470881da28371625fb92fd3162c77e1e6649588202ce14c",
+      "kind": "repository-metadata"
+    },
+    "libavc1394-0.5.4-6-aarch64.pkg.tar.xz": {
+      "size": 31164,
+      "sha256": "4d55d03ff76ec52e4ee9abcf6e6eb6a4b0e0225c4366cde1add2e8578ba1a831",
+      "name": "libavc1394",
+      "version": "0.5.4-6",
+      "arch": "aarch64"
+    },
+    "libavc1394-0.5.4-6-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6f20aeb11a72eea3960e8352cfbc9c6a1e2ca1913d58bde4940cdd3ac64feff7",
+      "kind": "repository-metadata"
+    },
+    "libb2-0.98.1-2-aarch64.pkg.tar.xz": {
+      "size": 17136,
+      "sha256": "cb8a39d9ebd0524df5a91465f0f8a5e7436e04c0d3f507d9161b8ad8cfdc599f",
+      "name": "libb2",
+      "version": "0.98.1-2",
+      "arch": "aarch64"
+    },
+    "libb2-0.98.1-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "2f7d24663e2678ee94e0cdddf4420aede46440313899183bd5c66b05c630a6d7",
+      "kind": "repository-metadata"
+    },
+    "libbsd-0.12.0-1-aarch64.pkg.tar.xz": {
+      "size": 167844,
+      "sha256": "5bd96ff789ac03b122e6161d74e64f1b26e876b8a87a3df502db946d25dce0f9",
+      "name": "libbsd",
+      "version": "0.12.0-1",
+      "arch": "aarch64"
+    },
+    "libbsd-0.12.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "2e50c3b8b09b5868c2c306fb245e70abb6d06237bb4ab243d8e4550d442550be",
+      "kind": "repository-metadata"
+    },
+    "libcaca-0.99.beta20-2-aarch64.pkg.tar.xz": {
+      "size": 404448,
+      "sha256": "d4039bb5dd68a498e03ce2f2487c3f21ac5b9aedc0b02a1783b2c5cc3b6b141f",
+      "name": "libcaca",
+      "version": "0.99.beta20-2",
+      "arch": "aarch64"
+    },
+    "libcaca-0.99.beta20-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e068847a8a531d0580db39b989c5fd02dfd58ac96f14db9a1722eae496218521",
+      "kind": "repository-metadata"
+    },
+    "libcanberra-1:0.30+r2+gc0620e4-3-aarch64.pkg.tar.xz": {
+      "size": 83996,
+      "sha256": "e478ebdcc6250cbaadc1cb54866a2da28700a1ed7044f51f36715ae932079e49",
+      "name": "libcanberra",
+      "version": "1:0.30+r2+gc0620e4-3",
+      "arch": "aarch64"
+    },
+    "libcanberra-1:0.30+r2+gc0620e4-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "0e2c5c66c832551c0addddf44a65d6c2a7da8f39b4e49eff626c482dacf5b0c4",
+      "kind": "repository-metadata"
+    },
+    "libcloudproviders-0.3.5-1-aarch64.pkg.tar.xz": {
+      "size": 61064,
+      "sha256": "37c82f99a0a8b45e25960007350708666469b2d37cef0754f485f3ca93d1f195",
+      "name": "libcloudproviders",
+      "version": "0.3.5-1",
+      "arch": "aarch64"
+    },
+    "libcloudproviders-0.3.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c3dfaaeaa992c707ec151d42a833db2b03cc31bea2379609f274f886bae2fe4c",
+      "kind": "repository-metadata"
+    },
+    "libcolord-1.4.7-2-aarch64.pkg.tar.xz": {
+      "size": 168700,
+      "sha256": "9ebca4933d3506067853f578e1253bc20fd5a69f474382806079c0835d69755c",
+      "name": "libcolord",
+      "version": "1.4.7-2",
+      "arch": "aarch64"
+    },
+    "libcolord-1.4.7-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "adff70be34c95ee9077283f3d2a0453acd113b44e110cb0960a03572bed16605",
+      "kind": "repository-metadata"
+    },
+    "libcups-1:2.4.7-2-aarch64.pkg.tar.xz": {
+      "size": 255740,
+      "sha256": "d336efec4d71d53a7c68642152a09db83cf6e942ad9456d70fb25074a9b6ac70",
+      "name": "libcups",
+      "version": "1:2.4.7-2",
+      "arch": "aarch64"
+    },
+    "libcups-1:2.4.7-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "7852c09b53fbc1141473d0c60b0f6cff50e411b14b9d42f87eaf7ca648394223",
+      "kind": "repository-metadata"
+    },
+    "libdaemon-0.14-5-aarch64.pkg.tar.xz": {
+      "size": 19324,
+      "sha256": "6e4921ae781d278b58cf50346eb3a49d3ef19fba6230aa4896591a4b89e60cad",
+      "name": "libdaemon",
+      "version": "0.14-5",
+      "arch": "aarch64"
+    },
+    "libdaemon-0.14-5-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5a0d988f398b9158e6a266521e33b83a6469f3776f574264128abfc34a6450a1",
+      "kind": "repository-metadata"
+    },
+    "libdatrie-0.2.13-4-aarch64.pkg.tar.xz": {
+      "size": 114340,
+      "sha256": "32aa139526cd58975a0e79508b92cc965ab660b043d277aae27574ae48411bcb",
+      "name": "libdatrie",
+      "version": "0.2.13-4",
+      "arch": "aarch64"
+    },
+    "libdatrie-0.2.13-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "2b2dcbce23b7db21b97b2d4478b04c550ca54264715987f0bef69dd471584345",
+      "kind": "repository-metadata"
+    },
+    "libdbusmenu-glib-16.04.0.r498-2-aarch64.pkg.tar.xz": {
+      "size": 86416,
+      "sha256": "9ac98d8bb1b0f1042773b792d97b832a1f3cb0e4723bea9927e945208e92d534",
+      "name": "libdbusmenu-glib",
+      "version": "16.04.0.r498-2",
+      "arch": "aarch64"
+    },
+    "libdbusmenu-glib-16.04.0.r498-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "942968267fcc694a7f92a745a2e5c13fa545a8b1caabc77caf15ea2119dd4832",
+      "kind": "repository-metadata"
+    },
+    "libdbusmenu-gtk3-16.04.0.r498-2-aarch64.pkg.tar.xz": {
+      "size": 46420,
+      "sha256": "b279d87df402759505f0001628ee68cecc354d8dbc234f449a378553c958e81a",
+      "name": "libdbusmenu-gtk3",
+      "version": "16.04.0.r498-2",
+      "arch": "aarch64"
+    },
+    "libdbusmenu-gtk3-16.04.0.r498-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "091cf55a8be08a856e0f668b5b677341f253be016ca7bca0e14d45597240ea8c",
+      "kind": "repository-metadata"
+    },
+    "libdrm-2.4.120-1-aarch64.pkg.tar.xz": {
+      "size": 351332,
+      "sha256": "1b9575b5f90f78ac91cae1275579635d28dcda4773e17681b125ddadc9625583",
+      "name": "libdrm",
+      "version": "2.4.120-1",
+      "arch": "aarch64"
+    },
+    "libdrm-2.4.120-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "18ba501fd7f0f3ba2351c201c28f90b5916207fc7a6abede0e279f695a6cdf72",
+      "kind": "repository-metadata"
+    },
+    "libdv-1.0.0-11-aarch64.pkg.tar.xz": {
+      "size": 70680,
+      "sha256": "41625171d3ac610598fccbff32175122777f7293084b740fa9b4f5bc31f247a2",
+      "name": "libdv",
+      "version": "1.0.0-11",
+      "arch": "aarch64"
+    },
+    "libdv-1.0.0-11-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "af988d177b47134df9eadf66c6efc46ac30b3e5f1caeaf59c9e206ea1a904b27",
+      "kind": "repository-metadata"
+    },
+    "libedit-20230828_3.1-1-aarch64.pkg.tar.xz": {
+      "size": 106092,
+      "sha256": "8f28c21ce8b25282b4efbfcb3e1876455aadbd09708ce176493cecb892bba77f",
+      "name": "libedit",
+      "version": "20230828_3.1-1",
+      "arch": "aarch64"
+    },
+    "libedit-20230828_3.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b0897505000c21a832c0e8ae82a807800b5f6de1d171eedd5df0a559741c2b09",
+      "kind": "repository-metadata"
+    },
+    "libelf-0.190-2-aarch64.pkg.tar.xz": {
+      "size": 458416,
+      "sha256": "bff48d41b35c65127483bdae77b7f6d602ea7dc3ea11855f4b8a276cf0f5e190",
+      "name": "libelf",
+      "version": "0.190-2",
+      "arch": "aarch64"
+    },
+    "libelf-0.190-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ca965a6bab64dce5bedba537da75bd523cde5cdb0adee72053ed313e709d8d12",
+      "kind": "repository-metadata"
+    },
+    "libepoxy-1.5.10-2-aarch64.pkg.tar.xz": {
+      "size": 303772,
+      "sha256": "7f8f71579e9f34423f3ae36d806043d46873fb969d2bb2e7d0f804c3b54a2553",
+      "name": "libepoxy",
+      "version": "1.5.10-2",
+      "arch": "aarch64"
+    },
+    "libepoxy-1.5.10-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ed0b0b59ce7d3c03a39b06d8290fd71df000cb27aa374c8fbd9c0ce916ab8776",
+      "kind": "repository-metadata"
+    },
+    "libevdev-1.13.1-1-aarch64.pkg.tar.xz": {
+      "size": 57760,
+      "sha256": "9b674cb023181912b2d32bfe68d17c8ef49b7d82d8c014f7933a1d5d39423263",
+      "name": "libevdev",
+      "version": "1.13.1-1",
+      "arch": "aarch64"
+    },
+    "libevdev-1.13.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "133118c29abb654cefc02279c780e1b69c3446a3eb50ef6a4e2fef3cf5b633b7",
+      "kind": "repository-metadata"
+    },
+    "libexif-0.6.24-2-aarch64.pkg.tar.xz": {
+      "size": 438848,
+      "sha256": "7724dd8d17d7c302505c860655552cf7dd779122bed4584e3cda421167773893",
+      "name": "libexif",
+      "version": "0.6.24-2",
+      "arch": "aarch64"
+    },
+    "libexif-0.6.24-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c5900d2d39d86ab909b64f93b6ceb03f63b78b7fecce9b9c3528d2a637d7f27a",
+      "kind": "repository-metadata"
+    },
+    "libglvnd-1.7.0-1-aarch64.pkg.tar.xz": {
+      "size": 315616,
+      "sha256": "c900fd3d16a5a7b0bd429e85cd4519a10af97db080f545092e0c4be980cf475a",
+      "name": "libglvnd",
+      "version": "1.7.0-1",
+      "arch": "aarch64"
+    },
+    "libglvnd-1.7.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "31f7f8202e1702389a81c2d2b408ec7d6d3e50f72908c3fc87c9e5fddbe3ee67",
+      "kind": "repository-metadata"
+    },
+    "libgtop-2.41.3-1-aarch64.pkg.tar.xz": {
+      "size": 195072,
+      "sha256": "adff03d51549c4b61e54403b4f709b487c448e63b5e897899ce19260ca05f170",
+      "name": "libgtop",
+      "version": "2.41.3-1",
+      "arch": "aarch64"
+    },
+    "libgtop-2.41.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5a6e94abfda5d754e2a8549e9fb6163ccf8df4db048a40c97803f6574b0828ff",
+      "kind": "repository-metadata"
+    },
+    "libgudev-238-1-aarch64.pkg.tar.xz": {
+      "size": 43012,
+      "sha256": "05f5ad4b448a3ac69f5b0f1399d534b1798a666716661eaeb39887778cf8c931",
+      "name": "libgudev",
+      "version": "238-1",
+      "arch": "aarch64"
+    },
+    "libgudev-238-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bbc2590d6c2c2775c1a783e6d5d9ae113382b49a7de4d65f3d2c1c0ec3e399a0",
+      "kind": "repository-metadata"
+    },
+    "libgusb-0.4.8-1-aarch64.pkg.tar.xz": {
+      "size": 1157456,
+      "sha256": "29a1dca25bdac4878f3975467d721842e752acdddfc433810808a09150243235",
+      "name": "libgusb",
+      "version": "0.4.8-1",
+      "arch": "aarch64"
+    },
+    "libgusb-0.4.8-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "7c4c79d6486fce8d7ca34212e3862f6cdacd095043cb24118283f6204fb5631d",
+      "kind": "repository-metadata"
+    },
+    "libice-1.1.1-2-aarch64.pkg.tar.xz": {
+      "size": 74924,
+      "sha256": "a8b99c183f93c13655c19525d5fa65021b065f8ca0c52b963ea51f88644aca49",
+      "name": "libice",
+      "version": "1.1.1-2",
+      "arch": "aarch64"
+    },
+    "libice-1.1.1-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "04e296d2c148de20828263fb08d281c5232f3f93d898522616f440d55d31dee5",
+      "kind": "repository-metadata"
+    },
+    "libiec61883-1.2.0-7-aarch64.pkg.tar.xz": {
+      "size": 30260,
+      "sha256": "c8e927b7a76cef70307ecd9c9c5f627cf4e84ab1b6ecec31d8f608e78741ffa2",
+      "name": "libiec61883",
+      "version": "1.2.0-7",
+      "arch": "aarch64"
+    },
+    "libiec61883-1.2.0-7-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6c71e9d7187d04b1ce2fe34e1a932112b97fb82766488dcd0c115310d7acb419",
+      "kind": "repository-metadata"
+    },
+    "libinput-1.25.0-1-aarch64.pkg.tar.xz": {
+      "size": 285948,
+      "sha256": "b10eef6f5ae09882df5087c3330a00c5d87000eede960bbe8134c08c32068167",
+      "name": "libinput",
+      "version": "1.25.0-1",
+      "arch": "aarch64"
+    },
+    "libinput-1.25.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "14fafb2d9c7ecaae37f9f9e7e4dc88286cb5b62e852dbbdf1e0f50c1d8dd4e94",
+      "kind": "repository-metadata"
+    },
+    "libjpeg-turbo-3.0.2-2-aarch64.pkg.tar.xz": {
+      "size": 435880,
+      "sha256": "45a7c4999d8e2d69764f57f0f2a0c51af73b25d2571754962d24bf52d659e6bd",
+      "name": "libjpeg-turbo",
+      "version": "3.0.2-2",
+      "arch": "aarch64"
+    },
+    "libjpeg-turbo-3.0.2-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5497c5e162855643a17c795f08b210966e913a8a0e8e99c2d0a9ba01d2c40465",
+      "kind": "repository-metadata"
+    },
+    "libmd-1.1.0-1-aarch64.pkg.tar.xz": {
+      "size": 44288,
+      "sha256": "9a24eaad8a73f7dbd923fa8d427010bc16d5a22211007427e8fa6efc551c4820",
+      "name": "libmd",
+      "version": "1.1.0-1",
+      "arch": "aarch64"
+    },
+    "libmd-1.1.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e7be3244791a6b75fe0b2a1f9d1b120769f85f929182c0437d3b21f0d0c7c7ce",
+      "kind": "repository-metadata"
+    },
+    "libnotify-0.8.3-1-aarch64.pkg.tar.xz": {
+      "size": 33640,
+      "sha256": "0e26ea803899ae0a137194a711aa7cd0c4c9064494bb897a33a5a2c3c1475e9d",
+      "name": "libnotify",
+      "version": "0.8.3-1",
+      "arch": "aarch64"
+    },
+    "libnotify-0.8.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bae01b66411221e9c50cf45e69a8b22d531b3e327ca4ce98c4eeea6d4249232e",
+      "kind": "repository-metadata"
+    },
+    "libogg-1.3.5-1-aarch64.pkg.tar.xz": {
+      "size": 201184,
+      "sha256": "e8ff7393d81910be87d0053f604f07684176b77df9aa2985294dfeb40944b14d",
+      "name": "libogg",
+      "version": "1.3.5-1",
+      "arch": "aarch64"
+    },
+    "libogg-1.3.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c1437947f6e740e8877af5bab7b8be846593d363bb259bb1a6af04427d039de7",
+      "kind": "repository-metadata"
+    },
+    "libomxil-bellagio-0.9.3-4-aarch64.pkg.tar.xz": {
+      "size": 118000,
+      "sha256": "8463b90a54b48ea136df311159bc0c6c73376546e842ecf1b2ccc9abac830652",
+      "name": "libomxil-bellagio",
+      "version": "0.9.3-4",
+      "arch": "aarch64"
+    },
+    "libomxil-bellagio-0.9.3-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "3a4a4074275f6ab37b4b66fd51b8a8998ca2467af7ace8b55ed613663a00de02",
+      "kind": "repository-metadata"
+    },
+    "libpciaccess-0.18-1-aarch64.pkg.tar.xz": {
+      "size": 20600,
+      "sha256": "75dd786f40fbe37380d5cd0edd8637da848903abe79be7245667d239a135fadf",
+      "name": "libpciaccess",
+      "version": "0.18-1",
+      "arch": "aarch64"
+    },
+    "libpciaccess-0.18-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "81489836a9975a14c31b5f9e0b4a2215e31235cdc0801f3ab5d55b6ae82820d9",
+      "kind": "repository-metadata"
+    },
+    "libpng-1.6.43-1-aarch64.pkg.tar.xz": {
+      "size": 237716,
+      "sha256": "081407a43f3df2c9bbf85c8fb9edac89505bb52a7a6f64f29fa0d3498ba175e3",
+      "name": "libpng",
+      "version": "1.6.43-1",
+      "arch": "aarch64"
+    },
+    "libpng-1.6.43-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "911004a5881bb7d69d82797396b537d34d02f686083ff1dd43969fe36f2fcb31",
+      "kind": "repository-metadata"
+    },
+    "libproxy-0.5.4-1-aarch64.pkg.tar.xz": {
+      "size": 26728,
+      "sha256": "b34a5ba7e615678caf02fdd8dcf8c2aa5429e748fd49b3c4c4d7c2d91a5031d1",
+      "name": "libproxy",
+      "version": "0.5.4-1",
+      "arch": "aarch64"
+    },
+    "libproxy-0.5.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "7edb218044d51f70271765e257f9c118fa27dd2edd69ac820a92e3e5e11212ba",
+      "kind": "repository-metadata"
+    },
+    "libpulse-17.0-3-aarch64.pkg.tar.xz": {
+      "size": 350176,
+      "sha256": "86ced39457d25980d3c371bc97110dedb9f37811734c8f2c3dfaf5d109e406c4",
+      "name": "libpulse",
+      "version": "17.0-3",
+      "arch": "aarch64"
+    },
+    "libpulse-17.0-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "36420afafb8694cfa068124b4f84b7785b2b79602424ccb93ee2362952f2e27f",
+      "kind": "repository-metadata"
+    },
+    "libraw1394-2.1.2-3-aarch64.pkg.tar.xz": {
+      "size": 46516,
+      "sha256": "0ecbfd329406570ffebc0fd803cea5568c6d7b8e461c0b1c6a36bcdedd30e4e0",
+      "name": "libraw1394",
+      "version": "2.1.2-3",
+      "arch": "aarch64"
+    },
+    "libraw1394-2.1.2-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "abc80d8bfbc319ab52e4df4d44524ae4132db8eacda51b0293cc64d515838bea",
+      "kind": "repository-metadata"
+    },
+    "librsvg-2:2.57.1-1-aarch64.pkg.tar.xz": {
+      "size": 2138496,
+      "sha256": "4efb9c97d0fc1e1bf83a054773015ac5059ea05ccc72b80ae0efbc8086c568b6",
+      "name": "librsvg",
+      "version": "2:2.57.1-1",
+      "arch": "aarch64"
+    },
+    "librsvg-2:2.57.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "0fb22c4305a10f5ad86af015b0c0c5b2cc59f5e401c1d4f84f8432fcc9cbaa05",
+      "kind": "repository-metadata"
+    },
+    "libsamplerate-0.2.2-2-aarch64.pkg.tar.xz": {
+      "size": 990232,
+      "sha256": "3ba89661d48abf60030e17d41ea9a551ec12db4d672b9736df20c5383dfe8104",
+      "name": "libsamplerate",
+      "version": "0.2.2-2",
+      "arch": "aarch64"
+    },
+    "libsamplerate-0.2.2-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "88b5238e1bdfa58e201c4438519d201d217522603c592121c996cf92fe0c00ba",
+      "kind": "repository-metadata"
+    },
+    "libseccomp-2.5.5-2-aarch64.pkg.tar.xz": {
+      "size": 84796,
+      "sha256": "24b9c0160747150221a282db1cffc64a480420b6a6724ef7d6fc202ec2551984",
+      "name": "libseccomp",
+      "version": "2.5.5-2",
+      "arch": "aarch64"
+    },
+    "libseccomp-2.5.5-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "21555654c004c5a03c760b420a447d465ed3d1d6ae974d3d9a4aac49c50ad19a",
+      "kind": "repository-metadata"
+    },
+    "libshout-1:2.4.6-2-aarch64.pkg.tar.xz": {
+      "size": 65620,
+      "sha256": "9eb049b480c66ef6138ee962a9eee0c8fc8655b565ecc4a37b4d2374628d3552",
+      "name": "libshout",
+      "version": "1:2.4.6-2",
+      "arch": "aarch64"
+    },
+    "libshout-1:2.4.6-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "37f6ef6d524fcbbc6384655b965977952c6a63e12c224c3a208a7aec586d5ce6",
+      "kind": "repository-metadata"
+    },
+    "libsm-1.2.4-1-aarch64.pkg.tar.xz": {
+      "size": 44472,
+      "sha256": "37bc7bacb7d771320545145f367c807e492e69068727e3987a551ccd0263fd9f",
+      "name": "libsm",
+      "version": "1.2.4-1",
+      "arch": "aarch64"
+    },
+    "libsm-1.2.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "38cef070d232a26c3c6652fa1300f7868bc8140d4bcb3b8ff6742aa0243e86d6",
+      "kind": "repository-metadata"
+    },
+    "libsndfile-1.2.2-2-aarch64.pkg.tar.xz": {
+      "size": 295984,
+      "sha256": "c60c22150615e946462f6b1fd83f01f3243873495967f284ec1a4ab2004596bf",
+      "name": "libsndfile",
+      "version": "1.2.2-2",
+      "arch": "aarch64"
+    },
+    "libsndfile-1.2.2-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "691fa95a15f975f1b8030ef214efbbaeb780b1672778e3d41d4317c9542adcad",
+      "kind": "repository-metadata"
+    },
+    "libsoup3-3.4.4-1-aarch64.pkg.tar.xz": {
+      "size": 373088,
+      "sha256": "40d3e9f23e2e5a6a3ebce67141c8b7265923f363e0520355886c02cee6b8a5c2",
+      "name": "libsoup3",
+      "version": "3.4.4-1",
+      "arch": "aarch64"
+    },
+    "libsoup3-3.4.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "138dcfd68ebb4c0b4b4c57ff8463b13bfd70caae10c73e760ae47e188ef0284b",
+      "kind": "repository-metadata"
+    },
+    "libstemmer-2.2.0-2-aarch64.pkg.tar.xz": {
+      "size": 105560,
+      "sha256": "861d924b9cb0ca595f78e8e2c11642d64ff5c335ac47554171471f2856342cce",
+      "name": "libstemmer",
+      "version": "2.2.0-2",
+      "arch": "aarch64"
+    },
+    "libstemmer-2.2.0-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b6654a0e1682966b43810bf37b3ec9547e21a581cbd79536a088baed360c863c",
+      "kind": "repository-metadata"
+    },
+    "libthai-0.1.29-3-aarch64.pkg.tar.xz": {
+      "size": 255780,
+      "sha256": "84e1131a7a6f1f15c0e4df50daca95382f173e3546ba31b2529c0ad6b7e3e25d",
+      "name": "libthai",
+      "version": "0.1.29-3",
+      "arch": "aarch64"
+    },
+    "libthai-0.1.29-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a5beca951ed8e121b8b142635824df6889152b1480bece52afcb7de64c137608",
+      "kind": "repository-metadata"
+    },
+    "libtheora-1.1.1-6-aarch64.pkg.tar.xz": {
+      "size": 257352,
+      "sha256": "d261f3b5a780a588105eef80b08f7c8f7a222aa4b143814d0aed551e3c59c9fe",
+      "name": "libtheora",
+      "version": "1.1.1-6",
+      "arch": "aarch64"
+    },
+    "libtheora-1.1.1-6-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "427ab8774ea62ba7046de1844b8e62d0950312d1fb8222d1ea3017be1f3faea0",
+      "kind": "repository-metadata"
+    },
+    "libtiff-4.6.0-2-aarch64.pkg.tar.xz": {
+      "size": 947260,
+      "sha256": "4cd81c222df7f1c8fb8563965f8d0736e3db003abb6e1a2410317842e195f9af",
+      "name": "libtiff",
+      "version": "4.6.0-2",
+      "arch": "aarch64"
+    },
+    "libtiff-4.6.0-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "d087a2f75acf94bc77b5554aa37e08cbd4e23a6c3bb5f9fdfc540bbbdeacc20b",
+      "kind": "repository-metadata"
+    },
+    "libtool-2.4.7-2-aarch64.pkg.tar.xz": {
+      "size": 414364,
+      "sha256": "589c20aee31d2f05860234b8a34b7cbb0eebf1cda2e295e991a5b5a93214e79c",
+      "name": "libtool",
+      "version": "2.4.7-2",
+      "arch": "aarch64"
+    },
+    "libtool-2.4.7-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "48257f5f51bc64be517491147adc34707606fcaba95e265ff703de3504fcc16e",
+      "kind": "repository-metadata"
+    },
+    "libunwind-1.7.2-1-aarch64.pkg.tar.xz": {
+      "size": 118440,
+      "sha256": "a15f62569f2c89efdbbc5854e38d81c0ea81fda63a24870c0348393e722fd35b",
+      "name": "libunwind",
+      "version": "1.7.2-1",
+      "arch": "aarch64"
+    },
+    "libunwind-1.7.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "626fda29a97487f0389097c00038573b71df333ba9d983dcf198c27cfeb074e1",
+      "kind": "repository-metadata"
+    },
+    "libutempter-1.2.1-4-aarch64.pkg.tar.xz": {
+      "size": 9304,
+      "sha256": "c5c7924ca2bbc4855bfbc8689d1ad86d4e103748fabbaf510a9212a679be3efe",
+      "name": "libutempter",
+      "version": "1.2.1-4",
+      "arch": "aarch64"
+    },
+    "libutempter-1.2.1-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "4d6c69483c6314ad9bcd2f58fdf48d777b3319a190e12b39368da617a2d95c43",
+      "kind": "repository-metadata"
+    },
+    "libvorbis-1.3.7-3-aarch64.pkg.tar.xz": {
+      "size": 290036,
+      "sha256": "99c1bdd0be2e1292d4bf0fc6f26b24e2b5e844f30ac1c0860860b760328bafc8",
+      "name": "libvorbis",
+      "version": "1.3.7-3",
+      "arch": "aarch64"
+    },
+    "libvorbis-1.3.7-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bb8b20d8341dde8569df818559b0f81d49126323df1bcf2c81ee72a82b773507",
+      "kind": "repository-metadata"
+    },
+    "libvpx-1.14.0-1-aarch64.pkg.tar.xz": {
+      "size": 1267764,
+      "sha256": "103931dcfca7cd16bc5bb2aa83e1782a03d571b2a69e5f94677473326becfc94",
+      "name": "libvpx",
+      "version": "1.14.0-1",
+      "arch": "aarch64"
+    },
+    "libvpx-1.14.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8021b02ead32e680a2afb321cf8a556b6b960b7a58410d03d2897fe2fb039d87",
+      "kind": "repository-metadata"
+    },
+    "libwacom-2.10.0-1-aarch64.pkg.tar.xz": {
+      "size": 117888,
+      "sha256": "c32aa8c4defe941c373bf110a2c281da749632ec4b3201377b16f044d06f8f6a",
+      "name": "libwacom",
+      "version": "2.10.0-1",
+      "arch": "aarch64"
+    },
+    "libwacom-2.10.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "255b8105b264045441b6b4591b100ba2325ce04d2fe145550f86a8402bf81fc4",
+      "kind": "repository-metadata"
+    },
+    "libwnck3-43.0-3-aarch64.pkg.tar.xz": {
+      "size": 401568,
+      "sha256": "8e8574f30f7aea461f1fded0bde0abf307f304952be44b9f1f6d71c14848c9eb",
+      "name": "libwnck3",
+      "version": "43.0-3",
+      "arch": "aarch64"
+    },
+    "libwnck3-43.0-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "700f92e1c4445068579d3ec898b9fd4a4ab65f7c0a11d4b04543ba21dcaf569d",
+      "kind": "repository-metadata"
+    },
+    "libx11-1.8.7-1-aarch64.pkg.tar.xz": {
+      "size": 2024304,
+      "sha256": "bdf66f12191caaf0d884155590ac0a6a381778e3cd32a33ca6c5a25ecc013fa4",
+      "name": "libx11",
+      "version": "1.8.7-1",
+      "arch": "aarch64"
+    },
+    "libx11-1.8.7-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "3b4f01204c074d43d201d611171c73cc538dbff78f7f18c5988370d0ad7bfb6c",
+      "kind": "repository-metadata"
+    },
+    "libxau-1.0.11-2-aarch64.pkg.tar.xz": {
+      "size": 11000,
+      "sha256": "4277b57413526b916af9a48472cfacc3303f1ebe836a6196d3212e6964cdab5e",
+      "name": "libxau",
+      "version": "1.0.11-2",
+      "arch": "aarch64"
+    },
+    "libxau-1.0.11-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "bb3973463f8ec41bf4636ef8e73924c317a119223c32d91f40751483b73af758",
+      "kind": "repository-metadata"
+    },
+    "libxcb-1.16-1-aarch64.pkg.tar.xz": {
+      "size": 1024892,
+      "sha256": "1e27e9e2c3a7cb35252be6db423630bbbd15b0b5cf1f0b2f938354455f13c523",
+      "name": "libxcb",
+      "version": "1.16-1",
+      "arch": "aarch64"
+    },
+    "libxcb-1.16-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "456f97ce89be62606e3abdeac2e70318ceeeeffcae20cd82029d16b9498481b4",
+      "kind": "repository-metadata"
+    },
+    "libxcomposite-0.4.6-1-aarch64.pkg.tar.xz": {
+      "size": 11412,
+      "sha256": "b3bab01c5ad8a3fe565548fd5985a6232dc35237a0713811589d73db4414065a",
+      "name": "libxcomposite",
+      "version": "0.4.6-1",
+      "arch": "aarch64"
+    },
+    "libxcomposite-0.4.6-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "cc083e47b6c9d3fb904534fd5352e0ebdc98b4e891f7b96d85fe7ab703e3c016",
+      "kind": "repository-metadata"
+    },
+    "libxcursor-1.2.1-3-aarch64.pkg.tar.xz": {
+      "size": 31260,
+      "sha256": "ff24c15b1546aefecd23c3472b60fa0e0e6e1ee8b834cf3a94724a9762709473",
+      "name": "libxcursor",
+      "version": "1.2.1-3",
+      "arch": "aarch64"
+    },
+    "libxcursor-1.2.1-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a0c1cf1655527b7d07504c1f4d987b8ee2b84a023cc78effc50a88832a2ffacc",
+      "kind": "repository-metadata"
+    },
+    "libxdamage-1.1.6-1-aarch64.pkg.tar.xz": {
+      "size": 7120,
+      "sha256": "76ef01686fcaa36778400ab8a34b682fdaa7aad27c16d93745f822e8bec0783d",
+      "name": "libxdamage",
+      "version": "1.1.6-1",
+      "arch": "aarch64"
+    },
+    "libxdamage-1.1.6-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b319237ce0d3cf49e4c648153aaa34f99a24733fbe70f149dc05c01e284e7848",
+      "kind": "repository-metadata"
+    },
+    "libxdmcp-1.1.4-2-aarch64.pkg.tar.xz": {
+      "size": 26268,
+      "sha256": "00f26da8adebf9459876986e78298d09cb69d60695535b160dd0a2ab2bdf6cac",
+      "name": "libxdmcp",
+      "version": "1.1.4-2",
+      "arch": "aarch64"
+    },
+    "libxdmcp-1.1.4-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b46bf6de91293f610faadf53dacd3540ca467b8a2019c3fdb4653140e8fc2efc",
+      "kind": "repository-metadata"
+    },
+    "libxext-1.3.6-1-aarch64.pkg.tar.xz": {
+      "size": 104524,
+      "sha256": "8e146bcd8401b20a3e1deecb610216866c9274c4fcc2344f5b823bdf2aa4c6e5",
+      "name": "libxext",
+      "version": "1.3.6-1",
+      "arch": "aarch64"
+    },
+    "libxext-1.3.6-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "69ca94d363fc676e54c8268f0b0cea426b5da865a7a8d8eb048e2d6f94d50d79",
+      "kind": "repository-metadata"
+    },
+    "libxfce4ui-4.18.5-1-aarch64.pkg.tar.xz": {
+      "size": 358724,
+      "sha256": "2ab05ef81d6904d9ce90e127066b38f62819f466e2efeeb45bbc2c36d2e07934",
+      "name": "libxfce4ui",
+      "version": "4.18.5-1",
+      "arch": "aarch64"
+    },
+    "libxfce4ui-4.18.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5493b7b19628766814991cee044c50de60f7635c22008acb66a230fe94173209",
+      "kind": "repository-metadata"
+    },
+    "libxfce4util-4.18.2-1-aarch64.pkg.tar.xz": {
+      "size": 131744,
+      "sha256": "f3c3834ee26f85df58c94e57d15ccd2e338c03176c1e5bdf04b7e8d59170f32a",
+      "name": "libxfce4util",
+      "version": "4.18.2-1",
+      "arch": "aarch64"
+    },
+    "libxfce4util-4.18.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c8c5a2310ffd295dc15c8b64aee973527b2aec75ed00d6d8257ca791cded470e",
+      "kind": "repository-metadata"
+    },
+    "libxfixes-6.0.1-1-aarch64.pkg.tar.xz": {
+      "size": 13540,
+      "sha256": "ab06e87cb054d6dbe84dd47befdc19f8a14a967326893754205b0ccab0243771",
+      "name": "libxfixes",
+      "version": "6.0.1-1",
+      "arch": "aarch64"
+    },
+    "libxfixes-6.0.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8361f41eed25d7a2f0fcee5b06df345b0e2aab7f0a1bddbcdef16e21435db83e",
+      "kind": "repository-metadata"
+    },
+    "libxft-2.3.8-1-aarch64.pkg.tar.xz": {
+      "size": 57872,
+      "sha256": "e4b838e2285445d0f07464daf49fd054ce2eaffa95f4d1d07af90e50a99fa833",
+      "name": "libxft",
+      "version": "2.3.8-1",
+      "arch": "aarch64"
+    },
+    "libxft-2.3.8-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "97361beedee5ca4d4034dcdd3289b0d9f067188425e4890b23e0d375a75e48d8",
+      "kind": "repository-metadata"
+    },
+    "libxi-1.8.1-1-aarch64.pkg.tar.xz": {
+      "size": 151416,
+      "sha256": "668bf5e489b7075a3311bebbb14160ac06ecdfa154652b44eb8db7608f7e0909",
+      "name": "libxi",
+      "version": "1.8.1-1",
+      "arch": "aarch64"
+    },
+    "libxi-1.8.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "790f27145c8fe13e398136149987b65a6e72396b517488b5d3c38ed4a410d300",
+      "kind": "repository-metadata"
+    },
+    "libxinerama-1.1.5-1-aarch64.pkg.tar.xz": {
+      "size": 9712,
+      "sha256": "6f60d3e4753c4e58e6adca83c7bd4ef32d99bdf450bac3581880dd718764af7b",
+      "name": "libxinerama",
+      "version": "1.1.5-1",
+      "arch": "aarch64"
+    },
+    "libxinerama-1.1.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b179aeb7bc1baa6e4cd80688d72790c5f6f3557403a3c357c211e2b5cd83a1c1",
+      "kind": "repository-metadata"
+    },
+    "libxkbcommon-1.6.0-1-aarch64.pkg.tar.xz": {
+      "size": 189128,
+      "sha256": "15974ee7d707592060b90d1f6142414cb69d43985f3d385042ef0ae93d71643a",
+      "name": "libxkbcommon",
+      "version": "1.6.0-1",
+      "arch": "aarch64"
+    },
+    "libxkbcommon-1.6.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ba9b1879682c116b21a786c22ce356487fbdf8075fd4da9e21894f125e4c7d28",
+      "kind": "repository-metadata"
+    },
+    "libxkbcommon-x11-1.6.0-1-aarch64.pkg.tar.xz": {
+      "size": 23544,
+      "sha256": "4a88c659e84cee96ac95524b7b74bb1a1af8751b06ac975cc4d3032e7115e216",
+      "name": "libxkbcommon-x11",
+      "version": "1.6.0-1",
+      "arch": "aarch64"
+    },
+    "libxkbcommon-x11-1.6.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "32f9683de9fc0a52571d2776830527fa643e5df1870c57c6742a4727f86f222d",
+      "kind": "repository-metadata"
+    },
+    "libxkbfile-1.1.3-1-aarch64.pkg.tar.xz": {
+      "size": 69708,
+      "sha256": "ceb0881e3a594d6751a7d0d86021771f6a2b93ecc9b62b05788add4cc47a3218",
+      "name": "libxkbfile",
+      "version": "1.1.3-1",
+      "arch": "aarch64"
+    },
+    "libxkbfile-1.1.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c8929354841f8ac0a876694e5f60d05ca10e71f452f9c8d0be52d8693cf86926",
+      "kind": "repository-metadata"
+    },
+    "libxklavier-5.4-5-aarch64.pkg.tar.xz": {
+      "size": 69832,
+      "sha256": "fe126d6f0c1ab9d9016ec56d7c217426d1f0318c9cb6175edc0e4a78ee52bedf",
+      "name": "libxklavier",
+      "version": "5.4-5",
+      "arch": "aarch64"
+    },
+    "libxklavier-5.4-5-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "f6132bf2e18f51ccaa74aef76d86c0abbdf7d0db5c730e4148a31d0333be35e9",
+      "kind": "repository-metadata"
+    },
+    "libxmu-1.1.4-1-aarch64.pkg.tar.xz": {
+      "size": 72964,
+      "sha256": "ea9c28ba433cf9c596e872eb5537e231e7c8d57f2f518d12477a43316cd43de9",
+      "name": "libxmu",
+      "version": "1.1.4-1",
+      "arch": "aarch64"
+    },
+    "libxmu-1.1.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "7a6923fc123cf74428b2306cb18b09827d2340702dd216b0cda96e2402a7bf56",
+      "kind": "repository-metadata"
+    },
+    "libxpresent-1.0.1-1-aarch64.pkg.tar.xz": {
+      "size": 18032,
+      "sha256": "8d6ee5f4aada0907fe46406dd4cdcb076b4f80836d7ccbc945ed57ba49ab9cfb",
+      "name": "libxpresent",
+      "version": "1.0.1-1",
+      "arch": "aarch64"
+    },
+    "libxpresent-1.0.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "dec5377552fc29f33b497a474710f9421ed04b7adf50f87a4df78650bf90aaf7",
+      "kind": "repository-metadata"
+    },
+    "libxrandr-1.5.4-1-aarch64.pkg.tar.xz": {
+      "size": 25600,
+      "sha256": "7c10642c33a9e947d2da34b65cab712c13d1c5002f19bd0fc437762825bb4862",
+      "name": "libxrandr",
+      "version": "1.5.4-1",
+      "arch": "aarch64"
+    },
+    "libxrandr-1.5.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "77c456ba1c65452da1dcc9c7b9451bb86088f8a1df908e9eaca7a52df10211d2",
+      "kind": "repository-metadata"
+    },
+    "libxrender-0.9.11-1-aarch64.pkg.tar.xz": {
+      "size": 27304,
+      "sha256": "42ab59fa18d864a754bcd37910dec143588812b232259738b45c64f3ff87d52a",
+      "name": "libxrender",
+      "version": "0.9.11-1",
+      "arch": "aarch64"
+    },
+    "libxrender-0.9.11-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "caea8395375697d76b8b6cd5004cd5197d08525eea12ecf32d12c27eb2af8dcc",
+      "kind": "repository-metadata"
+    },
+    "libxres-1.2.2-1-aarch64.pkg.tar.xz": {
+      "size": 10172,
+      "sha256": "2734095b3431faea1e72612915406dcd3000929d9a70c86bde7a8d4c29fdd41d",
+      "name": "libxres",
+      "version": "1.2.2-1",
+      "arch": "aarch64"
+    },
+    "libxres-1.2.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "766f23b6f5790005bdc14a7a790ef756deef09a09d19883ea65a6e6c9838054b",
+      "kind": "repository-metadata"
+    },
+    "libxshmfence-1.3.2-1-aarch64.pkg.tar.xz": {
+      "size": 5848,
+      "sha256": "ce3bd41a92503fb3e53778da3bb0789105a21e8c780b55ac0f1df549b16437bd",
+      "name": "libxshmfence",
+      "version": "1.3.2-1",
+      "arch": "aarch64"
+    },
+    "libxshmfence-1.3.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b09bf7307e72c9c2fe76744f4cc4f3d7a42745f91e0465c201b539d048a7181b",
+      "kind": "repository-metadata"
+    },
+    "libxt-1.3.0-1-aarch64.pkg.tar.xz": {
+      "size": 524196,
+      "sha256": "03594427f8e1ba581ad77479a9d0ef39efc0674cd70a8725c1a73e418fe09d58",
+      "name": "libxt",
+      "version": "1.3.0-1",
+      "arch": "aarch64"
+    },
+    "libxt-1.3.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e7861a3bf9e860a50d6f970dc0d1f0235261322810faed8a6e79b67954f28500",
+      "kind": "repository-metadata"
+    },
+    "libxtst-1.2.4-1-aarch64.pkg.tar.xz": {
+      "size": 28668,
+      "sha256": "a2ad9570ba57e937208bcaa352b294041b9aa2076cabe87f8f118f2ef4e6a4b4",
+      "name": "libxtst",
+      "version": "1.2.4-1",
+      "arch": "aarch64"
+    },
+    "libxtst-1.2.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "cb2f27176405193ae6cdf4976814a25236db9ba52527f177caff0bfa3d24488e",
+      "kind": "repository-metadata"
+    },
+    "libxv-1.0.12-1-aarch64.pkg.tar.xz": {
+      "size": 35596,
+      "sha256": "ecb374cb65883d4b873f763c0a2d48a905bba956f340ac71941c020a37cb3c05",
+      "name": "libxv",
+      "version": "1.0.12-1",
+      "arch": "aarch64"
+    },
+    "libxv-1.0.12-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "576344eaafe7add53fea5d8918f88177800795a76a725aa4e1e095107c07df71",
+      "kind": "repository-metadata"
+    },
+    "libxxf86vm-1.1.5-1-aarch64.pkg.tar.xz": {
+      "size": 14920,
+      "sha256": "d84726d9eb05645249f75711a3a6511f53064c963a6c3f604f177dcfe8abdbe2",
+      "name": "libxxf86vm",
+      "version": "1.1.5-1",
+      "arch": "aarch64"
+    },
+    "libxxf86vm-1.1.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b29a38dc591f6da2670080281a16675226e6f70838c99b315f6b76edfe5856ac",
+      "kind": "repository-metadata"
+    },
+    "llvm-libs-16.0.6-1-aarch64.pkg.tar.xz": {
+      "size": 27417224,
+      "sha256": "b53136b0ce0377a179531de71d4917cf4e4796ebaa14ed14ed149a8707aff8c1",
+      "name": "llvm-libs",
+      "version": "16.0.6-1",
+      "arch": "aarch64"
+    },
+    "llvm-libs-16.0.6-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "40bf604e92043cfac60bf07fd606e4f8d775202e56d343e837e8dda6de3425c5",
+      "kind": "repository-metadata"
+    },
+    "lm_sensors-1:3.6.0.r41.g31d1f125-2-aarch64.pkg.tar.xz": {
+      "size": 122236,
+      "sha256": "c348809b0c5c624ba06ee1610978dd0186083de1bdabcca79649f983909e0a30",
+      "name": "lm_sensors",
+      "version": "1:3.6.0.r41.g31d1f125-2",
+      "arch": "aarch64"
+    },
+    "lm_sensors-1:3.6.0.r41.g31d1f125-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "db18bb74094f48056001ee7ecbe0a08a4c07c0adeaf9d9e649ec500d7101bd57",
+      "kind": "repository-metadata"
+    },
+    "lzo-2.10-5-aarch64.pkg.tar.xz": {
+      "size": 78388,
+      "sha256": "7831512f18a7764b64f04c2c3483405c7576aefaf543b3fcfd462721afcf3c7d",
+      "name": "lzo",
+      "version": "2.10-5",
+      "arch": "aarch64"
+    },
+    "lzo-2.10-5-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6e2099240a1cf828c09d7284a0717bbfa15ba539720e3217e3e2f5bcdd064534",
+      "kind": "repository-metadata"
+    },
+    "md4c-0.5.2-1-aarch64.pkg.tar.xz": {
+      "size": 69128,
+      "sha256": "23e5f0118bc3f385cf92b03fc2e7dfcc05f94dc16be27ef056189dbc7c25d5cc",
+      "name": "md4c",
+      "version": "0.5.2-1",
+      "arch": "aarch64"
+    },
+    "md4c-0.5.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "44d6f9e38beac1d22156df1f8a0e6e2c9e513a339c3555665781b939dc87f037",
+      "kind": "repository-metadata"
+    },
+    "mesa-24.0.2-1-aarch64.pkg.tar.zst": {
+      "size": 27458158,
+      "sha256": "7dfaf8c239be726690609d2a7a8287a1f37c8db3836d3d9f741190fefb540728",
+      "name": "mesa",
+      "version": "24.0.2-1",
+      "arch": "aarch64"
+    },
+    "mesa-24.0.2-1-aarch64.pkg.tar.zst.sig": {
+      "size": 310,
+      "sha256": "d8830cd42bef537ea9254c0e6d3254d4420de1d7bf1f187fc3b05a3c5dd04eca",
+      "kind": "repository-metadata"
+    },
+    "mpg123-1.32.5-1-aarch64.pkg.tar.xz": {
+      "size": 414684,
+      "sha256": "3202d29fe5ded7c76267a5434563ab482c825405fa9b8a2cc0f362ec05ed5726",
+      "name": "mpg123",
+      "version": "1.32.5-1",
+      "arch": "aarch64"
+    },
+    "mpg123-1.32.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "db232c4b66703f327ed7e54fbb66defea9c9ce26fc3ce7c4e5ef287c61c4ce11",
+      "kind": "repository-metadata"
+    },
+    "mtdev-1.1.6-2-aarch64.pkg.tar.xz": {
+      "size": 16336,
+      "sha256": "ba8b51699b86f39eb7f6b80dfae433480a46cb721f823669d794360e5bb56917",
+      "name": "mtdev",
+      "version": "1.1.6-2",
+      "arch": "aarch64"
+    },
+    "mtdev-1.1.6-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "35d93505c9337caac69be42351fc87f46ccc3097db2941786bb302817c2d1542",
+      "kind": "repository-metadata"
+    },
+    "opus-1.4-1-aarch64.pkg.tar.xz": {
+      "size": 199456,
+      "sha256": "bc5e38227049e13470e35f57890b28f3951009c41ecfb1136f37cb0e2c863d82",
+      "name": "opus",
+      "version": "1.4-1",
+      "arch": "aarch64"
+    },
+    "opus-1.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5fbcec4424c600fe85ec70c4da7628a3619ec0d0fe3cb871c67812a94c4f96c1",
+      "kind": "repository-metadata"
+    },
+    "orc-0.4.37-1-aarch64.pkg.tar.xz": {
+      "size": 244724,
+      "sha256": "051e0ee9deb2249c5e76b88902643f6ef8b9caad59662fdce10a066927af40ef",
+      "name": "orc",
+      "version": "0.4.37-1",
+      "arch": "aarch64"
+    },
+    "orc-0.4.37-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "1ec033a039e0135194ecdeae17987f6868b98c449848ab145607ab46243c1737",
+      "kind": "repository-metadata"
+    },
+    "pango-1:1.51.2-1-aarch64.pkg.tar.xz": {
+      "size": 383708,
+      "sha256": "fd82718486df7ffb2939e944ad77c2a161ce54fac8ed0234104270a464df30c1",
+      "name": "pango",
+      "version": "1:1.51.2-1",
+      "arch": "aarch64"
+    },
+    "pango-1:1.51.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "79c8ecc89eae2035cb53a2c35e41cfeb0faf75e94a2c3dbab293af3eb80f05f9",
+      "kind": "repository-metadata"
+    },
+    "pcre-8.45-4-aarch64.pkg.tar.xz": {
+      "size": 900772,
+      "sha256": "fa0d7c0980bc8fee64e379f5198e2f6eef831dbf2a1d2a53de8ec465f2297149",
+      "name": "pcre",
+      "version": "8.45-4",
+      "arch": "aarch64"
+    },
+    "pcre-8.45-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8975063b04a57fca5665a56f734a8a5a48dd676c20907a15296884d24fb7a4a2",
+      "kind": "repository-metadata"
+    },
+    "pixman-0.43.2-1-aarch64.pkg.tar.xz": {
+      "size": 146324,
+      "sha256": "01847bf3864aa518bac6f60621cf7fd1ed066425fb42c311a45fab87c78069e1",
+      "name": "pixman",
+      "version": "0.43.2-1",
+      "arch": "aarch64"
+    },
+    "pixman-0.43.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "21bf3abfdc92de84a97bea2e91c6553392a74bcdd4242f9a5df11adde5aece89",
+      "kind": "repository-metadata"
+    },
+    "polkit-124-2-aarch64.pkg.tar.xz": {
+      "size": 401868,
+      "sha256": "0fa798adf22676d2f94da6711314b6c8fe99c234c737715907ff1078bb3dff77",
+      "name": "polkit",
+      "version": "124-2",
+      "arch": "aarch64"
+    },
+    "polkit-124-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a29263bf3f7e87c915e30452d88de51c8eb45b41c8a0acc49eba0bcc7bee56b4",
+      "kind": "repository-metadata"
+    },
+    "polkit-gnome-0.105-10-aarch64.pkg.tar.xz": {
+      "size": 59424,
+      "sha256": "93732a31b7167185c7aed8c82ecef2d6f551a250eff2af08c7c5f8d64876019d",
+      "name": "polkit-gnome",
+      "version": "0.105-10",
+      "arch": "aarch64"
+    },
+    "polkit-gnome-0.105-10-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ba05e5c4a4f6d7abd22675a7a8ff2120968ed91db70ab4213007e3a341e86e58",
+      "kind": "repository-metadata"
+    },
+    "popt-1.19-1-aarch64.pkg.tar.xz": {
+      "size": 69804,
+      "sha256": "5f1edf900ee45e2cdf098b16b430c28e03ef72458d54d76f2273cdfaadde00b2",
+      "name": "popt",
+      "version": "1.19-1",
+      "arch": "aarch64"
+    },
+    "popt-1.19-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "cbc9fb1edc4e03d374d0d77686223866e38b9743bbe8089a9cc0502a2daf8310",
+      "kind": "repository-metadata"
+    },
+    "procps-ng-4.0.4-2-aarch64.pkg.tar.xz": {
+      "size": 897692,
+      "sha256": "7c99ce6fdadc544bd7d462be7b222cbc07dda4662dcc2c3459f6f7662d68b9c1",
+      "name": "procps-ng",
+      "version": "4.0.4-2",
+      "arch": "aarch64"
+    },
+    "procps-ng-4.0.4-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "81f910a1b1108ccbcbae566f278d9bfcee173b3ae3333c331a91a033ba89b05e",
+      "kind": "repository-metadata"
+    },
+    "python-3.11.7-1-aarch64.pkg.tar.xz": {
+      "size": 13958300,
+      "sha256": "e7d564aae4f24dc4804d74214b46f959afaa91846c2c4d2ab8a266595db0e35e",
+      "name": "python",
+      "version": "3.11.7-1",
+      "arch": "aarch64"
+    },
+    "python-3.11.7-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "28922f3c8199271e10bc4dde0f211622c30152f9a6dcbf6c0d1264aa71d50724",
+      "kind": "repository-metadata"
+    },
+    "qt5-base-5.15.12+kde+r151-1-aarch64.pkg.tar.xz": {
+      "size": 12969664,
+      "sha256": "1b9b0fcf0b8c106c9583dfd8f1cbf59ec63862b758e69df1ad3ae1c1ce2085d6",
+      "name": "qt5-base",
+      "version": "5.15.12+kde+r151-1",
+      "arch": "aarch64"
+    },
+    "qt5-base-5.15.12+kde+r151-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c627cde8cf6c8d3b67325f21ba65644f2f3a11693b476fd53f67ab662c91f77d",
+      "kind": "repository-metadata"
+    },
+    "qt5-translations-5.15.12-1-any.pkg.tar.xz": {
+      "size": 1850916,
+      "sha256": "bada9804d3e76969320448574f066f20c1b36503d29f5170e40b2261efeb413f",
+      "name": "qt5-translations",
+      "version": "5.15.12-1",
+      "arch": "any"
+    },
+    "qt5-translations-5.15.12-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "1bced2fd04ab003701513d52882619bf6b3ad34b3fe7f76e4ae4e68cb3b494ad",
+      "kind": "repository-metadata"
+    },
+    "qt6-base-6.6.2-4-aarch64.pkg.tar.xz": {
+      "size": 12894400,
+      "sha256": "dc1c3a2d9cadb49e2d14d5bd18f7d9c35ebfeaae83691bfb52736cdaf1d24a75",
+      "name": "qt6-base",
+      "version": "6.6.2-4",
+      "arch": "aarch64"
+    },
+    "qt6-base-6.6.2-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a144041016d195a999a4fe057cdfb1faf48abc3336f9b4313c7b943c5ec48000",
+      "kind": "repository-metadata"
+    },
+    "qt6-declarative-6.6.2-1-aarch64.pkg.tar.xz": {
+      "size": 11972976,
+      "sha256": "dfb8cbac459358f7a9c7c41045dfcc995f4bf52d0b30f657607fc87def726837",
+      "name": "qt6-declarative",
+      "version": "6.6.2-1",
+      "arch": "aarch64"
+    },
+    "qt6-declarative-6.6.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a8e1addd8434a8bbe49a55b58fa3bedf9a39e23982dd09c68c661e7224504d7c",
+      "kind": "repository-metadata"
+    },
+    "qt6-translations-6.6.2-1-any.pkg.tar.xz": {
+      "size": 1675804,
+      "sha256": "195c6bfa1514437e66f5248e7ce3e23e4424e118837099e56e6505d5d285e8d5",
+      "name": "qt6-translations",
+      "version": "6.6.2-1",
+      "arch": "any"
+    },
+    "qt6-translations-6.6.2-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "18c0208d739455e56e4a017f2c017c8bb0b05d5f7a77e1f10e400566e075c4f4",
+      "kind": "repository-metadata"
+    },
+    "qt6-wayland-6.6.2-1-aarch64.pkg.tar.xz": {
+      "size": 1057240,
+      "sha256": "1e98cccbaf3a34ad217d76fa2aa04525b79892e0f02eb7d674036f84af38ed08",
+      "name": "qt6-wayland",
+      "version": "6.6.2-1",
+      "arch": "aarch64"
+    },
+    "qt6-wayland-6.6.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "706eb2951efb7db9931601dc0dd7201da6a221d10f05a0b5ed4af5ebddf8aa0d",
+      "kind": "repository-metadata"
+    },
+    "shadow-4.14.5-1-aarch64.pkg.tar.xz": {
+      "size": 1171748,
+      "sha256": "393afc828d0cf855dc9e3ec61d07c327a533f2aa9fcd7633429b96bc82cefa72",
+      "name": "shadow",
+      "version": "4.14.5-1",
+      "arch": "aarch64"
+    },
+    "shadow-4.14.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "0a037aaa67e131e6cbffc740063ea48758ef43df2f3bff73b6eecc6fadfbe275",
+      "kind": "repository-metadata"
+    },
+    "shared-mime-info-2.4-1-aarch64.pkg.tar.xz": {
+      "size": 569296,
+      "sha256": "77371896d5d4b1c99542c9c1cb3c708a2b8eb94e3bbf27fdb9b64d9bbf62b2f1",
+      "name": "shared-mime-info",
+      "version": "2.4-1",
+      "arch": "aarch64"
+    },
+    "shared-mime-info-2.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "91b4babbb90e728ae4dcdf4f139d1ecd9bc89b8f9758cd61e42daaa60dabbe05",
+      "kind": "repository-metadata"
+    },
+    "slang-2.3.3-2-aarch64.pkg.tar.xz": {
+      "size": 759708,
+      "sha256": "b9adcde54347f3761fd5d68d086cc829b1347281660edc31806267cb9bc6a78b",
+      "name": "slang",
+      "version": "2.3.3-2",
+      "arch": "aarch64"
+    },
+    "slang-2.3.3-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6f620de3a7b63b787d6a95d1b0bf49c69c70383ad56b7d4bd85c8d0480b5ed1e",
+      "kind": "repository-metadata"
+    },
+    "sound-theme-freedesktop-0.8-5-any.pkg.tar.xz": {
+      "size": 377496,
+      "sha256": "b12e455a5d02bbe5c22be198ac02af6eee5f5eafa3e372d515cd5f2dfd842e11",
+      "name": "sound-theme-freedesktop",
+      "version": "0.8-5",
+      "arch": "any"
+    },
+    "sound-theme-freedesktop-0.8-5-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "daaca6203cc4c341e0afd7b33010f261df268de654df8962931323f0a9608b20",
+      "kind": "repository-metadata"
+    },
+    "speex-1.2.1-1-aarch64.pkg.tar.xz": {
+      "size": 484800,
+      "sha256": "8288ca85c11c762e786d3a2a59e9ef8133aae72b9bc2ce28ed18993362b0c17c",
+      "name": "speex",
+      "version": "1.2.1-1",
+      "arch": "aarch64"
+    },
+    "speex-1.2.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "1ddfbfdd1903f5b2c3686569714ff185dc3261097c82e81ca1596e878b954209",
+      "kind": "repository-metadata"
+    },
+    "speexdsp-1.2.1-1-aarch64.pkg.tar.xz": {
+      "size": 455084,
+      "sha256": "af3311f75e17ed9e2604bccb9cebc937fd50e3d028dd120cafbbead4015edca7",
+      "name": "speexdsp",
+      "version": "1.2.1-1",
+      "arch": "aarch64"
+    },
+    "speexdsp-1.2.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5e6def710afd5bc29461897014d793f754495fa54a4c150585a7c74e882ad5c4",
+      "kind": "repository-metadata"
+    },
+    "startup-notification-0.12-8-aarch64.pkg.tar.xz": {
+      "size": 18120,
+      "sha256": "804048c89c3034ae188bc06af8f5cfe614e55f7bebdd8859a7994116b5caeeeb",
+      "name": "startup-notification",
+      "version": "0.12-8",
+      "arch": "aarch64"
+    },
+    "startup-notification-0.12-8-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6ef26982210c2eff06f689163dc3474ee7c6d58ea040860a37f95f9748b29ff2",
+      "kind": "repository-metadata"
+    },
+    "systemd-255.3-1-aarch64.pkg.tar.xz": {
+      "size": 7206796,
+      "sha256": "560addbb944896cdecca9a294354e26480113ba42e3dd329dce5b14abf0b5bcf",
+      "name": "systemd",
+      "version": "255.3-1",
+      "arch": "aarch64"
+    },
+    "systemd-255.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "e40111fcd13fd8ad5c5a3962cb539f9530ca971101be50d2790cb66014095c9e",
+      "kind": "repository-metadata"
+    },
+    "taglib-2.0-1-aarch64.pkg.tar.xz": {
+      "size": 389652,
+      "sha256": "cf28f5d9ab8e7761b093a5c4ba729bda1d193a0d9435cc9cb2190e11166eef40",
+      "name": "taglib",
+      "version": "2.0-1",
+      "arch": "aarch64"
+    },
+    "taglib-2.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b36dd73ff35be7c82b690ade4879b0d1ca62f20b5f6f7209361e316c0626f763",
+      "kind": "repository-metadata"
+    },
+    "tar-1.35-2-aarch64.pkg.tar.xz": {
+      "size": 743712,
+      "sha256": "16b14aa57a0a697e31a457d1c8f868d9e50ce842319c657e389aeb3f339a54bc",
+      "name": "tar",
+      "version": "1.35-2",
+      "arch": "aarch64"
+    },
+    "tar-1.35-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6297d5eb44e53f498f4d0a72f173fce1cbaa9270225107abe2ed3c9aa03e422d",
+      "kind": "repository-metadata"
+    },
+    "tdb-1.4.9-1-aarch64.pkg.tar.xz": {
+      "size": 70472,
+      "sha256": "c10997af0c4b14092bcc30f34423f3747dc9615cbf3231fa2adc2411a594c54e",
+      "name": "tdb",
+      "version": "1.4.9-1",
+      "arch": "aarch64"
+    },
+    "tdb-1.4.9-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "59b66af28713f1cef41657ec3998a96f439e272da55c8d93983c8ded80fcddcd",
+      "kind": "repository-metadata"
+    },
+    "thunar-4.18.10-1-aarch64.pkg.tar.xz": {
+      "size": 1416908,
+      "sha256": "080a4ad8eeec2606ad5ca1e1104094ef4bba7cafe967c829861f8daebca93463",
+      "name": "thunar",
+      "version": "4.18.10-1",
+      "arch": "aarch64"
+    },
+    "thunar-4.18.10-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "2e36932ec4f435330c727514251b8005dcf7de15b117165fe181ae6dc5fca157",
+      "kind": "repository-metadata"
+    },
+    "tracker3-3.6.0-3-aarch64.pkg.tar.xz": {
+      "size": 612148,
+      "sha256": "0a74e91f75609b263ed883f0ef6159a2fc8619cf3a8c0139f220849b2621600d",
+      "name": "tracker3",
+      "version": "3.6.0-3",
+      "arch": "aarch64"
+    },
+    "tracker3-3.6.0-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "89d49345a9443b5d8d568931b5e194fae7885f65e60c878ec0eee8d40a27fe7c",
+      "kind": "repository-metadata"
+    },
+    "tslib-1.23-1-aarch64.pkg.tar.xz": {
+      "size": 99116,
+      "sha256": "70abad871432b80fa4e4dd563f48cf8b50e6eb57fd37d495f43fb1cdf9aa12ce",
+      "name": "tslib",
+      "version": "1.23-1",
+      "arch": "aarch64"
+    },
+    "tslib-1.23-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "86fbffebf139a02954c2b59c7987cbff9cb499fdf4de4521095b7397b5e077d0",
+      "kind": "repository-metadata"
+    },
+    "ttf-dejavu-2.37+18+g9b5d1b2f-6-any.pkg.tar.xz": {
+      "size": 2477312,
+      "sha256": "de72500b65a189a8a073ba4e6b233b406fe710104afdcfcd51c95674aac65fd0",
+      "name": "ttf-dejavu",
+      "version": "2.37+18+g9b5d1b2f-6",
+      "arch": "any"
+    },
+    "ttf-dejavu-2.37+18+g9b5d1b2f-6-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c168c054ce438002c9d402e2e34e125142f69c95342cf1af8202c5afe5ad1e30",
+      "kind": "repository-metadata"
+    },
+    "ttf-liberation-2.1.5-1-any.pkg.tar.xz": {
+      "size": 1474008,
+      "sha256": "3b63fbcc68a249646c450ec2aff9e4a011905fbbb3785365cd6a326458feca82",
+      "name": "ttf-liberation",
+      "version": "2.1.5-1",
+      "arch": "any"
+    },
+    "ttf-liberation-2.1.5-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "01f9a0e9611bdd4be6a999d047edcb9daad762012facc75237e18475f1115ce0",
+      "kind": "repository-metadata"
+    },
+    "twolame-0.4.0-3-aarch64.pkg.tar.xz": {
+      "size": 79256,
+      "sha256": "6458d63b47b7eb8b4ab3c81fe9bfb77411645723533d489422b26761e2929595",
+      "name": "twolame",
+      "version": "0.4.0-3",
+      "arch": "aarch64"
+    },
+    "twolame-0.4.0-3-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a57301f172d849a65e6cf0db28797fe728ed951a25082bcbe9ffaf6316ee25e0",
+      "kind": "repository-metadata"
+    },
+    "util-linux-2.39.3-1-aarch64.pkg.tar.xz": {
+      "size": 2841276,
+      "sha256": "031888ce72f0756aad4fe12f980168723d4265b5a8a74f5c796e2be61dd0edb8",
+      "name": "util-linux",
+      "version": "2.39.3-1",
+      "arch": "aarch64"
+    },
+    "util-linux-2.39.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "dec99a788ee455999e4400e42bcd7672cf1d0bcbe1d375954bc3d9e555b93d36",
+      "kind": "repository-metadata"
+    },
+    "v4l-utils-1.26.1-1-aarch64.pkg.tar.xz": {
+      "size": 1738828,
+      "sha256": "1fbb87f2d61ab523e5b543ec07e4893f77ff8a7945721c4bc96c8fdbd1688fd9",
+      "name": "v4l-utils",
+      "version": "1.26.1-1",
+      "arch": "aarch64"
+    },
+    "v4l-utils-1.26.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "5ba4dcf1f7ecb2aaf9d901228cff2b74c9e6d2f9461d1ba9ca3f902c01453285",
+      "kind": "repository-metadata"
+    },
+    "vte-common-0.74.2-1-aarch64.pkg.tar.xz": {
+      "size": 53484,
+      "sha256": "14258f094c7bdd0df557ab681a3b8b05ed996182ac527c8dc77040e7ebd62b6e",
+      "name": "vte-common",
+      "version": "0.74.2-1",
+      "arch": "aarch64"
+    },
+    "vte-common-0.74.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "eb7c16baea48ddd0a79325d4df2c9b34b09f5784908178461035573bd60883a6",
+      "kind": "repository-metadata"
+    },
+    "vte3-0.74.2-1-aarch64.pkg.tar.xz": {
+      "size": 259888,
+      "sha256": "f9850e15c6b48d4d88a626a67e9b93239d6c82c4639c706d43e72330a22125ce",
+      "name": "vte3",
+      "version": "0.74.2-1",
+      "arch": "aarch64"
+    },
+    "vte3-0.74.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "2c909dee3eb9f369c67c8f41def48725a6196acdf4bda653ede35b1623143cf1",
+      "kind": "repository-metadata"
+    },
+    "vulkan-headers-1:1.3.276-1-any.pkg.tar.xz": {
+      "size": 1313500,
+      "sha256": "068e184bfd15678ce2505d3715b689d56463d048f032404b47ee321bb499c3c7",
+      "name": "vulkan-headers",
+      "version": "1:1.3.276-1",
+      "arch": "any"
+    },
+    "vulkan-headers-1:1.3.276-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ff223a771069de54872d2ec76c63bd00a36bf60959e6e078e96885e17b951f21",
+      "kind": "repository-metadata"
+    },
+    "vulkan-icd-loader-1.3.276-1-aarch64.pkg.tar.xz": {
+      "size": 122092,
+      "sha256": "5e7f59367cc3ddd7e78a2945f97acb995b3b9e7d270f2d9cdb6337bb53191917",
+      "name": "vulkan-icd-loader",
+      "version": "1.3.276-1",
+      "arch": "aarch64"
+    },
+    "vulkan-icd-loader-1.3.276-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "68f6c2c3a10134b1749fb9d95c662567165905d7283e7679707a98ba01d4734c",
+      "kind": "repository-metadata"
+    },
+    "wavpack-5.6.0-1-aarch64.pkg.tar.xz": {
+      "size": 484996,
+      "sha256": "7bf6be8947fe6962cad242cdcb42fac459a86ae8679fb291c23d7049844e6280",
+      "name": "wavpack",
+      "version": "5.6.0-1",
+      "arch": "aarch64"
+    },
+    "wavpack-5.6.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "60641e53af9842c48b16f5a864558896291825da1e5652499213625c5247c2a1",
+      "kind": "repository-metadata"
+    },
+    "wayland-1.22.0-1-aarch64.pkg.tar.xz": {
+      "size": 130724,
+      "sha256": "9469d87b061f3a780298a2d7d612ca7806977f91fb3dfbe729222985a4a5b4a1",
+      "name": "wayland",
+      "version": "1.22.0-1",
+      "arch": "aarch64"
+    },
+    "wayland-1.22.0-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c4899b27f91e0ee8f56fe7f79bb543668decd68fabb764ac893613337fd21526",
+      "kind": "repository-metadata"
+    },
+    "xcb-imdkit-1.0.6-1-aarch64.pkg.tar.xz": {
+      "size": 293656,
+      "sha256": "b2988c5bd2b8711d6766a26de32bbd7e141f7f366a8d9bc7e58cfae085999dfd",
+      "name": "xcb-imdkit",
+      "version": "1.0.6-1",
+      "arch": "aarch64"
+    },
+    "xcb-imdkit-1.0.6-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "f91f73a4ee5deb8ab92f6be58a4f33f30a9f1fb47b46f39a0832f603058b4202",
+      "kind": "repository-metadata"
+    },
+    "xcb-proto-1.16.0-1-any.pkg.tar.xz": {
+      "size": 128636,
+      "sha256": "a59297236acf5325c3f794d235cd94a852b79a4dafd5971d9281426381bf85bf",
+      "name": "xcb-proto",
+      "version": "1.16.0-1",
+      "arch": "any"
+    },
+    "xcb-proto-1.16.0-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "f6536b1a593b82eaf14812ca35fe58047065505e53da86a106f4036030075c85",
+      "kind": "repository-metadata"
+    },
+    "xcb-util-0.4.1-1-aarch64.pkg.tar.xz": {
+      "size": 11716,
+      "sha256": "d11d24b7cc73ef23d2ac2baa272030cec35b8e901348ebc99d5e5f262cfb0880",
+      "name": "xcb-util",
+      "version": "0.4.1-1",
+      "arch": "aarch64"
+    },
+    "xcb-util-0.4.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "7390d4d0e8fc603d9c268133b807ea9a113e739ad78b1b45cc1c5f3b96f2414f",
+      "kind": "repository-metadata"
+    },
+    "xcb-util-cursor-0.1.5-1-aarch64.pkg.tar.xz": {
+      "size": 11412,
+      "sha256": "082f6b79594f6cc40878c2b65526de5cc1258f88f78a94cab19bfad926e5b8ae",
+      "name": "xcb-util-cursor",
+      "version": "0.1.5-1",
+      "arch": "aarch64"
+    },
+    "xcb-util-cursor-0.1.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "3d148339b6e16597f83eb9521d5fb468028404499f06f21e0375b6043b1d36bc",
+      "kind": "repository-metadata"
+    },
+    "xcb-util-image-0.4.1-2-aarch64.pkg.tar.xz": {
+      "size": 17076,
+      "sha256": "76116351099d41f8b93110695397333bb4369c78ae81c8effaa51521bdf4f811",
+      "name": "xcb-util-image",
+      "version": "0.4.1-2",
+      "arch": "aarch64"
+    },
+    "xcb-util-image-0.4.1-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "fa4a474bcd81ba564bc9633690a7b83364ab8120f8b5b26aebe55f28b9934bb6",
+      "kind": "repository-metadata"
+    },
+    "xcb-util-keysyms-0.4.1-4-aarch64.pkg.tar.xz": {
+      "size": 7468,
+      "sha256": "b8025cb840961c2a7c9ece5e22ef29b8bdc8bcf6cd7548a020c41913482329d7",
+      "name": "xcb-util-keysyms",
+      "version": "0.4.1-4",
+      "arch": "aarch64"
+    },
+    "xcb-util-keysyms-0.4.1-4-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ae4b3285dfae5d46f93b355e2b66fad8e34d6a90cb0c810a47fc0a5c8440e4cf",
+      "kind": "repository-metadata"
+    },
+    "xcb-util-renderutil-0.3.10-1-aarch64.pkg.tar.xz": {
+      "size": 9196,
+      "sha256": "5c84a7b6c0183634ac94d38599aa3791a1dcd910c26c0644b55c2611e00a7aa7",
+      "name": "xcb-util-renderutil",
+      "version": "0.3.10-1",
+      "arch": "aarch64"
+    },
+    "xcb-util-renderutil-0.3.10-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "8b519cb19dc6e6b67c095b67d95bed1ac9d5367deb3f443bceb4f0a1b380ca2b",
+      "kind": "repository-metadata"
+    },
+    "xcb-util-wm-0.4.2-1-aarch64.pkg.tar.xz": {
+      "size": 31420,
+      "sha256": "4deec7017e5f394f9b1925dd29dbba3cef5e1c25f9193ff5de0a9c0f0a97b9c5",
+      "name": "xcb-util-wm",
+      "version": "0.4.2-1",
+      "arch": "aarch64"
+    },
+    "xcb-util-wm-0.4.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "402f96bf0bd282dda92a9e1657ed4ce00911acc182ce7973210979ad5661b377",
+      "kind": "repository-metadata"
+    },
+    "xdg-utils-1.2.1-1-any.pkg.tar.xz": {
+      "size": 60856,
+      "sha256": "fac111d391809d23463b56b9e3fc2877041ac57c445c6fb96b10302c60fbe96e",
+      "name": "xdg-utils",
+      "version": "1.2.1-1",
+      "arch": "any"
+    },
+    "xdg-utils-1.2.1-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "34187befd8b98186cf397e122788f02ba866580248e9e5049c20290ec0c13cb7",
+      "kind": "repository-metadata"
+    },
+    "xfce4-appfinder-4.18.1-1-aarch64.pkg.tar.xz": {
+      "size": 153528,
+      "sha256": "3b58f325a33843484b4479fc01360e8ea026ece9a0523214ab7995bbe7fbc0a2",
+      "name": "xfce4-appfinder",
+      "version": "4.18.1-1",
+      "arch": "aarch64"
+    },
+    "xfce4-appfinder-4.18.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b40a69e44c98779a98137811e07ad366a146c91610aad94989cc87faac8f62bb",
+      "kind": "repository-metadata"
+    },
+    "xfce4-panel-4.18.5-1-aarch64.pkg.tar.xz": {
+      "size": 839296,
+      "sha256": "25739a33c1b1963f02917d53d0c5004e98afcdc5181cf623730622c2a4da401a",
+      "name": "xfce4-panel",
+      "version": "4.18.5-1",
+      "arch": "aarch64"
+    },
+    "xfce4-panel-4.18.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "6c731232db3d934bba3f4ecdbd1857cb8909d7a5748becbfcd6b043a5c685581",
+      "kind": "repository-metadata"
+    },
+    "xfce4-session-4.18.3-1-aarch64.pkg.tar.xz": {
+      "size": 309844,
+      "sha256": "bdd920ca19fb6b53f45bc8bfdf17ca85adbf42584b365f920b9d16bbf01f5098",
+      "name": "xfce4-session",
+      "version": "4.18.3-1",
+      "arch": "aarch64"
+    },
+    "xfce4-session-4.18.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "f1d2637f1a2dacdd2f5a7ef19252f179e5f71040a1ca3fd278eb7710c704eea9",
+      "kind": "repository-metadata"
+    },
+    "xfce4-settings-4.18.4-1-aarch64.pkg.tar.xz": {
+      "size": 833208,
+      "sha256": "0f270c52d4023036cd007a792e3ade9f5ae941c1d8071c065cbc8cad0428db0d",
+      "name": "xfce4-settings",
+      "version": "4.18.4-1",
+      "arch": "aarch64"
+    },
+    "xfce4-settings-4.18.4-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "1a8cabe7551e6f19ec326c4842eb65e5a983a9814955416eb8d8e54b070c0410",
+      "kind": "repository-metadata"
+    },
+    "xfce4-terminal-1.1.2-2-aarch64.pkg.tar.xz": {
+      "size": 377764,
+      "sha256": "37720a41cf7f254f736e22c7fcefe1a449beee5d319cb054adf968dcec73428a",
+      "name": "xfce4-terminal",
+      "version": "1.1.2-2",
+      "arch": "aarch64"
+    },
+    "xfce4-terminal-1.1.2-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "c30993e17472bdaa58672802c79b1b9279aeeb8b16b9932db788099a7a53c404",
+      "kind": "repository-metadata"
+    },
+    "xfconf-4.18.3-1-aarch64.pkg.tar.xz": {
+      "size": 179344,
+      "sha256": "ac6b7cf70955e705bc9d6d3b5fb0c18ab19489277bfb470ee79e23ce3b7ccac5",
+      "name": "xfconf",
+      "version": "4.18.3-1",
+      "arch": "aarch64"
+    },
+    "xfconf-4.18.3-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a34c71f66ea96654acd6b47169b527ac5973e0f9cfabb78f334b898df5f7bbe0",
+      "kind": "repository-metadata"
+    },
+    "xfdesktop-4.18.1-1-aarch64.pkg.tar.xz": {
+      "size": 1367948,
+      "sha256": "cc57263a901f756341a0f9012b60853b9f73fe2b1556b9eecc227421ba7334b6",
+      "name": "xfdesktop",
+      "version": "4.18.1-1",
+      "arch": "aarch64"
+    },
+    "xfdesktop-4.18.1-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ca1a83882ae1f609318b132b27e9651b26a9a94cd7aafa8fadabb7f5a6a017d8",
+      "kind": "repository-metadata"
+    },
+    "xfwm4-4.18.0-2-aarch64.pkg.tar.xz": {
+      "size": 463208,
+      "sha256": "860313c199b308dbfc638b2d311f0dec792578cb03bfda0526c291fb7b06f386",
+      "name": "xfwm4",
+      "version": "4.18.0-2",
+      "arch": "aarch64"
+    },
+    "xfwm4-4.18.0-2-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "85fda62bf2bf062d7bfe87ddd8b09cbeed8d2d550d80f6bb2dee0a267fc150f2",
+      "kind": "repository-metadata"
+    },
+    "xkeyboard-config-2.41-1-any.pkg.tar.xz": {
+      "size": 811184,
+      "sha256": "cd71a07461c532d62f0dae0b7585a4c45390869eb4ae5d5d89cd06a09a14e8dd",
+      "name": "xkeyboard-config",
+      "version": "2.41-1",
+      "arch": "any"
+    },
+    "xkeyboard-config-2.41-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "3f64bbb6a589c3237eddc376d4e31181c19ced79dad2be42ae9c044afcfe1d74",
+      "kind": "repository-metadata"
+    },
+    "xorg-iceauth-1.0.9-1-aarch64.pkg.tar.xz": {
+      "size": 16068,
+      "sha256": "9356c788932df74bcb45018f1daaa8fcf6fa57779d60b35bd5a2d3727cdc29ac",
+      "name": "xorg-iceauth",
+      "version": "1.0.9-1",
+      "arch": "aarch64"
+    },
+    "xorg-iceauth-1.0.9-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "0a52596eca76823ad585e954f5a5c98b3f6426b01f895f7c770b63b9fc99e1e8",
+      "kind": "repository-metadata"
+    },
+    "xorg-xauth-1.1.2-1-aarch64.pkg.tar.xz": {
+      "size": 24100,
+      "sha256": "5368d1f4648a32c91ac400f3c8f2bdcb27dbf22b3ef46f1b1242f384041768d4",
+      "name": "xorg-xauth",
+      "version": "1.1.2-1",
+      "arch": "aarch64"
+    },
+    "xorg-xauth-1.1.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "212e00e0aeb7d31096db607b29e9b0bbd365857721d3fae7ee8c7125a0a03d4c",
+      "kind": "repository-metadata"
+    },
+    "xorg-xinit-1.4.2-1-aarch64.pkg.tar.xz": {
+      "size": 17088,
+      "sha256": "9a33879083b84e9f123e9a2c20efe2ded32589bea90b431fa710feb86bead88b",
+      "name": "xorg-xinit",
+      "version": "1.4.2-1",
+      "arch": "aarch64"
+    },
+    "xorg-xinit-1.4.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "a4ba142c85d9e76794e5bae675f91ab4d5732d30352508295de5e4a176ce7eba",
+      "kind": "repository-metadata"
+    },
+    "xorg-xkbcomp-1.4.7-1-aarch64.pkg.tar.xz": {
+      "size": 80340,
+      "sha256": "d9d3c78287cc45e966c322419801b5d46c7469aa9478f6720038762765465daf",
+      "name": "xorg-xkbcomp",
+      "version": "1.4.7-1",
+      "arch": "aarch64"
+    },
+    "xorg-xkbcomp-1.4.7-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "170dd8aa3a10d192093e30492fa90f28515907d926d25f302b3fd7d4aed814e9",
+      "kind": "repository-metadata"
+    },
+    "xorg-xmodmap-1.0.11-1-aarch64.pkg.tar.xz": {
+      "size": 22448,
+      "sha256": "e964d1c41c93cbfb2005a9e692afe33d9ad863487bd22202d75013fe38a8df43",
+      "name": "xorg-xmodmap",
+      "version": "1.0.11-1",
+      "arch": "aarch64"
+    },
+    "xorg-xmodmap-1.0.11-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "93b8ba03ed18d9373b07691e5fb25c41fd519be3efe2306a96c097aa0ed35d4d",
+      "kind": "repository-metadata"
+    },
+    "xorg-xprop-1.2.7-1-aarch64.pkg.tar.xz": {
+      "size": 25520,
+      "sha256": "859fc168810a4992c9539ca05e4f73d1067369c35a49df32f74323bb05619c76",
+      "name": "xorg-xprop",
+      "version": "1.2.7-1",
+      "arch": "aarch64"
+    },
+    "xorg-xprop-1.2.7-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "b3bec69935655104b153faab781ca91c57b8e2deaa338055244d68f4c0e4317c",
+      "kind": "repository-metadata"
+    },
+    "xorg-xrdb-1.2.2-1-aarch64.pkg.tar.xz": {
+      "size": 19376,
+      "sha256": "e5a2402f35c18e438a47fbf557662de15080b77e376b00c1453ec2af8bc34767",
+      "name": "xorg-xrdb",
+      "version": "1.2.2-1",
+      "arch": "aarch64"
+    },
+    "xorg-xrdb-1.2.2-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "ce93d34e15300f10a048b32d2f962821117dd426728ba802593d64d9468a2129",
+      "kind": "repository-metadata"
+    },
+    "xorg-xset-1.2.5-1-aarch64.pkg.tar.xz": {
+      "size": 18536,
+      "sha256": "3bfc3d9fe27ad6daea7347e395c83b026b5ff200de42c66b4e685793289434b1",
+      "name": "xorg-xset",
+      "version": "1.2.5-1",
+      "arch": "aarch64"
+    },
+    "xorg-xset-1.2.5-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "58092505cf6eee45b35a70ea372edf97b1b096a7a8c60dfdaee7c21423c71bc9",
+      "kind": "repository-metadata"
+    },
+    "xorg-xwininfo-1.1.6-1-aarch64.pkg.tar.xz": {
+      "size": 21832,
+      "sha256": "f6c6b32429bd1a7b9c484810bfbeca6358d6392e279e941933596f5a4a245350",
+      "name": "xorg-xwininfo",
+      "version": "1.1.6-1",
+      "arch": "aarch64"
+    },
+    "xorg-xwininfo-1.1.6-1-aarch64.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "049a19ac85cb9627c23b868dd1426095b345a566ce894ee3c3c8cdc49a882e05",
+      "kind": "repository-metadata"
+    },
+    "xorgproto-2023.2-1-any.pkg.tar.xz": {
+      "size": 238296,
+      "sha256": "1a9d8f24ad6ce94147c86f3ad90197ba6d5943b5bda75c1ca7bdbf1c06809a28",
+      "name": "xorgproto",
+      "version": "2023.2-1",
+      "arch": "any"
+    },
+    "xorgproto-2023.2-1-any.pkg.tar.xz.sig": {
+      "size": 566,
+      "sha256": "df241f2bd91165f641b996dd08da9f3513d023d39273a43420240a685fe0c095",
+      "kind": "repository-metadata"
+    }
+  },
+  "scope": "Mandatory desktop/runtime package closure only; ordinary recommended applications are separate."
+}

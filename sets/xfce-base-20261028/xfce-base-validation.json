@@ -1,0 +1,148 @@
+{
+  "kind": "archive extraction/hash/package-metadata checks; not GUI/device validation",
+  "targets": [
+    {
+      "target": "termux",
+      "archiveSha256": "4a5cae39faba449aae3049a590f34d4629d462d71329d1a1e9c67255a383bef5",
+      "files": 191,
+      "packages": 191,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "all"
+      ]
+    },
+    {
+      "target": "kali",
+      "archiveSha256": "6b153cc185e5c92c618ce7224044184276739e576eb678fad9031cbfef6406fe",
+      "files": 336,
+      "packages": 336,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "all",
+        "arm64"
+      ]
+    },
+    {
+      "target": "ubuntu",
+      "archiveSha256": "3adf653d523e57e39b60c4b9ae9fbe0b94290321fb730770248ec356ac5ed12b",
+      "files": 332,
+      "packages": 332,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "all",
+        "arm64"
+      ]
+    },
+    {
+      "target": "debian",
+      "archiveSha256": "a5872a8df747b73e18efa8e270925a3a9d1ad605af42007d3ed221974a8cdb53",
+      "files": 329,
+      "packages": 329,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "all",
+        "arm64"
+      ]
+    },
+    {
+      "target": "alpine",
+      "archiveSha256": "4b9a2ed83006c388e05304d925fb67da179652ef771ae4194ea74a50ef5a7f36",
+      "files": 377,
+      "packages": 377,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "noarch"
+      ]
+    },
+    {
+      "target": "host-audio",
+      "archiveSha256": "9419bf21363187c6e0ba21008c6cb142d66ff36e67022bdf5e00a6e8c7134821",
+      "files": 23,
+      "packages": 23,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "all"
+      ]
+    },
+    {
+      "target": "host-virgl",
+      "archiveSha256": "001bdd6537b285232319bbee4cc0da75755ccc50be3b01f7de99fe87ba73244e",
+      "files": 24,
+      "packages": 24,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "all"
+      ]
+    },
+    {
+      "target": "opensuse",
+      "archiveSha256": "3f1a6148f2e79de8073d2bf048234a21a188cc860416ceebe8e62d634760a8f6",
+      "files": 375,
+      "packages": 375,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "noarch"
+      ]
+    },
+    {
+      "target": "void",
+      "archiveSha256": "733b609beb223bc80bbd6e4fcff642ee1e0c91408b7a8f9b4983ceac620c0f44",
+      "files": 627,
+      "packages": 312,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64"
+      ]
+    },
+    {
+      "target": "manjaro",
+      "archiveSha256": "07d396cbff3c1f9b9d467a5c14d8d589af597b7d2520ae039ff61f8d9f4f3660",
+      "files": 446,
+      "packages": 223,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "any"
+      ]
+    },
+    {
+      "target": "fedora",
+      "archiveSha256": "15982be3b9efca85bbc4d033e5aec20257f5e3c1aa96218b377b4e9a63371a1e",
+      "files": 300,
+      "packages": 300,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "noarch"
+      ]
+    },
+    {
+      "target": "archlinux",
+      "archiveSha256": "60ae6e83ed71935f7ab10585a86f6e2f922d3ae0b8a3f81d65d5ba2d99f366b9",
+      "files": 678,
+      "packages": 339,
+      "manifestVerified": true,
+      "perFileHashesVerified": true,
+      "architectures": [
+        "aarch64",
+        "any"
+      ]
+    }
+  ]
+}

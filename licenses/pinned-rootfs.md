@@ -14,3 +14,7 @@ Upstream package sources and license information:
 - Manjaro ARM: https://code.manjaro.org/ and https://github.com/manjaro-arm/rootfs.
 
 No user-created phone environment, project, agent history, login token or SSH private key was used to create these base archives. They are not snapshots of the developer's configured phone.
+
+## Original X11 package files
+
+The xfce-base-20261028 set retains original distribution packages and their embedded copyright/license notices. Exact package names, versions, architectures and SHA-256 values are in the set manifests. The release source archive contains the Termux Jobs collection, packaging, verification and installation recipes; it is not a replacement for each upstream package’s own source. Obtain corresponding upstream source packages/build recipes and patches from the distribution sources above and https://github.com/termux/termux-packages for Termux. No package is relicensed as Termux Jobs code.

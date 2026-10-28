@@ -1,0 +1,170 @@
+{
+  "version": "xfce-base-20261028",
+  "target": "host-audio",
+  "manager": "apt",
+  "baseImageSha256": "c8d702b6f742935001c37cda81b8ac69504a95d5cf28f2899532dd8cd4b057eb",
+  "files": {
+    "abseil-cpp_20260817.0_aarch64.deb": {
+      "size": 1214712,
+      "sha256": "b698963bb7096494ad928ce89cd869a53e6adf0b05f5f407b40fda9c85c6e2b0",
+      "name": "abseil-cpp",
+      "version": "20260817.0",
+      "arch": "aarch64"
+    },
+    "dbus_1.16.2-3_aarch64.deb": {
+      "size": 428952,
+      "sha256": "1b6d5e349708414acbbb1404210e32d4e3f390890d02e162639dec1016a8657b",
+      "name": "dbus",
+      "version": "1.16.2-3",
+      "arch": "aarch64"
+    },
+    "libandroid-execinfo_0.1-3_aarch64.deb": {
+      "size": 14964,
+      "sha256": "725dd2c6da7fc96e860fcc928e18aa9fb0e85e0bdcaf4f8ce0f0654ca6860fc2",
+      "name": "libandroid-execinfo",
+      "version": "0.1-3",
+      "arch": "aarch64"
+    },
+    "libandroid-stub_30-3_aarch64.deb": {
+      "size": 27348,
+      "sha256": "88c7f4ba78a5eb57eafc2f1102ceea562a156fe7346528ca35c771eb0927fefc",
+      "name": "libandroid-stub",
+      "version": "30-3",
+      "arch": "aarch64"
+    },
+    "libexpat_2.9.0_aarch64.deb": {
+      "size": 100256,
+      "sha256": "f8a104e8227c9c181f6818658a3ee2fa4c107fac94219b068144fc6591086cdb",
+      "name": "libexpat",
+      "version": "2.9.0",
+      "arch": "aarch64"
+    },
+    "libflac_1.5.0-1_aarch64.deb": {
+      "size": 202828,
+      "sha256": "d1d6fcac6fd6d15c36f34464cb01d5e2140e321d8448dfc396cd7eb1536b1f6c",
+      "name": "libflac",
+      "version": "1.5.0-1",
+      "arch": "aarch64"
+    },
+    "libltdl_2.6.2_aarch64.deb": {
+      "size": 17996,
+      "sha256": "7b4643fe9d0ab42c0c3c8a1018640816bdb43d422f2268a5e4ea80675624f539",
+      "name": "libltdl",
+      "version": "2.6.2",
+      "arch": "aarch64"
+    },
+    "libmp3lame_4.0-1_aarch64.deb": {
+      "size": 98588,
+      "sha256": "59f70ad8885578063bcbea3b11e74fb69e2416ca036b47aa255c1fa4f074565e",
+      "name": "libmp3lame",
+      "version": "4.0-1",
+      "arch": "aarch64"
+    },
+    "libmpg123_1.33.7_aarch64.deb": {
+      "size": 175116,
+      "sha256": "883b104faae53820b2e758363300ccf99e28f627a263d766af61ae07b73b07b3",
+      "name": "libmpg123",
+      "version": "1.33.7",
+      "arch": "aarch64"
+    },
+    "libogg_1.3.6-1_aarch64.deb": {
+      "size": 188636,
+      "sha256": "4f1700a532f251ad3600f44f88cd764f1f6b0542d3343391117944b47a92802d",
+      "name": "libogg",
+      "version": "1.3.6-1",
+      "arch": "aarch64"
+    },
+    "libopus_1.6.1_aarch64.deb": {
+      "size": 191480,
+      "sha256": "005a9335ce0ec0f510bbe6e0229c901d6f920cc375fcda56461e96cef70f8ff0",
+      "name": "libopus",
+      "version": "1.6.1",
+      "arch": "aarch64"
+    },
+    "libsndfile_1.2.2-3_aarch64.deb": {
+      "size": 223576,
+      "sha256": "1e1fb77b14ec26f3ff6ded069e9ec816ab7535ae5d074122c6727b0f59d8aff3",
+      "name": "libsndfile",
+      "version": "1.2.2-3",
+      "arch": "aarch64"
+    },
+    "libsoxr_0.1.3-8_aarch64.deb": {
+      "size": 282436,
+      "sha256": "a1c5f66aae3b9900e9a492b43901b2b98586870c7905feb9f3c835cc9af464be",
+      "name": "libsoxr",
+      "version": "0.1.3-8",
+      "arch": "aarch64"
+    },
+    "libvorbis_1.3.7-4_aarch64.deb": {
+      "size": 261740,
+      "sha256": "6bfd70c4b570b85594bd06116b75a6f8109ec58cbc123e938b630a6eefdedf4e",
+      "name": "libvorbis",
+      "version": "1.3.7-4",
+      "arch": "aarch64"
+    },
+    "libwebrtc-audio-processing_2.1_aarch64.deb": {
+      "size": 325772,
+      "sha256": "42d9e12e057dbbbbd513cab67a902ebff0f991c4b1cfe58a42374ab18c278be0",
+      "name": "libwebrtc-audio-processing",
+      "version": "2.1",
+      "arch": "aarch64"
+    },
+    "libx11_1.8.14_aarch64.deb": {
+      "size": 1910512,
+      "sha256": "c5206ee9cc26a63985d110b57bc24f23c7c97505e6100c4d6a8547a1aeed5532",
+      "name": "libx11",
+      "version": "1.8.14",
+      "arch": "aarch64"
+    },
+    "libxau_1.0.12-2_aarch64.deb": {
+      "size": 9120,
+      "sha256": "2d86bed61ce89dd8fdb55e565aede10155f2ce3adaccb61d5f1375aec3314083",
+      "name": "libxau",
+      "version": "1.0.12-2",
+      "arch": "aarch64"
+    },
+    "libxcb_1.17.0-1_aarch64.deb": {
+      "size": 913948,
+      "sha256": "191c3642b6a8c754bc75b69b94a81858ecb5f18766dc085aff55559b8087ad34",
+      "name": "libxcb",
+      "version": "1.17.0-1",
+      "arch": "aarch64"
+    },
+    "libxdmcp_1.1.5-2_aarch64.deb": {
+      "size": 24460,
+      "sha256": "caea0cf5c0028af0840774094b8900ef7afffd8f9bbd7b1abfbe66851f0d6077",
+      "name": "libxdmcp",
+      "version": "1.1.5-2",
+      "arch": "aarch64"
+    },
+    "pulseaudio_17.0-5_aarch64.deb": {
+      "size": 848676,
+      "sha256": "4e110e32007fee5aaf67cfa2f35ae67c11ed53f45da857d0def426e2ca66f8c8",
+      "name": "pulseaudio",
+      "version": "17.0-5",
+      "arch": "aarch64"
+    },
+    "speexdsp_1.2.1-1_aarch64.deb": {
+      "size": 37332,
+      "sha256": "21cd5d122a8d24dffb9b2926dff7059f8f42cde7c5a91f27ea5c9b4f40356be0",
+      "name": "speexdsp",
+      "version": "1.2.1-1",
+      "arch": "aarch64"
+    },
+    "xorg-util-macros_1.20.2_all.deb": {
+      "size": 21948,
+      "sha256": "11765ad1a6f181e36f807464f7b4360593d847dce245202a393eb2ca156520d0",
+      "name": "xorg-util-macros",
+      "version": "1.20.2",
+      "arch": "all"
+    },
+    "xorgproto_2026.1_all.deb": {
+      "size": 249848,
+      "sha256": "2463651143a386eba0d7baebac87ca5d2db5239d36cf38f9b2086f3c1bfdcbce",
+      "name": "xorgproto",
+      "version": "2026.1",
+      "arch": "all"
+    }
+  },
+  "scope": "Mandatory desktop/runtime package closure only; ordinary recommended applications are separate."
+}
