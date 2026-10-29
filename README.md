@@ -1,5 +1,14 @@
 # Termux Job’s Components
 
+## Manjaro ARM Turnip + Zink compatibility candidate
+
+A separate **Mesa26.2.5 / glibc2.35 / GCC12** build with the existing lfdevs
+Android/KGSL/X11 adaptations. It adds a uniquely named asset to the existing
+[xfce-base-20261028 release](https://github.com/HezeAI/termux-jobs-components/releases/tag/xfce-base-20261028);
+existing component assets and the Manjaro Bionic bridge are retained unchanged.
+[Sources, exact pins, licenses and clean-loader validation](sets/xfce-base-20261028/manjaro-turnip/README.md).
+Android GPU GUI acceptance remains pending; no new application APK is published here.
+
 ## Manjaro ARM Bionic-for-glibc compatibility candidate
 
 The separate [Manjaro bridge addition](https://github.com/HezeAI/termux-jobs-components/releases/tag/xfce-base-20261028)
@@ -47,7 +56,7 @@ The [rootfs-arm64-20261028 set](https://github.com/HezeAI/termux-jobs-components
 
 Ubuntu, Debian, Alpine, Fedora, openSUSE, Void and Kali are single-architecture OCI layouts containing original digest-verified upstream blobs. Arch Linux ARM and Manjaro retain the exact original tar archive bytes. `rootfs-manifest.json` records provenance, versions/digests, sizes and SHA-256; `rootfs-validation.json` distinguishes archive/library checks from pending device installation/GUI tests. `rootfs-build-sources.tar.gz` contains the packaging recipe and pinned OCI metadata. [Distribution licenses and source locations](licenses/pinned-rootfs.md).
 
-Applications must verify the archive hash before calling native proot-distro. Cached complete archives may be reused offline; incomplete downloads must never be extracted. Existing environments are preserved and are not automatically rebased to these images. Updating guest packages remains distinct from downloading a new base image. Manjaro ARM currently has an older glibc base and is initially intended for CPU/VirGL desktop testing, not the current glibc >=2.38 Turnip or Bionic-for-glibc runtime.
+Applications must verify the archive hash before calling native proot-distro. Cached complete archives may be reused offline; incomplete downloads must never be extracted. Existing environments are preserved and are not automatically rebased to these images. Updating guest packages remains distinct from downloading a new base image. Manjaro ARM has an older glibc base. Separate glibc2.35 Turnip + Zink and Bionic-for-glibc compatibility builds are provided; do not install the ordinary >=2.38 payload in Manjaro.
 
 
 ## Pinned Termux:X11 build input

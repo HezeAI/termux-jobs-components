@@ -320,6 +320,20 @@
       "cxxMaximumRequired": "GLIBCXX_3.4.30 / CXXABI_1.3.13",
       "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/x11-bionic-glibc-manjaro.zip",
       "status": "Compatibility candidate; Android GPU GUI verification pending"
+    },
+    {
+      "asset": "mesa-26.2.5-jobs1-glibc235-manjaro-aarch64.tar.gz",
+      "bytes": 9916572,
+      "sha256": "55ba75820036a193d2fbd393ff95c39c52043e54d21846b49f1f9f3644c6ebba",
+      "targets": [
+        "manjaro"
+      ],
+      "format": "tar",
+      "mesaVersion": "26.2.5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/mesa-26.2.5-jobs1-glibc235-manjaro-aarch64.tar.gz",
+      "libcMinimum": "glibc2.35",
+      "cxxMaximumRequired": "GLIBCXX_3.4.30 / CXXABI_1.3.13",
+      "status": "Compatibility candidate; Android GPU GUI acceptance pending"
     }
   ],
   "sources": [
@@ -382,6 +396,13 @@
         "url": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
         "sha256": "794b3d1729075dae7ebd47c7283b7ca0cdb5dec668f7f11cc0a5d82f6138a0a5"
       }
+    },
+    {
+      "asset": "manjaro-turnip-26.2.5-sources.tar.gz",
+      "bytes": 68708596,
+      "sha256": "196f29ff83b8f8866b753479401560a084626f750579e9d257c87895dd93d1d2",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-turnip-26.2.5-sources.tar.gz",
+      "contents": "Exact official Mesa26.2.5 source tar, full existing lfdevs Android/KGSL patch, build/sysroot/package recipes, package pins, app helper integration and licenses"
     }
   ],
   "repository": "HezeAI/termux-jobs-components",
@@ -625,5 +646,10 @@
     "manifest": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-manifest.json",
     "release": "xfce-base-20261028",
     "status": "Compatibility candidate; Android GPU GUI verification pending"
+  },
+  "manjaroTurnip": {
+    "manifest": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-turnip-manifest.json",
+    "release": "xfce-base-20261028",
+    "status": "Compatibility candidate; Android GPU GUI acceptance pending"
   }
 }
