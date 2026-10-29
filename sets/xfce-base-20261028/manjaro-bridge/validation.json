@@ -1,0 +1,54 @@
+{
+  "component": "Manjaro ARM Bionic for glibc / Mesa26.2.5",
+  "status": "Compatibility candidate; phone GPU GUI acceptance pending",
+  "automated": {
+    "pythonTestsPassed": 103,
+    "focusedJvmTestsPassed": 64,
+    "lintErrors": 0,
+    "lintWarnings": 223,
+    "lintInfrastructureDiagnostics": [],
+    "elfLoad": {
+      "libraries": 7,
+      "mode": "RTLD_NOW",
+      "loader": "glibc2.35",
+      "hostLibraryFallback": false,
+      "compilerSysroot": true,
+      "cleanPublishedBaseAndDesktopLibraries": true
+    },
+    "symbolBounds": {
+      "arch": "aarch64",
+      "libc": "glibc >= 2.35",
+      "cxx": "GLIBCXX_3.4.30 / CXXABI_1.3.13",
+      "android": "API >=29; device verification pending"
+    },
+    "cleanImageSha256": "1ae540a80e21e1ca55e0576df9618fd2865cf4596b8204d20780f225aca5164a",
+    "cleanDesktopBundleSha256": "07d396cbff3c1f9b9d467a5c14d8d589af597b7d2520ae039ff61f8d9f4f3660",
+    "mesaSourceCheck": {
+      "sourceArchiveSha256": "794b3d1729075dae7ebd47c7283b7ca0cdb5dec668f7f11cc0a5d82f6138a0a5",
+      "regularFilesCompared": 12808,
+      "absentNonBuildCiFiles": [
+        ".gitlab-ci/build/gitlab-ci-inc.yml",
+        ".gitlab-ci/build/gitlab-ci.yml",
+        "src/gallium/drivers/radeonsi/ci/build/conf_glcts.sh",
+        "src/gallium/drivers/radeonsi/ci/build/conf_piglit.sh",
+        "src/gallium/drivers/radeonsi/ci/build/conf_waffle.sh"
+      ],
+      "sourceContentChanges": [],
+      "matchingFiles": 12803,
+      "compiledSourceContentMatchesArchive": true
+    }
+  },
+  "notPerformed": [
+    "Android GUI/GPU rendering with this rebuilt runtime",
+    "Fresh-phone full installation and permissions",
+    "Compatibility/performance across every driver/GPU",
+    "New shutdown or nested PRoot GUI experiments"
+  ],
+  "unchanged": {
+    "ordinaryBridgeSha256": "e05b6abb19916e007330e19566b8833f10505133505d786bee127a71f1e4aa1d",
+    "existingRuntimeAssets": true,
+    "systemLibraries": true,
+    "otherGuestPinsAndMinimums": true,
+    "cpuAndVirgl": true
+  }
+}

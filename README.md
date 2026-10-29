@@ -1,5 +1,32 @@
 # Termux Job’s Components
 
+## Manjaro ARM Bionic-for-glibc compatibility candidate
+
+The separate [Manjaro bridge addition](https://github.com/HezeAI/termux-jobs-components/releases/tag/xfce-base-20261028)
+builds the existing libhybris/Jobs ICD/WSI bridge and unmodified Mesa **26.2.5**
+against Manjaro ARM's **glibc 2.35 and GCC 12** baseline. It uses a separate
+archive and per-environment driver/runtime cache; the existing >=2.38 bridge,
+its published files, and CPU/VirGL renderers are preserved. It does not update
+or downgrade the installed Manjaro libc or replace guest system Mesa.
+
+This is a **compatibility-test component**, not a new public application APK.
+Compiler/loader and private cache verification do not establish Android GUI,
+performance or support for every imported driver/device. Turnip + Zink for
+Manjaro is separate and is not enabled by this bridge candidate. See the
+[manifest](sets/xfce-base-20261028/manjaro-bridge/components.json),
+[validation](sets/xfce-base-20261028/manjaro-bridge/validation.json) and
+[build/source/license notes](sets/xfce-base-20261028/manjaro-bridge/MANJARO.md).
+
+Credits: [taowen/libhybris](https://github.com/taowen/libhybris),
+[Halium Android headers](https://github.com/Halium/android-headers),
+[Arm/xMeM Vulkan WSI Layer](https://github.com/xMeM/vulkan-wsi-layer),
+[Mesa and its contributors](https://mesa3d.org/). HezeAI's Termux Jobs sources
+provide the ICD, existing compatibility/presentation patches and isolated
+application integration. The candidate rebuilds those same sources for an older
+ABI baseline. No proprietary/Bionic GPU driver is included. Existing driver
+preset distribution credit remains **StevenMXZ**.
+
+
 Pinned optional graphics runtimes and local-model assets for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no Termux Job’s installation APK or `update.json`. An upstream APK below is a pinned build input, not a Termux Job’s app release.
 
 ## Pinned ARM64 distribution bases

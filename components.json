@@ -306,6 +306,20 @@
       "upstream": "https://github.com/termux/termux-x11",
       "commit": "fa3a8b430e2896a19f44c99a9cb056254615ae06",
       "runtimeDownload": false
+    },
+    {
+      "asset": "x11-bionic-glibc-manjaro.zip",
+      "bytes": 5820211,
+      "sha256": "2f80dc4212b4f7d1fa5455d4eac28fa356b2f2779973fcde4f393f7c9ee0003e",
+      "targets": [
+        "manjaro"
+      ],
+      "format": "zip",
+      "mesaVersion": "26.2.5",
+      "libcMinimum": "glibc2.35",
+      "cxxMaximumRequired": "GLIBCXX_3.4.30 / CXXABI_1.3.13",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/x11-bionic-glibc-manjaro.zip",
+      "status": "Compatibility candidate; Android GPU GUI verification pending"
     }
   ],
   "sources": [
@@ -357,6 +371,17 @@
       "sha256": "a086af761b4918ad23436c9b0e54aedf7be922df3bf339bbaa5bc5072f8b4f31",
       "bytes": 2165,
       "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/lm-sensors_3.6.2-2.dsc"
+    },
+    {
+      "asset": "manjaro-bridge-sources.tar.gz",
+      "bytes": 2790910,
+      "sha256": "1a710d60cfe1abda3ce8da60196be782a22f1f2e5b04c2408637bbe2e5aba88a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-sources.tar.gz",
+      "contents": "Complete pinned libhybris/WSI/Android-header source trees, actual build-only Mesa26.1.6 header snapshot, local patches, ICD, integration, licenses, build recipes and provenance",
+      "mesaSource": {
+        "url": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+        "sha256": "794b3d1729075dae7ebd47c7283b7ca0cdb5dec668f7f11cc0a5d82f6138a0a5"
+      }
     }
   ],
   "repository": "HezeAI/termux-jobs-components",
@@ -595,5 +620,10 @@
       }
     },
     "scope": "Pinned initial desktop/runtime closures, not permanent package holds. Ubuntu AI is excluded. Official distribution repositories remain enabled for user software and explicit updates."
+  },
+  "manjaroBridge": {
+    "manifest": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-manifest.json",
+    "release": "xfce-base-20261028",
+    "status": "Compatibility candidate; Android GPU GUI verification pending"
   }
 }
