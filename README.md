@@ -40,7 +40,7 @@ Pinned optional graphics runtimes and local-model assets for [Termux Job’s](ht
 
 ## Pinned ARM64 distribution bases
 
-The [rootfs-arm64-20261028 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/rootfs-arm64-20261028) preserves exact upstream base images for upcoming Termux Jobs installations. **These archives do not include a preinstalled XFCE desktop or frozen font/library package set.** Existing Mesa, wrapper, theme and VirGL component releases remain unchanged. Ubuntu AI intentionally keeps its existing upstream agent-environment installation policy.
+The [rootfs-arm64-20261028 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/rootfs-arm64-20261028) preserves exact upstream base images for upcoming Termux Jobs installations. **These archives do not include a preinstalled XFCE desktop or frozen font/library package set.** Existing Mesa, wrapper, theme and VirGL component releases remain unchanged. Ubuntu AI has a separate [pinned Ubuntu 26.04.1 LTS ARM64 base](sets/ubuntu-ai-base-arm64-20261102/README.md) for new installations. Existing environments remain unchanged; see that set for validation limits.
 
 | Environment | Upstream tag / base | Download bytes |
 | --- | --- | --- |

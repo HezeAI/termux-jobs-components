@@ -1,0 +1,13 @@
+{
+  "privateVersion": "5.9.0",
+  "publicInstallAPI": true,
+  "nativeCLI": false,
+  "guestExecuted": false,
+  "networkCallsPermitted": false,
+  "manifestDigest": "sha256:86eb1bc1059720a19a777ba5a109e9ee3690d5dfe3e319871a6d6beb86fb7f85",
+  "configArchitecture": "arm64",
+  "osRelease": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04.1 LTS (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+  "status": "archive-verified; native Termux CLI and four-agent clean installation pending",
+  "unchangedUpstreamBlobs": true,
+  "existingEnvironmentsModified": false
+}
