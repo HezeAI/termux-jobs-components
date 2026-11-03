@@ -1,0 +1,2088 @@
+{
+  "reviewDate": "2026-11-03",
+  "scope": "All existing published asset identities; metadata/source-notice coverage differs by component. This is not full per-file legal clearance.",
+  "assets": [
+    {
+      "release": "ubuntu-ai-base-arm64-20261102",
+      "file": "components.json",
+      "bytes": 758,
+      "sha256": "57eb398fc2d5d9c9ce7a6cd4b469bab024b7d000fa14b2ac938f36cf66fd1542",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/components.json",
+      "assetId": 702347140,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "ubuntu-ai-base-arm64-20261102",
+      "file": "SHA256SUMS",
+      "bytes": 90,
+      "sha256": "a1a074a333ccb287cf72294ca6ca1c119f968b0ee9792ca1d8e6c3b4b53d2682",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/SHA256SUMS",
+      "assetId": 702347135,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "ubuntu-ai-base-arm64-20261102",
+      "file": "ubuntu-ai-arm64.oci.tar",
+      "bytes": 41144320,
+      "sha256": "c08828893609894e5ab6d80f146961961148afde007ce904292418d8fcd011e0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-arm64.oci.tar",
+      "assetId": 702347133,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "ubuntu@sha256:86eb1bc1059720a19a777ba5a109e9ee3690d5dfe3e319871a6d6beb86fb7f85",
+          "version": "26.04.1 LTS"
+        },
+        {
+          "metadata": "sets/ubuntu-ai-base-arm64-20261102/components.json",
+          "source": "ubuntu@sha256:86eb1bc1059720a19a777ba5a109e9ee3690d5dfe3e319871a6d6beb86fb7f85"
+        }
+      ],
+      "reviewScope": "87 image packages/58 source packages: exact DSC identity and all127 referenced archive sizes/SHA256 verified; full copyright texts preserved; source bundle added separately."
+    },
+    {
+      "release": "ubuntu-ai-base-arm64-20261102",
+      "file": "validation.json",
+      "bytes": 896,
+      "sha256": "3b4128448d5ac1aab6df77a65788ed673494ead43d68f1cb4417b95c569f8b66",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/validation.json",
+      "assetId": 702347141,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-bridge-manifest.json",
+      "bytes": 4735,
+      "sha256": "51ca1c7868ee69e7005dc9940dc2b6c45cc7b76adbd92a781a127e1e66bba665",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-manifest.json",
+      "assetId": 687051205,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-bridge-SHA256SUMS",
+      "bytes": 383,
+      "sha256": "656834f6660dcdf1fa47488e90a844e0d956a6d77ba79cb0bc26c879a89fb1d3",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-SHA256SUMS",
+      "assetId": 687051217,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-bridge-sources.tar.gz",
+      "bytes": 2790910,
+      "sha256": "1a710d60cfe1abda3ce8da60196be782a22f1f2e5b04c2408637bbe2e5aba88a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-sources.tar.gz",
+      "assetId": 687051207,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "contents": "Complete pinned libhybris/WSI/Android-header source trees, actual build-only Mesa26.1.6 header snapshot, local patches, ICD, integration, licenses, build recipes and provenance"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/manjaro-bridge/components.json",
+          "contents": "Complete pinned libhybris/WSI/Android-header source trees, actual build-only Mesa26.1.6 header snapshot, local patches, ICD, integration, licenses, build recipes and provenance"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-bridge-validation.json",
+      "bytes": 1998,
+      "sha256": "7e41efed8acb6390b8b475666268249a3a0bcd0f36f3309d8e5089fd12eb90b4",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-bridge-validation.json",
+      "assetId": 687051218,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-turnip-26.2.5-sources.tar.gz",
+      "bytes": 68708596,
+      "sha256": "196f29ff83b8f8866b753479401560a084626f750579e9d257c87895dd93d1d2",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-turnip-26.2.5-sources.tar.gz",
+      "assetId": 687217214,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "contents": "Exact official Mesa26.2.5 source tar, full existing lfdevs Android/KGSL patch, build/sysroot/package recipes, package pins, app helper integration and licenses"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/manjaro-turnip/components.json",
+          "contents": "Exact official Mesa26.2.5 source tar, full existing lfdevs Android/KGSL patch, build/sysroot/package recipes, package pins, app helper integration and licenses"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-turnip-manifest.json",
+      "bytes": 4213,
+      "sha256": "8a11266f657611ee76a0c3077795edf570368507d9ed3f89198ba308f7215b86",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-turnip-manifest.json",
+      "assetId": 687217216,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-turnip-SHA256SUMS",
+      "bytes": 411,
+      "sha256": "d32a2ab0ac9f0400fa8e63bf98b1d582bf10f4b5106253cb07ef55d1c038c858",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-turnip-SHA256SUMS",
+      "assetId": 687217212,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "manjaro-turnip-validation.json",
+      "bytes": 58678,
+      "sha256": "6984d9461bca1776f8e01e650f9c68e76518d4da949faac8d7bcb7add6e702c3",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/manjaro-turnip-validation.json",
+      "assetId": 687217215,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "mesa-26.2.5-jobs1-glibc235-manjaro-aarch64.tar.gz",
+      "bytes": 9916572,
+      "sha256": "55ba75820036a193d2fbd393ff95c39c52043e54d21846b49f1f9f3644c6ebba",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/mesa-26.2.5-jobs1-glibc235-manjaro-aarch64.tar.gz",
+      "assetId": 687217211,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/manjaro-turnip/components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/manjaro-turnip/components.json",
+          "mesaVersion": "26.2.5"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "SHA256SUMS",
+      "bytes": 2652,
+      "sha256": "a9c9c1522b0784cef38df96775b45d5b3e518a4c3f9f676c22d3e6fcf4d207bc",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/SHA256SUMS",
+      "assetId": 685337614,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "virgl-symbol-validation.json",
+      "bytes": 2130,
+      "sha256": "d714c384365b07977351e3284ccd65f89d133124d4eb46389bf6fb3cf77cb3da",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/virgl-symbol-validation.json",
+      "assetId": 685337615,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "x11-base-packages.json",
+      "bytes": 5771,
+      "sha256": "36328f9dea479601dc23569ea9ffec21c9f11d176271eafe53e78a95d42b210c",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/x11-base-packages.json",
+      "assetId": 685337621,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "x11-bionic-glibc-manjaro.zip",
+      "bytes": 5820211,
+      "sha256": "2f80dc4212b4f7d1fa5455d4eac28fa356b2f2779973fcde4f393f7c9ee0003e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/x11-bionic-glibc-manjaro.zip",
+      "assetId": 687051219,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/manjaro-bridge/components.json",
+          "mesaVersion": "26.2.5"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-alpine-arm64.tar",
+      "bytes": 315504640,
+      "sha256": "4478b788018fced9dca8799bdb6f59d340d8982d55b71ffe2a528adcf240e370",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-alpine-arm64.tar",
+      "assetId": 685304506,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-alpine-packages.json",
+      "bytes": 86104,
+      "sha256": "6c5922e91efebcd4f912f99f9547396831807f4f76c3e1a75df770878a5a7dca",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-alpine-packages.json",
+      "assetId": 685337618,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-archlinux-arm64.tar",
+      "bytes": 346624000,
+      "sha256": "60ae6e83ed71935f7ab10585a86f6e2f922d3ae0b8a3f81d65d5ba2d99f366b9",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-archlinux-arm64.tar",
+      "assetId": 685264480,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-archlinux-packages.json",
+      "bytes": 148575,
+      "sha256": "3875beafd89ee2960efdd1147a5a63b4fd07db61b62cbd17b3b0d4485431b737",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-archlinux-packages.json",
+      "assetId": 685337620,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-base-build-sources.tar.gz",
+      "bytes": 65370,
+      "sha256": "dc179b0db01a4ee432a6beb8339e46c72596e934c0452a3ea10763f2f81402aa",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-base-build-sources.tar.gz",
+      "assetId": 685337682,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-base-native-validation.json",
+      "bytes": 3332,
+      "sha256": "7ddbbff68b3802900deca1642a8e99927aa27bb79004fe9b606ece79da9cc5c7",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-base-native-validation.json",
+      "assetId": 685337683,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-base-validation.json",
+      "bytes": 3800,
+      "sha256": "9ad6a9866072b39cbebe54b159cc162786629d19de8448d52e5aceb47e701c7a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-base-validation.json",
+      "assetId": 685337678,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-debian-arm64.tar",
+      "bytes": 153579520,
+      "sha256": "a5872a8df747b73e18efa8e270925a3a9d1ad605af42007d3ed221974a8cdb53",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-debian-arm64.tar",
+      "assetId": 685200963,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-debian-packages.json",
+      "bytes": 79860,
+      "sha256": "f59c6445946f8fc86506955c2491c479925701d420e1c02c4cf8439052e7d61d",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-debian-packages.json",
+      "assetId": 685337696,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-fedora-arm64.tar",
+      "bytes": 231495680,
+      "sha256": "15982be3b9efca85bbc4d033e5aec20257f5e3c1aa96218b377b4e9a63371a1e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-fedora-arm64.tar",
+      "assetId": 685239684,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-fedora-packages.json",
+      "bytes": 74027,
+      "sha256": "e8a47b9d2ba3c9557cfa34c63790e4a09eaee22b5fe7fb7fc25eed2f09ee00de",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-fedora-packages.json",
+      "assetId": 685337694,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-host-audio-arm64.tar",
+      "bytes": 7802880,
+      "sha256": "9419bf21363187c6e0ba21008c6cb142d66ff36e67022bdf5e00a6e8c7134821",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-host-audio-arm64.tar",
+      "assetId": 685207470,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-host-audio-packages.json",
+      "bytes": 5590,
+      "sha256": "cf6c4c463e3eabe412e423d0459d70032240017918c593b7413f3e5a286f5de6",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-host-audio-packages.json",
+      "assetId": 685337727,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-host-virgl-arm64.tar",
+      "bytes": 42926080,
+      "sha256": "001bdd6537b285232319bbee4cc0da75755ccc50be3b01f7de99fe87ba73244e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-host-virgl-arm64.tar",
+      "assetId": 685207665,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-host-virgl-packages.json",
+      "bytes": 5831,
+      "sha256": "566053a2759e34a09e33177842adb648c603768409ff3eeaeae760ae7e43e069",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-host-virgl-packages.json",
+      "assetId": 685337726,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-kali-arm64.tar",
+      "bytes": 171540480,
+      "sha256": "6b153cc185e5c92c618ce7224044184276739e576eb678fad9031cbfef6406fe",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-kali-arm64.tar",
+      "assetId": 685202191,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-kali-packages.json",
+      "bytes": 80695,
+      "sha256": "30c61c1b7ece6b96a3a577a84c611a91cd1ef8702c1707bf2b8a5a1b73b6a5db",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-kali-packages.json",
+      "assetId": 685337729,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-manjaro-arm64.tar",
+      "bytes": 215398400,
+      "sha256": "07d396cbff3c1f9b9d467a5c14d8d589af597b7d2520ae039ff61f8d9f4f3660",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-manjaro-arm64.tar",
+      "assetId": 685233018,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-manjaro-packages.json",
+      "bytes": 97747,
+      "sha256": "48ccde62868a4e2040e7f82d8801e14d1ba03077e98f8a7c1cf76673d1c88083",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-manjaro-packages.json",
+      "assetId": 685337731,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-opensuse-arm64.tar",
+      "bytes": 223528960,
+      "sha256": "3f1a6148f2e79de8073d2bf048234a21a188cc860416ceebe8e62d634760a8f6",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-opensuse-arm64.tar",
+      "assetId": 685233052,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-opensuse-packages.json",
+      "bytes": 97823,
+      "sha256": "a77167cf8fb2b18a8bcb1b8c1ce0255acf04cfee6a27cf0d6701af6bdbd594bb",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-opensuse-packages.json",
+      "assetId": 685337738,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-termux-arm64.tar",
+      "bytes": 156876800,
+      "sha256": "4a5cae39faba449aae3049a590f34d4629d462d71329d1a1e9c67255a383bef5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-termux-arm64.tar",
+      "assetId": 685198358,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-termux-packages.json",
+      "bytes": 44348,
+      "sha256": "5622d6291b88e23d45d302412c0fa8e1128a2695e4f5efc84e3e8815fc650bd2",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-termux-packages.json",
+      "assetId": 685337760,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-ubuntu-arm64.tar",
+      "bytes": 165703680,
+      "sha256": "3adf653d523e57e39b60c4b9ae9fbe0b94290321fb730770248ec356ac5ed12b",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-ubuntu-arm64.tar",
+      "assetId": 685199640,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-ubuntu-packages.json",
+      "bytes": 82279,
+      "sha256": "b27f353a3484062585966ceed6442e4554f988e503f49f09ebff308708c94634",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-ubuntu-packages.json",
+      "assetId": 685337766,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-void-arm64.tar",
+      "bytes": 326502400,
+      "sha256": "733b609beb223bc80bbd6e4fcff642ee1e0c91408b7a8f9b4983ceac620c0f44",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-void-arm64.tar",
+      "assetId": 685236617,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "sets/xfce-base-20261028/x11-base-packages.json"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "xfce-base-20261028",
+      "file": "xfce-void-packages.json",
+      "bytes": 133172,
+      "sha256": "b72f5377639b181defcb05c7480223b94bef9ab272d7d2ce5fee23d476d9cebe",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/xfce-base-20261028/xfce-void-packages.json",
+      "assetId": 685337765,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "alpine-arm64.oci.tar",
+      "bytes": 4198400,
+      "sha256": "db73eab803add4c6e46ef24bb20300c896b7fd9a503cde99cd97cf536552f8eb",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/alpine-arm64.oci.tar",
+      "assetId": 685074954,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "alpine@sha256:e311ae748be7f56ae5cba304bc488f0786df68ee507513f654a5cc8597cffb42"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "alpine@sha256:e311ae748be7f56ae5cba304bc488f0786df68ee507513f654a5cc8597cffb42"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "archlinux-arm64.tar.xz",
+      "bytes": 163892644,
+      "sha256": "dabc2382ddcb725969cf7b9e2f3b102ec862ea6e0294198a30c71e9a4b837f81",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/archlinux-arm64.tar.xz",
+      "assetId": 685074955,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://github.com/termux/proot-distro/releases/download/v4.34.2/archlinux-aarch64-pd-v4.34.2.tar.xz"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "https://github.com/termux/proot-distro/releases/download/v4.34.2/archlinux-aarch64-pd-v4.34.2.tar.xz"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "debian-arm64.oci.tar",
+      "bytes": 49786880,
+      "sha256": "cafa585db56828e9dc7c987925483c3cdd1107b9ef32dcd3e7a9cba9436097dd",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/debian-arm64.oci.tar",
+      "assetId": 685074957,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "debian@sha256:39f862f398f8ea1a2ffee9bbe02c649be6779244bd6a834c4f71155172f801f2"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "debian@sha256:39f862f398f8ea1a2ffee9bbe02c649be6779244bd6a834c4f71155172f801f2"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "fedora-arm64.oci.tar",
+      "bytes": 65832960,
+      "sha256": "1be6ffcfc5c74b322dfb07119c2a6128ca5e0e761e65b494166265df19b55d89",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/fedora-arm64.oci.tar",
+      "assetId": 685074959,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "fedora@sha256:e402cca673711fee025f9ce21c6c08b1bd25ee26b3c482119c8675fbaaedbc85"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "fedora@sha256:e402cca673711fee025f9ce21c6c08b1bd25ee26b3c482119c8675fbaaedbc85"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "kali-arm64.oci.tar",
+      "bytes": 52357120,
+      "sha256": "352a53cdc669e814a255f2b8e6b1b0afbd807c7746a3d619d3108254e849609d",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/kali-arm64.oci.tar",
+      "assetId": 685075103,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "kalilinux/kali-rolling@sha256:987cdd03256802a1c9801d0d836cdebafb49bc538d719debf9694bd86f0a45c6"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "kalilinux/kali-rolling@sha256:987cdd03256802a1c9801d0d836cdebafb49bc538d719debf9694bd86f0a45c6"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "manjaro-arm64.tar.gz",
+      "bytes": 211549268,
+      "sha256": "1ae540a80e21e1ca55e0576df9618fd2865cf4596b8204d20780f225aca5164a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/manjaro-arm64.tar.gz",
+      "assetId": 685075286,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://github.com/manjaro-arm/rootfs/releases/download/20261012/Manjaro-ARM-aarch64-latest.tar.gz"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "https://github.com/manjaro-arm/rootfs/releases/download/20261012/Manjaro-ARM-aarch64-latest.tar.gz"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "opensuse-arm64.oci.tar",
+      "bytes": 41441280,
+      "sha256": "3516dab69a3868fdd1d7a2eee8fee21f2087829f8b2a112d2f8e3b713c78e1b8",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/opensuse-arm64.oci.tar",
+      "assetId": 685076365,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "opensuse/leap@sha256:0c60c4f9ac36f76dc3961af043cdf2b13ee9b238f3adf9b1b64fec8403dce8a5"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "opensuse/leap@sha256:0c60c4f9ac36f76dc3961af043cdf2b13ee9b238f3adf9b1b64fec8403dce8a5"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "rootfs-build-sources.tar.gz",
+      "bytes": 8118,
+      "sha256": "de24fdaded4bc988528ca9575e1ce19274567d2ec68d1775200515cbc63d3a63",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/rootfs-build-sources.tar.gz",
+      "assetId": 685077421,
+      "metadata": [],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "rootfs-manifest.json",
+      "bytes": 5309,
+      "sha256": "335917ffa9b59ae06fc3d6802d60ecf0e7f20cb20877d3bcc3928bf0f5dd5abc",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/rootfs-manifest.json",
+      "assetId": 685077510,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "rootfs-validation.json",
+      "bytes": 1580,
+      "sha256": "22a285b5e3457108e0da3aecc75dc3f0af16b22309b7f50afae902552510b92c",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/rootfs-validation.json",
+      "assetId": 685077577,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "SHA256SUMS",
+      "bytes": 1053,
+      "sha256": "af58c1399a45f65cbf082b8a3c0071aa0259581c7a7adbc85340a828f860c024",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/SHA256SUMS",
+      "assetId": 685074958,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "ubuntu-arm64.oci.tar",
+      "bytes": 41144320,
+      "sha256": "c08828893609894e5ab6d80f146961961148afde007ce904292418d8fcd011e0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/ubuntu-arm64.oci.tar",
+      "assetId": 685077668,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "ubuntu@sha256:86eb1bc1059720a19a777ba5a109e9ee3690d5dfe3e319871a6d6beb86fb7f85"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "ubuntu@sha256:86eb1bc1059720a19a777ba5a109e9ee3690d5dfe3e319871a6d6beb86fb7f85"
+        }
+      ],
+      "reviewScope": "87 image packages/58 source packages: exact DSC identity and all127 referenced archive sizes/SHA256 verified; full copyright texts preserved; source bundle added separately."
+    },
+    {
+      "release": "rootfs-arm64-20261028",
+      "file": "void-arm64.oci.tar",
+      "bytes": 73768960,
+      "sha256": "d23587a71c3d87f49ac2f5e10a97308a03239e38aaa6bf28fc3229748745f834",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/rootfs-arm64-20261028/void-arm64.oci.tar",
+      "assetId": 685077875,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "ghcr.io/void-linux/void-glibc-full@sha256:7a00d22fad3d24fff1ae2ef331505e963ed3b780c65eb048f7b84bf8dabf37df"
+        },
+        {
+          "metadata": "sets/rootfs-arm64-20261028/rootfs-manifest.json",
+          "source": "ghcr.io/void-linux/void-glibc-full@sha256:7a00d22fad3d24fff1ae2ef331505e963ed3b780c65eb048f7b84bf8dabf37df"
+        }
+      ],
+      "reviewScope": "Exact per-package license/source review remains open for this distribution archive."
+    },
+    {
+      "release": "x11-core-fa3a8b430e28",
+      "file": "components.json",
+      "bytes": 1440,
+      "sha256": "f2b342a417c20941d7410d3276f6c438bf4b7fa9dfa3960e8c018dc0d7638db7",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/components.json",
+      "assetId": 681462981,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-core-fa3a8b430e28",
+      "file": "SHA256SUMS",
+      "bytes": 391,
+      "sha256": "433825ece50bca2cd8843bdadfe81173da12662208404425838363ad25627bf5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/SHA256SUMS",
+      "assetId": 681462946,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-core-fa3a8b430e28",
+      "file": "source-manifest.json",
+      "bytes": 3559,
+      "sha256": "920c0f486b6db6d3759fd3945bc921e8d009f92f177a65490e37eb11bb5484d0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/source-manifest.json",
+      "assetId": 681462979,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "upstream": "https://github.com/termux/termux-x11",
+          "commit": "fa3a8b430e2896a19f44c99a9cb056254615ae06"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/components.json"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-core-fa3a8b430e28",
+      "file": "termux-x11-fa3a8b430e28-sources.tar.gz",
+      "bytes": 12273105,
+      "sha256": "0ab22dc16eb8de1117225c0fdd4cc6710c97b917ff671a8e3191b054c326fb79",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/termux-x11-fa3a8b430e28-sources.tar.gz",
+      "assetId": 681462948,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "upstream": "https://github.com/termux/termux-x11",
+          "commit": "fa3a8b430e2896a19f44c99a9cb056254615ae06"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/components.json"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-core-fa3a8b430e28",
+      "file": "Termux-X11-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/Termux-X11-GPL-3.0.txt",
+      "assetId": 681462982,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "upstream": "https://github.com/termux/termux-x11",
+          "commit": "fa3a8b430e2896a19f44c99a9cb056254615ae06"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/components.json"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-core-fa3a8b430e28",
+      "file": "termux-x11-universal-debug-fa3a8b430e28.apk",
+      "bytes": 14693944,
+      "sha256": "64995746d1887a0e70bc8977d4a9c5ea56e3e00eadd4a6eeab32ae6048ba733a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-core-fa3a8b430e28/termux-x11-universal-debug-fa3a8b430e28.apk",
+      "assetId": 681463529,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "upstream": "https://github.com/termux/termux-x11",
+          "commit": "fa3a8b430e2896a19f44c99a9cb056254615ae06"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/components.json"
+        },
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "LOCAL-AI-MODELS-NOTICES.txt",
+      "bytes": 12623,
+      "sha256": "c7e4cc4eb51fceeec820e28a7f1a65620c06417acd1113f2dec06e2040f03f37",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/LOCAL-AI-MODELS-NOTICES.txt",
+      "assetId": 680245557,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "LOCAL-AI-NPU-MODELS-NOTICES-v1.txt",
+      "bytes": 11808,
+      "sha256": "a01bb4e29df382f887778f0437520ba6d27feeee5d5def34a80534bd7ee5c85e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/LOCAL-AI-NPU-MODELS-NOTICES-v1.txt",
+      "assetId": 680588813,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "models-manifest.json",
+      "bytes": 8299,
+      "sha256": "156e3d0c0c81a668140b4a41838468d1bcf659cdc1ffc03763ccf9e2473e590e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/models-manifest.json",
+      "assetId": 680274687,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "npu-models-extension-v1.json",
+      "bytes": 1663,
+      "sha256": "b0a883442e4bcd7954276ab9929455a919d149f6872d0be9c432202150a81d40",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/npu-models-extension-v1.json",
+      "assetId": 680588832,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-14b-q4.gguf.part01",
+      "bytes": 1900000000,
+      "sha256": "503075514eae1f63a264c2d66f3ab814150966998d0e0e6bf0aab8d4f40d461b",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-14b-q4.gguf.part01",
+      "assetId": 680206757,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-14b-q4.gguf.part02",
+      "bytes": 1900000000,
+      "sha256": "3dbdc4d4d6d63b46ff218117dea06d0f25a1b42313422c6aba4180b1ed27273b",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-14b-q4.gguf.part02",
+      "assetId": 680210546,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-14b-q4.gguf.part03",
+      "bytes": 1900000000,
+      "sha256": "633e4beb3fd51416bb8ee8f9857c365f464b60e8972feacba9613f3c6cc28e78",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-14b-q4.gguf.part03",
+      "assetId": 680214469,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-14b-q4.gguf.part04",
+      "bytes": 1900000000,
+      "sha256": "2efde814be333c379a36ef5d3073b825bf86eee82711a92d239b0ec1674ddf61",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-14b-q4.gguf.part04",
+      "assetId": 680218630,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-14b-q4.gguf.part05",
+      "bytes": 1388110272,
+      "sha256": "96fb49248c27c195ab45a55aebe549716b949c3f350a0f2016fdc29a4df48c2f",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-14b-q4.gguf.part05",
+      "assetId": 680222606,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-7b-q4-0.gguf.part01",
+      "bytes": 1900000000,
+      "sha256": "5f3e86503b42dcf35cb24515090a6dea40d7edf7188eb9eb1de76b4bb29ec008",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q4-0.gguf.part01",
+      "assetId": 680579944,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/npu-models-extension-v1.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-7b-q4-0.gguf.part02",
+      "bytes": 1900000000,
+      "sha256": "92f59c207f56e91cb158de3ae40b437e905328c1fd7dc844d0be1b133a8ecf78",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q4-0.gguf.part02",
+      "assetId": 680584266,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/npu-models-extension-v1.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-7b-q4-0.gguf.part03",
+      "bytes": 631390720,
+      "sha256": "ee964adbaaffce95db2ca00251f9aec535108704937f7eb12c492ae2224de9bf",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q4-0.gguf.part03",
+      "assetId": 680587928,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/npu-models-extension-v1.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-7b-q5.gguf.part01",
+      "bytes": 1900000000,
+      "sha256": "7a88ad60e3392c865074efd2e964407b4bdc9aab578a54a4c161f53cfaf9e87d",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q5.gguf.part01",
+      "assetId": 680176966,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-7b-q5.gguf.part02",
+      "bytes": 1900000000,
+      "sha256": "0802611b9fa529e9528a327a4cfc3ba413740ba0e075f8f33cb7db6fd7a3f9ac",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q5.gguf.part02",
+      "assetId": 680181349,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen25-coder-7b-q5.gguf.part03",
+      "bytes": 1644831232,
+      "sha256": "3d6f1e595b9ce0becaf4d75e8ae086bccbe84d71a3deff68cf58ff798682767e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen25-coder-7b-q5.gguf.part03",
+      "assetId": 680184955,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen3-14b-q4.gguf.part01",
+      "bytes": 1900000000,
+      "sha256": "a7a8cee1f321dd43d354c468e4a0150c84ead2747c70b92240bc6904bfa3c065",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen3-14b-q4.gguf.part01",
+      "assetId": 680226699,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen3-14b-q4.gguf.part02",
+      "bytes": 1900000000,
+      "sha256": "2c2408196f29103e77564ca558e2bab3d3969f0eac6d942bf238a5f8d97b3a13",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen3-14b-q4.gguf.part02",
+      "assetId": 680231322,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen3-14b-q4.gguf.part03",
+      "bytes": 1900000000,
+      "sha256": "20d6ef62696640251c9426f2f27c187f75a8e79e51814835b97ffb2443e1a66e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen3-14b-q4.gguf.part03",
+      "assetId": 680235288,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen3-14b-q4.gguf.part04",
+      "bytes": 1900000000,
+      "sha256": "f69ed680e92fd62ec78be0c8e7ae3f5e98c7d14e132fd83ed7a93852bd8a1a7e",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen3-14b-q4.gguf.part04",
+      "assetId": 680239514,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen3-14b-q4.gguf.part05",
+      "bytes": 1401752960,
+      "sha256": "16eb90684ef19ceb22d19f5aa7aa9b7b04dd2a2c096731615c0f0d7ab38712ff",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen3-14b-q4.gguf.part05",
+      "assetId": 680243421,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen35-9b-q6.gguf.part01",
+      "bytes": 1900000000,
+      "sha256": "b4ab95699b584c873232350726c1386d8678116c1b09bc3391565c66925d6376",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen35-9b-q6.gguf.part01",
+      "assetId": 680188705,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen35-9b-q6.gguf.part02",
+      "bytes": 1900000000,
+      "sha256": "f4907231ae657390fe797358a7e7513f4dbf3f20a235f6ac8fae5f84bc29afb6",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen35-9b-q6.gguf.part02",
+      "assetId": 680193329,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen35-9b-q6.gguf.part03",
+      "bytes": 1900000000,
+      "sha256": "171d2f819027979bb3bb0c644a7a4caa956161d6b9eb7a87dd2a9e43185c8d55",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen35-9b-q6.gguf.part03",
+      "assetId": 680197178,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "local-ai-models-v1",
+      "file": "qwen35-9b-q6.gguf.part04",
+      "bytes": 1758301152,
+      "sha256": "7737b7a43231d0b96bbae73de1e71ac327269ca35e264bf1a378ba5a5ac798bb",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/local-ai-models-v1/qwen35-9b-q6.gguf.part04",
+      "assetId": 680202936,
+      "metadata": [
+        {
+          "metadata": "local-ai-models-v1/models-manifest.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "components.json",
+      "bytes": 14226,
+      "sha256": "c6479a167e0cb1ad819a35703ad572639e22ea28e84cf39de30276e994da537d",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/components.json",
+      "assetId": 676061210,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "README.md",
+      "bytes": 16297,
+      "sha256": "378c9e71e7a1090f68e0e46eb57fea1c02398b31d4d6745009afd75a8a29d218",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/README.md",
+      "assetId": 676061208,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "SHA256SUMS",
+      "bytes": 684,
+      "sha256": "3ab39e0cb194cb955caf19844f9c24b7334828daa14ecd475a92396025467574",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/SHA256SUMS",
+      "assetId": 676061379,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "Turnip-a6xx-a7xx-a8xx.zip",
+      "bytes": 3507242,
+      "sha256": "ce35642c5d93ecdfa08b730f80fd738ad71b473cdd7aa3dc58c37d2e6b1e984f",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/Turnip-a6xx-a7xx-a8xx.zip",
+      "assetId": 676061185,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub"
+        },
+        {
+          "metadata": "components.json",
+          "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub"
+        },
+        {
+          "metadata": "components.json",
+          "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Developer-supplied Bionic Turnip archive; original meta.json author GameHub"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "validation.json",
+      "bytes": 680,
+      "sha256": "f0e218e901ca4022a09c772b3f587859a339c8858d2de06d20ae0268ecd600ab",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/validation.json",
+      "assetId": 676061184,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "x11-extras-licenses.tar.gz",
+      "bytes": 18859,
+      "sha256": "b0ac7e2ab5faa0fe9736bc42e3cdf0f855207e57e829b7cb124bafc67bb55bd0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-extras-licenses.tar.gz",
+      "assetId": 676061207,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "x11-extras-sources.tar.gz",
+      "bytes": 1713357,
+      "sha256": "7b9e54cc2b658a4935beec3ff7ed4d74b9f4a41bfcac87a2b83bd8b107501d71",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-extras-sources.tar.gz",
+      "assetId": 676061282,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "x11-style.zip",
+      "bytes": 1830990,
+      "sha256": "6bc19721d09cb5d16b5ee5df6f2758da9653a88e0211dd81ef5fcb408386aec0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-style.zip",
+      "assetId": 676061316,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper"
+        },
+        {
+          "metadata": "components.json",
+          "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper"
+        },
+        {
+          "metadata": "components.json",
+          "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Kali-inspired XFCE resources; Jobs original graphics and generated wallpaper"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "x11-extras-20261025",
+      "file": "x11-virgl-alpine.zip",
+      "bytes": 4616451,
+      "sha256": "d226941f42b135c4e5cd58218b50758beb132e5a46d37f4aec8972a481c33739",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-extras-20261025/x11-virgl-alpine.zip",
+      "assetId": 676061342,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client"
+        },
+        {
+          "metadata": "components.json",
+          "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client"
+        },
+        {
+          "metadata": "components.json",
+          "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "Unmodified upstream Mesa 26.1.6 minimal musl VirGL client"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "bionic-glibc-sources.tar.gz",
+      "bytes": 2582177,
+      "sha256": "9e6105d490ce5864e2ba0118045daff3ecf33d781b20ec73851e7ecaeeecf260",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/bionic-glibc-sources.tar.gz",
+      "assetId": 675910895,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "component-licenses.tar.gz",
+      "bytes": 41058,
+      "sha256": "0b79ebfc3c02ec18fe004bbb25c369dc198aff17c096ec3af91bbc2304a4f9bc",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/component-licenses.tar.gz",
+      "assetId": 675911056,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "components.json",
+      "bytes": 8684,
+      "sha256": "ba86e08f620815ac10d62a286959b8c1f9c17c3eac12fdafba47962248a69756",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/components.json",
+      "assetId": 675911069,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "mesa-26.2.5-jobs1-glibc-lib-aarch64.tar.gz",
+      "bytes": 10347926,
+      "sha256": "be26f1d122d2e626d8411c968ff7074d3d7c614f35f59fe8c97164f690c70dcb",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-glibc-lib-aarch64.tar.gz",
+      "assetId": 675910074,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "mesa-26.2.5-jobs1-glibc-lib64-aarch64.tar.gz",
+      "bytes": 10347945,
+      "sha256": "196b9ba40741958adff13e988c76e4d1082fca36dc165c1dcf34e7c9ced6d141",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-glibc-lib64-aarch64.tar.gz",
+      "assetId": 675910078,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "mesa-26.2.5-jobs1-glibc-multiarch-aarch64.tar.gz",
+      "bytes": 10348020,
+      "sha256": "a848b94d5950b8573c42d41f89592d3d20f7dd0e6a969e44475da2589751a632",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-glibc-multiarch-aarch64.tar.gz",
+      "assetId": 675910077,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "mesa-26.2.5-jobs1-musl-alpine3.24-aarch64.tar.gz",
+      "bytes": 8221445,
+      "sha256": "85cbbb81c7c30cb8eb3675c97babf3fc6f47d0f9021fe4664a40e3a47709f192",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5-jobs1-musl-alpine3.24-aarch64.tar.gz",
+      "assetId": 675910072,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "mesaVersion": "26.2.5",
+          "source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+          "adaptations": "https://github.com/lfdevs/mesa-for-android-container/commit/98f3d6229d61452cef80f8563af7c56ae599dc14"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "mesa-26.2.5.tar.xz",
+      "bytes": 68652756,
+      "sha256": "794b3d1729075dae7ebd47c7283b7ca0cdb5dec668f7f11cc0a5d82f6138a0a5",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-26.2.5.tar.xz",
+      "assetId": 675910596,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "mesa-jobs-build-sources.tar.gz",
+      "bytes": 80801,
+      "sha256": "4d41178c55e9d810f3984ad8cd84d9a7745278723ba72ac23da0b2d60e1d4374",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/mesa-jobs-build-sources.tar.gz",
+      "assetId": 675911005,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "README.md",
+      "bytes": 6929,
+      "sha256": "5933610f4fea5b903c88133fffd9b3eff46e474ef28a988c2ab9a51c18796c80",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/README.md",
+      "assetId": 675911181,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "SHA256SUMS",
+      "bytes": 1145,
+      "sha256": "9aaf38dff8095f7e263868efc97363afe65484c56ff23f00d5083671e2a4513a",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/SHA256SUMS",
+      "assetId": 675911236,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "validation.json",
+      "bytes": 1236,
+      "sha256": "da9a670006f33fc3c8fab7c526972bece94c77328bcc8d6c65ad1c8962c16c1b",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/validation.json",
+      "assetId": 675911163,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "mesa-26.2.5",
+      "file": "x11-bionic-glibc.zip",
+      "bytes": 6103917,
+      "sha256": "e05b6abb19916e007330e19566b8833f10505133505d786bee127a71f1e4aa1d",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/mesa-26.2.5/x11-bionic-glibc.zip",
+      "assetId": 675910075,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "mesaVersion": "26.2.5"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "bionic-glibc-sources.tar.gz",
+      "bytes": 2582177,
+      "sha256": "9e6105d490ce5864e2ba0118045daff3ecf33d781b20ec73851e7ecaeeecf260",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/bionic-glibc-sources.tar.gz",
+      "assetId": 675169883,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "component-licenses.tar.gz",
+      "bytes": 45565,
+      "sha256": "38cadd37b5efc3596f60f5970e029009b1dc3c2fcc6e38345c237b1df8999744",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/component-licenses.tar.gz",
+      "assetId": 675169948,
+      "metadata": [
+        {
+          "metadata": "components.json"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "components.json",
+      "bytes": 8652,
+      "sha256": "af82124a486eb1a63898ffe58c41cc482a6493dcc3b6fa9d39a4fe57f88029d9",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/components.json",
+      "assetId": 675169921,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "libsensors5_3.6.2-2_arm64.deb",
+      "bytes": 36444,
+      "sha256": "7469f1ccce8afdba33d3b11847d0ecdf2221805a0694dee21ee4d622e8f72145",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/libsensors5_3.6.2-2_arm64.deb",
+      "assetId": 675165026,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/libsensors5_3.6.2-2_arm64.deb"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/libsensors5_3.6.2-2_arm64.deb"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/libsensors5_3.6.2-2_arm64.deb"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "lm-sensors_3.6.2-2.debian.tar.xz",
+      "bytes": 34944,
+      "sha256": "a8fcfdaf67421f91bc8d033f47358796e4637bff606b23016377cd64df6d0168",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/lm-sensors_3.6.2-2.debian.tar.xz",
+      "assetId": 675168626,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2-2.debian.tar.xz"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2-2.debian.tar.xz"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2-2.debian.tar.xz"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "lm-sensors_3.6.2-2.dsc",
+      "bytes": 2165,
+      "sha256": "a086af761b4918ad23436c9b0e54aedf7be922df3bf339bbaa5bc5072f8b4f31",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/lm-sensors_3.6.2-2.dsc",
+      "assetId": 675168628,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2-2.dsc"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2-2.dsc"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2-2.dsc"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "lm-sensors_3.6.2.orig.tar.gz",
+      "bytes": 292327,
+      "sha256": "c6a0587e565778a40d88891928bf8943f27d353f382d5b745a997d635978a8f0",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/lm-sensors_3.6.2.orig.tar.gz",
+      "assetId": 675168551,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2.orig.tar.gz"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2.orig.tar.gz"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://deb.debian.org/debian/pool/main/l/lm-sensors/lm-sensors_3.6.2.orig.tar.gz"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-26.1.6.tar.xz",
+      "bytes": 77770828,
+      "sha256": "5296b88a0f1e012e2cb9ada150a2bbadf728ca81e5a4fb2ab43c83a4d2158606",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-26.1.6.tar.xz",
+      "assetId": 675168627,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-for-android-container_26.3.0-devel-20260824_alpine_3.24_arm64.tar.gz",
+      "bytes": 12099886,
+      "sha256": "2f3e14dc57fa4ec75297a67af747872e7c460d3f3fcfff9e758e479874578ea3",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_alpine_3.24_arm64.tar.gz",
+      "assetId": 675165027,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-for-android-container_26.3.0-devel-20260824_archlinux_arm64.tar",
+      "bytes": 14018560,
+      "sha256": "75b7638829b211c20c26b6110e525ca23ab28980ce58af824ab16c8e7afcfa26",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_archlinux_arm64.tar",
+      "assetId": 675167323,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-for-android-container_26.3.0-devel-20260824_debian_trixie_arm64.tar.gz",
+      "bytes": 11648933,
+      "sha256": "c014cf66bdbff96417ee30d34f006cf51df64ae04893d599711b0b6b73b52ccf",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_debian_trixie_arm64.tar.gz",
+      "assetId": 675165024,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-for-android-container_26.3.0-devel-20260824_fedora_44_arm64.tar.gz",
+      "bytes": 12449267,
+      "sha256": "fc5a7f80bdd99720b083ec0d6bf9d349c493858acb03753e9fd99af5e04bde0b",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_fedora_44_arm64.tar.gz",
+      "assetId": 675165025,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-for-android-container_26.3.0-devel-20260824_ubuntu_resolute_arm64.tar.gz",
+      "bytes": 12069639,
+      "sha256": "ee762f0855c47f9a245df3ce53a46d40b2240ede9b5c9ddf7606e724362fec77",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_ubuntu_resolute_arm64.tar.gz",
+      "assetId": 675165004,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-for-android-container_26.3.0-devel-20260824_void_arm64.tar.gz",
+      "bytes": 11533566,
+      "sha256": "9b6051ee45e2891de6c150598305814900f2e48088d5fedc3d75d8d50f644dc7",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-for-android-container_26.3.0-devel-20260824_void_arm64.tar.gz",
+      "assetId": 675165771,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "mesa-vulkan-icd-freedreno_26.2.5_aarch64.deb",
+      "bytes": 1599892,
+      "sha256": "79d4328e41b3b40edea91088c7992f5522469c682e44223efb69ef0861903c37",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-vulkan-icd-freedreno_26.2.5_aarch64.deb",
+      "assetId": 675167779,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://packages.termux.dev/apt/termux-main/pool/main/m/mesa-vulkan-icd-freedreno/mesa-vulkan-icd-freedreno_26.2.5_aarch64.deb"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://packages.termux.dev/apt/termux-main/pool/main/m/mesa-vulkan-icd-freedreno/mesa-vulkan-icd-freedreno_26.2.5_aarch64.deb"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://packages.termux.dev/apt/termux-main/pool/main/m/mesa-vulkan-icd-freedreno/mesa-vulkan-icd-freedreno_26.2.5_aarch64.deb"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "README.md",
+      "bytes": 4125,
+      "sha256": "aee5a5d96c2ee1bce621110df90334f58ae96f61c4251edfe9682980ee11067f",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/README.md",
+      "assetId": 675169947,
+      "metadata": [],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "SHA256SUMS",
+      "bytes": 2060,
+      "sha256": "3d72b2e238d3e3b748eccbfcf5679a4b0f2795c6e4e6bcd24948061179902ac4",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/SHA256SUMS",
+      "assetId": 675170652,
+      "metadata": [
+        {
+          "metadata": "sets/x11-core-fa3a8b430e28/validation.json"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "vulkan-loader-generic_1.4.366_aarch64.deb",
+      "bytes": 150484,
+      "sha256": "5b0a17efdd27e064c06dcf5befba4b466eac6025110ecc44be768019b00abdb7",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/vulkan-loader-generic_1.4.366_aarch64.deb",
+      "assetId": 675167871,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://packages.termux.dev/apt/termux-main/pool/main/v/vulkan-loader-generic/vulkan-loader-generic_1.4.366_aarch64.deb"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://packages.termux.dev/apt/termux-main/pool/main/v/vulkan-loader-generic/vulkan-loader-generic_1.4.366_aarch64.deb"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://packages.termux.dev/apt/termux-main/pool/main/v/vulkan-loader-generic/vulkan-loader-generic_1.4.366_aarch64.deb"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "vulkan-wrapper-android-leegaos-fork-aarch64.zip",
+      "bytes": 3280408,
+      "sha256": "c50f3a9f884ca2c54ca76d4eb55709a4012cff77ff279216a0f04920c05bcc55",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/vulkan-wrapper-android-leegaos-fork-aarch64.zip",
+      "assetId": 675167904,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "source": "https://github.com/sabamdarif/termux-desktop/releases/download/bionic-vulkan-wrapper-0.0.5r5/vulkan-wrapper-android-leegaos-fork-aarch64.zip"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "source": "https://github.com/sabamdarif/termux-desktop/releases/download/bionic-vulkan-wrapper-0.0.5r5/vulkan-wrapper-android-leegaos-fork-aarch64.zip"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "source": "https://github.com/sabamdarif/termux-desktop/releases/download/bionic-vulkan-wrapper-0.0.5r5/vulkan-wrapper-android-leegaos-fork-aarch64.zip"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    },
+    {
+      "release": "graphics-20261025",
+      "file": "x11-bionic-glibc.zip",
+      "bytes": 6053026,
+      "sha256": "bfa1acd82b0f69283125174f68e248add7c1d851bb2a90b3fc96218c819f4872",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/x11-bionic-glibc.zip",
+      "assetId": 675168078,
+      "metadata": [
+        {
+          "metadata": "components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "test-sets/mesa-26.2.5-test1/components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/mesa-26.2.5/components.json",
+          "mesaVersion": "26.2.5"
+        },
+        {
+          "metadata": "sets/x11-extras-20261025/components.json",
+          "mesaVersion": "26.2.5"
+        }
+      ],
+      "reviewScope": "Check linked component notices and version-specific source metadata; no blanket compliance claim."
+    }
+  ],
+  "addedSourceResources": [
+    {
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-corresponding-sources-20261103.tar",
+      "httpStatus": 200,
+      "bytes": 350515200,
+      "sha256": "381789f23e732160e671f064b4e13f4f0ffa99b29b3b47199bed6d9970e718cf",
+      "matchesPrepared": true
+    },
+    {
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-source-inventory-20261103.json",
+      "httpStatus": 200,
+      "bytes": 131893,
+      "sha256": "8bfb6c022161fabc7220cffa0326f9db6da3a6f8b4284e14facd7a4cf9fc6eed",
+      "matchesPrepared": true
+    },
+    {
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-sources-20261103.SHA256SUMS",
+      "httpStatus": 200,
+      "bytes": 218,
+      "sha256": "f41c5250cecdd3b62d84cb7be0b6c55a53eb2a0a1b0f6a58b0f771169d689a49",
+      "matchesPrepared": true
+    }
+  ]
+}

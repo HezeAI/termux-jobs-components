@@ -18,3 +18,14 @@ No user-created phone environment, project, agent history, login token or SSH pr
 ## Original X11 package files
 
 The xfce-base-20261028 set retains original distribution packages and their embedded copyright/license notices. Exact package names, versions, architectures and SHA-256 values are in the set manifests. The release source archive contains the Termux Jobs collection, packaging, verification and installation recipes; it is not a replacement for each upstream package’s own source. Obtain corresponding upstream source packages/build recipes and patches from the distribution sources above and https://github.com/termux/termux-packages for Termux. No package is relicensed as Termux Jobs code.
+
+## 2026-11-03 exact Ubuntu source supplement
+
+For the Ubuntu blobs with SHA-256 c08828893609894e5ab6d80f146961961148afde007ce904292418d8fcd011e0,
+including the separate Ubuntu AI mirror, use the
+[exact corresponding-source archive](https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-corresponding-sources-20261103.tar)
+and [package/source inventory](../sets/ubuntu-ai-base-arm64-20261102/source-inventory-20261103.json).
+All127 referenced files passed full download/length/SHA checks. The other distributions
+and XFCE archives are not covered by that result; their exact-source verification
+remains open in [the dated review](../LICENSE-REVIEW-20261103.md). Generic upstream
+links above are discovery pointers, not proof of matching source versions.

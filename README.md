@@ -1,5 +1,18 @@
 # Termux Job’s Components
 
+## License/source review — 2026-11-03
+
+Independent unofficial Components mirror maintained by HezeAI; not affiliated with
+or endorsed by the Termux team or the respective upstream projects.
+[Review and remaining component-specific questions](LICENSE-REVIEW-20261103.md) ·
+[Exact published asset inventory](LICENSE-ASSET-INVENTORY-20261103.json).
+
+Ubuntu AI now has a **separate manual source download** covering all87 image packages,
+58 exact source packages and127 downloaded/checksummed source files. This does not
+change an existing binary, application download catalog or installed environment.
+[Source archive](https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-corresponding-sources-20261103.tar).
+
+
 ## Manjaro ARM Turnip + Zink compatibility candidate
 
 A separate **Mesa26.2.5 / glibc2.35 / GCC12** build with the existing lfdevs
@@ -70,38 +83,6 @@ The [x11-core-fa3a8b430e28 set](https://github.com/HezeAI/termux-jobs-components
 - [Validation](sets/x11-core-fa3a8b430e28/validation.json), [manifest and hashes](sets/x11-core-fa3a8b430e28/components.json), [source revisions](sets/x11-core-fa3a8b430e28/source-manifest.json), [GPL license](licenses/Termux-X11-GPL-3.0.txt).
 
 The upstream APK is preserved as an original build artifact, including its original signature. It is not the Termux Job’s application update. Only the download location changes; the reviewed byte length, SHA-256 and embedded source commit remain mandatory checks.
-
-## Optional X11 components for private test2
-
-The separate [x11-extras-20261025 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/x11-extras-20261025) adds the existing Kali-inspired XFCE style, Alpine's minimal VirGL client, and the optional **a6xx-a7xx-a8xx** Bionic driver preset. The theme and VirGL archives are byte-identical to the previous APK payloads. CPU, Turnip + Zink and wrapper rendering settings are unchanged. The application pins stable `mesa-26.2.5` URLs independently; no public application APK is published here.
-
-| Optional archive | Download size | Use |
-| --- | --- | --- |
-| x11-style.zip | 1,830,990 bytes | Selected Kali-inspired style for all eight XFCE targets |
-| x11-virgl-alpine.zip | 4,616,451 bytes | Private musl client for Alpine VirGL only |
-| Turnip-a6xx-a7xx-a8xx.zip | 3,507,242 bytes | Optional Termux Wrapper and six Bionic-for-glibc targets |
-
-Choose a wrapper before desktop startup; **a6xx-a7xx-a8xx** is available even without imported archives. Existing imported selections are preserved. If selected and missing, this preset downloads during desktop launch; choosing the list row itself does not download it. SHA-256/size verification precedes import and activation. A shared verified archive cache supports later offline reuse; each environment still owns its runtime, driver selection, display and processes. Cancellation/network failure cannot activate partial downloaded bytes. Existing valid theme/VirGL control archives can be reused without a download.
-
-**Driver distribution credit: StevenMXZ.** The developer supplied the archive. Upstream `meta.json` names **GameHub** and Mesa `26.3.0-devel-b00479181d`. Only the display name was changed to `a6xx-a7xx-a8xx`; the native library is byte-identical. This imported Bionic driver is independent of our stable Mesa 26.2.5 frontend. The name is not a guarantee that every a6xx/a7xx/a8xx device works. An isolated Adreno 830 bridge probe passed Vulkan/GLX pixel rendering, occlusion and VSync changes; fresh-device Android GUI checks and other GPUs remain separate validation.
-
-The style is the fork's Kali-inspired XFCE design, not a Kali Linux installation. Its original graphics, generated wallpaper provenance and build recipe are in `x11-extras-sources.tar.gz`. The Alpine client is an unchanged-source Mesa 26.1.6 build (`virgl`, EGL/GLX/GLES; no Turnip/Zink/LLVM), source SHA-256 `5296b88a0f1e012e2cb9ada150a2bbadf728ca81e5a4fb2ab43c83a4d2158606`. Its complete source remains available as [mesa-26.1.6.tar.xz](https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-26.1.6.tar.xz); build flags and notices are included with this set. VirGL/ANGLE server packages and ordinary applications still come from the selected environment's package manager.
-
-## Optional X11 components for private test2
-
-The separate [x11-extras-20261025 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/x11-extras-20261025) adds the existing Kali-inspired XFCE style, Alpine's minimal VirGL client, and the optional **a6xx-a7xx-a8xx** Bionic driver preset. The theme and VirGL archives are byte-identical to the previous APK payloads. CPU, Turnip + Zink and wrapper rendering settings are unchanged. The application pins stable `mesa-26.2.5` URLs independently; no public application APK is published here.
-
-| Optional archive | Download size | Use |
-| --- | --- | --- |
-| x11-style.zip | 1,830,990 bytes | Selected Kali-inspired style for all eight XFCE targets |
-| x11-virgl-alpine.zip | 4,616,451 bytes | Private musl client for Alpine VirGL only |
-| Turnip-a6xx-a7xx-a8xx.zip | 3,507,242 bytes | Optional Termux Wrapper and six Bionic-for-glibc targets |
-
-Choose a wrapper before desktop startup; **a6xx-a7xx-a8xx** is available even without imported archives. Existing imported selections are preserved. Each imported entry has a delete action; the built-in preset is protected. Deletion is scoped to one environment, requires confirmation, and uses the same exclusive lock as import/selection; running wrapper desktops hold a shared lock. Removing the selected import falls back to the deferred preset. The phone ZIP is never removed. If selected and missing, this preset downloads during desktop launch; choosing the list row itself does not download it. SHA-256/size verification precedes import and activation. A shared verified archive cache supports later offline reuse; each environment still owns its runtime, driver selection, display and processes. Cancellation/network failure cannot activate partial downloaded bytes. Existing valid theme/VirGL control archives can be reused without a download.
-
-**Driver distribution credit: StevenMXZ.** The developer supplied the archive. Upstream `meta.json` names **GameHub** and Mesa `26.3.0-devel-b00479181d`. Only the display name was changed to `a6xx-a7xx-a8xx`; the native library is byte-identical. This imported Bionic driver is independent of our stable Mesa 26.2.5 frontend. The name is not a guarantee that every a6xx/a7xx/a8xx device works. An isolated Adreno 830 bridge probe passed Vulkan/GLX pixel rendering, occlusion and VSync changes; fresh-device Android GUI checks and other GPUs remain separate validation.
-
-The style is the fork's Kali-inspired XFCE design, not a Kali Linux installation. Its original graphics, generated wallpaper provenance and build recipe are in `x11-extras-sources.tar.gz`. The Alpine client is an unchanged-source Mesa 26.1.6 build (`virgl`, EGL/GLX/GLES; no Turnip/Zink/LLVM), source SHA-256 `5296b88a0f1e012e2cb9ada150a2bbadf728ca81e5a4fb2ab43c83a4d2158606`. Its complete source remains available as [mesa-26.1.6.tar.xz](https://github.com/HezeAI/termux-jobs-components/releases/download/graphics-20261025/mesa-26.1.6.tar.xz); build flags and notices are included with this set. VirGL/ANGLE server packages and ordinary applications still come from the selected environment's package manager.
 
 ## Optional X11 components for private test2
 

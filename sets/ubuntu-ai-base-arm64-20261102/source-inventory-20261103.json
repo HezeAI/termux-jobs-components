@@ -1,0 +1,3514 @@
+{
+  "scope": "published ubuntu-ai-arm64.oci.tar and identical Ubuntu rootfs blobs; no environment execution",
+  "reviewDate": "2026-11-03",
+  "archiveSha256": "c08828893609894e5ab6d80f146961961148afde007ce904292418d8fcd011e0",
+  "availabilityMethod": "All58 DSC files GET-verified with matching Source/Version; all127 referenced files downloaded; exact byte length and SHA-256 matched DSC. DSC signatures not independently verified; no package rebuild.",
+  "packages": [
+    {
+      "package": "apt",
+      "version": "3.2.0",
+      "source": "apt@3.2.0",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ and curl",
+        "curl"
+      ],
+      "copyrightPath": "/usr/share/doc/apt/copyright",
+      "copyrightSha256": "5c7835bd455fdea5183f41980f75269c802ce161b4a136a079f4666603bccc2c"
+    },
+    {
+      "package": "base-files",
+      "version": "14ubuntu6.2",
+      "source": "base-files@14ubuntu6.2",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "verbatim"
+      ],
+      "copyrightPath": "/usr/share/doc/base-files/copyright",
+      "copyrightSha256": "576859a65409c99cb1632c8b3de4b3deb26910800832beda76aca33d00720134"
+    },
+    {
+      "package": "base-passwd",
+      "version": "3.6.8",
+      "source": "base-passwd@3.6.8",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/base-passwd/copyright",
+      "copyrightSha256": "0f1cde79bd80a75f9029ae9a8c252b642223027ef36f6989c63a8230aae576a7"
+    },
+    {
+      "package": "bash",
+      "version": "5.3-2ubuntu1",
+      "source": "bash@5.3-2ubuntu1",
+      "licenseIdsInCopyright": [
+        "BSD-4-clause-UC",
+        "BSD-4-clause-UC and MIT-like",
+        "GFDL-NIV-1.3",
+        "GPL-2+",
+        "GPL-3+",
+        "GPL-3+ with Bison exception",
+        "Latex2e",
+        "MIT-like",
+        "permissive"
+      ],
+      "copyrightPath": "/usr/share/doc/bash/copyright",
+      "copyrightSha256": "06319d84c3e5ed096036f6a9310a030c7e84e50dff2b8a6792285c83ec0ada73"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/bsdutils/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "coreutils",
+      "version": "9.5-1ubuntu2+0.0.0~ubuntu25",
+      "source": "coreutils-from@0.0.0~ubuntu25",
+      "licenseIdsInCopyright": [
+        "GPL-3"
+      ],
+      "copyrightPath": "/usr/share/doc/coreutils/copyright",
+      "copyrightSha256": "bda8a4de6138582f106953ce1f57cdfee3b880823080d1a5f656d5b9b2ff977c"
+    },
+    {
+      "package": "coreutils-from-uutils",
+      "version": "0.0.0~ubuntu25",
+      "source": "coreutils-from@0.0.0~ubuntu25",
+      "licenseIdsInCopyright": [
+        "GPL-3"
+      ],
+      "copyrightPath": "/usr/share/doc/coreutils-from-uutils/copyright",
+      "copyrightSha256": "bda8a4de6138582f106953ce1f57cdfee3b880823080d1a5f656d5b9b2ff977c"
+    },
+    {
+      "package": "dash",
+      "version": "0.5.12-12ubuntu3",
+      "source": "dash@0.5.12-12ubuntu3",
+      "licenseIdsInCopyright": [
+        "BSD-3-Clause",
+        "BSD-3-clause",
+        "GPL-2+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/dash/copyright",
+      "copyrightSha256": "d98c53f281321baad38164aa9ae6e368a9253be6ec51bd26a759b5e72b326f4a"
+    },
+    {
+      "package": "debconf",
+      "version": "1.5.92",
+      "source": "debconf@1.5.92",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause"
+      ],
+      "copyrightPath": "/usr/share/doc/debconf/copyright",
+      "copyrightSha256": "57163c71bd8a5289660892827dd0dfaa7fef47f89deedc9dc6711ced7d0a28d7"
+    },
+    {
+      "package": "debianutils",
+      "version": "5.23.2build1",
+      "source": "debianutils@5.23.2build1",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "SMAIL-GPL",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/debianutils/copyright",
+      "copyrightSha256": "aeb68ea374f488431b8963df24f05482692edfa70d7556d7e528dd06d255461c"
+    },
+    {
+      "package": "diffutils",
+      "version": "1:3.12-1ubuntu0.1",
+      "source": "diffutils@1:3.12-1ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "FSFAP",
+        "FSFULLR",
+        "GFDL-NIV-1.3",
+        "GPL-2+",
+        "GPL-3+",
+        "GPL-3+ and FSFULLR",
+        "GPL-3+ with autoconf exception",
+        "GPL-3+ with texinfo exception",
+        "LGPL-2.0+",
+        "LGPL-2.1+",
+        "LGPL-3.0+",
+        "LGPL-3.0+ or GPL-2+",
+        "X11",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/diffutils/copyright",
+      "copyrightSha256": "dba88652aceff215efc49587da50230ed1efd9719fbcdb3550de4827a3be0abc"
+    },
+    {
+      "package": "dpkg",
+      "version": "1.23.7ubuntu1",
+      "source": "dpkg@1.23.7ubuntu1",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "public-domain-s-s-d"
+      ],
+      "copyrightPath": "/usr/share/doc/dpkg/copyright",
+      "copyrightSha256": "3376ec6f7bebf6b1e55da9d5dc591c73e752b45dccb0488e8365d2cf216a1746"
+    },
+    {
+      "package": "e2fsprogs",
+      "version": "1.47.2-3ubuntu4",
+      "source": "e2fsprogs@1.47.2-3ubuntu4",
+      "licenseIdsInCopyright": [
+        "0BSD",
+        "Apache-2",
+        "BSD-3-Clause",
+        "BSD-3-Clause-Variant",
+        "BSD-4-Clause-CMU",
+        "Expat",
+        "GPL or MIT-US-export",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ with Texinfo exception",
+        "ISC",
+        "Kazlib",
+        "LGPL-2",
+        "Latex2e"
+      ],
+      "copyrightPath": "/usr/share/doc/e2fsprogs/copyright",
+      "copyrightSha256": "2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19"
+    },
+    {
+      "package": "findutils",
+      "version": "4.10.0-3build2",
+      "source": "findutils@4.10.0-3build2",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "BSD-3-clause or GPL-3+",
+        "BSD-3-clause or LGPL-2.1+",
+        "BSD-3-clause or LGPL-3+",
+        "FSFAP",
+        "FSFULLR",
+        "FSFULLR or GPL or LGPL",
+        "GFDL-NIV-1.3+",
+        "GFDL-NIV-1.3+ or GFDL-NIV-1.3+",
+        "GPL",
+        "GPL with automake exception",
+        "GPL-2+",
+        "GPL-2+ with Autoconf-data exception",
+        "GPL-3+",
+        "GPL-3+ with Autoconf-data exception",
+        "GPL-3+ with Bison-2.2 exception",
+        "ISC",
+        "ISC or LGPL-2.1+",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3",
+        "LGPL-3+",
+        "X11",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/findutils/copyright",
+      "copyrightSha256": "f51541fbdfe15c01cd3fd3a06ad3b74478902d36a958d95b1756434979d97ed5"
+    },
+    {
+      "package": "gcc-16-base",
+      "version": "16-20260322-1ubuntu1",
+      "source": "gcc-16@16-20260322-1ubuntu1",
+      "licenseIdsInCopyright": [],
+      "copyrightPath": "/usr/share/doc/gcc-16-base/copyright",
+      "copyrightSha256": "d7815dd2364180835891947d96d808878204dea45b8597602a7952332195fbea"
+    },
+    {
+      "package": "gnu-coreutils",
+      "version": "9.7-3ubuntu2.1",
+      "source": "coreutils@9.7-3ubuntu2.1",
+      "licenseIdsInCopyright": [
+        "BSD-4-clause-UC",
+        "FSFULLR",
+        "GFDL-NIV-1.3",
+        "GPL-3+",
+        "GPL-3+ and BSD-4-clause-UC",
+        "GPL-3+ and ISC",
+        "ISC"
+      ],
+      "copyrightPath": "/usr/share/doc/gnu-coreutils/copyright",
+      "copyrightSha256": "3a63d4b11a7ba4c1c17175072ea28e07b0f80c7bc1ca042b27431fe65a14755b"
+    },
+    {
+      "package": "gpgv",
+      "version": "2.4.8-4ubuntu3.1",
+      "source": "gnupg2@2.4.8-4ubuntu3.1",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "CC0-1.0",
+        "Expat",
+        "GPL-2+",
+        "GPL-3+",
+        "GPL-3+ or BSD-3-clause",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "LGPL-3+ or GPL-2+",
+        "RFC-Reference",
+        "TinySCHEME",
+        "permissive"
+      ],
+      "copyrightPath": "/usr/share/doc/gpgv/copyright",
+      "copyrightSha256": "c19276de1952e4d3926c293ac598065e2abcb5b9543600cf941d53fb3c6e41a8"
+    },
+    {
+      "package": "grep",
+      "version": "3.12-1",
+      "source": "grep@3.12-1",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "BSD-3-clause or GPL-3+",
+        "FSFAP",
+        "FSFAP or GFDL-1.3+",
+        "FSFUL",
+        "FSFULLR",
+        "FSFULLR and/or GPL and/or LGPL",
+        "GFDL-1.3+",
+        "GPL",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "ISC or LGPL-2.1+",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "X11",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/grep/copyright",
+      "copyrightSha256": "2feec851673d8afaee499c87b088a6f26266c951fe0983dd25590a130be3b2b6"
+    },
+    {
+      "package": "gzip",
+      "version": "1.14-1~exp2ubuntu1.1",
+      "source": "gzip@1.14-1~exp2ubuntu1.1",
+      "licenseIdsInCopyright": [
+        "FSF-manpages",
+        "GFDL-1.3+-no-invariant",
+        "GPL-3+"
+      ],
+      "copyrightPath": "/usr/share/doc/gzip/copyright",
+      "copyrightSha256": "8a1937212438c59ffd7f6a1526127f47f8a3fe7e527749b8565ad0b26d819d55"
+    },
+    {
+      "package": "hostname",
+      "version": "3.25build1",
+      "source": "hostname@3.25build1",
+      "licenseIdsInCopyright": [
+        "GPL-2"
+      ],
+      "copyrightPath": "/usr/share/doc/hostname/copyright",
+      "copyrightSha256": "94189fc5a9a7b7224d96e1a0cfdfe9be0df2018b04bf21d591627ab96b30cad1"
+    },
+    {
+      "package": "init-system-helpers",
+      "version": "1.69",
+      "source": "init-system-helpers@1.69",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "GPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/init-system-helpers/copyright",
+      "copyrightSha256": "7534601cc4fa513804d16490359f5831e7b6a1212da3bbf948bebdd4c8799783"
+    },
+    {
+      "package": "libacl1",
+      "version": "2.3.2-2",
+      "source": "acl@2.3.2-2",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "LGPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/libacl1/copyright",
+      "copyrightSha256": "9a2dfb4a5abc7e84be2cc41f1089be665519c9409549296f6c19de57ab1d37c2"
+    },
+    {
+      "package": "libapt-pkg7.0",
+      "version": "3.2.0",
+      "source": "apt@3.2.0",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ and curl",
+        "curl"
+      ],
+      "copyrightPath": "/usr/share/doc/libapt-pkg7.0/copyright",
+      "copyrightSha256": "5c7835bd455fdea5183f41980f75269c802ce161b4a136a079f4666603bccc2c"
+    },
+    {
+      "package": "libattr1",
+      "version": "1:2.5.2-4ubuntu0.1",
+      "source": "attr@1:2.5.2-4ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "LGPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/libattr1/copyright",
+      "copyrightSha256": "0cbec745d85ea775450b2d54fac55277197f429e52d611f72852ed420450620e"
+    },
+    {
+      "package": "libaudit-common",
+      "version": "1:4.1.2-1ubuntu0.1",
+      "source": "audit@1:4.1.2-1ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "LGPL-2.1"
+      ],
+      "copyrightPath": "/usr/share/doc/libaudit-common/copyright",
+      "copyrightSha256": "e8e11f2a66d0eb0f32d684c6e7c1b6c59381901e981d9a9d51eef225fef4cf1b"
+    },
+    {
+      "package": "libaudit1",
+      "version": "1:4.1.2-1ubuntu0.1",
+      "source": "audit@1:4.1.2-1ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "LGPL-2.1"
+      ],
+      "copyrightPath": "/usr/share/doc/libaudit1/copyright",
+      "copyrightSha256": "e8e11f2a66d0eb0f32d684c6e7c1b6c59381901e981d9a9d51eef225fef4cf1b"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libblkid1/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "libbsd0",
+      "version": "0.12.2-2build2",
+      "source": "libbsd@0.12.2-2build2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause-NetBSD",
+        "BSD-2-clause-author",
+        "BSD-2-clause-verbatim",
+        "BSD-3-clause",
+        "BSD-3-clause-John-Birrell",
+        "BSD-3-clause-Regents",
+        "BSD-3-clause-Regents and BSD-2-clause-NetBSD",
+        "BSD-3-clause-author",
+        "BSD-5-clause-Peter-Wemm",
+        "Beerware",
+        "Expat",
+        "ISC",
+        "ISC-Original",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libbsd0/copyright",
+      "copyrightSha256": "47eaa031b1741a33a93e7cc8909bfe153acaec7ddff12e4dc7377d0e2ec10e91"
+    },
+    {
+      "package": "libbz2-1.0",
+      "version": "1.0.8-6ubuntu0.1",
+      "source": "bzip2@1.0.8-6ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "BSD-variant",
+        "GPL-2"
+      ],
+      "copyrightPath": "/usr/share/doc/libbz2-1.0/copyright",
+      "copyrightSha256": "832ed535ff3c3d025a8d2348eb1b697b89addcf2eaadbc17650262040b9145e2"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.43-2ubuntu2.4",
+      "source": "glibc@2.43-2ubuntu2.4",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause or GPL-2",
+        "BSD-3-clause-Berkeley",
+        "BSD-3-clause-Berkeley and BSD-3-clause-WIDE",
+        "BSD-3-clause-Berkeley and DEC",
+        "BSD-3-clause-Berkeley and DEC and IBM and ISC",
+        "BSD-3-clause-Berkeley and DEC and ISC",
+        "BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and DEC and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and ISC",
+        "BSD-3-clause-Berkeley and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra",
+        "BSD-3-clause-Carnegie",
+        "BSD-3-clause-Oracle",
+        "BSD-3-clause-WIDE",
+        "BSD-like-Spencer",
+        "BSL-1.0",
+        "CORE-MATH",
+        "Carnegie",
+        "Carnegie and LGPL-2.1+",
+        "DEC",
+        "FSFAP",
+        "GFDL-1.3",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+-with-link-exception",
+        "GPL-3+",
+        "IBM",
+        "IBM and ISC",
+        "ISC",
+        "ISC and LGPL-2.1+",
+        "Inner-Net",
+        "Inner-Net and LGPL-2.1+",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-2.1+ and GPL-2",
+        "LGPL-2.1+ and SunPro",
+        "LGPL-2.1+-with-link-exception",
+        "LGPL-3+",
+        "MIT-like-Lord",
+        "PCRE",
+        "SunPro",
+        "Unicode-DFS-2016",
+        "Univ-Coimbra",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libc-bin/copyright",
+      "copyrightSha256": "c31d10900fdb95d1889005145a2205bb75e3bc018d3ec8265b81364901748e09"
+    },
+    {
+      "package": "libc-gconv-modules-extra",
+      "version": "2.43-2ubuntu2.4",
+      "source": "glibc@2.43-2ubuntu2.4",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause or GPL-2",
+        "BSD-3-clause-Berkeley",
+        "BSD-3-clause-Berkeley and BSD-3-clause-WIDE",
+        "BSD-3-clause-Berkeley and DEC",
+        "BSD-3-clause-Berkeley and DEC and IBM and ISC",
+        "BSD-3-clause-Berkeley and DEC and ISC",
+        "BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and DEC and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and ISC",
+        "BSD-3-clause-Berkeley and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra",
+        "BSD-3-clause-Carnegie",
+        "BSD-3-clause-Oracle",
+        "BSD-3-clause-WIDE",
+        "BSD-like-Spencer",
+        "BSL-1.0",
+        "CORE-MATH",
+        "Carnegie",
+        "Carnegie and LGPL-2.1+",
+        "DEC",
+        "FSFAP",
+        "GFDL-1.3",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+-with-link-exception",
+        "GPL-3+",
+        "IBM",
+        "IBM and ISC",
+        "ISC",
+        "ISC and LGPL-2.1+",
+        "Inner-Net",
+        "Inner-Net and LGPL-2.1+",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-2.1+ and GPL-2",
+        "LGPL-2.1+ and SunPro",
+        "LGPL-2.1+-with-link-exception",
+        "LGPL-3+",
+        "MIT-like-Lord",
+        "PCRE",
+        "SunPro",
+        "Unicode-DFS-2016",
+        "Univ-Coimbra",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libc-gconv-modules-extra/copyright",
+      "copyrightSha256": "c31d10900fdb95d1889005145a2205bb75e3bc018d3ec8265b81364901748e09"
+    },
+    {
+      "package": "libc6",
+      "version": "2.43-2ubuntu2.4",
+      "source": "glibc@2.43-2ubuntu2.4",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause or GPL-2",
+        "BSD-3-clause-Berkeley",
+        "BSD-3-clause-Berkeley and BSD-3-clause-WIDE",
+        "BSD-3-clause-Berkeley and DEC",
+        "BSD-3-clause-Berkeley and DEC and IBM and ISC",
+        "BSD-3-clause-Berkeley and DEC and ISC",
+        "BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and DEC and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and ISC",
+        "BSD-3-clause-Berkeley and LGPL-2.1+",
+        "BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra",
+        "BSD-3-clause-Carnegie",
+        "BSD-3-clause-Oracle",
+        "BSD-3-clause-WIDE",
+        "BSD-like-Spencer",
+        "BSL-1.0",
+        "CORE-MATH",
+        "Carnegie",
+        "Carnegie and LGPL-2.1+",
+        "DEC",
+        "FSFAP",
+        "GFDL-1.3",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+-with-link-exception",
+        "GPL-3+",
+        "IBM",
+        "IBM and ISC",
+        "ISC",
+        "ISC and LGPL-2.1+",
+        "Inner-Net",
+        "Inner-Net and LGPL-2.1+",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-2.1+ and GPL-2",
+        "LGPL-2.1+ and SunPro",
+        "LGPL-2.1+-with-link-exception",
+        "LGPL-3+",
+        "MIT-like-Lord",
+        "PCRE",
+        "SunPro",
+        "Unicode-DFS-2016",
+        "Univ-Coimbra",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libc6/copyright",
+      "copyrightSha256": "c31d10900fdb95d1889005145a2205bb75e3bc018d3ec8265b81364901748e09"
+    },
+    {
+      "package": "libcap-ng0",
+      "version": "0.8.5-4build5",
+      "source": "libcap-ng@0.8.5-4build5",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "GPL-3",
+        "LGPL-2.1+"
+      ],
+      "copyrightPath": "/usr/share/doc/libcap-ng0/copyright",
+      "copyrightSha256": "567997de097e3738564c90e6fe13343b2daae21a7926d6fb161df41322c1840b"
+    },
+    {
+      "package": "libcom-err2",
+      "version": "1.47.2-3ubuntu4",
+      "source": "e2fsprogs@1.47.2-3ubuntu4",
+      "licenseIdsInCopyright": [
+        "0BSD",
+        "Apache-2",
+        "BSD-3-Clause",
+        "BSD-3-Clause-Variant",
+        "BSD-4-Clause-CMU",
+        "Expat",
+        "GPL or MIT-US-export",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ with Texinfo exception",
+        "ISC",
+        "Kazlib",
+        "LGPL-2",
+        "Latex2e"
+      ],
+      "copyrightPath": "/usr/share/doc/libcom-err2/copyright",
+      "copyrightSha256": "2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19"
+    },
+    {
+      "package": "libcrypt1",
+      "version": "1:4.5.1-1",
+      "source": "libxcrypt@1:4.5.1-1",
+      "licenseIdsInCopyright": [],
+      "copyrightPath": "/usr/share/doc/libcrypt1/copyright",
+      "copyrightSha256": "4d740da7ee838a890f134cf6d0ea85319e75a0b7fbc5728b986931028d69d3a4"
+    },
+    {
+      "package": "libdb5.3t64",
+      "version": "5.3.28+dfsg2-10ubuntu1",
+      "source": "db5.3@5.3.28+dfsg2-10ubuntu1",
+      "licenseIdsInCopyright": [
+        "Artistic or BSD-3-clause",
+        "BSD-3-clause",
+        "BSD-3-clause-fjord",
+        "GPL",
+        "GPL or Artistic",
+        "GPL-3",
+        "MIT-old",
+        "Ms-PL",
+        "Sleepycat",
+        "Sleepycat and BSD-3-clause",
+        "TCL-like",
+        "X11",
+        "zlib"
+      ],
+      "copyrightPath": "/usr/share/doc/libdb5.3t64/copyright",
+      "copyrightSha256": "8b53da37d73289d9df7317b3a2dbe16491f1fa9fec8b77b86d69704b40ce2c26"
+    },
+    {
+      "package": "libdebconfclient0",
+      "version": "0.280ubuntu1",
+      "source": "cdebconf@0.280ubuntu1",
+      "licenseIdsInCopyright": [
+        "BSD-2-Clause",
+        "BSD-2-clause",
+        "GPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/libdebconfclient0/copyright",
+      "copyrightSha256": "cf63099896d1c0f6529c41b8d95738e6fea342ffba609187d339c4f38ce36ecc"
+    },
+    {
+      "package": "libext2fs2t64",
+      "version": "1.47.2-3ubuntu4",
+      "source": "e2fsprogs@1.47.2-3ubuntu4",
+      "licenseIdsInCopyright": [
+        "0BSD",
+        "Apache-2",
+        "BSD-3-Clause",
+        "BSD-3-Clause-Variant",
+        "BSD-4-Clause-CMU",
+        "Expat",
+        "GPL or MIT-US-export",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ with Texinfo exception",
+        "ISC",
+        "Kazlib",
+        "LGPL-2",
+        "Latex2e"
+      ],
+      "copyrightPath": "/usr/share/doc/libext2fs2t64/copyright",
+      "copyrightSha256": "2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19"
+    },
+    {
+      "package": "libgcc-s1",
+      "version": "16-20260322-1ubuntu1",
+      "source": "gcc-16@16-20260322-1ubuntu1",
+      "licenseIdsInCopyright": [],
+      "copyrightPath": "/usr/share/doc/libgcc-s1/copyright",
+      "copyrightSha256": "d7815dd2364180835891947d96d808878204dea45b8597602a7952332195fbea"
+    },
+    {
+      "package": "libgcrypt20",
+      "version": "1.12.0-2ubuntu1.1",
+      "source": "libgcrypt20@1.12.0-2ubuntu1.1",
+      "licenseIdsInCopyright": [],
+      "copyrightPath": "/usr/share/doc/libgcrypt20/copyright",
+      "copyrightSha256": "7d0898872a373d51cf511aaa99671f47c5b76594b9cb5019e1684da90da8345f"
+    },
+    {
+      "package": "libgmp10",
+      "version": "2:6.3.0+dfsg-5ubuntu2",
+      "source": "gmp@2:6.3.0+dfsg-5ubuntu2",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "GPL-2+ or LGPL-3+",
+        "GPL-3+",
+        "GPL-3+ with Bison exception",
+        "LGPL-3+"
+      ],
+      "copyrightPath": "/usr/share/doc/libgmp10/copyright",
+      "copyrightSha256": "7d366aef5ba325150246de1d7820c4c9926cd27ca61a69948492b26cd3b61601"
+    },
+    {
+      "package": "libgpg-error0",
+      "version": "1.58-2",
+      "source": "libgpg-error@1.58-2",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "GPL-3+",
+        "LGPL-2.1+",
+        "LGPL-2.1+ or BSD-3-clause",
+        "g10-permissive"
+      ],
+      "copyrightPath": "/usr/share/doc/libgpg-error0/copyright",
+      "copyrightSha256": "20611cb3c317c3665591d6d7aa9ee29b70f89d98044e2796074cae18f806f2ae"
+    },
+    {
+      "package": "liblz4-1",
+      "version": "1.10.0-8",
+      "source": "lz4@1.10.0-8",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause or GPL-2+",
+        "GPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/liblz4-1/copyright",
+      "copyrightSha256": "8dce0cb8c5a4486e4aac00466e4dd4b0b5b28d70efe3b3256ea4594099a8509c"
+    },
+    {
+      "package": "liblzma5",
+      "version": "5.8.3-1ubuntu0.1",
+      "source": "xz-utils@5.8.3-1ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "0BSD",
+        "FSFUL",
+        "FSFULLR",
+        "GPL-2+",
+        "GPL-3.0-or-later-WITH-Autoconf-exception-macro",
+        "LGPL-2.1+",
+        "PD",
+        "PD-debian",
+        "none",
+        "permissive-nowarranty"
+      ],
+      "copyrightPath": "/usr/share/doc/liblzma5/copyright",
+      "copyrightSha256": "a9c3f6e1bf373b54e29704e31afd99f5405a32cbc7897608b0f15e9d544882d4"
+    },
+    {
+      "package": "libmd0",
+      "version": "1.1.0-2build4",
+      "source": "libmd@1.1.0-2build4",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause-NetBSD",
+        "BSD-3-clause",
+        "BSD-3-clause-Aaron-D-Gifford",
+        "Beerware",
+        "ISC",
+        "public-domain-md4",
+        "public-domain-md5",
+        "public-domain-sha1"
+      ],
+      "copyrightPath": "/usr/share/doc/libmd0/copyright",
+      "copyrightSha256": "4365ef6255ad553fce69dd4bc0e093472c5d0e41b8ea493a545cc926ce171aa6"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libmount1/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "libncursesw6",
+      "version": "6.6+20251231-1",
+      "source": "ncurses@6.6+20251231-1",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "MIT/X11",
+        "X11"
+      ],
+      "copyrightPath": "/usr/share/doc/libncursesw6/copyright",
+      "copyrightSha256": "f838d6048fbc59356b7e56c207a7cb32dc6bf4adea95514a002596bde8f6e1e7"
+    },
+    {
+      "package": "libpam-modules",
+      "version": "1.7.0-5ubuntu3.2",
+      "source": "pam@1.7.0-5ubuntu3.2",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause or GPL",
+        "BSD-tcp_wrappers",
+        "Beerware",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3",
+        "GPL-3+ with Bison exception",
+        "LGPL-2+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libpam-modules/copyright",
+      "copyrightSha256": "6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb"
+    },
+    {
+      "package": "libpam-modules-bin",
+      "version": "1.7.0-5ubuntu3.2",
+      "source": "pam@1.7.0-5ubuntu3.2",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause or GPL",
+        "BSD-tcp_wrappers",
+        "Beerware",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3",
+        "GPL-3+ with Bison exception",
+        "LGPL-2+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libpam-modules-bin/copyright",
+      "copyrightSha256": "6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb"
+    },
+    {
+      "package": "libpam-runtime",
+      "version": "1.7.0-5ubuntu3.2",
+      "source": "pam@1.7.0-5ubuntu3.2",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause or GPL",
+        "BSD-tcp_wrappers",
+        "Beerware",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3",
+        "GPL-3+ with Bison exception",
+        "LGPL-2+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libpam-runtime/copyright",
+      "copyrightSha256": "6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb"
+    },
+    {
+      "package": "libpam0g",
+      "version": "1.7.0-5ubuntu3.2",
+      "source": "pam@1.7.0-5ubuntu3.2",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause or GPL",
+        "BSD-tcp_wrappers",
+        "Beerware",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3",
+        "GPL-3+ with Bison exception",
+        "LGPL-2+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libpam0g/copyright",
+      "copyrightSha256": "6b11ef9ab5429d9618cc72e8dfd4efefde363165ef174be0549918e0c44f5dcb"
+    },
+    {
+      "package": "libpcre2-8-0",
+      "version": "10.46-1build1",
+      "source": "pcre2@10.46-1build1",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception",
+        "X11",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libpcre2-8-0/copyright",
+      "copyrightSha256": "e915cde4251f96ec6af107ecd2e194440a4e69440893b0c982802f8a1e4ae40a"
+    },
+    {
+      "package": "libproc2-0",
+      "version": "2:4.0.4-9ubuntu1",
+      "source": "procps@2:4.0.4-9ubuntu1",
+      "licenseIdsInCopyright": [
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1+"
+      ],
+      "copyrightPath": "/usr/share/doc/libproc2-0/copyright",
+      "copyrightSha256": "90a66617c36d83068b52bbb77cbfef1234f526bfa287156d9d05f7df4d339539"
+    },
+    {
+      "package": "libseccomp2",
+      "version": "2.6.0-2ubuntu5",
+      "source": "libseccomp@2.6.0-2ubuntu5",
+      "licenseIdsInCopyright": [
+        "LGPL-2.1"
+      ],
+      "copyrightPath": "/usr/share/doc/libseccomp2/copyright",
+      "copyrightSha256": "6da0653a365b80ab31478dbfe9e7c358e80d58b6d2b52b4e16b4dbb42d7d9f5c"
+    },
+    {
+      "package": "libselinux1",
+      "version": "3.9-4build1",
+      "source": "libselinux@3.9-4build1",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libselinux1/copyright",
+      "copyrightSha256": "864f1bb189f609075d580b8c4aada16d85a44546884f1687989e1cacc8c56751"
+    },
+    {
+      "package": "libsemanage-common",
+      "version": "3.9-1build1",
+      "source": "libsemanage@3.9-1build1",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "LGPL-2.1+"
+      ],
+      "copyrightPath": "/usr/share/doc/libsemanage-common/copyright",
+      "copyrightSha256": "c2802ac7e45a373a708961dde9b3609e045b6e6818c43440c8662c66baa27955"
+    },
+    {
+      "package": "libsemanage2",
+      "version": "3.9-1build1",
+      "source": "libsemanage@3.9-1build1",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "LGPL-2.1+"
+      ],
+      "copyrightPath": "/usr/share/doc/libsemanage2/copyright",
+      "copyrightSha256": "c2802ac7e45a373a708961dde9b3609e045b6e6818c43440c8662c66baa27955"
+    },
+    {
+      "package": "libsepol2",
+      "version": "3.9-2",
+      "source": "libsepol@3.9-2",
+      "licenseIdsInCopyright": [
+        "GPL-2",
+        "GPL-2+",
+        "LGPL-2.1+",
+        "Zlib"
+      ],
+      "copyrightPath": "/usr/share/doc/libsepol2/copyright",
+      "copyrightSha256": "f6879e48f3d756e47bdc49711495f9da429c15694db31f79f8b2ccd0501c5651"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libsmartcols1/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "libss2",
+      "version": "1.47.2-3ubuntu4",
+      "source": "e2fsprogs@1.47.2-3ubuntu4",
+      "licenseIdsInCopyright": [
+        "0BSD",
+        "Apache-2",
+        "BSD-3-Clause",
+        "BSD-3-Clause-Variant",
+        "BSD-4-Clause-CMU",
+        "Expat",
+        "GPL or MIT-US-export",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ with Texinfo exception",
+        "ISC",
+        "Kazlib",
+        "LGPL-2",
+        "Latex2e"
+      ],
+      "copyrightPath": "/usr/share/doc/libss2/copyright",
+      "copyrightSha256": "2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19"
+    },
+    {
+      "package": "libssl3t64",
+      "version": "3.5.5-1ubuntu3.7",
+      "source": "openssl@3.5.5-1ubuntu3.7",
+      "licenseIdsInCopyright": [
+        "Apache-2.0",
+        "Artistic",
+        "Artistic or GPL-1+",
+        "GPL-1+"
+      ],
+      "copyrightPath": "/usr/share/doc/libssl3t64/copyright",
+      "copyrightSha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35"
+    },
+    {
+      "package": "libstdc++6",
+      "version": "16-20260322-1ubuntu1",
+      "source": "gcc-16@16-20260322-1ubuntu1",
+      "licenseIdsInCopyright": [],
+      "copyrightPath": "/usr/share/doc/libstdc++6/copyright",
+      "copyrightSha256": "d7815dd2364180835891947d96d808878204dea45b8597602a7952332195fbea"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "259.9-0ubuntu0.1",
+      "source": "systemd@259.9-0ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "CC0-1.0",
+        "Expat",
+        "GPL-2 with Linux-syscall-note exception",
+        "GPL-2+",
+        "LGPL-2.1+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libsystemd0/copyright",
+      "copyrightSha256": "0fff813dc14e7c0a6d2bfba748ed17485fedb768b7fc9702b15261e81cfd357f"
+    },
+    {
+      "package": "libtinfo6",
+      "version": "6.6+20251231-1",
+      "source": "ncurses@6.6+20251231-1",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "MIT/X11",
+        "X11"
+      ],
+      "copyrightPath": "/usr/share/doc/libtinfo6/copyright",
+      "copyrightSha256": "f838d6048fbc59356b7e56c207a7cb32dc6bf4adea95514a002596bde8f6e1e7"
+    },
+    {
+      "package": "libudev1",
+      "version": "259.9-0ubuntu0.1",
+      "source": "systemd@259.9-0ubuntu0.1",
+      "licenseIdsInCopyright": [
+        "CC0-1.0",
+        "Expat",
+        "GPL-2 with Linux-syscall-note exception",
+        "GPL-2+",
+        "LGPL-2.1+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libudev1/copyright",
+      "copyrightSha256": "0fff813dc14e7c0a6d2bfba748ed17485fedb768b7fc9702b15261e81cfd357f"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/libuuid1/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "libxxhash0",
+      "version": "0.8.3-2build1",
+      "source": "xxhash@0.8.3-2build1",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-2-clause or GPL-2+",
+        "GPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/libxxhash0/copyright",
+      "copyrightSha256": "81affefe3047c8a88a9e4c94c8c698f51a7e0787e75b58e901bf1f8fcd433f58"
+    },
+    {
+      "package": "libzstd1",
+      "version": "1.5.7+dfsg-3",
+      "source": "libzstd@1.5.7+dfsg-3",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "BSD-3-clause or GPL-2",
+        "Expat",
+        "GPL-2",
+        "zlib"
+      ],
+      "copyrightPath": "/usr/share/doc/libzstd1/copyright",
+      "copyrightSha256": "2efe51c80ddc473bc2c91faec49dae645bf7f5a04824528fec816320432da2ae"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/login/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "login.defs",
+      "version": "1:4.17.4-2ubuntu3",
+      "source": "shadow@1:4.17.4-2ubuntu3",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "GPL-1",
+        "GPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/login.defs/copyright",
+      "copyrightSha256": "305494b6f5f6bb65ead9160077d4fdf45ccdf06de7c958ff96f27a632b8729a3"
+    },
+    {
+      "package": "logsave",
+      "version": "1.47.2-3ubuntu4",
+      "source": "e2fsprogs@1.47.2-3ubuntu4",
+      "licenseIdsInCopyright": [
+        "0BSD",
+        "Apache-2",
+        "BSD-3-Clause",
+        "BSD-3-Clause-Variant",
+        "BSD-4-Clause-CMU",
+        "Expat",
+        "GPL or MIT-US-export",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-2+ with Texinfo exception",
+        "ISC",
+        "Kazlib",
+        "LGPL-2",
+        "Latex2e"
+      ],
+      "copyrightPath": "/usr/share/doc/logsave/copyright",
+      "copyrightSha256": "2041b5febdc110151ca3372d01b16b85dda1888e33f3f60fce0f59940eed7d19"
+    },
+    {
+      "package": "mawk",
+      "version": "1.3.4.20260129-1",
+      "source": "mawk@1.3.4.20260129-1",
+      "licenseIdsInCopyright": [
+        "CC-BY-3.0",
+        "GPL-2.0-only",
+        "X11"
+      ],
+      "copyrightPath": "/usr/share/doc/mawk/copyright",
+      "copyrightSha256": "ef4657360041483f59e489d15e2f7f049f68cc90fc5232ea18b192a7e73264ea"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/mount/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "ncurses-base",
+      "version": "6.6+20251231-1",
+      "source": "ncurses@6.6+20251231-1",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "MIT/X11",
+        "X11"
+      ],
+      "copyrightPath": "/usr/share/doc/ncurses-base/copyright",
+      "copyrightSha256": "f838d6048fbc59356b7e56c207a7cb32dc6bf4adea95514a002596bde8f6e1e7"
+    },
+    {
+      "package": "ncurses-bin",
+      "version": "6.6+20251231-1",
+      "source": "ncurses@6.6+20251231-1",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "MIT/X11",
+        "X11"
+      ],
+      "copyrightPath": "/usr/share/doc/ncurses-bin/copyright",
+      "copyrightSha256": "f838d6048fbc59356b7e56c207a7cb32dc6bf4adea95514a002596bde8f6e1e7"
+    },
+    {
+      "package": "openssl-provider-legacy",
+      "version": "3.5.5-1ubuntu3.7",
+      "source": "openssl@3.5.5-1ubuntu3.7",
+      "licenseIdsInCopyright": [
+        "Apache-2.0",
+        "Artistic",
+        "Artistic or GPL-1+",
+        "GPL-1+"
+      ],
+      "copyrightPath": "/usr/share/doc/openssl-provider-legacy/copyright",
+      "copyrightSha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35"
+    },
+    {
+      "package": "passwd",
+      "version": "1:4.17.4-2ubuntu3",
+      "source": "shadow@1:4.17.4-2ubuntu3",
+      "licenseIdsInCopyright": [
+        "BSD-3-clause",
+        "GPL-1",
+        "GPL-2+"
+      ],
+      "copyrightPath": "/usr/share/doc/passwd/copyright",
+      "copyrightSha256": "305494b6f5f6bb65ead9160077d4fdf45ccdf06de7c958ff96f27a632b8729a3"
+    },
+    {
+      "package": "perl-base",
+      "version": "5.40.1-7ubuntu0.3",
+      "source": "perl@5.40.1-7ubuntu0.3",
+      "licenseIdsInCopyright": [
+        " CC0-1.0",
+        "Artistic",
+        "Artistic or GPL-1+",
+        "Artistic or GPL-1+ or Artistic-dist",
+        "Artistic-2",
+        "Artistic-dist",
+        "BSD-3-clause",
+        "BSD-3-clause-GENERIC",
+        "BSD-3-clause-with-weird-numbering",
+        "BSD-4-clause-POWERDOG",
+        "BZIP",
+        "DONT-CHANGE-THE-GPL",
+        "Expat",
+        "Expat or GPL-1+ or Artistic",
+        "FSFAP",
+        "GPL-1+",
+        "GPL-1+ or Artistic",
+        "GPL-1+ or Artistic or Artistic-dist",
+        "GPL-1+ or Artistic, and BSD-3-clause-GENERIC",
+        "GPL-1+ or Artistic, and BSD-4-clause-POWERDOG",
+        "GPL-1+ or Artistic, and Expat",
+        "GPL-1+ or Artistic, and Unicode",
+        "GPL-2+",
+        "GPL-2+ or Artistic",
+        "GPL-3+-WITH-BISON-EXCEPTION",
+        "LGPL-2.1",
+        "REGCOMP",
+        "REGCOMP, and GPL-1+ or Artistic",
+        "SDBM-PUBLIC-DOMAIN",
+        "TEXT-TABS",
+        "Unicode",
+        "ZLIB"
+      ],
+      "copyrightPath": "/usr/share/doc/perl-base/copyright",
+      "copyrightSha256": "8adf04cb72ca0719dee8fdb8d711768548d10373905eac21e8a640881c230257"
+    },
+    {
+      "package": "procps",
+      "version": "2:4.0.4-9ubuntu1",
+      "source": "procps@2:4.0.4-9ubuntu1",
+      "licenseIdsInCopyright": [
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1+"
+      ],
+      "copyrightPath": "/usr/share/doc/procps/copyright",
+      "copyrightSha256": "90a66617c36d83068b52bbb77cbfef1234f526bfa287156d9d05f7df4d339539"
+    },
+    {
+      "package": "rust-coreutils",
+      "version": "0.10.0-1ubuntu2~26.04.1",
+      "source": "rust-coreutils@0.10.0-1ubuntu2~26.04.1",
+      "licenseIdsInCopyright": [
+        "Apache-2.0",
+        "CC-BY-4.0",
+        "MIT",
+        "MIT or Apache-2.0",
+        "permissive"
+      ],
+      "copyrightPath": "/usr/share/doc/rust-coreutils/copyright",
+      "copyrightSha256": "f1ea5d8870ff83301cc4c129ecd5e0e3c998bd566a9b0036df899e84d9336bd6"
+    },
+    {
+      "package": "sed",
+      "version": "4.9-2ubuntu1",
+      "source": "sed@4.9-2ubuntu1",
+      "licenseIdsInCopyright": [
+        "BSD-4-clause-UC",
+        "BSL-1",
+        "GFDL-NIV-1.3+",
+        "GPL-3+",
+        "GPL-3+ and ISC",
+        "ISC",
+        "X11",
+        "pcre"
+      ],
+      "copyrightPath": "/usr/share/doc/sed/copyright",
+      "copyrightSha256": "719320e425e8e6da53a55e0fcfa2f2ed9b1332cea16abd65321bd651b2a88568"
+    },
+    {
+      "package": "sensible-utils",
+      "version": "0.0.26build1",
+      "source": "sensible-utils@0.0.26build1",
+      "licenseIdsInCopyright": [
+        "All-permissive",
+        "GPL-2+",
+        "configure",
+        "installsh"
+      ],
+      "copyrightPath": "/usr/share/doc/sensible-utils/copyright",
+      "copyrightSha256": "cedd6fcbc166321e6792b0161dd387d9ad4de72aa1e8fd4ec6da9f252dba2543"
+    },
+    {
+      "package": "sysvinit-utils",
+      "version": "3.15-5ubuntu1",
+      "source": "sysvinit@3.15-5ubuntu1",
+      "licenseIdsInCopyright": [
+        "GPL-2.0",
+        "GPL-2.0+",
+        "GPL-3.0",
+        "LGPL-2.1+"
+      ],
+      "copyrightPath": "/usr/share/doc/sysvinit-utils/copyright",
+      "copyrightSha256": "53b43fcbd9de018b1c5f288f7c4d01af22f8042e98dd8c8ba091334420151180"
+    },
+    {
+      "package": "tar",
+      "version": "1.35+dfsg-4ubuntu0.4",
+      "source": "tar@1.35+dfsg-4ubuntu0.4",
+      "licenseIdsInCopyright": [
+        "GPL-2+",
+        "GPL-3+",
+        "GPL-3+ with Bison exception",
+        "LGPL-2.1+",
+        "LGPL-3+"
+      ],
+      "copyrightPath": "/usr/share/doc/tar/copyright",
+      "copyrightSha256": "a0a44d41b2a045eb5946a8952487151cfa6ff0cd080bbf4b2eec220751d23024"
+    },
+    {
+      "package": "ubuntu-keyring",
+      "version": "2023.11.28.1build1",
+      "source": "ubuntu-keyring@2023.11.28.1build1",
+      "licenseIdsInCopyright": [],
+      "copyrightPath": "/usr/share/doc/ubuntu-keyring/copyright",
+      "copyrightSha256": "191cdb1291b2fc3b9fdcd8648b16ab7f9e4f15b74dc5b30959a9fdcfb4782b6c"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.3-3ubuntu2.2",
+      "source": "util-linux@2.41.3-3ubuntu2.2",
+      "licenseIdsInCopyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSD-4-clause",
+        "BSLA",
+        "Expat",
+        "GPL-2",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "LGPL",
+        "LGPL-2+",
+        "LGPL-2.1+",
+        "LGPL-3+",
+        "public-domain"
+      ],
+      "copyrightPath": "/usr/share/doc/util-linux/copyright",
+      "copyrightSha256": "35a014187eb5d264405a91bda9ec782afdef9df148b657e67b38d07fabba2acf"
+    },
+    {
+      "package": "zlib1g",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.2",
+      "source": "zlib@1:1.3.dfsg+really1.3.1-1ubuntu3.2",
+      "licenseIdsInCopyright": [
+        "Zlib"
+      ],
+      "copyrightPath": "/usr/share/doc/zlib1g/copyright",
+      "copyrightSha256": "9e5b96d63773a5d177ba264254390f792be07e41748ebd94730981c6cac31cc6"
+    }
+  ],
+  "sources": {
+    "apt@3.2.0": {
+      "name": "apt",
+      "version": "3.2.0",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_3.2.0.dsc",
+      "httpStatus": 200,
+      "dscSha256": "364347278a531cf073f809a14f84617c2b935cfb324bd413aa01c214b6f8a3e8",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_3.2.0.tar.xz",
+          "bytes": 2476660,
+          "sha256InDsc": "dcd186912a7b8553cc885412127925858ee340c655e2f26e77eacdab23f48089",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "base-files@14ubuntu6.2": {
+      "name": "base-files",
+      "version": "14ubuntu6.2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_14ubuntu6.2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "69f9b27e49dcac1de0a00cbc4e3dc062305de239ea99b3d18d6a5e61919621ac",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_14ubuntu6.2.tar.xz",
+          "bytes": 97908,
+          "sha256InDsc": "33fe5bc58cc97603a25340bdd447ef9b3edc2e3d78e40382e9be07ddea1f5c79",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "base-passwd@3.6.8": {
+      "name": "base-passwd",
+      "version": "3.6.8",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/b/base-passwd/base-passwd_3.6.8.dsc",
+      "httpStatus": 200,
+      "dscSha256": "e76e572d2653f2b8eda64c662f5b4310a978ef1fdd039410ace5f6355c3af7d6",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/base-passwd/base-passwd_3.6.8.tar.xz",
+          "bytes": 61840,
+          "sha256InDsc": "fab3d0e6e8b641e116bda9bd5f7a7ed24482384c1513f6a369b506327fbc8dde",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "bash@5.3-2ubuntu1": {
+      "name": "bash",
+      "version": "5.3-2ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_5.3-2ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "a7127d8ebb439412493b10908b3b448bf0947637d0aaac88833e3572d951e62c",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_5.3.orig.tar.xz",
+          "bytes": 5571836,
+          "sha256InDsc": "a70de6bb41f5e192534a5a1836b1d7fad9a8d4818a6e1506d70f38441552c17a",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_5.3-2ubuntu1.debian.tar.xz",
+          "bytes": 98872,
+          "sha256InDsc": "855d84044d14c7c11cd84e5aa0994961f7de72b932109bb3a18d1f809c9551d4",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "util-linux@2.41.3-3ubuntu2.2": {
+      "name": "util-linux",
+      "version": "2.41.3-3ubuntu2.2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41.3-3ubuntu2.2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "b9eacaa3492855d3260d45cabbc82aa8313718bf60ec86f12cd2c74095c2de2b",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41.3.orig.tar.xz",
+          "bytes": 9467224,
+          "sha256InDsc": "3330d873f0fceb5560b89a7dc14e4f3288bbd880e96903ed9b50ec2b5799e58b",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41.3-3ubuntu2.2.debian.tar.xz",
+          "bytes": 125404,
+          "sha256InDsc": "e8f366168a1483616c1baf06420e341789340dcd2a98b9d8423f076d6cffa043",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "coreutils-from@0.0.0~ubuntu25": {
+      "name": "coreutils-from",
+      "version": "0.0.0~ubuntu25",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils-from/coreutils-from_0.0.0~ubuntu25.dsc",
+      "httpStatus": 200,
+      "dscSha256": "d9be15ef8e402023a24e0fa68028f14155329721ed9ff452fe90e1e30417a830",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils-from/coreutils-from_0.0.0~ubuntu25.tar.xz",
+          "bytes": 7548,
+          "sha256InDsc": "0d056a4f44d84f4cbdcab60f5c62751264aaa0bbea7b7f962e906deec8752f27",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "dash@0.5.12-12ubuntu3": {
+      "name": "dash",
+      "version": "0.5.12-12ubuntu3",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.12-12ubuntu3.dsc",
+      "httpStatus": 200,
+      "dscSha256": "e08ef9207e7ccbc4384aeec972234f2fb56d8aa8d1ba6def02c88187e7c68758",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.12.orig.tar.gz",
+          "bytes": 246054,
+          "sha256InDsc": "6a474ac46e8b0b32916c4c60df694c82058d3297d8b385b74508030ca4a8f28a",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.12-12ubuntu3.debian.tar.xz",
+          "bytes": 48112,
+          "sha256InDsc": "e738deadc72ee2f5cb2c08dd38b5ae696292051d5547e1b07846134874840377",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "debconf@1.5.92": {
+      "name": "debconf",
+      "version": "1.5.92",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.92.dsc",
+      "httpStatus": 200,
+      "dscSha256": "612d1b51713fc95b205b5f222af036b1541b13734e1f183a3f37e637eda187a9",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.92.tar.xz",
+          "bytes": 610068,
+          "sha256InDsc": "72265cb0315c0cc58a0d5abf0c032ffac2d071c8ba05bf830f9e0e73ca8ab219",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "debianutils@5.23.2build1": {
+      "name": "debianutils",
+      "version": "5.23.2build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/d/debianutils/debianutils_5.23.2build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "ab153b7c7b73834ca21c5d27b9052ab5b4815d880a2ecb4d67b2d7b7707e94bc",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/debianutils/debianutils_5.23.2build1.tar.xz",
+          "bytes": 82192,
+          "sha256InDsc": "72fc5deb77b6883cfd97de456e9193b421457a7271ac28d0647df56fb3b69665",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "diffutils@1:3.12-1ubuntu0.1": {
+      "name": "diffutils",
+      "version": "1:3.12-1ubuntu0.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12-1ubuntu0.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "e4320de3b71b8ac9925fdc5c80693325b6aa08e22d877f6fb4f2da3ed6f9eccf",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12.orig.tar.xz",
+          "bytes": 1938800,
+          "sha256InDsc": "7c8b7f9fc8609141fdea9cece85249d308624391ff61dedaf528fcb337727dfd",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256InDsc": "ad05b321b2f23441275af68072123a5907b05ad989335a9f1f6e3781cb0846a6",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12-1ubuntu0.1.debian.tar.xz",
+          "bytes": 15976,
+          "sha256InDsc": "bd49cacf12efa026d3863e956d0392e24958146218c8be92879aaf9c0d66ecf0",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "dpkg@1.23.7ubuntu1": {
+      "name": "dpkg",
+      "version": "1.23.7ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.23.7ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "fef83ee2495cf1021b253590db06086fcf60db6df7d72ba6f80b8a3bd1766da9",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.23.7ubuntu1.tar.xz",
+          "bytes": 5773036,
+          "sha256InDsc": "fa67fcf0f5de3d31f32ff28f9480dbe59cc2a6fe6313d695c5081e44c44b5c4a",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "e2fsprogs@1.47.2-3ubuntu4": {
+      "name": "e2fsprogs",
+      "version": "1.47.2-3ubuntu4",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3ubuntu4.dsc",
+      "httpStatus": 200,
+      "dscSha256": "56bd049f448bc211a3a875a4baf35cf2a1eb082f13709426367d5a433166621c",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2.orig.tar.gz",
+          "bytes": 9996725,
+          "sha256InDsc": "6dcd67ff9d8b13274ba3f088e4318be4f5b71412cd863524423fc49d39a6371f",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2.orig.tar.gz.asc",
+          "bytes": 488,
+          "sha256InDsc": "2063f62a198dd3df21f789c990c2cf9b4a5de24ed55f0b78d86e97e98daffc9d",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3ubuntu4.debian.tar.xz",
+          "bytes": 105780,
+          "sha256InDsc": "6cdbd4f59b979c6e1a75c186b5b0d02b33d35c0410ceb329fc77aba9a313d9c6",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "findutils@4.10.0-3build2": {
+      "name": "findutils",
+      "version": "4.10.0-3build2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0-3build2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "fe0941ee86020480e78c3a2717b0ab36746535b50d3d158d87d46cf99774a0f3",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0.orig.tar.xz",
+          "bytes": 2240712,
+          "sha256InDsc": "1387e0b67ff247d2abde998f90dfbf70c1491391a59ddfecb8ae698789f0a4f5",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0.orig.tar.xz.asc",
+          "bytes": 488,
+          "sha256InDsc": "7f53670eea6bd114e014571221eb652855c1129a3ed99f2a9257c2a313cc216f",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0-3build2.debian.tar.xz",
+          "bytes": 33524,
+          "sha256InDsc": "9cc2b136d07f4d901356c4946a63ef8b1daaefa9303737ddaf748aaf0a914d95",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "gcc-16@16-20260322-1ubuntu1": {
+      "name": "gcc-16",
+      "version": "16-20260322-1ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-16/gcc-16_16-20260322-1ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "64a579a45be2dafef92bf8e0984223dd1c009df061d2890f584fd8c08f41b2f2",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-16/gcc-16_16-20260322.orig.tar.gz",
+          "bytes": 101830903,
+          "sha256InDsc": "7be0bbf2ed1797e31161993ea641331d230b9b95f1ca263e7e840a5843b61a4a",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-16/gcc-16_16-20260322-1ubuntu1.debian.tar.xz",
+          "bytes": 629144,
+          "sha256InDsc": "d2912b1539846a5bfbe23e22191fb510d70af5d54ec2af5a15edff9b0ab95d9b",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "coreutils@9.7-3ubuntu2.1": {
+      "name": "coreutils",
+      "version": "9.7-3ubuntu2.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.7-3ubuntu2.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "ae362889a534c64f673faf230719159d91ba6f765dfa42b3e7a31cc7ebd32f74",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.7.orig.tar.xz",
+          "bytes": 6158960,
+          "sha256InDsc": "e8bb26ad0293f9b5a1fc43fb42ba970e312c66ce92c1b0b16713d7500db251bf",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.7-3ubuntu2.1.debian.tar.xz",
+          "bytes": 35192,
+          "sha256InDsc": "27bfa212bfe46d8c3782c32f4345caafafeee6fe23b16eec457f9f8c654880e2",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "gnupg2@2.4.8-4ubuntu3.1": {
+      "name": "gnupg2",
+      "version": "2.4.8-4ubuntu3.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8-4ubuntu3.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "331c3eb9a5ecd2cb051e11845c8d485789a3fa9bd0ebd0491c08ad09ddef74c6",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8.orig.tar.bz2",
+          "bytes": 8017685,
+          "sha256InDsc": "b58c80d79b04d3243ff49c1c3fc6b5f83138eb3784689563bcdd060595318616",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8.orig.tar.bz2.asc",
+          "bytes": 228,
+          "sha256InDsc": "92982ed45a1ca3af60e04addd6df14569158509364b70694a53f48b6bfed025b",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8-4ubuntu3.1.debian.tar.xz",
+          "bytes": 123432,
+          "sha256InDsc": "e7aa12d4e58ac906c89efc5d8b6c005ddd03b53e6eae8998ec871f902c6fea95",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "grep@3.12-1": {
+      "name": "grep",
+      "version": "3.12-1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12-1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "ce35486482abc0591a00be0848c90a3f40ce14b62e501da637296d23bc4c29f4",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12.orig.tar.xz",
+          "bytes": 1918448,
+          "sha256InDsc": "2649b27c0e90e632eadcd757be06c6e9a4f48d941de51e7c0f83ff76408a07b9",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256InDsc": "62d4867d7cfff57a364b745866d798958a90286551fdf45d08df515fa8c79c25",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12-1.debian.tar.xz",
+          "bytes": 24160,
+          "sha256InDsc": "5baef65e599c41285a0393c1c6845c03c9b29f14765447911a1871a50321fd42",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "gzip@1.14-1~exp2ubuntu1.1": {
+      "name": "gzip",
+      "version": "1.14-1~exp2ubuntu1.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/g/gzip/gzip_1.14-1~exp2ubuntu1.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "d060f9dad7defae2656a72c20d2999a71ac13e28ae4e4706c99e3a03f88c8c03",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gzip/gzip_1.14.orig.tar.xz",
+          "bytes": 885748,
+          "sha256InDsc": "01a7b881bd220bfdf615f97b8718f80bdfd3f6add385b993dcf6efd14e8c0ac6",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gzip/gzip_1.14-1~exp2ubuntu1.1.debian.tar.xz",
+          "bytes": 22816,
+          "sha256InDsc": "81eb9692347687128f114ea763cece692f923f6851e0e72ac300960c8a7d9d54",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "hostname@3.25build1": {
+      "name": "hostname",
+      "version": "3.25build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.25build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "bd88940a19a729f44a0c5eb1b79bb2d5e0e9e76289838bc699bdd44b18c326a3",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.25build1.tar.xz",
+          "bytes": 12896,
+          "sha256InDsc": "8233331087d506e6a8394582dae3a03d5bd2bb6e609112b8543c9ecfc84f5acc",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "init-system-helpers@1.69": {
+      "name": "init-system-helpers",
+      "version": "1.69",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.69.dsc",
+      "httpStatus": 200,
+      "dscSha256": "99b681c969728fba085226b1d1fd25cc37c9fe16f9eb5118e679d845b50ae7ee",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.69.tar.xz",
+          "bytes": 45648,
+          "sha256InDsc": "e246ee7f39b110803e5307fdb25ec2fb5fe0c62dbd9274011803fef50af08100",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "acl@2.3.2-2": {
+      "name": "acl",
+      "version": "2.3.2-2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2-2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "1f42130ccb5442fe2db2aee1dcc03c51a31512dd2519a38e8fc9270c5abbc807",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2.orig.tar.xz",
+          "bytes": 371680,
+          "sha256InDsc": "97203a72cae99ab89a067fe2210c1cbf052bc492b479eca7d226d9830883b0bd",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256InDsc": "184c6a903490885a096095db67b433a04542c6569f167cbe8115268c0f227273",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2-2.debian.tar.xz",
+          "bytes": 24296,
+          "sha256InDsc": "e27b6e194c0a7554595d76f96acdceb800631bdc46c36457b73bc7e4a0c5f2ee",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "attr@1:2.5.2-4ubuntu0.1": {
+      "name": "attr",
+      "version": "1:2.5.2-4ubuntu0.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2-4ubuntu0.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "b97012c2ba8729741cc56e99dc2cce09e073c2cf2e25f98b7aef7536a82d8d1e",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2.orig.tar.xz",
+          "bytes": 334180,
+          "sha256InDsc": "f2e97b0ab7ce293681ab701915766190d607a1dba7fae8a718138150b700a70b",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256InDsc": "eeac729088d3c6379e91b7596cb3582e46b047c47f0fa3c5c77f9c9e84dc3a4c",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2-4ubuntu0.1.debian.tar.xz",
+          "bytes": 45496,
+          "sha256InDsc": "170a8889eb8f419aa07eae208be434b8af7851d82386446dbc41a899e9e4ca5e",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "audit@1:4.1.2-1ubuntu0.1": {
+      "name": "audit",
+      "version": "1:4.1.2-1ubuntu0.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/a/audit/audit_4.1.2-1ubuntu0.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "bda1d2add922e3dc92ff91f5e016a34bc86d3fe90b1c2f0c11d419da347f041e",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/audit/audit_4.1.2.orig.tar.gz",
+          "bytes": 656095,
+          "sha256InDsc": "5c638bbeef9adb6c5715d3a60f0f5adb93e9b81633608af13d23c61f5e5db04d",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/audit/audit_4.1.2-1ubuntu0.1.debian.tar.xz",
+          "bytes": 20500,
+          "sha256InDsc": "373a16049c793f6c7c7f7d5adc6e779de0c8957044fe087f6e2e9cbffe633517",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libbsd@0.12.2-2build2": {
+      "name": "libbsd",
+      "version": "0.12.2-2build2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2-2build2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "f56c9da7c4ed48adae604a1cf5441c16cb50a694a5261345d884ddacd19a753c",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2.orig.tar.xz",
+          "bytes": 446032,
+          "sha256InDsc": "b88cc9163d0c652aaf39a99991d974ddba1c3a9711db8f1b5838af2a14731014",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256InDsc": "620dc92f158ebe0a650c0e92214a8121b927276895dc9a1dcaa38f627fa0fcb0",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2-2build2.debian.tar.xz",
+          "bytes": 18852,
+          "sha256InDsc": "42be939c5d55d8cfa52a36bee6a15a87a0291a513f098c20d4c9d4e309df0fc0",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "bzip2@1.0.8-6ubuntu0.1": {
+      "name": "bzip2",
+      "version": "1.0.8-6ubuntu0.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.8-6ubuntu0.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "d894b5cb07c6d0fa559fbd474f140e876f7f99e5084a1bc657278ba0404b9c37",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.8.orig.tar.gz",
+          "bytes": 810029,
+          "sha256InDsc": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.8-6ubuntu0.1.debian.tar.bz2",
+          "bytes": 27767,
+          "sha256InDsc": "8d19f16fb4ab1d9b8214729a5a91c4cef8d08579449e80cc1d3a3d9cc78e24d8",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "glibc@2.43-2ubuntu2.4": {
+      "name": "glibc",
+      "version": "2.43-2ubuntu2.4",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43-2ubuntu2.4.dsc",
+      "httpStatus": 200,
+      "dscSha256": "da10d551ca51076bf7bf663de38369d04e267386b8211c283c2814e68e482ed3",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43.orig.tar.xz",
+          "bytes": 20297012,
+          "sha256InDsc": "d9c86c6b5dbddb43a3e08270c5844fc5177d19442cf5b8df4be7c07cd5fa3831",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43.orig.tar.xz.asc",
+          "bytes": 1018,
+          "sha256InDsc": "0a725eb20ceb526abf52d3129f03e0399afa0d97ffa1dd779bed42958ab23326",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43-2ubuntu2.4.debian.tar.xz",
+          "bytes": 530764,
+          "sha256InDsc": "28103a7cf808c29901c6053d89a4e8299880abfbb850c0d97a09c8df8533e306",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libcap-ng@0.8.5-4build5": {
+      "name": "libcap-ng",
+      "version": "0.8.5-4build5",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libc/libcap-ng/libcap-ng_0.8.5-4build5.dsc",
+      "httpStatus": 200,
+      "dscSha256": "f9cbe799e173a176395d8ae4acf373480ef82d8ff67347d85713aba9ae717898",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libc/libcap-ng/libcap-ng_0.8.5.orig.tar.gz",
+          "bytes": 59265,
+          "sha256InDsc": "e4be07fdd234f10b866433f224d183626003c65634ed0552b02e654a380244c2",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libc/libcap-ng/libcap-ng_0.8.5-4build5.debian.tar.xz",
+          "bytes": 8044,
+          "sha256InDsc": "3763a807fd8b323e22615a8696963c057994791fbd517d67a3078ae77e0fef94",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libxcrypt@1:4.5.1-1": {
+      "name": "libxcrypt",
+      "version": "1:4.5.1-1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.5.1-1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "c9051653fc74d9209e8a3f8b496c359cfecdf7992b0a73f69c090973bae90e4b",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.5.1.orig.tar.xz",
+          "bytes": 433264,
+          "sha256InDsc": "bddf278d44e2ecdbf1439a52ddc0bb292921dd9f3013030a2a8461c32a45533f",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.5.1-1.debian.tar.xz",
+          "bytes": 8684,
+          "sha256InDsc": "b6096f6498adf5a94d727c9065ed33b784190e8c2cd3eda5f073e435708293ae",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "db5.3@5.3.28+dfsg2-10ubuntu1": {
+      "name": "db5.3",
+      "version": "5.3.28+dfsg2-10ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28+dfsg2-10ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "12c95f53a2dec9cf8dff8de23967f46f16a0c92fcc7e3ee90ebbbbbb12df4b1b",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28+dfsg2.orig.tar.xz",
+          "bytes": 21287688,
+          "sha256InDsc": "ad41b507415dec8316e828b2230242af2251d2c86eefa3c7aa9ef47c5239ef33",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28+dfsg2-10ubuntu1.debian.tar.xz",
+          "bytes": 36572,
+          "sha256InDsc": "d901c0a275f43ba688460c3a06865d9318774b19dadf770e03f4927acd0ad61a",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "cdebconf@0.280ubuntu1": {
+      "name": "cdebconf",
+      "version": "0.280ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/c/cdebconf/cdebconf_0.280ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "8e2ae2596d7850599eb0974c9ac31380e06aaf0be5a3b86b45e48a1b5c8a4cc7",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/cdebconf/cdebconf_0.280ubuntu1.tar.xz",
+          "bytes": 287352,
+          "sha256InDsc": "74601a49d86a2437131a552c577c7e15b2446f43d5112d9e32a312d5616abbd3",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libgcrypt20@1.12.0-2ubuntu1.1": {
+      "name": "libgcrypt20",
+      "version": "1.12.0-2ubuntu1.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0-2ubuntu1.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "c12d5542fecbc5033228146ce622e207646705163efa4ca94f5113cf14ba291b",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0.orig.tar.bz2",
+          "bytes": 4438947,
+          "sha256InDsc": "0311454e678189bad62a7e9402a9dd793025efff6e7449898616e2fc75e0f4f5",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0.orig.tar.bz2.asc",
+          "bytes": 265,
+          "sha256InDsc": "effaf2dc9a1a2ccfc7eeb5091d7a7dd5af64436ceb4ee781e0678ae58e5d61d0",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0-2ubuntu1.1.debian.tar.xz",
+          "bytes": 75624,
+          "sha256InDsc": "3a69f515107c3fbe1f17bf3d3c1cad308f6b20586ba9320a19f349f3fdbee75a",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "gmp@2:6.3.0+dfsg-5ubuntu2": {
+      "name": "gmp",
+      "version": "2:6.3.0+dfsg-5ubuntu2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg-5ubuntu2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "124ecc12680fb9cef589e9c4c60abba140cb5439f2742f109500fe7214d4db18",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg.orig.tar.xz",
+          "bytes": 1870556,
+          "sha256InDsc": "bd2966e6d277f79328e894a5a9f3ba3fbf2ed2be81def5f48623e30c23fb1572",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg-5ubuntu2.debian.tar.xz",
+          "bytes": 40328,
+          "sha256InDsc": "2eb9fc9ec44509e8c8123e28bd223b4e4efd565d48d30cc76c107ee1102d5f54",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libgpg-error@1.58-2": {
+      "name": "libgpg-error",
+      "version": "1.58-2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58-2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "076b92cc3a6c7a8815a7772220544581e6cc79ecfd13573512403d8417f7e9b9",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58.orig.tar.bz2",
+          "bytes": 1123899,
+          "sha256InDsc": "f943aea9a830a8bd938e5124b579efaece24a3225ff4c3d27611a80ce1260c27",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58.orig.tar.bz2.asc",
+          "bytes": 265,
+          "sha256InDsc": "400e445b7c6c52555033805f45b11a76fe4995675fdd4b0ff41ee7799cec1c3b",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58-2.debian.tar.xz",
+          "bytes": 19792,
+          "sha256InDsc": "2e4f501ba6b2375ce23492d65192bfaf4658b68daa9c03965720bb1bc3a52cac",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "lz4@1.10.0-8": {
+      "name": "lz4",
+      "version": "1.10.0-8",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/l/lz4/lz4_1.10.0-8.dsc",
+      "httpStatus": 200,
+      "dscSha256": "4f8a893c7aeee9516aa35a95cbaa293a867d1c57811b2e80ac9a4dd0dc0c51d7",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/l/lz4/lz4_1.10.0.orig.tar.gz",
+          "bytes": 387114,
+          "sha256InDsc": "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/l/lz4/lz4_1.10.0-8.debian.tar.xz",
+          "bytes": 9676,
+          "sha256InDsc": "66d57e79483da61dee090b37b005fe43657846472c854709220621434df8e84c",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "xz-utils@5.8.3-1ubuntu0.1": {
+      "name": "xz-utils",
+      "version": "5.8.3-1ubuntu0.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/x/xz-utils/xz-utils_5.8.3-1ubuntu0.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "769acc95d5342336a630b58bc0133c164c04c3b674e7b71f12cb2eec6db5a004",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xz-utils/xz-utils_5.8.3.orig.tar.xz",
+          "bytes": 1548064,
+          "sha256InDsc": "fff1ffcf2b0da84d308a14de513a1aa23d4e9aa3464d17e64b9714bfdd0bbfb6",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xz-utils/xz-utils_5.8.3-1ubuntu0.1.debian.tar.xz",
+          "bytes": 29712,
+          "sha256InDsc": "44f27c327b710e6d2215e9b518cf13b0ec3619ae2583cb030dfeb59e999bf982",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libmd@1.1.0-2build4": {
+      "name": "libmd",
+      "version": "1.1.0-2build4",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0-2build4.dsc",
+      "httpStatus": 200,
+      "dscSha256": "8c735703ff1b9699379c6cf538d07199d6f532dce3bcab4a1bde0ae5f7e25a21",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0.orig.tar.xz",
+          "bytes": 271228,
+          "sha256InDsc": "1bd6aa42275313af3141c7cf2e5b964e8b1fd488025caf2f971f43b00776b332",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0.orig.tar.xz.asc",
+          "bytes": 833,
+          "sha256InDsc": "402fd3024e43ab975733d09e661804a58ca58697194e4b15216b1217cfe1dadb",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0-2build4.debian.tar.xz",
+          "bytes": 8584,
+          "sha256InDsc": "12399d03a3d06fe481c9ca6cda0ae0e815882501f010c57cb9253dae93409efa",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "ncurses@6.6+20251231-1": {
+      "name": "ncurses",
+      "version": "6.6+20251231-1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231-1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "1c7b340d53b1fc75df31bc219e6395c7d6474348b2ec968098c1a0cc7cecfe0e",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231.orig.tar.gz",
+          "bytes": 3789898,
+          "sha256InDsc": "e280541f4f601b8586bec305976c873fd641607f9bc4254bf661034dcccac4e9",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231.orig.tar.gz.asc",
+          "bytes": 729,
+          "sha256InDsc": "ccb61134c7ffd365aa1f7f3afc3dadaadbda3a46aee463b289c9d0dddb2e9bd3",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231-1.debian.tar.xz",
+          "bytes": 50852,
+          "sha256InDsc": "fd4a1fd7113e034175310bda8f4589854a0f66fe70482a6bd553de73d773303c",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "pam@1.7.0-5ubuntu3.2": {
+      "name": "pam",
+      "version": "1.7.0-5ubuntu3.2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0-5ubuntu3.2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "cf2f6417245e5f17b61d1fd46a8a698ae5ef9c87256f95b8dc132df05e86b1d4",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0.orig.tar.xz",
+          "bytes": 507824,
+          "sha256InDsc": "57dcd7a6b966ecd5bbd95e1d11173734691e16b68692fa59661cdae9b13b1697",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0.orig.tar.xz.asc",
+          "bytes": 801,
+          "sha256InDsc": "7a8ea18ec7d9dd1f8cbf9055c32128cbca8241aa63e9fea44d56ce6f0e15e441",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0-5ubuntu3.2.debian.tar.xz",
+          "bytes": 196572,
+          "sha256InDsc": "b73522e3bcf61eaed21f46b8f3bcbfd5657f651f35067933d1ee0d4f5402a05d",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "pcre2@10.46-1build1": {
+      "name": "pcre2",
+      "version": "10.46-1build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/p/pcre2/pcre2_10.46-1build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "0e10c366d10e72b6940fcf37b61c2309d0136e05edff7adb1843030c0765f155",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pcre2/pcre2_10.46.orig.tar.gz",
+          "bytes": 2718545,
+          "sha256InDsc": "8d28d7f2c3b970c3a4bf3776bcbb5adfc923183ce74bc8df1ebaad8c1985bd07",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pcre2/pcre2_10.46-1build1.diff.gz",
+          "bytes": 8804,
+          "sha256InDsc": "3534c69dec410207e74bf9fd6ed334ad5827fb6de1d0715175b7a14257c5bc72",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "procps@2:4.0.4-9ubuntu1": {
+      "name": "procps",
+      "version": "2:4.0.4-9ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_4.0.4-9ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "02942f7296bb9f0db5177ee4d88909583b0eeb751b2ef9a675116c09d2ef176b",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_4.0.4.orig.tar.xz",
+          "bytes": 1401540,
+          "sha256InDsc": "22870d6feb2478adb617ce4f09a787addaf2d260c5a8aa7b17d889a962c5e42e",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_4.0.4-9ubuntu1.debian.tar.xz",
+          "bytes": 62072,
+          "sha256InDsc": "19855f80f8e98f98ef503a6412df0cea6a13cb39052daa81621965221a80f419",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libseccomp@2.6.0-2ubuntu5": {
+      "name": "libseccomp",
+      "version": "2.6.0-2ubuntu5",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0-2ubuntu5.dsc",
+      "httpStatus": 200,
+      "dscSha256": "0c74c8329d4febd0b5c74466dc418d104a49f61fd117c3f19465fca826797529",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0.orig.tar.gz",
+          "bytes": 685655,
+          "sha256InDsc": "83b6085232d1588c379dc9b9cae47bb37407cf262e6e74993c61ba72d2a784dc",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0.orig.tar.gz.asc",
+          "bytes": 833,
+          "sha256InDsc": "52e338fa958128293cbd25d2be189e34da41c4f4abbb1b641cf58f373c001f94",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0-2ubuntu5.debian.tar.xz",
+          "bytes": 27908,
+          "sha256InDsc": "13076780072032031635609c1d7df63c4a4ad33a04d3f751d286c20154dbf0d1",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libselinux@3.9-4build1": {
+      "name": "libselinux",
+      "version": "3.9-4build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9-4build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "6649868ebdd0b235b8c50e2357055cb91da89b3c1b9805c1b7d8f345f22b3952",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9.orig.tar.gz",
+          "bytes": 205334,
+          "sha256InDsc": "e7ee2c01dba64a0c35c9d7c9c0e06209d8186b325b0638a0d83f915cc3c101e8",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9.orig.tar.gz.asc",
+          "bytes": 833,
+          "sha256InDsc": "3529c5a905fdfa9e0a8e926ce0333f508213cccd9f6e35ca1011e37412042ca5",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9-4build1.debian.tar.xz",
+          "bytes": 38172,
+          "sha256InDsc": "7e32bfa1617f9ec5bca076d337a2495260cc56628a16813b910be7c81a4383be",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libsemanage@3.9-1build1": {
+      "name": "libsemanage",
+      "version": "3.9-1build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9-1build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "5bdf2f5efd687142c290685dc04bf2c9f08dd8d8c805366108d40d4431d6cae7",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9.orig.tar.gz",
+          "bytes": 185278,
+          "sha256InDsc": "ec05850aef48bfb8e02135a7f4f3f7edba3670f63d5e67f2708d4bd80b9a4634",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9.orig.tar.gz.asc",
+          "bytes": 833,
+          "sha256InDsc": "af7644b29d7ae1f69f89444900b2e2b0eb0b4e71f10a2667c7820d10d55fa53f",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9-1build1.debian.tar.xz",
+          "bytes": 38084,
+          "sha256InDsc": "6c281b929712b067ec757e3859076c1d319a73cefb149345819eabec26a711e8",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libsepol@3.9-2": {
+      "name": "libsepol",
+      "version": "3.9-2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9-2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "fca98e9732bd9385e689f1b3bec87517a938217d5e3bf735cd88b9ee5c971850",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9.orig.tar.gz",
+          "bytes": 515726,
+          "sha256InDsc": "ba630b59e50c5fbf9e9dd45eb3734f373cf78d689d8c10c537114c9bd769fa2e",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9.orig.tar.gz.asc",
+          "bytes": 833,
+          "sha256InDsc": "2059e9c2e195f8d4102f9868295b0a2c16e91082b236d510499dc27620b812fd",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9-2.debian.tar.xz",
+          "bytes": 21416,
+          "sha256InDsc": "f4f7f317fccf7dac9c72f1448a335edcf10ea7894f3492c475e76d404fcfb268",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "openssl@3.5.5-1ubuntu3.7": {
+      "name": "openssl",
+      "version": "3.5.5-1ubuntu3.7",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5-1ubuntu3.7.dsc",
+      "httpStatus": 200,
+      "dscSha256": "862f069310a08da930cf309d6a3bf603124eef15a71a7d13a15223dc75da7e6e",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5.orig.tar.gz",
+          "bytes": 53104821,
+          "sha256InDsc": "b28c91532a8b65a1f983b4c28b7488174e4a01008e29ce8e69bd789f28bc2a89",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5.orig.tar.gz.asc",
+          "bytes": 833,
+          "sha256InDsc": "eaef5b1054b84b8d1e6c61c9fc8867828be5ce686d0221580faf8bdc16489da9",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5-1ubuntu3.7.debian.tar.xz",
+          "bytes": 194720,
+          "sha256InDsc": "b9c389484ff47a3b1f584eb89c7442484df9295aa48e6e422243dd559b89c089",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "systemd@259.9-0ubuntu0.1": {
+      "name": "systemd",
+      "version": "259.9-0ubuntu0.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_259.9-0ubuntu0.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "17ad848e882b6b91ac0d31300181bb4ec6b221077329b0c5296c9765cce769b5",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_259.9.orig.tar.gz",
+          "bytes": 17618264,
+          "sha256InDsc": "6ac77a1baf0539b835193eec46cdb1c73abb42d7f87aa977009150e9d8375757",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_259.9-0ubuntu0.1.debian.tar.xz",
+          "bytes": 254204,
+          "sha256InDsc": "c58ab8296f580f8760afc945261917fa23dfb62df8a78121a5967c5b237a24cc",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "xxhash@0.8.3-2build1": {
+      "name": "xxhash",
+      "version": "0.8.3-2build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/x/xxhash/xxhash_0.8.3-2build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "2428b6123da0fa2e2b948474faa829657dc682d741d10a341c9c348c09ea720a",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xxhash/xxhash_0.8.3.orig.tar.gz",
+          "bytes": 1147630,
+          "sha256InDsc": "aae608dfe8213dfd05d909a57718ef82f30722c392344583d3f39050c7f29a80",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xxhash/xxhash_0.8.3-2build1.debian.tar.xz",
+          "bytes": 5224,
+          "sha256InDsc": "98c020a7627a93090c72dece774b1fff0cee76e4f59a65dbd1facb266431fcc5",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "libzstd@1.5.7+dfsg-3": {
+      "name": "libzstd",
+      "version": "1.5.7+dfsg-3",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.5.7+dfsg-3.dsc",
+      "httpStatus": 200,
+      "dscSha256": "e32b7bb90ac7b312238add6abb77023cec6f59385b1c9a78b41b69ea2ef5001a",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.5.7+dfsg.orig.tar.xz",
+          "bytes": 1834780,
+          "sha256InDsc": "0c092ef267edce57ba7f3f2645c861f72eaf5e76273c6c3632869423464b90a5",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.5.7+dfsg-3.debian.tar.xz",
+          "bytes": 23164,
+          "sha256InDsc": "ada18b02a46878f2f0a845fd003179ab9591f7f96f0b984db06a024ab46ae81f",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "shadow@1:4.17.4-2ubuntu3": {
+      "name": "shadow",
+      "version": "1:4.17.4-2ubuntu3",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4-2ubuntu3.dsc",
+      "httpStatus": 200,
+      "dscSha256": "5c7ebf6e7e9894c91df3474212a6e21bc5b6da82bbcef760bad495a0b5f48c87",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4.orig.tar.xz",
+          "bytes": 2326584,
+          "sha256InDsc": "554801054694ff7d8a7abdf0d6ece34e2f16e111673cc01b8c9ee1278451181e",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4.orig.tar.xz.asc",
+          "bytes": 488,
+          "sha256InDsc": "82437d2b54790b3a6734c526b757e693cd0c734ec6afd69f9a9cf0eb1dad8dc4",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4-2ubuntu3.debian.tar.xz",
+          "bytes": 181748,
+          "sha256InDsc": "43373dc0d4f9728185723dfeb798c6cda06221bd9f5d653af4c0349e225eeb22",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "mawk@1.3.4.20260129-1": {
+      "name": "mawk",
+      "version": "1.3.4.20260129-1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129-1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "874701c6d96fdd5458a38a7ff532fdd299a154a67b3bdf29ea4c9648ddac2702",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129.orig.tar.gz",
+          "bytes": 436702,
+          "sha256InDsc": "a71fb7efea5a63770d8fb71321ef6ae7afe0592f1aa7f7e2b496c26ccbb392a4",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129.orig.tar.gz.asc",
+          "bytes": 729,
+          "sha256InDsc": "ff191391d1132f1bff2f188e376e325c81052c4d5e5657805203afc4d88a56a0",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129-1.debian.tar.xz",
+          "bytes": 16116,
+          "sha256InDsc": "0174c58af8d10f6b985723976b49dcac07ba279fd54c358a703d464904be16c5",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "perl@5.40.1-7ubuntu0.3": {
+      "name": "perl",
+      "version": "5.40.1-7ubuntu0.3",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1-7ubuntu0.3.dsc",
+      "httpStatus": 200,
+      "dscSha256": "82c1847b4d1e56760e7abb7f3bea2fd4e91402178856507263ca1442b880b5cd",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1.orig-regen-configure.tar.xz",
+          "bytes": 421056,
+          "sha256InDsc": "4ea023d08101443f6ed9dc3bdd9bb5f5e08087678dc9e443d195df22da36209a",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1.orig.tar.xz",
+          "bytes": 13930924,
+          "sha256InDsc": "dfa20c2eef2b4af133525610bbb65dd13777ecf998c9c5b1ccf0d308e732ee3f",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1-7ubuntu0.3.debian.tar.xz",
+          "bytes": 180528,
+          "sha256InDsc": "ec8328b6b8e317bf6d48ac1c5edd13283c40fe90eb66a886deeaf454070294de",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "rust-coreutils@0.10.0-1ubuntu2~26.04.1": {
+      "name": "rust-coreutils",
+      "version": "0.10.0-1ubuntu2~26.04.1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0-1ubuntu2~26.04.1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "c7eb62e7d2a07ec84c18bb2a6694331bb32bd0bde316261cfbe2f90acb2b6d28",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0.orig-l10n.tar.gz",
+          "bytes": 780526,
+          "sha256InDsc": "3df90fabddfb28c7ae1d31237fc8abf70bb1f6c1937d818008943a11e31cfd5b",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0.orig.tar.gz",
+          "bytes": 2671039,
+          "sha256InDsc": "f8e68cd0e3629378f047544ead272161a83211c43f4985a9f52944e5db8f1a44",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0-1ubuntu2~26.04.1.debian.tar.xz",
+          "bytes": 22541108,
+          "sha256InDsc": "61eda389122a85e90e542bf6b12c840ab68ee3741958db539f24a3599f5d4bb2",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "sed@4.9-2ubuntu1": {
+      "name": "sed",
+      "version": "4.9-2ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/s/sed/sed_4.9-2ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "56dc2d54fc5fd59d910b147b9b8817d85c8d1de37845f089c385b3965f5e409e",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sed/sed_4.9.orig.tar.xz",
+          "bytes": 1397092,
+          "sha256InDsc": "6e226b732e1cd739464ad6862bd1a1aba42d7982922da7a53519631d24975181",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sed/sed_4.9-2ubuntu1.debian.tar.xz",
+          "bytes": 63408,
+          "sha256InDsc": "9238a4965a2466bff74019f023ba0afdf01835aa610d2c5b8724ae19a15bcf57",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "sensible-utils@0.0.26build1": {
+      "name": "sensible-utils",
+      "version": "0.0.26build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/s/sensible-utils/sensible-utils_0.0.26build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "1740891cfa69aa344c6ce951be7421bffe6743190880e1a48a0c4b40fc841144",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sensible-utils/sensible-utils_0.0.26build1.tar.xz",
+          "bytes": 76808,
+          "sha256InDsc": "41f0e2b45ec42c61f2c2a8244ea3749f103341246bd004571b03e5f060390765",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "sysvinit@3.15-5ubuntu1": {
+      "name": "sysvinit",
+      "version": "3.15-5ubuntu1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit_3.15-5ubuntu1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "48e604576ae74c4c66e7c23992f0a6a89cdaa86b475d3c64da985506a5ad5e88",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit_3.15.orig.tar.gz",
+          "bytes": 516469,
+          "sha256InDsc": "0979dd582056130a45bf70738260fb7f3da5cca989509b1e37ad5ad1d4cbe0bf",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit_3.15-5ubuntu1.debian.tar.xz",
+          "bytes": 124244,
+          "sha256InDsc": "fc3930cc9515c174927b4b63150b8cd2b48fd156e033dcd80238f67e157681fd",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "tar@1.35+dfsg-4ubuntu0.4": {
+      "name": "tar",
+      "version": "1.35+dfsg-4ubuntu0.4",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.35+dfsg-4ubuntu0.4.dsc",
+      "httpStatus": 200,
+      "dscSha256": "e42458c1675ec7ba43cca2ea8e085231337e7a4553d7c6e2c21d2003761e5d43",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.35+dfsg.orig.tar.xz",
+          "bytes": 2111608,
+          "sha256InDsc": "9ae57e981c1e73c0eebc2b26c9b0c4497fe310ef1d516ea430efb5470b71f7a8",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.35+dfsg-4ubuntu0.4.debian.tar.xz",
+          "bytes": 52824,
+          "sha256InDsc": "25d8e50e31629e85baef5da32b3030e5ad0c9148ab3ee6b1428212a10e307e4d",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "ubuntu-keyring@2023.11.28.1build1": {
+      "name": "ubuntu-keyring",
+      "version": "2023.11.28.1build1",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-keyring_2023.11.28.1build1.dsc",
+      "httpStatus": 200,
+      "dscSha256": "eb90085feabf493676a7d42900581691ab179f048c746b38e940dd6f0f27b29b",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-keyring_2023.11.28.1build1.tar.xz",
+          "bytes": 20300,
+          "sha256InDsc": "8b65bbb2a7aeb35c7fa6db11bf814ae42873cc6ee6f28e468885c0f8596ad6fb",
+          "httpStatus": 200
+        }
+      ]
+    },
+    "zlib@1:1.3.dfsg+really1.3.1-1ubuntu3.2": {
+      "name": "zlib",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.2",
+      "dscUrl": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.3.dfsg+really1.3.1-1ubuntu3.2.dsc",
+      "httpStatus": 200,
+      "dscSha256": "e7012a36c8353c8699caccde7e7dcd9fd6524cb572ecd075b1065e867f681213",
+      "sourceFiles": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.3.dfsg+really1.3.1.orig.tar.gz",
+          "bytes": 1325737,
+          "sha256InDsc": "60dd315c07f616887caa029408308a018ace66e3d142726a97db164b3b8f69fb",
+          "httpStatus": 200
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.3.dfsg+really1.3.1-1ubuntu3.2.debian.tar.xz",
+          "bytes": 60888,
+          "sha256InDsc": "df40cd680516e9c2fd77f944b76fba57df120dfe48e00c01dc6c088fb561b2b3",
+          "httpStatus": 200
+        }
+      ]
+    }
+  },
+  "sourceArchiveVerification": [
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_3.2.0.tar.xz",
+      "actualBytes": 2476660,
+      "actualSha256": "dcd186912a7b8553cc885412127925858ee340c655e2f26e77eacdab23f48089",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_14ubuntu6.2.tar.xz",
+      "actualBytes": 97908,
+      "actualSha256": "33fe5bc58cc97603a25340bdd447ef9b3edc2e3d78e40382e9be07ddea1f5c79",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/base-passwd/base-passwd_3.6.8.tar.xz",
+      "actualBytes": 61840,
+      "actualSha256": "fab3d0e6e8b641e116bda9bd5f7a7ed24482384c1513f6a369b506327fbc8dde",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_5.3.orig.tar.xz",
+      "actualBytes": 5571836,
+      "actualSha256": "a70de6bb41f5e192534a5a1836b1d7fad9a8d4818a6e1506d70f38441552c17a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_5.3-2ubuntu1.debian.tar.xz",
+      "actualBytes": 98872,
+      "actualSha256": "855d84044d14c7c11cd84e5aa0994961f7de72b932109bb3a18d1f809c9551d4",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41.3.orig.tar.xz",
+      "actualBytes": 9467224,
+      "actualSha256": "3330d873f0fceb5560b89a7dc14e4f3288bbd880e96903ed9b50ec2b5799e58b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41.3-3ubuntu2.2.debian.tar.xz",
+      "actualBytes": 125404,
+      "actualSha256": "e8f366168a1483616c1baf06420e341789340dcd2a98b9d8423f076d6cffa043",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils-from/coreutils-from_0.0.0~ubuntu25.tar.xz",
+      "actualBytes": 7548,
+      "actualSha256": "0d056a4f44d84f4cbdcab60f5c62751264aaa0bbea7b7f962e906deec8752f27",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.12.orig.tar.gz",
+      "actualBytes": 246054,
+      "actualSha256": "6a474ac46e8b0b32916c4c60df694c82058d3297d8b385b74508030ca4a8f28a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.12-12ubuntu3.debian.tar.xz",
+      "actualBytes": 48112,
+      "actualSha256": "e738deadc72ee2f5cb2c08dd38b5ae696292051d5547e1b07846134874840377",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.92.tar.xz",
+      "actualBytes": 610068,
+      "actualSha256": "72265cb0315c0cc58a0d5abf0c032ffac2d071c8ba05bf830f9e0e73ca8ab219",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/debianutils/debianutils_5.23.2build1.tar.xz",
+      "actualBytes": 82192,
+      "actualSha256": "72fc5deb77b6883cfd97de456e9193b421457a7271ac28d0647df56fb3b69665",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12.orig.tar.xz",
+      "actualBytes": 1938800,
+      "actualSha256": "7c8b7f9fc8609141fdea9cece85249d308624391ff61dedaf528fcb337727dfd",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12.orig.tar.xz.asc",
+      "actualBytes": 833,
+      "actualSha256": "ad05b321b2f23441275af68072123a5907b05ad989335a9f1f6e3781cb0846a6",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.12-1ubuntu0.1.debian.tar.xz",
+      "actualBytes": 15976,
+      "actualSha256": "bd49cacf12efa026d3863e956d0392e24958146218c8be92879aaf9c0d66ecf0",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.23.7ubuntu1.tar.xz",
+      "actualBytes": 5773036,
+      "actualSha256": "fa67fcf0f5de3d31f32ff28f9480dbe59cc2a6fe6313d695c5081e44c44b5c4a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2.orig.tar.gz",
+      "actualBytes": 9996725,
+      "actualSha256": "6dcd67ff9d8b13274ba3f088e4318be4f5b71412cd863524423fc49d39a6371f",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2.orig.tar.gz.asc",
+      "actualBytes": 488,
+      "actualSha256": "2063f62a198dd3df21f789c990c2cf9b4a5de24ed55f0b78d86e97e98daffc9d",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3ubuntu4.debian.tar.xz",
+      "actualBytes": 105780,
+      "actualSha256": "6cdbd4f59b979c6e1a75c186b5b0d02b33d35c0410ceb329fc77aba9a313d9c6",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0.orig.tar.xz",
+      "actualBytes": 2240712,
+      "actualSha256": "1387e0b67ff247d2abde998f90dfbf70c1491391a59ddfecb8ae698789f0a4f5",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0.orig.tar.xz.asc",
+      "actualBytes": 488,
+      "actualSha256": "7f53670eea6bd114e014571221eb652855c1129a3ed99f2a9257c2a313cc216f",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.10.0-3build2.debian.tar.xz",
+      "actualBytes": 33524,
+      "actualSha256": "9cc2b136d07f4d901356c4946a63ef8b1daaefa9303737ddaf748aaf0a914d95",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-16/gcc-16_16-20260322.orig.tar.gz",
+      "actualBytes": 101830903,
+      "actualSha256": "7be0bbf2ed1797e31161993ea641331d230b9b95f1ca263e7e840a5843b61a4a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-16/gcc-16_16-20260322-1ubuntu1.debian.tar.xz",
+      "actualBytes": 629144,
+      "actualSha256": "d2912b1539846a5bfbe23e22191fb510d70af5d54ec2af5a15edff9b0ab95d9b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.7.orig.tar.xz",
+      "actualBytes": 6158960,
+      "actualSha256": "e8bb26ad0293f9b5a1fc43fb42ba970e312c66ce92c1b0b16713d7500db251bf",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.7-3ubuntu2.1.debian.tar.xz",
+      "actualBytes": 35192,
+      "actualSha256": "27bfa212bfe46d8c3782c32f4345caafafeee6fe23b16eec457f9f8c654880e2",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8.orig.tar.bz2",
+      "actualBytes": 8017685,
+      "actualSha256": "b58c80d79b04d3243ff49c1c3fc6b5f83138eb3784689563bcdd060595318616",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8.orig.tar.bz2.asc",
+      "actualBytes": 228,
+      "actualSha256": "92982ed45a1ca3af60e04addd6df14569158509364b70694a53f48b6bfed025b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.8-4ubuntu3.1.debian.tar.xz",
+      "actualBytes": 123432,
+      "actualSha256": "e7aa12d4e58ac906c89efc5d8b6c005ddd03b53e6eae8998ec871f902c6fea95",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12.orig.tar.xz",
+      "actualBytes": 1918448,
+      "actualSha256": "2649b27c0e90e632eadcd757be06c6e9a4f48d941de51e7c0f83ff76408a07b9",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12.orig.tar.xz.asc",
+      "actualBytes": 833,
+      "actualSha256": "62d4867d7cfff57a364b745866d798958a90286551fdf45d08df515fa8c79c25",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.12-1.debian.tar.xz",
+      "actualBytes": 24160,
+      "actualSha256": "5baef65e599c41285a0393c1c6845c03c9b29f14765447911a1871a50321fd42",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gzip/gzip_1.14.orig.tar.xz",
+      "actualBytes": 885748,
+      "actualSha256": "01a7b881bd220bfdf615f97b8718f80bdfd3f6add385b993dcf6efd14e8c0ac6",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gzip/gzip_1.14-1~exp2ubuntu1.1.debian.tar.xz",
+      "actualBytes": 22816,
+      "actualSha256": "81eb9692347687128f114ea763cece692f923f6851e0e72ac300960c8a7d9d54",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.25build1.tar.xz",
+      "actualBytes": 12896,
+      "actualSha256": "8233331087d506e6a8394582dae3a03d5bd2bb6e609112b8543c9ecfc84f5acc",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.69.tar.xz",
+      "actualBytes": 45648,
+      "actualSha256": "e246ee7f39b110803e5307fdb25ec2fb5fe0c62dbd9274011803fef50af08100",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2.orig.tar.xz",
+      "actualBytes": 371680,
+      "actualSha256": "97203a72cae99ab89a067fe2210c1cbf052bc492b479eca7d226d9830883b0bd",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2.orig.tar.xz.asc",
+      "actualBytes": 833,
+      "actualSha256": "184c6a903490885a096095db67b433a04542c6569f167cbe8115268c0f227273",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/acl/acl_2.3.2-2.debian.tar.xz",
+      "actualBytes": 24296,
+      "actualSha256": "e27b6e194c0a7554595d76f96acdceb800631bdc46c36457b73bc7e4a0c5f2ee",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2.orig.tar.xz",
+      "actualBytes": 334180,
+      "actualSha256": "f2e97b0ab7ce293681ab701915766190d607a1dba7fae8a718138150b700a70b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2.orig.tar.xz.asc",
+      "actualBytes": 833,
+      "actualSha256": "eeac729088d3c6379e91b7596cb3582e46b047c47f0fa3c5c77f9c9e84dc3a4c",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/attr/attr_2.5.2-4ubuntu0.1.debian.tar.xz",
+      "actualBytes": 45496,
+      "actualSha256": "170a8889eb8f419aa07eae208be434b8af7851d82386446dbc41a899e9e4ca5e",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/audit/audit_4.1.2.orig.tar.gz",
+      "actualBytes": 656095,
+      "actualSha256": "5c638bbeef9adb6c5715d3a60f0f5adb93e9b81633608af13d23c61f5e5db04d",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/audit/audit_4.1.2-1ubuntu0.1.debian.tar.xz",
+      "actualBytes": 20500,
+      "actualSha256": "373a16049c793f6c7c7f7d5adc6e779de0c8957044fe087f6e2e9cbffe633517",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2.orig.tar.xz",
+      "actualBytes": 446032,
+      "actualSha256": "b88cc9163d0c652aaf39a99991d974ddba1c3a9711db8f1b5838af2a14731014",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2.orig.tar.xz.asc",
+      "actualBytes": 833,
+      "actualSha256": "620dc92f158ebe0a650c0e92214a8121b927276895dc9a1dcaa38f627fa0fcb0",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd_0.12.2-2build2.debian.tar.xz",
+      "actualBytes": 18852,
+      "actualSha256": "42be939c5d55d8cfa52a36bee6a15a87a0291a513f098c20d4c9d4e309df0fc0",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.8.orig.tar.gz",
+      "actualBytes": 810029,
+      "actualSha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.8-6ubuntu0.1.debian.tar.bz2",
+      "actualBytes": 27767,
+      "actualSha256": "8d19f16fb4ab1d9b8214729a5a91c4cef8d08579449e80cc1d3a3d9cc78e24d8",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43.orig.tar.xz",
+      "actualBytes": 20297012,
+      "actualSha256": "d9c86c6b5dbddb43a3e08270c5844fc5177d19442cf5b8df4be7c07cd5fa3831",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43.orig.tar.xz.asc",
+      "actualBytes": 1018,
+      "actualSha256": "0a725eb20ceb526abf52d3129f03e0399afa0d97ffa1dd779bed42958ab23326",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.43-2ubuntu2.4.debian.tar.xz",
+      "actualBytes": 530764,
+      "actualSha256": "28103a7cf808c29901c6053d89a4e8299880abfbb850c0d97a09c8df8533e306",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libc/libcap-ng/libcap-ng_0.8.5.orig.tar.gz",
+      "actualBytes": 59265,
+      "actualSha256": "e4be07fdd234f10b866433f224d183626003c65634ed0552b02e654a380244c2",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libc/libcap-ng/libcap-ng_0.8.5-4build5.debian.tar.xz",
+      "actualBytes": 8044,
+      "actualSha256": "3763a807fd8b323e22615a8696963c057994791fbd517d67a3078ae77e0fef94",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.5.1.orig.tar.xz",
+      "actualBytes": 433264,
+      "actualSha256": "bddf278d44e2ecdbf1439a52ddc0bb292921dd9f3013030a2a8461c32a45533f",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.5.1-1.debian.tar.xz",
+      "actualBytes": 8684,
+      "actualSha256": "b6096f6498adf5a94d727c9065ed33b784190e8c2cd3eda5f073e435708293ae",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28+dfsg2.orig.tar.xz",
+      "actualBytes": 21287688,
+      "actualSha256": "ad41b507415dec8316e828b2230242af2251d2c86eefa3c7aa9ef47c5239ef33",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28+dfsg2-10ubuntu1.debian.tar.xz",
+      "actualBytes": 36572,
+      "actualSha256": "d901c0a275f43ba688460c3a06865d9318774b19dadf770e03f4927acd0ad61a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/cdebconf/cdebconf_0.280ubuntu1.tar.xz",
+      "actualBytes": 287352,
+      "actualSha256": "74601a49d86a2437131a552c577c7e15b2446f43d5112d9e32a312d5616abbd3",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0.orig.tar.bz2",
+      "actualBytes": 4438947,
+      "actualSha256": "0311454e678189bad62a7e9402a9dd793025efff6e7449898616e2fc75e0f4f5",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0.orig.tar.bz2.asc",
+      "actualBytes": 265,
+      "actualSha256": "effaf2dc9a1a2ccfc7eeb5091d7a7dd5af64436ceb4ee781e0678ae58e5d61d0",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.12.0-2ubuntu1.1.debian.tar.xz",
+      "actualBytes": 75624,
+      "actualSha256": "3a69f515107c3fbe1f17bf3d3c1cad308f6b20586ba9320a19f349f3fdbee75a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg.orig.tar.xz",
+      "actualBytes": 1870556,
+      "actualSha256": "bd2966e6d277f79328e894a5a9f3ba3fbf2ed2be81def5f48623e30c23fb1572",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/gmp_6.3.0+dfsg-5ubuntu2.debian.tar.xz",
+      "actualBytes": 40328,
+      "actualSha256": "2eb9fc9ec44509e8c8123e28bd223b4e4efd565d48d30cc76c107ee1102d5f54",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58.orig.tar.bz2",
+      "actualBytes": 1123899,
+      "actualSha256": "f943aea9a830a8bd938e5124b579efaece24a3225ff4c3d27611a80ce1260c27",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58.orig.tar.bz2.asc",
+      "actualBytes": 265,
+      "actualSha256": "400e445b7c6c52555033805f45b11a76fe4995675fdd4b0ff41ee7799cec1c3b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.58-2.debian.tar.xz",
+      "actualBytes": 19792,
+      "actualSha256": "2e4f501ba6b2375ce23492d65192bfaf4658b68daa9c03965720bb1bc3a52cac",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/l/lz4/lz4_1.10.0.orig.tar.gz",
+      "actualBytes": 387114,
+      "actualSha256": "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/l/lz4/lz4_1.10.0-8.debian.tar.xz",
+      "actualBytes": 9676,
+      "actualSha256": "66d57e79483da61dee090b37b005fe43657846472c854709220621434df8e84c",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xz-utils/xz-utils_5.8.3.orig.tar.xz",
+      "actualBytes": 1548064,
+      "actualSha256": "fff1ffcf2b0da84d308a14de513a1aa23d4e9aa3464d17e64b9714bfdd0bbfb6",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xz-utils/xz-utils_5.8.3-1ubuntu0.1.debian.tar.xz",
+      "actualBytes": 29712,
+      "actualSha256": "44f27c327b710e6d2215e9b518cf13b0ec3619ae2583cb030dfeb59e999bf982",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0.orig.tar.xz",
+      "actualBytes": 271228,
+      "actualSha256": "1bd6aa42275313af3141c7cf2e5b964e8b1fd488025caf2f971f43b00776b332",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0.orig.tar.xz.asc",
+      "actualBytes": 833,
+      "actualSha256": "402fd3024e43ab975733d09e661804a58ca58697194e4b15216b1217cfe1dadb",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd_1.1.0-2build4.debian.tar.xz",
+      "actualBytes": 8584,
+      "actualSha256": "12399d03a3d06fe481c9ca6cda0ae0e815882501f010c57cb9253dae93409efa",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231.orig.tar.gz",
+      "actualBytes": 3789898,
+      "actualSha256": "e280541f4f601b8586bec305976c873fd641607f9bc4254bf661034dcccac4e9",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231.orig.tar.gz.asc",
+      "actualBytes": 729,
+      "actualSha256": "ccb61134c7ffd365aa1f7f3afc3dadaadbda3a46aee463b289c9d0dddb2e9bd3",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses_6.6+20251231-1.debian.tar.xz",
+      "actualBytes": 50852,
+      "actualSha256": "fd4a1fd7113e034175310bda8f4589854a0f66fe70482a6bd553de73d773303c",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0.orig.tar.xz",
+      "actualBytes": 507824,
+      "actualSha256": "57dcd7a6b966ecd5bbd95e1d11173734691e16b68692fa59661cdae9b13b1697",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0.orig.tar.xz.asc",
+      "actualBytes": 801,
+      "actualSha256": "7a8ea18ec7d9dd1f8cbf9055c32128cbca8241aa63e9fea44d56ce6f0e15e441",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.7.0-5ubuntu3.2.debian.tar.xz",
+      "actualBytes": 196572,
+      "actualSha256": "b73522e3bcf61eaed21f46b8f3bcbfd5657f651f35067933d1ee0d4f5402a05d",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pcre2/pcre2_10.46.orig.tar.gz",
+      "actualBytes": 2718545,
+      "actualSha256": "8d28d7f2c3b970c3a4bf3776bcbb5adfc923183ce74bc8df1ebaad8c1985bd07",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/pcre2/pcre2_10.46-1build1.diff.gz",
+      "actualBytes": 8804,
+      "actualSha256": "3534c69dec410207e74bf9fd6ed334ad5827fb6de1d0715175b7a14257c5bc72",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_4.0.4.orig.tar.xz",
+      "actualBytes": 1401540,
+      "actualSha256": "22870d6feb2478adb617ce4f09a787addaf2d260c5a8aa7b17d889a962c5e42e",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_4.0.4-9ubuntu1.debian.tar.xz",
+      "actualBytes": 62072,
+      "actualSha256": "19855f80f8e98f98ef503a6412df0cea6a13cb39052daa81621965221a80f419",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0.orig.tar.gz",
+      "actualBytes": 685655,
+      "actualSha256": "83b6085232d1588c379dc9b9cae47bb37407cf262e6e74993c61ba72d2a784dc",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0.orig.tar.gz.asc",
+      "actualBytes": 833,
+      "actualSha256": "52e338fa958128293cbd25d2be189e34da41c4f4abbb1b641cf58f373c001f94",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.6.0-2ubuntu5.debian.tar.xz",
+      "actualBytes": 27908,
+      "actualSha256": "13076780072032031635609c1d7df63c4a4ad33a04d3f751d286c20154dbf0d1",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9.orig.tar.gz",
+      "actualBytes": 205334,
+      "actualSha256": "e7ee2c01dba64a0c35c9d7c9c0e06209d8186b325b0638a0d83f915cc3c101e8",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9.orig.tar.gz.asc",
+      "actualBytes": 833,
+      "actualSha256": "3529c5a905fdfa9e0a8e926ce0333f508213cccd9f6e35ca1011e37412042ca5",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux_3.9-4build1.debian.tar.xz",
+      "actualBytes": 38172,
+      "actualSha256": "7e32bfa1617f9ec5bca076d337a2495260cc56628a16813b910be7c81a4383be",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9.orig.tar.gz",
+      "actualBytes": 185278,
+      "actualSha256": "ec05850aef48bfb8e02135a7f4f3f7edba3670f63d5e67f2708d4bd80b9a4634",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9.orig.tar.gz.asc",
+      "actualBytes": 833,
+      "actualSha256": "af7644b29d7ae1f69f89444900b2e2b0eb0b4e71f10a2667c7820d10d55fa53f",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage_3.9-1build1.debian.tar.xz",
+      "actualBytes": 38084,
+      "actualSha256": "6c281b929712b067ec757e3859076c1d319a73cefb149345819eabec26a711e8",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9.orig.tar.gz",
+      "actualBytes": 515726,
+      "actualSha256": "ba630b59e50c5fbf9e9dd45eb3734f373cf78d689d8c10c537114c9bd769fa2e",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9.orig.tar.gz.asc",
+      "actualBytes": 833,
+      "actualSha256": "2059e9c2e195f8d4102f9868295b0a2c16e91082b236d510499dc27620b812fd",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol_3.9-2.debian.tar.xz",
+      "actualBytes": 21416,
+      "actualSha256": "f4f7f317fccf7dac9c72f1448a335edcf10ea7894f3492c475e76d404fcfb268",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5.orig.tar.gz",
+      "actualBytes": 53104821,
+      "actualSha256": "b28c91532a8b65a1f983b4c28b7488174e4a01008e29ce8e69bd789f28bc2a89",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5.orig.tar.gz.asc",
+      "actualBytes": 833,
+      "actualSha256": "eaef5b1054b84b8d1e6c61c9fc8867828be5ce686d0221580faf8bdc16489da9",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.5.5-1ubuntu3.7.debian.tar.xz",
+      "actualBytes": 194720,
+      "actualSha256": "b9c389484ff47a3b1f584eb89c7442484df9295aa48e6e422243dd559b89c089",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_259.9.orig.tar.gz",
+      "actualBytes": 17618264,
+      "actualSha256": "6ac77a1baf0539b835193eec46cdb1c73abb42d7f87aa977009150e9d8375757",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_259.9-0ubuntu0.1.debian.tar.xz",
+      "actualBytes": 254204,
+      "actualSha256": "c58ab8296f580f8760afc945261917fa23dfb62df8a78121a5967c5b237a24cc",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xxhash/xxhash_0.8.3.orig.tar.gz",
+      "actualBytes": 1147630,
+      "actualSha256": "aae608dfe8213dfd05d909a57718ef82f30722c392344583d3f39050c7f29a80",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/x/xxhash/xxhash_0.8.3-2build1.debian.tar.xz",
+      "actualBytes": 5224,
+      "actualSha256": "98c020a7627a93090c72dece774b1fff0cee76e4f59a65dbd1facb266431fcc5",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.5.7+dfsg.orig.tar.xz",
+      "actualBytes": 1834780,
+      "actualSha256": "0c092ef267edce57ba7f3f2645c861f72eaf5e76273c6c3632869423464b90a5",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.5.7+dfsg-3.debian.tar.xz",
+      "actualBytes": 23164,
+      "actualSha256": "ada18b02a46878f2f0a845fd003179ab9591f7f96f0b984db06a024ab46ae81f",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4.orig.tar.xz",
+      "actualBytes": 2326584,
+      "actualSha256": "554801054694ff7d8a7abdf0d6ece34e2f16e111673cc01b8c9ee1278451181e",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4.orig.tar.xz.asc",
+      "actualBytes": 488,
+      "actualSha256": "82437d2b54790b3a6734c526b757e693cd0c734ec6afd69f9a9cf0eb1dad8dc4",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4-2ubuntu3.debian.tar.xz",
+      "actualBytes": 181748,
+      "actualSha256": "43373dc0d4f9728185723dfeb798c6cda06221bd9f5d653af4c0349e225eeb22",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129.orig.tar.gz",
+      "actualBytes": 436702,
+      "actualSha256": "a71fb7efea5a63770d8fb71321ef6ae7afe0592f1aa7f7e2b496c26ccbb392a4",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129.orig.tar.gz.asc",
+      "actualBytes": 729,
+      "actualSha256": "ff191391d1132f1bff2f188e376e325c81052c4d5e5657805203afc4d88a56a0",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.4.20260129-1.debian.tar.xz",
+      "actualBytes": 16116,
+      "actualSha256": "0174c58af8d10f6b985723976b49dcac07ba279fd54c358a703d464904be16c5",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1.orig-regen-configure.tar.xz",
+      "actualBytes": 421056,
+      "actualSha256": "4ea023d08101443f6ed9dc3bdd9bb5f5e08087678dc9e443d195df22da36209a",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1.orig.tar.xz",
+      "actualBytes": 13930924,
+      "actualSha256": "dfa20c2eef2b4af133525610bbb65dd13777ecf998c9c5b1ccf0d308e732ee3f",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.40.1-7ubuntu0.3.debian.tar.xz",
+      "actualBytes": 180528,
+      "actualSha256": "ec8328b6b8e317bf6d48ac1c5edd13283c40fe90eb66a886deeaf454070294de",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0.orig-l10n.tar.gz",
+      "actualBytes": 780526,
+      "actualSha256": "3df90fabddfb28c7ae1d31237fc8abf70bb1f6c1937d818008943a11e31cfd5b",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0.orig.tar.gz",
+      "actualBytes": 2671039,
+      "actualSha256": "f8e68cd0e3629378f047544ead272161a83211c43f4985a9f52944e5db8f1a44",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.10.0-1ubuntu2~26.04.1.debian.tar.xz",
+      "actualBytes": 22541108,
+      "actualSha256": "61eda389122a85e90e542bf6b12c840ab68ee3741958db539f24a3599f5d4bb2",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sed/sed_4.9.orig.tar.xz",
+      "actualBytes": 1397092,
+      "actualSha256": "6e226b732e1cd739464ad6862bd1a1aba42d7982922da7a53519631d24975181",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sed/sed_4.9-2ubuntu1.debian.tar.xz",
+      "actualBytes": 63408,
+      "actualSha256": "9238a4965a2466bff74019f023ba0afdf01835aa610d2c5b8724ae19a15bcf57",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sensible-utils/sensible-utils_0.0.26build1.tar.xz",
+      "actualBytes": 76808,
+      "actualSha256": "41f0e2b45ec42c61f2c2a8244ea3749f103341246bd004571b03e5f060390765",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit_3.15.orig.tar.gz",
+      "actualBytes": 516469,
+      "actualSha256": "0979dd582056130a45bf70738260fb7f3da5cca989509b1e37ad5ad1d4cbe0bf",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit_3.15-5ubuntu1.debian.tar.xz",
+      "actualBytes": 124244,
+      "actualSha256": "fc3930cc9515c174927b4b63150b8cd2b48fd156e033dcd80238f67e157681fd",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.35+dfsg.orig.tar.xz",
+      "actualBytes": 2111608,
+      "actualSha256": "9ae57e981c1e73c0eebc2b26c9b0c4497fe310ef1d516ea430efb5470b71f7a8",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.35+dfsg-4ubuntu0.4.debian.tar.xz",
+      "actualBytes": 52824,
+      "actualSha256": "25d8e50e31629e85baef5da32b3030e5ad0c9148ab3ee6b1428212a10e307e4d",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-keyring_2023.11.28.1build1.tar.xz",
+      "actualBytes": 20300,
+      "actualSha256": "8b65bbb2a7aeb35c7fa6db11bf814ae42873cc6ee6f28e468885c0f8596ad6fb",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.3.dfsg+really1.3.1.orig.tar.gz",
+      "actualBytes": 1325737,
+      "actualSha256": "60dd315c07f616887caa029408308a018ace66e3d142726a97db164b3b8f69fb",
+      "verified": true
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib_1.3.dfsg+really1.3.1-1ubuntu3.2.debian.tar.xz",
+      "actualBytes": 60888,
+      "actualSha256": "df40cd680516e9c2fd77f944b76fba57df120dfe48e00c01dc6c088fb561b2b3",
+      "verified": true
+    }
+  ]
+}
