@@ -1,5 +1,32 @@
 # Termux Job’s Components
 
+Pinned installation archives, optional runtimes and build inputs for
+[Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**.
+This is an independent unofficial mirror. It does not publish the application APK
+or its updater metadata. Applications select immutable URLs and hashes; the latest
+Components release is not an automatic application/component update.
+
+## Current catalogue and validation status
+
+The following groups are selected by the published application 2.1.7 or its build
+recipe. Availability is distinct from device/GUI validation; consult each set.
+
+| Group | Current role | Details |
+| --- | --- | --- |
+| Distribution rootfs and Ubuntu AI | Initial environment installation | [Rootfs](sets/rootfs-arm64-20261028), [Ubuntu AI](sets/ubuntu-ai-base-arm64-20261102/README.md) |
+| XFCE and host packages | Initial desktop/required-component repair | [XFCE set](sets/xfce-base-20261028) |
+| Mesa, bridge, X11 extras | Optional rendering/style/runtime inputs | [Mesa](sets/mesa-26.2.5), [Extras](sets/x11-extras-20261025) |
+| Manjaro glibc 2.35 variants | Separate ABI-specific Turnip/bridge payloads; device GUI acceptance remains unconfirmed in the set reports | [Turnip](sets/xfce-base-20261028/manjaro-turnip/README.md), [Bridge](sets/xfce-base-20261028/manjaro-bridge/MANJARO.md) |
+| RTK OSS 1.1.0 jobs.1 | Optional Ubuntu AI output filtering | [RTK](sets/rtk-1.1.0-jobs.1/README.md) |
+| Termux:X11 and musl headers | Application build/CI inputs, not guest runtime updates | [X11](sets/x11-core-fa3a8b430e28), [Headers](sets/x11-build-headers-musl-1.2.6-r2/README.md) |
+
+## Historical experiments
+
+[Local AI preview and accelerator/model-weight experiments](history/LOCAL-AI-PREVIEW.md)
+are historical. Their files remain available for provenance and reproducibility;
+they are not current 2.1.7 features. Old graphics versions also remain immutable,
+and individual unchanged files can still be pinned by current applications.
+
 ## Pinned musl build headers
 
 The unchanged Alpine musl-dev1.2.6-r2 input is preserved for cold X11 build/CI
@@ -26,7 +53,7 @@ change an existing binary, application download catalog or installed environment
 [Source archive](https://github.com/HezeAI/termux-jobs-components/releases/download/ubuntu-ai-base-arm64-20261102/ubuntu-ai-corresponding-sources-20261103.tar).
 
 
-## Manjaro ARM Turnip + Zink compatibility candidate
+## Manjaro ARM Turnip + Zink — separate glibc 2.35 build
 
 A separate **Mesa26.2.5 / glibc2.35 / GCC12** build with the existing lfdevs
 Android/KGSL/X11 adaptations. It adds a uniquely named asset to the existing
@@ -35,7 +62,7 @@ existing component assets and the Manjaro Bionic bridge are retained unchanged.
 [Sources, exact pins, licenses and clean-loader validation](sets/xfce-base-20261028/manjaro-turnip/README.md).
 Android GPU GUI acceptance remains pending; no new application APK is published here.
 
-## Manjaro ARM Bionic-for-glibc compatibility candidate
+## Manjaro ARM Bionic-for-glibc — separate glibc 2.35 build
 
 The separate [Manjaro bridge addition](https://github.com/HezeAI/termux-jobs-components/releases/tag/xfce-base-20261028)
 builds the existing libhybris/Jobs ICD/WSI bridge and unmodified Mesa **26.2.5**
@@ -62,11 +89,11 @@ ABI baseline. No proprietary/Bionic GPU driver is included. Existing driver
 preset distribution credit remains **StevenMXZ**.
 
 
-Pinned optional graphics runtimes and local-model assets for [Termux Job’s](https://github.com/HezeAI/termux-jobs), maintained by **HezeAI**. Components are published separately from application updates. This repository contains no Termux Job’s installation APK or `update.json`. An upstream APK below is a pinned build input, not a Termux Job’s app release.
+An upstream APK below is a pinned build input, not a Termux Job’s app release.
 
 ## Pinned ARM64 distribution bases
 
-The [rootfs-arm64-20261028 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/rootfs-arm64-20261028) preserves exact upstream base images for upcoming Termux Jobs installations. **These archives do not include a preinstalled XFCE desktop or frozen font/library package set.** Existing Mesa, wrapper, theme and VirGL component releases remain unchanged. Ubuntu AI has a separate [pinned Ubuntu 26.04.1 LTS ARM64 base](sets/ubuntu-ai-base-arm64-20261102/README.md) for new installations. Existing environments remain unchanged; see that set for validation limits.
+The [rootfs-arm64-20261028 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/rootfs-arm64-20261028) preserves exact upstream base images for new Termux Job’s installations. **These archives do not include a preinstalled XFCE desktop or frozen font/library package set.** Existing Mesa, wrapper, theme and VirGL component releases remain unchanged. Ubuntu AI has a separate [pinned Ubuntu 26.04.1 LTS ARM64 base](sets/ubuntu-ai-base-arm64-20261102/README.md) for new installations. Existing environments remain unchanged; see that set for validation limits.
 
 | Environment | Upstream tag / base | Download bytes |
 | --- | --- | --- |
@@ -97,7 +124,7 @@ The [x11-core-fa3a8b430e28 set](https://github.com/HezeAI/termux-jobs-components
 
 The upstream APK is preserved as an original build artifact, including its original signature. It is not the Termux Job’s application update. Only the download location changes; the reviewed byte length, SHA-256 and embedded source commit remain mandatory checks.
 
-## Optional X11 components for private test2
+## Optional X11 extras
 
 The separate [x11-extras-20261025 set](https://github.com/HezeAI/termux-jobs-components/releases/tag/x11-extras-20261025) adds the existing Kali-inspired XFCE style, Alpine's minimal VirGL client, and the optional **a6xx-a7xx-a8xx** Bionic driver preset. The theme and VirGL archives are byte-identical to the previous APK payloads. CPU, Turnip + Zink and wrapper rendering settings are unchanged. The application pins stable `mesa-26.2.5` URLs independently; no public application APK is published here.
 
@@ -132,7 +159,7 @@ This release adds four Mesa container archives and one refreshed bridge ZIP. Thr
 
 The complete [graphics-20261025 release](https://github.com/HezeAI/termux-jobs-components/releases/tag/graphics-20261025), its tag, assets and original download URLs are preserved. It remains the component set used by public Termux Job’s v2.0.6 and contains the retained Termux packages. The redundant `mesa-26.2.5-test1` experimental release was removed at the developer’s explicit request after private test2 migrated to stable `mesa-26.2.5` URLs. Its Git tag/history remains for provenance. Older private test1 APKs need test2 for uncached component downloads; already verified local runtimes remain usable offline. Stable Mesa and graphics-20261025 assets/checksums were not changed.
 
-Applications pin component URLs and hashes; they do not follow this repository’s moving latest release or catalogue. Publishing these new components does not update an installed older APK or change its downloads. The application repository and its in-app updater remain separate. A future application build must explicitly select the new immutable pins. Current catalogue entries for unchanged Termux/loader/Wrapper/libsensors retain their original graphics-20261025 URLs.
+Applications pin component URLs and hashes; they do not follow this repository’s moving latest release or catalogue. Publishing these new components does not update an installed older APK or change its downloads. The application repository and its in-app updater remain separate. Each application build explicitly selects its immutable pins; component publication alone does not enable a new renderer. Current catalogue entries for unchanged Termux/loader/Wrapper/libsensors retain their original graphics-20261025 URLs.
 
 Choose a renderer and, when applicable, import/select a trusted Bionic driver ZIP before starting the desktop. Missing components are prepared in application-owned caches; valid caches work offline. Download size is approximately 8.2 MB for Alpine, 10.3 MB for a glibc container, and 6.1 MB for the bridge frontend/core bundle. Cancellation or verification failure does not activate partial runtime bytes or change the selected driver. No global hosts, installed guest Mesa or agent environment is replaced. Imported vendor drivers execute with the app’s permissions; format/hash validation is not a sandbox or universal compatibility guarantee. The optional vendor-provided driver preset above is separate from these Mesa runtime bundles.
 
@@ -146,7 +173,7 @@ Bionic for glibc uses pinned **libhybris**, including **taowen/TAWC/ARLinux** wo
 
 [licenses/](licenses/) and release `component-licenses.tar.gz` retain component-specific terms. Mesa is predominantly MIT with per-file exceptions; GLX includes SGI-B; Vulkan Loader is predominantly Apache-2.0; AdrenoTools/linkernsbypass are BSD-2-Clause; libhybris includes LGPL-2.1 and permissive components; the WSI layer is MIT; libsensors is LGPL-2.1-or-later. The old release retains its exact original source/packaging archives. There is no blanket relicensing of third-party binaries.
 
-Native isolated probes on Adreno 830 passed verified Vulkan/GLX pixels, swap interval 1→0→1 and occlusion for the bridge, glibc and musl runtimes. The bridge also passed odd-width/resize/front-buffer checks. The developer subsequently reported the update works in private test1. These results do not certify every GPU/driver, fresh-device GUI installation or performance improvement. The private test APK passed 338 JVM tests, 114 relevant Python tests and 584 localization checks; lint reported zero errors and 210 existing warnings.
+Historical graphics-set checks: native isolated probes on Adreno 830 passed verified Vulkan/GLX pixels, swap interval 1→0→1 and occlusion for the bridge, glibc and musl runtimes. The bridge also passed odd-width/resize/front-buffer checks. The developer subsequently reported the update works in private test1. These results do not certify every GPU/driver, fresh-device GUI installation or performance improvement. These historical private-APK results are not tests of application 2.1.7: 338 JVM tests, 114 relevant Python tests and 584 localization checks; lint reported zero errors and 210 existing warnings. Current application results are in its [versioned report](https://github.com/HezeAI/termux-jobs/blob/v2.1.7/docs/fork/VALIDATION-v2.1.7.md).
 
 ## Maintenance
 
@@ -162,55 +189,13 @@ Verify public asset bytes against SHA-256 before declaring publication complete.
 
 AI development assistance: OpenAI Codex
 
-## Optional Local AI model weights
-
-[Local AI models v1](https://github.com/HezeAI/termux-jobs-components/releases/tag/local-ai-models-v1) mirrors five pinned GGUF files (the original four plus one optional Q4_0 variant) for the private Local AI preview of Termux Job’s. Existing graphics releases and their download URLs are unchanged. These are optional model downloads, not an app update, and are not included in the APK.
-
-| Model | Quantization | GGUF bytes | Publisher |
-| --- | --- | ---: | --- |
-| Qwen3.5-9B | Q6_K | 7,458,301,152 | [unsloth/Qwen3.5-9B-GGUF](https://huggingface.co/unsloth/Qwen3.5-9B-GGUF) |
-| Qwen2.5-Coder-7B-Instruct | Q5_K_M | 5,444,831,232 | [Qwen/Qwen2.5-Coder-7B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) |
-| Qwen2.5-Coder-7B-Instruct | Q4_0 | 4,431,390,720 | [Qwen/Qwen2.5-Coder-7B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF) |
-| Qwen2.5-Coder-14B-Instruct | Q4_K_M | 8,988,110,272 | [Qwen/Qwen2.5-Coder-14B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF) |
-| Qwen3-14B | Q4_K_M | 9,001,752,960 | [Qwen/Qwen3-14B-GGUF](https://huggingface.co/Qwen/Qwen3-14B-GGUF) |
-
-Original models: **Qwen**. The Qwen3.5 GGUF quantization is published by **Unsloth**; the other selected GGUF files are published by Qwen. Each upstream repository identifies its model license as **Apache-2.0**. Exact upstream revisions, original filenames and complete-GGUF SHA-256 values are recorded in [the catalogue](local-ai-models-v1/catalogue.json). The model manifest and license notices are also included as release assets. No model weights are stored in Git history.
-
-Each release asset must be smaller than GitHub’s 2 GiB limit, so a GGUF is distributed as numbered raw binary parts of at most 1,900,000,000 bytes. These are **byte segments, not GGUF shards or ZIP archives**. The app resumes them into one GGUF, validates the complete file against the pinned upstream SHA-256, and only then makes it available for inference. The [verified manifest](local-ai-models-v1/models-manifest.json) lists each segment’s byte count, SHA-256 and final asset URL. All four complete-file hashes were checked against their pinned upstream hashes; GitHub’s digest of each of the 17 uploaded parts was also checked. These acquisition checks do not claim phone inference or model-quality validation. Do not select a single `.partNN` file as a model.
-
-The preview uses an Android ARM64 CPU inference engine; these files do not imply GPU/NPU acceleration or guaranteed coding performance. Model weights, KV cache and runtime buffers all require RAM. In particular, 14B models may not fit with a large context on devices with about 10 GB available RAM. Only the selected model is downloaded, and one model is active at a time.
-
-### Optional Q4_0 candidate for accelerator testing
-
-The developer authorized appending **Coder 7B Q4_0** to the same models-v1
-release. The original 19 assets, their IDs/digests, URLs and four-model manifest
-remain unchanged. Three uniquely named raw segments and separate
-`npu-models-extension-v1.json` / `LOCAL-AI-NPU-MODELS-NOTICES-v1.txt` assets were
-added; the previous graphics release remains latest. See the
-[Q4_0 extension manifest](local-ai-models-v1/npu-models-extension-v1.json).
-
-Source: **Qwen/Qwen2.5-Coder-7B-Instruct-GGUF**, revision
-`13fb94bfda8c8cf22497dc57b78f391a9acb426a`, file
-`qwen2.5-coder-7b-instruct-q4_0.gguf`, Apache-2.0. This is the publisher's GGUF,
-not a requantization of the previously mirrored Q5_K_M file. Complete-file
-SHA-256: `8561411b4705cbf2d105cf8e2084c6d6f1bcaba415249ce65fc5f21230d4961b`.
-The 4,431,390,720 bytes and complete hash were verified on the isolated transfer
-worker; GitHub verified each segment's digest. Public unauthenticated range URLs
-were checked and the first segment has GGUF magic. No weights enter Git history.
-
-Q4_0 is added as an **NPU-format candidate**, not a claim of completed Android
-Hexagon inference validation or guaranteed speed. The private application work
-adds explicit CPU/OpenCL/Hexagon choices; the previously distributed application
-continues using its existing CPU runtime and unchanged model URLs. Accelerator
-operator/device compatibility and partial CPU execution require testing.
-
 ## Pinned initial X11 desktop packages
 
 The [`xfce-base-20261028` set](https://github.com/HezeAI/termux-jobs-components/releases/tag/xfce-base-20261028) supplies original distribution package files for the first XFCE installation and missing-component repair. It complements the separately pinned base images; it does not replace an existing rootfs. The catalog fixes every archive size, SHA-256 and internal package manifest. Package managers resolve the offline transaction against the selected environment's own database.
 
-**This is an initial baseline, not a permanent version lock.** Official package repositories stay enabled. Users can install Python, libraries and other programs, change XFCE and explicitly update their environment. Ordinary launches check required components rather than exact version equality. More recent installed packages are retained during repair; incompatible dependency plans fail instead of forcing removals or downgrades. Ordinary recommended applications remain separate native package-manager installations. A future update/snapshot/rollback UI is not part of this set.
+**This is an initial baseline, not a permanent version lock.** Official package repositories stay enabled. Users can install Python, libraries and other programs, change XFCE and explicitly update their environment. Ordinary launches check required components rather than exact version equality. More recent installed packages are retained during repair; incompatible dependency plans fail instead of forcing removals or downgrades. Ordinary recommended applications remain separate native package-manager installations. Application update/snapshot/rollback behavior is documented in the [application environment guide](https://github.com/HezeAI/termux-jobs/blob/v2.1.7/docs/fork/ENVIRONMENT-UPDATES.md); the archive set itself supplies package inputs.
 
-The small `host-audio` and `host-virgl` archives provide Android/Termux-side prerequisites without installing Termux XFCE for a guest desktop. Ubuntu AI intentionally retains its upstream agent-environment policy. Manjaro ARM currently supports CPU and VirGL only: its pinned glibc 2.35 base cannot load the private Mesa/bridge binaries requiring glibc 2.38 or newer.
+The small `host-audio` and `host-virgl` archives provide Android/Termux-side prerequisites without installing Termux XFCE for a guest desktop. Ubuntu AI intentionally retains its upstream agent-environment policy. The ordinary Mesa/bridge binaries requiring glibc 2.38 or newer cannot load on Manjaro ARM’s pinned glibc 2.35 base. Termux Job’s 2.1.7 selects the separate glibc 2.35 variants listed above. Their availability does not establish Android GUI/GPU acceptance; CPU/VirGL remain separate options.
 
 | Target | Packages | Archive bytes | SHA-256 |
 |---|---:|---:|---|
