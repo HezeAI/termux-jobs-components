@@ -369,6 +369,18 @@
       "upstreamVersion": "1.1.0",
       "componentRevision": "jobs.1",
       "minimumGlibc": "2.39"
+    },
+    {
+      "asset": "x11-musl-build-headers-1.2.6-r2-aarch64.tar.gz",
+      "bytes": 2538408,
+      "sha256": "bb06e5670c50a87cebd3d7d1446909567f5165ee717f880e723515f697f5d765",
+      "url": "https://github.com/HezeAI/termux-jobs-components/releases/download/x11-build-headers-musl-1.2.6-r2/x11-musl-build-headers-1.2.6-r2-aarch64.tar.gz",
+      "role": "build-input",
+      "runtimeDownload": false,
+      "originSet": "x11-build-headers-musl-1.2.6-r2",
+      "architecture": "aarch64",
+      "originalPackageSha256": "ca72b84f4eb3c36bbbec04d919eb10159d414c7a43413cc2253841d301fa9486",
+      "license": "MIT and retained musl COPYRIGHT"
     }
   ],
   "sources": [

@@ -1,5 +1,11 @@
 # Termux Job’s Components
 
+## Pinned musl build headers
+
+The unchanged Alpine musl-dev1.2.6-r2 input is preserved for cold X11 build/CI
+after upstream removal. This is not a runtime package update.
+[Purpose, pins, license and usage](sets/x11-build-headers-musl-1.2.6-r2/README.md).
+
 ## RTK OSS 1.1.0 — jobs.1
 
 Separate ARM64 Ubuntu AI component with exact pre-filter/output byte measurements.
