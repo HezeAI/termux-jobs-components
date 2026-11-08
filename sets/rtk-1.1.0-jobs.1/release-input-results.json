@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "componentVersion": "1.1.0-jobs.1",
+  "revision": "jobs.1",
+  "upstreamVersion": "1.1.0",
+  "binaryArchiveSha256": "8a43d2bfc4bb54bd55f43ace6c39068f0e033518c5f594b969856b33a5577716",
+  "sourceArchiveSha256": "1d180ed8cfaf5fcb8ed92d7d9e95189549544a0e40232db73933ed0819f9c849",
+  "sourcePatchReappliesExactly": true,
+  "dependencyPackages": 178,
+  "engineAbsent": true,
+  "previousCatalogEntriesUnchanged": true,
+  "binaryAndSourceArchivesVerified": true
+}

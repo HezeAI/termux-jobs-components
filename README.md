@@ -1,5 +1,12 @@
 # Termux Job’s Components
 
+## RTK OSS 1.1.0 — jobs.1
+
+Separate ARM64 Ubuntu AI component with exact pre-filter/output byte measurements.
+Upstream RTK version 1.1.0, component revision jobs.1; pinned archive/binary hashes.
+[Build, sources, license and compatibility](sets/rtk-1.1.0-jobs.1/README.md).
+The versioned release contains the verified binary and corresponding sources. Existing components remain unchanged.
+
 ## License/source review — 2026-11-03
 
 Independent unofficial Components mirror maintained by HezeAI; not affiliated with

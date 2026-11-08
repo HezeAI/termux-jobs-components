@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "command": "rtk git status",
+      "before": 1220,
+      "after": 500,
+      "exit": 0,
+      "stockChildCalls": 2,
+      "customChildCalls": 2,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk git diff",
+      "before": 32440,
+      "after": 10171,
+      "exit": 0,
+      "stockChildCalls": 2,
+      "customChildCalls": 2,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk git diff --stat",
+      "before": 2496,
+      "after": 2496,
+      "exit": 0,
+      "stockChildCalls": 1,
+      "customChildCalls": 1,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk git log -n 4",
+      "before": 7603,
+      "after": 864,
+      "exit": 0,
+      "stockChildCalls": 1,
+      "customChildCalls": 1,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk grep needle f000.txt",
+      "before": 766,
+      "after": 475,
+      "exit": 0,
+      "stockChildCalls": 1,
+      "customChildCalls": 1,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk grep NO_SUCH_NEEDLE f000.txt",
+      "before": 0,
+      "after": 0,
+      "exit": 1,
+      "stockChildCalls": 1,
+      "customChildCalls": 1,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk read read.rs",
+      "before": 5280,
+      "after": 5280,
+      "exit": 0,
+      "stockChildCalls": 0,
+      "customChildCalls": 0,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk read read.rs --level minimal",
+      "before": 5280,
+      "after": 2158,
+      "exit": 0,
+      "stockChildCalls": 0,
+      "customChildCalls": 0,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk read read.rs --head-lines 5",
+      "before": 141,
+      "after": 141,
+      "exit": 0,
+      "stockChildCalls": 0,
+      "customChildCalls": 0,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk read read.rs --tail-lines 5",
+      "before": 124,
+      "after": 124,
+      "exit": 0,
+      "stockChildCalls": 0,
+      "customChildCalls": 0,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk rg needle .",
+      "before": 32640,
+      "after": 6085,
+      "exit": 0,
+      "stockChildCalls": 1,
+      "customChildCalls": 1,
+      "stockOutputUnchanged": true,
+      "comparison": "byte-identical"
+    },
+    {
+      "command": "rtk rg --files",
+      "before": 728,
+      "after": 728,
+      "exit": 0,
+      "stockChildCalls": 1,
+      "customChildCalls": 1,
+      "stockOutputUnchanged": true,
+      "comparison": "file-list line multiset (engine order may vary)"
+    }
+  ]
+}

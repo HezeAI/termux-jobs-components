@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "lsBefore": 4410,
+  "lsAfter": 1056,
+  "head5Before": 25,
+  "head5After": 25,
+  "recallAdditionalBytes": 600,
+  "otherChatUnchanged": true,
+  "enableDisableEnable": true,
+  "rewrittenCommand": "rtk ls",
+  "note": "Actual patched binary and production hook/dispatcher; synthetic tool receipt, no cloud model or phone UI"
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/rtk-ai/rtk",
+  "commit": "753a3b0e939f2e4490fc24e3a1984010f40a103c",
+  "sourceUrl": "https://codeload.github.com/rtk-ai/rtk/tar.gz/753a3b0e939f2e4490fc24e3a1984010f40a103c",
+  "archiveSha256": "4c5f529d90c5bdf420229f8c7a60a4f1fa47f58f7c9adffed45b1d383d8acaf3",
+  "edition": "OSS --no-default-features",
+  "customVersion": "1.1.0-jobs.1"
+}

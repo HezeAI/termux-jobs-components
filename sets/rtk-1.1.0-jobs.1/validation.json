@@ -1,0 +1,988 @@
+{
+  "status": "Validated component revision; see subsequent public download verification",
+  "upstreamVersion": "1.1.0",
+  "componentRevision": "jobs.1",
+  "runtimeVersion": "1.1.0-jobs.1",
+  "minimumGlibc": "2.39",
+  "archiveSha256": "8a43d2bfc4bb54bd55f43ace6c39068f0e033518c5f594b969856b33a5577716",
+  "binarySha256": "3b8c5b69791e86222db36b104bce10da2975b92adaaa86f82e1c893ae3035619",
+  "binaryTests": {
+    "passed": true,
+    "version": "rtk 1.1.0-jobs.1",
+    "binarySha256": "3b8c5b69791e86222db36b104bce10da2975b92adaaa86f82e1c893ae3035619",
+    "ls": {
+      "inputBytes": 4410,
+      "outputBytes": 1056,
+      "measuredChildCalls": 1,
+      "stockOutputAndExitUnchanged": true
+    },
+    "head5": {
+      "inputBytes": 25,
+      "outputBytes": 25,
+      "reductionPercent": 0
+    },
+    "recallAdditionalBytes": 600,
+    "errorExit": 2,
+    "errorOutputUnchanged": true,
+    "sidecarFailureDoesNotBreakCommand": true,
+    "nestedOwnerRejected": true,
+    "preexistingSymlinkAndFileRejected": true
+  },
+  "expandedTests": {
+    "passed": true,
+    "cases": [
+      {
+        "command": "rtk git status",
+        "before": 1220,
+        "after": 500,
+        "exit": 0,
+        "stockChildCalls": 2,
+        "customChildCalls": 2,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk git diff",
+        "before": 32440,
+        "after": 10171,
+        "exit": 0,
+        "stockChildCalls": 2,
+        "customChildCalls": 2,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk git diff --stat",
+        "before": 2496,
+        "after": 2496,
+        "exit": 0,
+        "stockChildCalls": 1,
+        "customChildCalls": 1,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk git log -n 4",
+        "before": 7603,
+        "after": 864,
+        "exit": 0,
+        "stockChildCalls": 1,
+        "customChildCalls": 1,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk grep needle f000.txt",
+        "before": 766,
+        "after": 475,
+        "exit": 0,
+        "stockChildCalls": 1,
+        "customChildCalls": 1,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk grep NO_SUCH_NEEDLE f000.txt",
+        "before": 0,
+        "after": 0,
+        "exit": 1,
+        "stockChildCalls": 1,
+        "customChildCalls": 1,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk read read.rs",
+        "before": 5280,
+        "after": 5280,
+        "exit": 0,
+        "stockChildCalls": 0,
+        "customChildCalls": 0,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk read read.rs --level minimal",
+        "before": 5280,
+        "after": 2158,
+        "exit": 0,
+        "stockChildCalls": 0,
+        "customChildCalls": 0,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk read read.rs --head-lines 5",
+        "before": 141,
+        "after": 141,
+        "exit": 0,
+        "stockChildCalls": 0,
+        "customChildCalls": 0,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk read read.rs --tail-lines 5",
+        "before": 124,
+        "after": 124,
+        "exit": 0,
+        "stockChildCalls": 0,
+        "customChildCalls": 0,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk rg needle .",
+        "before": 32640,
+        "after": 6085,
+        "exit": 0,
+        "stockChildCalls": 1,
+        "customChildCalls": 1,
+        "stockOutputUnchanged": true,
+        "comparison": "byte-identical"
+      },
+      {
+        "command": "rtk rg --files",
+        "before": 728,
+        "after": 728,
+        "exit": 0,
+        "stockChildCalls": 1,
+        "customChildCalls": 1,
+        "stockOutputUnchanged": true,
+        "comparison": "file-list line multiset (engine order may vary)"
+      }
+    ]
+  },
+  "sidecarSafety": {
+    "passed": true,
+    "preexistingSymlinkRejected": true,
+    "descriptorRetainedAcrossRenameAndSymlink": true,
+    "multipleCapturesInvalidated": true,
+    "syntheticTargetUnchanged": true,
+    "normalizationHashCases": 5
+  },
+  "integration": {
+    "passed": true,
+    "lsBefore": 4410,
+    "lsAfter": 1056,
+    "head5Before": 25,
+    "head5After": 25,
+    "recallAdditionalBytes": 600,
+    "otherChatUnchanged": true,
+    "enableDisableEnable": true,
+    "rewrittenCommand": "rtk ls",
+    "note": "Actual patched binary and production hook/dispatcher; synthetic tool receipt, no cloud model or phone UI"
+  },
+  "nativeAgents": {
+    "passed": true,
+    "binarySha256": "3b8c5b69791e86222db36b104bce10da2975b92adaaa86f82e1c893ae3035619",
+    "provider": "synthetic local only, guarded network",
+    "cases": [
+      {
+        "agent": "codex",
+        "case": "ls",
+        "mode": "danger-full-access/never",
+        "before": 5008,
+        "after": 1055,
+        "recallBytes": 694,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "codex",
+        "case": "head",
+        "mode": "danger-full-access/never",
+        "before": 205,
+        "after": 205,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "codex",
+        "case": "git",
+        "mode": "danger-full-access/never",
+        "before": 11840,
+        "after": 6142,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "codex",
+        "case": "search",
+        "mode": "danger-full-access/never",
+        "before": 22982,
+        "after": 1134,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "codex",
+        "case": "read",
+        "mode": "danger-full-access/never",
+        "before": null,
+        "after": 10106,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": true
+      },
+      {
+        "agent": "codex",
+        "case": "read-short",
+        "mode": "danger-full-access/never",
+        "before": 32,
+        "after": 32,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "claude",
+        "case": "ls",
+        "mode": "SDK manual/default",
+        "before": 5007,
+        "after": 1054,
+        "recallBytes": 693,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "claude",
+        "case": "head",
+        "mode": "SDK manual/default",
+        "before": 204,
+        "after": 204,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "claude",
+        "case": "git",
+        "mode": "SDK manual/default",
+        "before": 11839,
+        "after": 6141,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "claude",
+        "case": "search",
+        "mode": "SDK manual/default",
+        "before": 22981,
+        "after": 1133,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "claude",
+        "case": "read",
+        "mode": "SDK manual/default",
+        "before": 17089,
+        "after": 17089,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      },
+      {
+        "agent": "claude",
+        "case": "read-short",
+        "mode": "SDK manual/default",
+        "before": 31,
+        "after": 31,
+        "recallBytes": 0,
+        "otherChatUntouched": true,
+        "cliTruncatedBaselineUnknown": false
+      }
+    ],
+    "codexUntrustedDeclinePreserved": true,
+    "declinedCommandNotCounted": true
+  },
+  "benchmark": {
+    "passed": true,
+    "method": "1 warm-up +9 interleaved trials per mode/case; median wall time; actual command once per trial; no production rerun for statistics",
+    "largeFileBytes": 3430000,
+    "stockBinarySha256": "d4f0134696665b772dee21c8f8d8f58318ed560dae416d6048249765945d920a",
+    "customBinarySha256": "3b8c5b69791e86222db36b104bce10da2975b92adaaa86f82e1c893ae3035619",
+    "conditions": "Ubuntu/proot ARM64 on current phone; no pinned CPU frequency or route; run after compiler/Gradle jobs finish; official and custom toolchains may differ. custom_off/on same binary isolates additional instrumentation cost. Wall variance and negative deltas are measurement noise, not a universal performance claim.",
+    "cases": [
+      {
+        "case": "ls",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 217.498802,
+          "custom_off": 212.155938,
+          "custom_on": 212.43875
+        },
+        "meanMs": {
+          "stock": 220.36519077777777,
+          "custom_off": 214.31128455555555,
+          "custom_on": 216.5164061111111
+        },
+        "minMaxMs": {
+          "stock": [
+            209.317187,
+            241.762188
+          ],
+          "custom_off": [
+            196.259219,
+            230.324218
+          ],
+          "custom_on": [
+            198.132135,
+            236.611041
+          ]
+        },
+        "measurementIncrementMedianMs": 0.28281200000000695,
+        "totalVersusOfficialMedianMs": -5.060052000000013,
+        "childCpuMedianMs": {
+          "stock": 52.32300000000034,
+          "custom_off": 52.391999999999996,
+          "custom_on": 52.33200000000004
+        },
+        "wallSamplesMs": {
+          "stock": [
+            228.0725,
+            209.317187,
+            225.395781,
+            216.319531,
+            218.586771,
+            241.762188,
+            213.251718,
+            213.082239,
+            217.498802
+          ],
+          "custom_off": [
+            222.297604,
+            217.620937,
+            196.259219,
+            227.542031,
+            209.746406,
+            207.740729,
+            212.155938,
+            205.114479,
+            230.324218
+          ],
+          "custom_on": [
+            212.43875,
+            226.608125,
+            206.399375,
+            207.988333,
+            236.611041,
+            219.612083,
+            234.872969,
+            205.984844,
+            198.132135
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 14041,
+        "measuredOutputBytes": 1008
+      },
+      {
+        "case": "git-status",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 247.808594,
+          "custom_off": 255.955,
+          "custom_on": 266.2875
+        },
+        "meanMs": {
+          "stock": 245.59715866666667,
+          "custom_off": 252.19803233333334,
+          "custom_on": 252.565006
+        },
+        "minMaxMs": {
+          "stock": [
+            175.2675,
+            286.922448
+          ],
+          "custom_off": [
+            150.73125,
+            278.715312
+          ],
+          "custom_on": [
+            214.370625,
+            277.109688
+          ]
+        },
+        "measurementIncrementMedianMs": 10.33250000000001,
+        "totalVersusOfficialMedianMs": 18.478906000000023,
+        "childCpuMedianMs": {
+          "stock": 62.134000000000356,
+          "custom_off": 64.51499999999966,
+          "custom_on": 65.98499999999996
+        },
+        "wallSamplesMs": {
+          "stock": [
+            247.393177,
+            175.2675,
+            247.808594,
+            183.912865,
+            277.207969,
+            279.558958,
+            231.118542,
+            281.184375,
+            286.922448
+          ],
+          "custom_off": [
+            255.955,
+            277.251719,
+            150.73125,
+            251.823594,
+            278.715312,
+            270.967916,
+            253.77375,
+            277.359375,
+            253.204375
+          ],
+          "custom_on": [
+            267.081407,
+            266.2875,
+            214.370625,
+            238.770625,
+            230.186718,
+            275.832709,
+            274.873438,
+            228.572344,
+            277.109688
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 3368,
+        "measuredOutputBytes": 1929
+      },
+      {
+        "case": "git-diff",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 853.904635,
+          "custom_off": 850.601563,
+          "custom_on": 858.645937
+        },
+        "meanMs": {
+          "stock": 844.7076968888889,
+          "custom_off": 851.4847738888889,
+          "custom_on": 859.4606594444444
+        },
+        "minMaxMs": {
+          "stock": [
+            784.857344,
+            866.223594
+          ],
+          "custom_off": [
+            806.928281,
+            923.652499
+          ],
+          "custom_on": [
+            826.75026,
+            893.510416
+          ]
+        },
+        "measurementIncrementMedianMs": 8.044373999999948,
+        "totalVersusOfficialMedianMs": 4.741302000000019,
+        "childCpuMedianMs": {
+          "stock": 202.43900000000002,
+          "custom_off": 202.9179999999995,
+          "custom_on": 202.86500000000007
+        },
+        "wallSamplesMs": {
+          "stock": [
+            866.223594,
+            839.431042,
+            832.188021,
+            784.857344,
+            864.88875,
+            857.709011,
+            853.904635,
+            843.90375,
+            859.263125
+          ],
+          "custom_off": [
+            873.909947,
+            923.652499,
+            830.037968,
+            850.601563,
+            814.639114,
+            887.503281,
+            854.920469,
+            806.928281,
+            821.169843
+          ],
+          "custom_on": [
+            870.246563,
+            876.34151,
+            826.75026,
+            853.028646,
+            833.182864,
+            858.645937,
+            876.263906,
+            847.175833,
+            893.510416
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 294840,
+        "measuredOutputBytes": 30776
+      },
+      {
+        "case": "git-log",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 86.582187,
+          "custom_off": 85.825156,
+          "custom_on": 87.198125
+        },
+        "meanMs": {
+          "stock": 86.59287611111111,
+          "custom_off": 87.03307311111111,
+          "custom_on": 88.45177666666667
+        },
+        "minMaxMs": {
+          "stock": [
+            80.242031,
+            92.574531
+          ],
+          "custom_off": [
+            73.616094,
+            102.219896
+          ],
+          "custom_on": [
+            72.908907,
+            108.259687
+          ]
+        },
+        "measurementIncrementMedianMs": 1.3729689999999977,
+        "totalVersusOfficialMedianMs": 0.6159379999999999,
+        "childCpuMedianMs": {
+          "stock": 28.663999999999135,
+          "custom_off": 27.95399999999937,
+          "custom_on": 28.333999999999193
+        },
+        "wallSamplesMs": {
+          "stock": [
+            82.622032,
+            88.739218,
+            87.071198,
+            92.574531,
+            86.582187,
+            90.619584,
+            85.694948,
+            85.190156,
+            80.242031
+          ],
+          "custom_off": [
+            89.799011,
+            89.079271,
+            97.849531,
+            84.10823,
+            73.616094,
+            85.825156,
+            76.887969,
+            102.219896,
+            83.9125
+          ],
+          "custom_on": [
+            88.507864,
+            83.62599,
+            72.908907,
+            84.5725,
+            85.139531,
+            87.939219,
+            97.914167,
+            87.198125,
+            108.259687
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 139254,
+        "measuredOutputBytes": 7795
+      },
+      {
+        "case": "search-large",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 392.293385,
+          "custom_off": 370.438437,
+          "custom_on": 364.410312
+        },
+        "meanMs": {
+          "stock": 386.56770811111113,
+          "custom_off": 371.0159081111111,
+          "custom_on": 368.66842544444444
+        },
+        "minMaxMs": {
+          "stock": [
+            347.170937,
+            404.041197
+          ],
+          "custom_off": [
+            336.97776,
+            390.088906
+          ],
+          "custom_on": [
+            338.380937,
+            401.496145
+          ]
+        },
+        "measurementIncrementMedianMs": -6.0281250000000455,
+        "totalVersusOfficialMedianMs": -27.883073000000024,
+        "childCpuMedianMs": {
+          "stock": 352.13599999999803,
+          "custom_off": 335.60400000000004,
+          "custom_on": 329.8729999999992
+        },
+        "wallSamplesMs": {
+          "stock": [
+            397.941458,
+            347.170937,
+            404.041197,
+            386.315521,
+            394.714219,
+            397.148125,
+            386.510781,
+            372.97375,
+            392.293385
+          ],
+          "custom_off": [
+            390.088906,
+            362.144218,
+            336.97776,
+            385.363593,
+            362.309531,
+            367.129531,
+            384.325416,
+            380.365781,
+            370.438437
+          ],
+          "custom_on": [
+            360.146302,
+            364.410312,
+            338.380937,
+            392.489791,
+            368.469062,
+            361.023646,
+            401.496145,
+            363.566614,
+            368.03302
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 4538894,
+        "measuredOutputBytes": 1324
+      },
+      {
+        "case": "rg-large",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 383.895469,
+          "custom_off": 368.552552,
+          "custom_on": 365.223489
+        },
+        "meanMs": {
+          "stock": 387.2229512222222,
+          "custom_off": 366.0422453333333,
+          "custom_on": 365.4027368888889
+        },
+        "minMaxMs": {
+          "stock": [
+            362.057187,
+            404.982292
+          ],
+          "custom_off": [
+            348.055104,
+            385.051667
+          ],
+          "custom_on": [
+            346.875468,
+            384.249166
+          ]
+        },
+        "measurementIncrementMedianMs": -3.329063000000019,
+        "totalVersusOfficialMedianMs": -18.67198000000002,
+        "childCpuMedianMs": {
+          "stock": 343.1990000000038,
+          "custom_off": 329.39399999999705,
+          "custom_on": 328.04599999999874
+        },
+        "wallSamplesMs": {
+          "stock": [
+            386.84552,
+            378.571094,
+            404.50375,
+            378.357656,
+            402.745573,
+            383.895469,
+            404.982292,
+            383.04802,
+            362.057187
+          ],
+          "custom_off": [
+            371.3,
+            364.020782,
+            361.805469,
+            352.956823,
+            373.656093,
+            385.051667,
+            368.981718,
+            368.552552,
+            348.055104
+          ],
+          "custom_on": [
+            370.425312,
+            377.623906,
+            369.780834,
+            365.223489,
+            359.058124,
+            346.875468,
+            360.053802,
+            384.249166,
+            355.334531
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 4538894,
+        "measuredOutputBytes": 1324
+      },
+      {
+        "case": "read-small",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 32.002187,
+          "custom_off": 32.615938,
+          "custom_on": 32.698854
+        },
+        "meanMs": {
+          "stock": 32.724525444444446,
+          "custom_off": 34.470017222222225,
+          "custom_on": 32.721122666666666
+        },
+        "minMaxMs": {
+          "stock": [
+            27.992031,
+            44.738855
+          ],
+          "custom_off": [
+            26.019791,
+            48.365937
+          ],
+          "custom_on": [
+            28.637708,
+            37.981718
+          ]
+        },
+        "measurementIncrementMedianMs": 0.08291599999999733,
+        "totalVersusOfficialMedianMs": 0.6966669999999979,
+        "childCpuMedianMs": {
+          "stock": 10.586999999999236,
+          "custom_off": 11.342000000000851,
+          "custom_on": 10.5240000000002
+        },
+        "wallSamplesMs": {
+          "stock": [
+            32.704844,
+            27.992031,
+            30.991562,
+            33.725625,
+            44.738855,
+            30.6325,
+            32.12,
+            29.613125,
+            32.002187
+          ],
+          "custom_off": [
+            45.323593,
+            32.615938,
+            26.2,
+            30.515938,
+            31.693854,
+            48.365937,
+            26.019791,
+            33.031042,
+            36.464062
+          ],
+          "custom_on": [
+            32.698854,
+            37.981718,
+            30.901459,
+            36.320156,
+            34.361407,
+            28.637708,
+            33.343386,
+            29.13526,
+            31.110156
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 110,
+        "measuredOutputBytes": 110
+      },
+      {
+        "case": "read-large",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 45.224323,
+          "custom_off": 44.319375,
+          "custom_on": 66.927552
+        },
+        "meanMs": {
+          "stock": 44.835144666666665,
+          "custom_off": 45.19674188888889,
+          "custom_on": 66.16311322222222
+        },
+        "minMaxMs": {
+          "stock": [
+            39.350938,
+            49.445104
+          ],
+          "custom_off": [
+            40.931354,
+            52.616875
+          ],
+          "custom_on": [
+            59.348125,
+            74.27
+          ]
+        },
+        "measurementIncrementMedianMs": 22.608177000000005,
+        "totalVersusOfficialMedianMs": 21.703229000000007,
+        "childCpuMedianMs": {
+          "stock": 25.433000000003148,
+          "custom_off": 25.126999999995903,
+          "custom_on": 47.39300000000313
+        },
+        "wallSamplesMs": {
+          "stock": [
+            43.714323,
+            42.084844,
+            48.704687,
+            39.350938,
+            49.445104,
+            45.767812,
+            43.535833,
+            45.688438,
+            45.224323
+          ],
+          "custom_off": [
+            40.931354,
+            42.640417,
+            52.616875,
+            42.278958,
+            43.66375,
+            47.286146,
+            44.531927,
+            48.501875,
+            44.319375
+          ],
+          "custom_on": [
+            63.122135,
+            59.348125,
+            67.94401,
+            68.940052,
+            62.911406,
+            70.182187,
+            61.822552,
+            66.927552,
+            74.27
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 3430000,
+        "measuredOutputBytes": 3430000
+      },
+      {
+        "case": "head5",
+        "samplesPerMode": 9,
+        "medianMs": {
+          "stock": 30.461823,
+          "custom_off": 32.269688,
+          "custom_on": 31.858073
+        },
+        "meanMs": {
+          "stock": 32.946608777777776,
+          "custom_off": 33.317616,
+          "custom_on": 32.03704288888889
+        },
+        "minMaxMs": {
+          "stock": [
+            24.579323,
+            43.829375
+          ],
+          "custom_off": [
+            27.177969,
+            45.87625
+          ],
+          "custom_on": [
+            28.272031,
+            38.739427
+          ]
+        },
+        "measurementIncrementMedianMs": -0.4116150000000012,
+        "totalVersusOfficialMedianMs": 1.396250000000002,
+        "childCpuMedianMs": {
+          "stock": 10.278999999998817,
+          "custom_off": 10.970999999996067,
+          "custom_on": 10.860000000004533
+        },
+        "wallSamplesMs": {
+          "stock": [
+            30.461823,
+            37.713593,
+            43.829375,
+            24.579323,
+            30.012812,
+            28.94349,
+            39.169948,
+            28.653802,
+            33.155313
+          ],
+          "custom_off": [
+            36.021667,
+            29.338594,
+            34.574323,
+            30.961563,
+            27.177969,
+            32.269688,
+            31.088334,
+            45.87625,
+            32.550156
+          ],
+          "custom_on": [
+            29.629323,
+            32.805157,
+            34.859948,
+            30.823281,
+            29.017969,
+            31.858073,
+            38.739427,
+            28.272031,
+            32.328177
+          ]
+        },
+        "outputIdenticalAcrossModes": true,
+        "measuredInputBytes": 245,
+        "measuredOutputBytes": 245
+      }
+    ]
+  },
+  "checks": {
+    "statistics": 15,
+    "stateInstaller": 34,
+    "upgradeIncludingRunningOldBinary": 23,
+    "filterFamilies": 3,
+    "jvm": 12,
+    "modernLintErrors": 0,
+    "modernLintWarnings": 290
+  },
+  "notChecked": [
+    "real cloud model behavior",
+    "Android UI and actual APK upgrade on phone",
+    "public download before publication"
+  ],
+  "installed": false,
+  "published": false
+}

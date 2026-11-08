@@ -1,0 +1,9 @@
+{
+  "rustc": "rustc 1.91.0 (f8297e351 2025-10-28)\nbinary: rustc\ncommit-hash: f8297e351a40c1439a467bbbb6879088047f50b3\ncommit-date: 2025-10-28\nhost: aarch64-unknown-linux-gnu\nrelease: 1.91.0\nLLVM version: 21.1.2\n",
+  "compilerArchiveSha256": "62b2b7aeba3a629783263742fc50e7a097349f8dd2d7cdf394ab2723a6b3c7ee",
+  "cc": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "minimumGlibc": "2.39",
+  "buildCommand": "cargo build --release --no-default-features --locked --bin rtk",
+  "RUSTFLAGS": "-C link-arg=-Wl,--build-id=sha1",
+  "features": "OSS, engine disabled"
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "headCases": [
+    {
+      "agent": "codex",
+      "before": 205,
+      "after": 205,
+      "percent": 0
+    },
+    {
+      "agent": "claude",
+      "before": 204,
+      "after": 204,
+      "percent": 0
+    }
+  ],
+  "codexUntrustedDeclinePreserved": true,
+  "declinedCommandNotExecutedOrCounted": true,
+  "preHookPendingEventRetained": true
+}
